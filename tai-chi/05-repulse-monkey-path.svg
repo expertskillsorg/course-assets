@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="560" height="380" fill="#ffffff"/>
+  <text x="280" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#141B5C">Repulse Monkey: stepping back, hands alternate</text>
+  <text x="280" y="48" text-anchor="middle" font-size="12" fill="#374151">top-down view, you face right; you retreat to the left</text>
+
+  <!-- direction of travel -->
+  <line x1="470" y1="80" x2="120" y2="80" stroke="#D4AF37" stroke-width="2.5" stroke-dasharray="5 5"/>
+  <polygon points="116,80 130,74 130,86" fill="#D4AF37"/>
+  <text x="300" y="72" text-anchor="middle" font-size="12" fill="#D4AF37">you retreat backward</text>
+
+  <!-- facing direction (you keep gazing forward) -->
+  <text x="500" y="200" text-anchor="middle" font-size="11" fill="#374151">gaze stays</text>
+  <text x="500" y="216" text-anchor="middle" font-size="11" fill="#374151">level, forward</text>
+  <line x1="455" y1="208" x2="495" y2="208" stroke="#374151" stroke-width="2"/>
+  <polygon points="499,208 485,202 485,214" fill="#374151"/>
+
+  <!-- footprints: small backward steps, alternating sides -->
+  <!-- start (front, right) -->
+  <ellipse cx="430" cy="250" rx="20" ry="11" fill="#1E2A8E"/>
+  <text x="430" y="284" text-anchor="middle" font-size="10" fill="#1E2A8E">start</text>
+
+  <!-- step 1: left foot back, toe first then settle -->
+  <ellipse cx="350" cy="170" rx="20" ry="11" fill="none" stroke="#3E9B6B" stroke-width="3"/>
+  <text x="350" y="148" text-anchor="middle" font-size="10" fill="#3E9B6B">1: toe first, settle</text>
+
+  <!-- step 2: right foot back -->
+  <ellipse cx="270" cy="250" rx="20" ry="11" fill="none" stroke="#C4683A" stroke-width="3"/>
+  <text x="270" y="284" text-anchor="middle" font-size="10" fill="#C4683A">2: toe first, settle</text>
+
+  <!-- step 3: left foot back -->
+  <ellipse cx="190" cy="170" rx="20" ry="11" fill="none" stroke="#3E9B6B" stroke-width="3"/>
+  <text x="190" y="148" text-anchor="middle" font-size="10" fill="#3E9B6B">3: toe first, settle</text>
+
+  <!-- hand pattern legend / arrows -->
+  <rect x="60" y="305" width="440" height="58" rx="6" fill="none" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="80" y="326" font-size="12" font-weight="bold" fill="#141B5C">Hands switch on each step:</text>
+
+  <!-- push forward arrow -->
+  <line x1="240" y1="338" x2="300" y2="338" stroke="#1E2A8E" stroke-width="3"/>
+  <polygon points="304,338 290,332 290,344" fill="#1E2A8E"/>
+  <text x="240" y="356" font-size="11" fill="#1E2A8E">one hand pushes forward</text>
+
+  <!-- withdraw arrow -->
+  <line x1="430" y1="338" x2="372" y2="338" stroke="#C4683A" stroke-width="3"/>
+  <polygon points="368,338 382,332 382,344" fill="#C4683A"/>
+  <text x="360" y="356" font-size="11" fill="#C4683A">other withdraws to hip</text>
+</svg>

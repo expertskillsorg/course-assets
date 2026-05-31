@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="520" height="380" fill="#ffffff"/>
+  <text x="260" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#141B5C">Playing the Lute: gathered hands, weight back</text>
+
+  <!-- floor -->
+  <line x1="60" y1="330" x2="460" y2="330" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- head -->
+  <circle cx="250" cy="92" r="20" fill="none" stroke="#1E2A8E" stroke-width="3"/>
+  <!-- crown lift -->
+  <line x1="250" y1="72" x2="250" y2="52" stroke="#D4AF37" stroke-width="2.5" stroke-dasharray="3 4"/>
+  <polygon points="250,50 245,62 255,62" fill="#D4AF37"/>
+  <text x="262" y="58" font-size="11" fill="#D4AF37">stay tall</text>
+
+  <!-- torso, tall -->
+  <line x1="250" y1="112" x2="250" y2="222" stroke="#1E2A8E" stroke-width="3"/>
+
+  <!-- higher (front-side) hand near face height -->
+  <path d="M250 135 C 222 132, 205 122, 196 112" fill="none" stroke="#3E9B6B" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="194" cy="110" r="7" fill="#3E9B6B"/>
+  <text x="78" y="108" font-size="13" fill="#3E9B6B" font-weight="bold">higher hand</text>
+  <text x="78" y="124" font-size="11" fill="#374151">about face height</text>
+
+  <!-- lower hand near forearm -->
+  <path d="M250 158 C 224 158, 210 152, 200 145" fill="none" stroke="#C4683A" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="198" cy="144" r="7" fill="#C4683A"/>
+  <text x="84" y="150" font-size="13" fill="#C4683A" font-weight="bold">lower hand</text>
+  <text x="84" y="166" font-size="11" fill="#374151">palms facing</text>
+
+  <!-- back leg, weighted, bent -->
+  <path d="M250 222 L 232 282 L 240 330" fill="none" stroke="#1E2A8E" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="240" cy="332" rx="26" ry="9" fill="#1E2A8E"/>
+  <text x="240" y="360" text-anchor="middle" font-size="12" fill="#1E2A8E" font-weight="bold">back leg: most weight here</text>
+
+  <!-- front leg, light, heel touch (heel down, toes lifted) -->
+  <path d="M250 222 L 300 286 L 326 322" fill="none" stroke="#C4683A" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 5"/>
+  <!-- heel on floor, toes lifted up -->
+  <line x1="322" y1="328" x2="350" y2="318" stroke="#C4683A" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="322" cy="329" r="4" fill="#C4683A"/>
+  <text x="392" y="312" text-anchor="middle" font-size="12" fill="#C4683A">front foot light,</text>
+  <text x="392" y="328" text-anchor="middle" font-size="12" fill="#C4683A">heel down, toes up</text>
+</svg>
