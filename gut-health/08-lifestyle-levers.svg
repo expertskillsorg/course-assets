@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="380" fill="#FFFFFF"/>
+  <text x="320" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Daily Levers Beyond Food</text>
+  <text x="320" y="62" text-anchor="middle" font-size="14" fill="#374151">Three habits that support your gut, on top of what you eat</text>
+
+  <!-- Sleep card -->
+  <rect x="36" y="92" width="172" height="208" rx="12" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+  <circle cx="122" cy="138" r="26" fill="#1E2A8E"/>
+  <path d="M132 138a14 14 0 1 1-15-14 11 11 0 0 0 15 14z" fill="#D4AF37"/>
+  <text x="122" y="186" text-anchor="middle" font-size="17" font-weight="bold" fill="#141B5C">Sleep</text>
+  <text x="122" y="214" text-anchor="middle" font-size="12.5" fill="#374151">Same bedtime and</text>
+  <text x="122" y="232" text-anchor="middle" font-size="12.5" fill="#374151">wake time daily</text>
+  <text x="122" y="258" text-anchor="middle" font-size="12.5" fill="#374151">Stop eating a couple</text>
+  <text x="122" y="276" text-anchor="middle" font-size="12.5" fill="#374151">of hours before bed</text>
+
+  <!-- Movement card -->
+  <rect x="234" y="92" width="172" height="208" rx="12" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2"/>
+  <circle cx="320" cy="138" r="26" fill="#3E9B6B"/>
+  <circle cx="320" cy="128" r="5" fill="#FFFFFF"/>
+  <path d="M312 150l8-12 8 12M320 138v10" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <text x="320" y="186" text-anchor="middle" font-size="17" font-weight="bold" fill="#141B5C">Movement</text>
+  <text x="320" y="214" text-anchor="middle" font-size="12.5" fill="#374151">A 10-minute walk</text>
+  <text x="320" y="232" text-anchor="middle" font-size="12.5" fill="#374151">after your big meal</text>
+  <text x="320" y="258" text-anchor="middle" font-size="12.5" fill="#374151">Gentle, not intense</text>
+  <text x="320" y="276" text-anchor="middle" font-size="12.5" fill="#374151">Ease off in a flare</text>
+
+  <!-- Stress card -->
+  <rect x="432" y="92" width="172" height="208" rx="12" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+  <circle cx="518" cy="138" r="26" fill="#C4683A"/>
+  <path d="M506 142c0-8 6-13 12-13s12 5 12 13c0 6-5 9-12 12-7-3-12-6-12-12z" fill="#FFFFFF"/>
+  <text x="518" y="186" text-anchor="middle" font-size="17" font-weight="bold" fill="#141B5C">Stress</text>
+  <text x="518" y="214" text-anchor="middle" font-size="12.5" fill="#374151">Slow belly breathing</text>
+  <text x="518" y="232" text-anchor="middle" font-size="12.5" fill="#374151">before meals</text>
+  <text x="518" y="258" text-anchor="middle" font-size="12.5" fill="#374151">Pick one or two tools</text>
+  <text x="518" y="276" text-anchor="middle" font-size="12.5" fill="#374151">you will actually use</text>
+
+  <!-- baseline tying them together -->
+  <rect x="36" y="320" width="568" height="38" rx="10" fill="#141B5C"/>
+  <text x="320" y="344" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Small, steady doses of all three, working together</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="460" fill="#FFFFFF"/>
+  <text x="360" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Reading a Gut-Health Claim</text>
+  <text x="360" y="62" text-anchor="middle" font-size="14" fill="#374151">Which signals are you actually looking at?</text>
+
+  <!-- Red-flag column -->
+  <rect x="40" y="90" width="300" height="330" rx="10" fill="#FBEEE8" stroke="#C4683A" stroke-width="2"/>
+  <text x="190" y="122" text-anchor="middle" font-size="17" font-weight="bold" fill="#C4683A">Red-flag signals</text>
+
+  <g fill="#374151" font-size="14">
+    <circle cx="64" cy="156" r="7" fill="#C4683A"/>
+    <text x="64" y="161" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF">!</text>
+    <text x="82" y="161">"Detox," "cleanse," "reset"</text>
+
+    <circle cx="64" cy="196" r="7" fill="#C4683A"/>
+    <text x="64" y="201" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF">!</text>
+    <text x="82" y="201">"Cure" or "miracle" promises</text>
+
+    <circle cx="64" cy="236" r="7" fill="#C4683A"/>
+    <text x="64" y="241" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF">!</text>
+    <text x="82" y="241">A secret or proprietary blend</text>
+
+    <circle cx="64" cy="276" r="7" fill="#C4683A"/>
+    <text x="64" y="281" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF">!</text>
+    <text x="82" y="281">Fear first, then the product</text>
+
+    <circle cx="64" cy="316" r="7" fill="#C4683A"/>
+    <text x="64" y="321" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF">!</text>
+    <text x="82" y="321">Only testimonials as proof</text>
+
+    <circle cx="64" cy="356" r="7" fill="#C4683A"/>
+    <text x="64" y="361" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF">!</text>
+    <text x="82" y="361">Seller also sells the "cure"</text>
+
+    <circle cx="64" cy="396" r="7" fill="#C4683A"/>
+    <text x="64" y="401" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF">!</text>
+    <text x="82" y="401">Urgency: "buy now, today only"</text>
+  </g>
+
+  <!-- Credible column -->
+  <rect x="380" y="90" width="300" height="330" rx="10" fill="#EAF4EE" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="530" y="122" text-anchor="middle" font-size="17" font-weight="bold" fill="#3E9B6B">Credible signals</text>
+
+  <g fill="#374151" font-size="14">
+    <path d="M398 152 l5 6 l9 -11" stroke="#3E9B6B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="422" y="161">Modest, specific claims</text>
+
+    <path d="M398 192 l5 6 l9 -11" stroke="#3E9B6B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="422" y="201">Names the strain and dose</text>
+
+    <path d="M398 232 l5 6 l9 -11" stroke="#3E9B6B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="422" y="241">Points to real studies</text>
+
+    <path d="M398 272 l5 6 l9 -11" stroke="#3E9B6B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="422" y="281">Admits limits and unknowns</text>
+
+    <path d="M398 312 l5 6 l9 -11" stroke="#3E9B6B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="422" y="321">No pressure to buy fast</text>
+
+    <path d="M398 352 l5 6 l9 -11" stroke="#3E9B6B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="422" y="361">Independent of who profits</text>
+
+    <path d="M398 392 l5 6 l9 -11" stroke="#3E9B6B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="422" y="401">Suggests food first</text>
+  </g>
+</svg>

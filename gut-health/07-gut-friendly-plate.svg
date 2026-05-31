@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, sans-serif">
+  <rect width="640" height="460" fill="#FFFFFF"/>
+  <text x="320" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Gut-Friendly Plate</text>
+  <text x="320" y="62" text-anchor="middle" font-size="14" fill="#374151">Rough proportions, not exact measurements</text>
+
+  <!-- Plate outer ring -->
+  <circle cx="240" cy="250" r="160" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="10"/>
+
+  <!-- Half plants/fiber (left half) -->
+  <path d="M240 90 A160 160 0 0 0 240 410 Z" fill="#3E9B6B"/>
+  <!-- Quarter protein (top right) -->
+  <path d="M240 90 A160 160 0 0 1 400 250 L240 250 Z" fill="#C4683A"/>
+  <!-- Quarter whole grains (bottom right) -->
+  <path d="M400 250 A160 160 0 0 1 240 410 L240 250 Z" fill="#D4AF37"/>
+
+  <!-- Center dividing lines -->
+  <line x1="240" y1="90" x2="240" y2="410" stroke="#FFFFFF" stroke-width="4"/>
+  <line x1="240" y1="250" x2="400" y2="250" stroke="#FFFFFF" stroke-width="4"/>
+
+  <!-- Plate labels -->
+  <text x="160" y="245" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Plants</text>
+  <text x="160" y="265" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">and fiber</text>
+  <text x="160" y="285" text-anchor="middle" font-size="13" fill="#FFFFFF">about half</text>
+
+  <text x="320" y="185" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Protein</text>
+  <text x="320" y="203" text-anchor="middle" font-size="12" fill="#FFFFFF">a quarter</text>
+
+  <text x="320" y="320" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Whole grains</text>
+  <text x="320" y="338" text-anchor="middle" font-size="12" fill="#FFFFFF">a quarter</text>
+
+  <!-- Small fermented side -->
+  <circle cx="500" cy="170" r="42" fill="#1E2A8E"/>
+  <text x="500" y="166" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">Small</text>
+  <text x="500" y="182" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">fermented</text>
+  <text x="500" y="198" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">side</text>
+
+  <!-- Water glass -->
+  <rect x="478" y="250" width="44" height="60" rx="4" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="3"/>
+  <rect x="478" y="278" width="44" height="32" rx="2" fill="#1E2A8E" opacity="0.25"/>
+  <text x="500" y="332" text-anchor="middle" font-size="12" fill="#374151">Water</text>
+
+  <!-- Healthy fat note -->
+  <text x="500" y="372" text-anchor="middle" font-size="12" fill="#374151">+ a little</text>
+  <text x="500" y="388" text-anchor="middle" font-size="12" fill="#374151">healthy fat</text>
+</svg>

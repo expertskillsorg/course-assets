@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="The two-way gut-brain pathway along the vagus nerve">
+  <rect x="0" y="0" width="640" height="420" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#141B5C">The Gut-Brain Axis: A Two-Way Street</text>
+
+  <!-- Brain -->
+  <ellipse cx="320" cy="100" rx="86" ry="48" fill="#1E2A8E"/>
+  <path d="M250 100 q12 -22 36 -16 q14 -20 38 -6 q22 -8 30 14 q18 6 6 26 q6 18 -18 18 q-14 12 -34 2 q-20 10 -36 -8 q-26 -2 -22 -30 z" fill="#141B5C" opacity="0.55"/>
+  <text x="320" y="106" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">Brain</text>
+
+  <!-- Gut -->
+  <g>
+    <path d="M250 300 h140 v22 q0 30 -30 30 h-22 q-30 0 -30 -28 q0 -22 24 -22 h26 q16 0 16 -14 q0 -12 -16 -12 h-66 q-24 0 -24 -22 q0 -18 22 -18 h84" fill="none" stroke="#3E9B6B" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="320" y="396" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#141B5C">Gut</text>
+  </g>
+
+  <!-- Vagus nerve trunk -->
+  <rect x="312" y="150" width="16" height="138" rx="8" fill="#D4AF37"/>
+  <text x="404" y="224" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">Vagus nerve</text>
+
+  <!-- Downward signal (brain to gut) -->
+  <g>
+    <path d="M268 158 C 232 196, 232 244, 268 282" fill="none" stroke="#C4683A" stroke-width="4"/>
+    <polygon points="268,282 256,272 270,268" fill="#C4683A"/>
+    <text x="150" y="216" font-family="Arial, sans-serif" font-size="13" fill="#C4683A">Brain to gut:</text>
+    <text x="150" y="234" font-family="Arial, sans-serif" font-size="13" fill="#374151">stress slows or</text>
+    <text x="150" y="250" font-family="Arial, sans-serif" font-size="13" fill="#374151">speeds digestion</text>
+  </g>
+
+  <!-- Upward signal (gut to brain) -->
+  <g>
+    <path d="M372 282 C 408 244, 408 196, 372 158" fill="none" stroke="#1E2A8E" stroke-width="4"/>
+    <polygon points="372,158 384,168 370,172" fill="#1E2A8E"/>
+    <text x="430" y="172" font-family="Arial, sans-serif" font-size="13" fill="#1E2A8E">Gut to brain:</text>
+    <text x="430" y="190" font-family="Arial, sans-serif" font-size="13" fill="#374151">microbe signals,</text>
+    <text x="430" y="206" font-family="Arial, sans-serif" font-size="13" fill="#374151">fullness, comfort</text>
+  </g>
+
+  <text x="320" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">most signals</text>
+  <text x="320" y="264" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">travel up</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="460" fill="#ffffff"/>
+  <text x="320" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Diversity Means Resilience</text>
+  <text x="320" y="56" text-anchor="middle" font-size="13" fill="#374151">More kinds of microbes mean more backups when life disrupts the gut</text>
+
+  <!-- LEFT: diverse -->
+  <rect x="40" y="80" width="260" height="300" rx="16" fill="#ffffff" stroke="#3E9B6B" stroke-width="3"/>
+  <text x="170" y="108" text-anchor="middle" font-size="16" font-weight="bold" fill="#3E9B6B">Diverse microbiome</text>
+
+  <circle cx="95" cy="150" r="13" fill="#1E2A8E"/>
+  <circle cx="150" cy="135" r="11" fill="#3E9B6B"/>
+  <circle cx="205" cy="155" r="14" fill="#D4AF37"/>
+  <circle cx="255" cy="140" r="10" fill="#C4683A"/>
+  <rect x="80" y="185" width="24" height="24" rx="5" fill="#C4683A"/>
+  <circle cx="145" cy="200" r="12" fill="#1E2A8E"/>
+  <rect x="190" y="188" width="22" height="22" rx="5" fill="#3E9B6B"/>
+  <circle cx="250" cy="205" r="13" fill="#D4AF37"/>
+  <circle cx="100" cy="250" r="11" fill="#D4AF37"/>
+  <rect x="140" y="240" width="24" height="24" rx="5" fill="#1E2A8E"/>
+  <circle cx="205" cy="255" r="12" fill="#C4683A"/>
+  <circle cx="255" cy="248" r="10" fill="#3E9B6B"/>
+  <circle cx="120" cy="300" r="13" fill="#3E9B6B"/>
+  <rect x="170" y="290" width="22" height="22" rx="5" fill="#D4AF37"/>
+  <circle cx="230" cy="302" r="11" fill="#1E2A8E"/>
+
+  <text x="170" y="348" text-anchor="middle" font-size="13" font-weight="bold" fill="#3E9B6B">Stays steady under stress</text>
+  <text x="170" y="368" text-anchor="middle" font-size="12" fill="#374151">If one group is hit, others carry on</text>
+
+  <!-- RIGHT: low diversity -->
+  <rect x="340" y="80" width="260" height="300" rx="16" fill="#ffffff" stroke="#C4683A" stroke-width="3"/>
+  <text x="470" y="108" text-anchor="middle" font-size="16" font-weight="bold" fill="#C4683A">Low-diversity microbiome</text>
+
+  <circle cx="400" cy="160" r="13" fill="#1E2A8E"/>
+  <circle cx="470" cy="150" r="13" fill="#1E2A8E"/>
+  <circle cx="540" cy="165" r="13" fill="#1E2A8E"/>
+  <circle cx="410" cy="225" r="13" fill="#D4AF37"/>
+  <circle cx="480" cy="235" r="13" fill="#1E2A8E"/>
+  <circle cx="545" cy="222" r="13" fill="#D4AF37"/>
+  <circle cx="430" cy="300" r="13" fill="#1E2A8E"/>
+  <circle cx="500" cy="305" r="13" fill="#D4AF37"/>
+
+  <text x="470" y="348" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">Easily knocked off balance</text>
+  <text x="470" y="368" text-anchor="middle" font-size="12" fill="#374151">Few kinds, few backups</text>
+
+  <text x="320" y="424" text-anchor="middle" font-size="13" fill="#141B5C" font-weight="bold">Your strongest lever: eat a wide range of plant foods</text>
+  <text x="320" y="444" text-anchor="middle" font-size="11.5" fill="#374151">What shrinks diversity: low fiber, little food variety, some medications (especially antibiotics)</text>
+</svg>

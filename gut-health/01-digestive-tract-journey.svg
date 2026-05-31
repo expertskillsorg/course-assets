@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="520" fill="#ffffff"/>
+  <text x="320" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Journey of a Meal</text>
+  <text x="320" y="56" text-anchor="middle" font-size="13" fill="#374151">Each organ in order, and the main job it does</text>
+
+  <!-- connecting path down the left -->
+  <line x1="120" y1="90" x2="120" y2="470" stroke="#E5E7EB" stroke-width="4"/>
+
+  <!-- Stage 1: Mouth -->
+  <circle cx="120" cy="100" r="14" fill="#1E2A8E"/>
+  <text x="120" y="105" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">1</text>
+  <rect x="160" y="78" width="440" height="58" rx="8" fill="#1E2A8E"/>
+  <text x="178" y="103" font-size="16" font-weight="bold" fill="#ffffff">Mouth &amp; saliva</text>
+  <text x="178" y="123" font-size="12.5" fill="#E5E7EB">Chewing and enzymes begin breaking down starches</text>
+
+  <!-- Stage 2: Stomach -->
+  <circle cx="120" cy="190" r="14" fill="#C4683A"/>
+  <text x="120" y="195" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">2</text>
+  <rect x="160" y="168" width="440" height="58" rx="8" fill="#C4683A"/>
+  <text x="178" y="193" font-size="16" font-weight="bold" fill="#ffffff">Stomach</text>
+  <text x="178" y="213" font-size="12.5" fill="#ffffff">Acid and churning turn food into a paste. No real absorption yet</text>
+
+  <!-- Stage 3: Small intestine -->
+  <circle cx="120" cy="290" r="14" fill="#3E9B6B"/>
+  <text x="120" y="295" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">3</text>
+  <rect x="160" y="258" width="440" height="78" rx="8" fill="#3E9B6B"/>
+  <text x="178" y="285" font-size="16" font-weight="bold" fill="#ffffff">Small intestine</text>
+  <text x="178" y="305" font-size="12.5" fill="#ffffff">Bile and enzymes finish digestion. MOST nutrients are</text>
+  <text x="178" y="323" font-size="12.5" fill="#ffffff">absorbed here across the folded lining</text>
+
+  <!-- Stage 4: Large intestine -->
+  <circle cx="120" cy="400" r="14" fill="#D4AF37"/>
+  <text x="120" y="405" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">4</text>
+  <rect x="160" y="368" width="440" height="78" rx="8" fill="#D4AF37"/>
+  <text x="178" y="395" font-size="16" font-weight="bold" fill="#141B5C">Large intestine (colon)</text>
+  <text x="178" y="415" font-size="12.5" fill="#141B5C">Reabsorbs water and forms stool. Home to the microbes</text>
+  <text x="178" y="433" font-size="12.5" fill="#141B5C">that ferment leftover fiber</text>
+
+  <text x="320" y="492" text-anchor="middle" font-size="12" fill="#374151">Direction of travel: top to bottom, one connected tube from mouth to colon</text>
+</svg>

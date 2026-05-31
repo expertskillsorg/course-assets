@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="560" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Bristol Stool Scale</text>
+  <text x="320" y="56" text-anchor="middle" font-size="13" fill="#374151">Seven types, from hard and slow to loose and fast</text>
+
+  <!-- Type 1 -->
+  <g>
+    <rect x="24" y="78" width="592" height="58" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+    <circle cx="56" cy="107" r="16" fill="#C4683A"/>
+    <text x="56" y="112" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">1</text>
+    <g fill="#C4683A"><circle cx="120" cy="107" r="6"/><circle cx="138" cy="100" r="6"/><circle cx="134" cy="116" r="6"/><circle cx="156" cy="108" r="6"/><circle cx="172" cy="101" r="6"/><circle cx="168" cy="117" r="6"/></g>
+    <text x="210" y="103" font-size="14" font-weight="bold" fill="#111827">Separate hard lumps</text>
+    <text x="210" y="122" font-size="12" fill="#374151">Like nuts, hard to pass. Suggests constipation.</text>
+  </g>
+
+  <!-- Type 2 -->
+  <g>
+    <rect x="24" y="142" width="592" height="58" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+    <circle cx="56" cy="171" r="16" fill="#C4683A"/>
+    <text x="56" y="176" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">2</text>
+    <rect x="116" y="160" width="74" height="22" rx="11" fill="#C4683A"/>
+    <text x="210" y="167" font-size="14" font-weight="bold" fill="#111827">Lumpy, sausage-shaped</text>
+    <text x="210" y="186" font-size="12" fill="#374151">A bumpy log. Mild constipation; needs more fiber and water.</text>
+  </g>
+
+  <!-- Type 3 -->
+  <g>
+    <rect x="24" y="206" width="592" height="58" rx="8" fill="#F4FBF7" stroke="#3E9B6B" stroke-width="1.5"/>
+    <circle cx="56" cy="235" r="16" fill="#3E9B6B"/>
+    <text x="56" y="240" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">3</text>
+    <rect x="112" y="226" width="86" height="18" rx="9" fill="#3E9B6B"/>
+    <text x="210" y="231" font-size="14" font-weight="bold" fill="#111827">Sausage with surface cracks</text>
+    <text x="210" y="250" font-size="12" fill="#374151">Healthy and easy to pass. Target range.</text>
+  </g>
+
+  <!-- Type 4 -->
+  <g>
+    <rect x="24" y="270" width="592" height="58" rx="8" fill="#F4FBF7" stroke="#3E9B6B" stroke-width="1.5"/>
+    <circle cx="56" cy="299" r="16" fill="#3E9B6B"/>
+    <text x="56" y="304" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">4</text>
+    <rect x="108" y="292" width="96" height="14" rx="7" fill="#3E9B6B"/>
+    <text x="210" y="295" font-size="14" font-weight="bold" fill="#111827">Smooth, soft sausage or snake</text>
+    <text x="210" y="314" font-size="12" fill="#374151">The ideal. Smooth and comfortable. Target range.</text>
+  </g>
+
+  <!-- Type 5 -->
+  <g>
+    <rect x="24" y="334" width="592" height="58" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+    <circle cx="56" cy="363" r="16" fill="#D4AF37"/>
+    <text x="56" y="368" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">5</text>
+    <g fill="#D4AF37"><ellipse cx="122" cy="363" rx="13" ry="9"/><ellipse cx="150" cy="360" rx="11" ry="8"/><ellipse cx="176" cy="365" rx="12" ry="8"/></g>
+    <text x="210" y="359" font-size="14" font-weight="bold" fill="#111827">Soft blobs with clear edges</text>
+    <text x="210" y="378" font-size="12" fill="#374151">Passed easily. Tending toward loose; may lack fiber.</text>
+  </g>
+
+  <!-- Type 6 -->
+  <g>
+    <rect x="24" y="398" width="592" height="58" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+    <circle cx="56" cy="427" r="16" fill="#D4AF37"/>
+    <text x="56" y="432" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">6</text>
+    <path d="M110 427 q14 -14 28 0 q14 14 28 0 q14 -14 28 0" fill="none" stroke="#D4AF37" stroke-width="10" stroke-linecap="round"/>
+    <text x="210" y="423" font-size="14" font-weight="bold" fill="#111827">Mushy, ragged edges</text>
+    <text x="210" y="442" font-size="12" fill="#374151">Fluffy and soft. Mild diarrhea; watch for triggers or stress.</text>
+  </g>
+
+  <!-- Type 7 -->
+  <g>
+    <rect x="24" y="462" width="592" height="58" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+    <circle cx="56" cy="491" r="16" fill="#1E2A8E"/>
+    <text x="56" y="496" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">7</text>
+    <ellipse cx="150" cy="491" rx="42" ry="11" fill="#1E2A8E" opacity="0.55"/>
+    <text x="210" y="487" font-size="14" font-weight="bold" fill="#111827">Entirely liquid, no solid pieces</text>
+    <text x="210" y="506" font-size="12" fill="#374151">Watery diarrhea. If it persists, replace fluids and check causes.</text>
+  </g>
+
+  <text x="320" y="544" text-anchor="middle" font-size="11" fill="#374151">Types 3 and 4 are the healthy target. This is a feedback signal, not a diagnosis.</text>
+</svg>

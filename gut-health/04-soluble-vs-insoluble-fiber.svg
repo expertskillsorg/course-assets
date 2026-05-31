@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="420" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Two Kinds of Fiber</text>
+  <text x="360" y="56" text-anchor="middle" font-size="13" fill="#374151">Most whole foods carry some of both</text>
+
+  <!-- Soluble panel -->
+  <rect x="30" y="78" width="310" height="306" rx="10" fill="#F4F1E1" stroke="#D4AF37" stroke-width="2"/>
+  <text x="185" y="108" text-anchor="middle" font-size="18" font-weight="bold" fill="#1E2A8E">Soluble</text>
+  <text x="185" y="130" text-anchor="middle" font-size="12" fill="#374151">Dissolves into a soft gel</text>
+
+  <text x="50" y="162" font-size="13" font-weight="bold" fill="#141B5C">What it does</text>
+  <text x="50" y="184" font-size="12" fill="#374151">Slows digestion</text>
+  <text x="50" y="204" font-size="12" fill="#374151">Steadies blood sugar</text>
+  <text x="50" y="224" font-size="12" fill="#374151">Feeds gut microbes</text>
+  <text x="50" y="244" font-size="12" fill="#374151">Softens stool</text>
+
+  <text x="50" y="282" font-size="13" font-weight="bold" fill="#141B5C">Found in</text>
+  <text x="50" y="304" font-size="12" fill="#3E9B6B">Oats</text>
+  <text x="50" y="324" font-size="12" fill="#3E9B6B">Beans and lentils</text>
+  <text x="50" y="344" font-size="12" fill="#3E9B6B">Apples and citrus</text>
+  <text x="50" y="364" font-size="12" fill="#3E9B6B">Barley</text>
+
+  <!-- Insoluble panel -->
+  <rect x="380" y="78" width="310" height="306" rx="10" fill="#F6EDE6" stroke="#C4683A" stroke-width="2"/>
+  <text x="535" y="108" text-anchor="middle" font-size="18" font-weight="bold" fill="#1E2A8E">Insoluble</text>
+  <text x="535" y="130" text-anchor="middle" font-size="12" fill="#374151">Stays whole, adds bulk</text>
+
+  <text x="400" y="162" font-size="13" font-weight="bold" fill="#141B5C">What it does</text>
+  <text x="400" y="184" font-size="12" fill="#374151">Adds bulk to stool</text>
+  <text x="400" y="204" font-size="12" fill="#374151">Speeds transit</text>
+  <text x="400" y="224" font-size="12" fill="#374151">Eases regularity</text>
+  <text x="400" y="244" font-size="12" fill="#374151">Sweeps things along</text>
+
+  <text x="400" y="282" font-size="13" font-weight="bold" fill="#141B5C">Found in</text>
+  <text x="400" y="304" font-size="12" fill="#3E9B6B">Whole wheat and bran</text>
+  <text x="400" y="324" font-size="12" fill="#3E9B6B">Leafy greens</text>
+  <text x="400" y="344" font-size="12" fill="#3E9B6B">Nuts and seeds</text>
+  <text x="400" y="364" font-size="12" fill="#3E9B6B">Vegetable skins</text>
+</svg>

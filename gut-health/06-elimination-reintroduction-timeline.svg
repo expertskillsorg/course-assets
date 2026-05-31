@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="420" fill="#ffffff"/>
+  <text x="30" y="40" font-size="22" font-weight="bold" fill="#141B5C">The Elimination-and-Reintroduction Timeline</text>
+  <text x="30" y="64" font-size="14" fill="#374151">A short reset, then one suspect food at a time</text>
+
+  <!-- main timeline baseline -->
+  <line x1="40" y1="120" x2="720" y2="120" stroke="#E5E7EB" stroke-width="4"/>
+
+  <!-- Phase 1: Elimination -->
+  <rect x="40" y="96" width="170" height="48" rx="8" fill="#C4683A"/>
+  <text x="125" y="118" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Phase 1</text>
+  <text x="125" y="136" font-size="12" fill="#ffffff" text-anchor="middle">Eliminate suspects</text>
+  <text x="125" y="170" font-size="12" fill="#374151" text-anchor="middle">About 2 weeks</text>
+  <text x="125" y="188" font-size="11" fill="#374151" text-anchor="middle">Remove a few likely</text>
+  <text x="125" y="202" font-size="11" fill="#374151" text-anchor="middle">triggers, settle down</text>
+
+  <!-- arrow -->
+  <polygon points="214,120 232,112 232,128" fill="#374151"/>
+
+  <!-- Phase 2: Reintroduction -->
+  <rect x="240" y="96" width="480" height="48" rx="8" fill="#3E9B6B"/>
+  <text x="480" y="118" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Phase 2: Reintroduce one food at a time</text>
+  <text x="480" y="136" font-size="12" fill="#ffffff" text-anchor="middle">2 to 3 days per food, watching for symptoms</text>
+
+  <!-- reintroduction sub-blocks -->
+  <g>
+    <rect x="250" y="200" width="130" height="120" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="2"/>
+    <text x="315" y="224" font-size="13" font-weight="bold" fill="#1E2A8E" text-anchor="middle">Food A: Dairy</text>
+    <text x="315" y="248" font-size="11" fill="#374151" text-anchor="middle">Day 1: small dose</text>
+    <text x="315" y="266" font-size="11" fill="#374151" text-anchor="middle">Day 2: larger dose</text>
+    <text x="315" y="284" font-size="11" fill="#374151" text-anchor="middle">Day 3: watch &amp; log</text>
+    <text x="315" y="308" font-size="11" font-style="italic" fill="#C4683A" text-anchor="middle">Note the dose that</text>
+  </g>
+
+  <g>
+    <rect x="400" y="200" width="130" height="120" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="2"/>
+    <text x="465" y="224" font-size="13" font-weight="bold" fill="#1E2A8E" text-anchor="middle">Food B: Onion</text>
+    <text x="465" y="248" font-size="11" fill="#374151" text-anchor="middle">Rest, then repeat</text>
+    <text x="465" y="266" font-size="11" fill="#374151" text-anchor="middle">the same pattern</text>
+    <text x="465" y="284" font-size="11" fill="#374151" text-anchor="middle">with the next food</text>
+    <text x="465" y="308" font-size="11" font-style="italic" fill="#C4683A" text-anchor="middle">causes symptoms</text>
+  </g>
+
+  <g>
+    <rect x="550" y="200" width="130" height="120" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="2"/>
+    <text x="615" y="224" font-size="13" font-weight="bold" fill="#1E2A8E" text-anchor="middle">Food C: Wheat</text>
+    <text x="615" y="248" font-size="11" fill="#374151" text-anchor="middle">One suspect only,</text>
+    <text x="615" y="266" font-size="11" fill="#374151" text-anchor="middle">never two at once</text>
+    <text x="615" y="284" font-size="11" fill="#374151" text-anchor="middle">Let the gut reset</text>
+    <text x="615" y="308" font-size="11" font-style="italic" fill="#3E9B6B" text-anchor="middle">between tests</text>
+  </g>
+
+  <!-- connectors -->
+  <line x1="315" y1="144" x2="315" y2="200" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="465" y1="144" x2="465" y2="200" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="615" y1="144" x2="615" y2="200" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- outcome -->
+  <text x="40" y="365" font-size="13" font-weight="bold" fill="#141B5C">Result:</text>
+  <text x="100" y="365" font-size="13" fill="#374151">your personal lists of safe foods, dose-dependent foods, and real triggers.</text>
+  <text x="40" y="392" font-size="12" font-style="italic" fill="#C4683A">Keep elimination short. Long, open-ended cutting is the mistake to avoid.</text>
+</svg>
