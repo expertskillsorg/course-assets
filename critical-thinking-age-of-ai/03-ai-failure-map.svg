@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="460" fill="#FFFFFF"/>
+  <text x="360" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">How AI Output Goes Wrong</text>
+  <text x="360" y="62" text-anchor="middle" font-size="13" fill="#374151">Four failure families to look for</text>
+
+  <!-- Fabrication card -->
+  <rect x="40" y="90" width="195" height="150" rx="10" fill="#FFFFFF" stroke="#C4683A" stroke-width="2.5"/>
+  <rect x="40" y="90" width="195" height="34" rx="10" fill="#C4683A"/>
+  <rect x="40" y="108" width="195" height="16" fill="#C4683A"/>
+  <text x="137" y="113" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">FABRICATION</text>
+  <text x="58" y="150" font-size="12.5" fill="#111827">Hallucinated facts</text>
+  <text x="58" y="174" font-size="12.5" fill="#111827">Invented sources</text>
+  <text x="58" y="198" font-size="12.5" fill="#111827">Fake quotes and URLs</text>
+  <text x="58" y="222" font-size="11.5" fill="#374151" font-style="italic">Made up whole</text>
+
+  <!-- Bias card -->
+  <rect x="262" y="90" width="195" height="150" rx="10" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2.5"/>
+  <rect x="262" y="90" width="195" height="34" rx="10" fill="#3E9B6B"/>
+  <rect x="262" y="108" width="195" height="16" fill="#3E9B6B"/>
+  <text x="359" y="113" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">BIAS</text>
+  <text x="280" y="150" font-size="12.5" fill="#111827">Inherited from data</text>
+  <text x="280" y="174" font-size="12.5" fill="#111827">Stereotyped defaults</text>
+  <text x="280" y="198" font-size="12.5" fill="#111827">Slant in framing</text>
+  <text x="280" y="222" font-size="11.5" fill="#374151" font-style="italic">Sounds neutral</text>
+
+  <!-- Limits card -->
+  <rect x="484" y="90" width="195" height="150" rx="10" fill="#FFFFFF" stroke="#D4AF37" stroke-width="2.5"/>
+  <rect x="484" y="90" width="195" height="34" rx="10" fill="#D4AF37"/>
+  <rect x="484" y="108" width="195" height="16" fill="#D4AF37"/>
+  <text x="581" y="113" text-anchor="middle" font-size="15" font-weight="bold" fill="#141B5C">LIMITS</text>
+  <text x="502" y="150" font-size="12.5" fill="#111827">Training cutoff</text>
+  <text x="502" y="174" font-size="12.5" fill="#111827">No live verification</text>
+  <text x="502" y="198" font-size="12.5" fill="#111827">Frozen snapshot</text>
+  <text x="502" y="222" font-size="11.5" fill="#374151" font-style="italic">Sycophancy too</text>
+
+  <!-- connectors down to confident-wrong -->
+  <line x1="137" y1="240" x2="137" y2="300" stroke="#374151" stroke-width="1.5"/>
+  <line x1="359" y1="240" x2="359" y2="300" stroke="#374151" stroke-width="1.5"/>
+  <line x1="581" y1="240" x2="581" y2="300" stroke="#374151" stroke-width="1.5"/>
+  <line x1="137" y1="300" x2="581" y2="300" stroke="#374151" stroke-width="1.5"/>
+  <line x1="359" y1="300" x2="359" y2="322" stroke="#374151" stroke-width="1.5"/>
+  <polygon points="353,322 365,322 359,334" fill="#374151"/>
+
+  <!-- Confident-wrong band -->
+  <rect x="40" y="340" width="639" height="92" rx="10" fill="#1E2A8E"/>
+  <text x="360" y="372" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">CONFIDENT-WRONG</text>
+  <text x="360" y="396" text-anchor="middle" font-size="13" fill="#E5E7EB">Not a separate error. It is the fluent, assured delivery</text>
+  <text x="360" y="416" text-anchor="middle" font-size="13" fill="#E5E7EB">that lets the other three slip past you. The doubt has to come from you.</text>
+</svg>

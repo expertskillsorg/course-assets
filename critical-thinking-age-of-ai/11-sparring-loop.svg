@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Arial, sans-serif">
+  <rect width="720" height="320" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#141B5C">The Sparring Loop</text>
+
+  <!-- Node 1: Your idea -->
+  <rect x="40" y="120" width="170" height="80" rx="10" fill="#1E2A8E"/>
+  <text x="125" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Your idea</text>
+  <text x="125" y="172" text-anchor="middle" font-size="12" fill="#E5E7EB">you draft it first</text>
+
+  <!-- Node 2: AI challenge -->
+  <rect x="275" y="120" width="170" height="80" rx="10" fill="#C4683A"/>
+  <text x="360" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">AI challenge</text>
+  <text x="360" y="172" text-anchor="middle" font-size="12" fill="#FFFFFF">it attacks the idea</text>
+
+  <!-- Node 3: Sharper idea -->
+  <rect x="510" y="120" width="170" height="80" rx="10" fill="#3E9B6B"/>
+  <text x="595" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Sharper idea</text>
+  <text x="595" y="172" text-anchor="middle" font-size="12" fill="#FFFFFF">you revise and own it</text>
+
+  <!-- Arrows forward -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+  <line x1="210" y1="160" x2="272" y2="160" stroke="#374151" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="445" y1="160" x2="507" y2="160" stroke="#374151" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Loop back arrow from sharper idea to your idea -->
+  <path d="M 595 200 C 595 270, 125 270, 125 202" fill="none" stroke="#D4AF37" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="360" y="290" text-anchor="middle" font-size="12" font-style="italic" fill="#374151">repeat until the idea stops getting better, then decide</text>
+</svg>

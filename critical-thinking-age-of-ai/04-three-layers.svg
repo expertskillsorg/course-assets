@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-labelledby="title desc">
+  <title id="title">Fact, inference, and opinion as three stacked layers</title>
+  <desc id="desc">Three horizontal layers. Fact at the bottom is high in checkability, opinion at the top is low in checkability, while the confidence of the wording can be high at every layer.</desc>
+
+  <rect x="0" y="0" width="640" height="440" fill="#FFFFFF"/>
+
+  <!-- Checkability axis (left) -->
+  <line x1="74" y1="60" x2="74" y2="380" stroke="#141B5C" stroke-width="2"/>
+  <polygon points="74,52 69,64 79,64" fill="#141B5C"/>
+  <text x="46" y="222" fill="#141B5C" font-family="Georgia, serif" font-size="15" text-anchor="middle" transform="rotate(-90 46 222)">Checkability</text>
+  <text x="82" y="80" fill="#C4683A" font-family="Arial, sans-serif" font-size="12">low</text>
+  <text x="82" y="372" fill="#3E9B6B" font-family="Arial, sans-serif" font-size="12">high</text>
+  <circle cx="74" cy="115" r="5" fill="#C4683A"/>
+  <circle cx="74" cy="220" r="5" fill="#1E2A8E"/>
+  <circle cx="74" cy="325" r="5" fill="#3E9B6B"/>
+
+  <!-- Opinion (top, low checkability) -->
+  <rect x="122" y="70" width="426" height="92" rx="8" fill="#C4683A"/>
+  <text x="142" y="106" fill="#FFFFFF" font-family="Georgia, serif" font-size="20" font-weight="bold">Opinion</text>
+  <text x="142" y="132" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="13">A value judgment. Cannot be checked,</text>
+  <text x="142" y="150" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="13">only agreed or disagreed with.</text>
+
+  <!-- Inference (middle) -->
+  <rect x="122" y="174" width="426" height="92" rx="8" fill="#1E2A8E"/>
+  <text x="142" y="210" fill="#FFFFFF" font-family="Georgia, serif" font-size="20" font-weight="bold">Inference</text>
+  <text x="142" y="236" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="13">A conclusion drawn from facts.</text>
+  <text x="142" y="254" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="13">Check the logic, not just the data.</text>
+
+  <!-- Fact (bottom, high checkability) -->
+  <rect x="122" y="278" width="426" height="92" rx="8" fill="#3E9B6B"/>
+  <text x="142" y="314" fill="#FFFFFF" font-family="Georgia, serif" font-size="20" font-weight="bold">Fact</text>
+  <text x="142" y="340" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="13">A verifiable statement about the world.</text>
+  <text x="142" y="358" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="13">Check it against a source.</text>
+
+  <!-- Confidence axis (right) -->
+  <line x1="582" y1="380" x2="582" y2="60" stroke="#D4AF37" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="612" y="222" fill="#B8902A" font-family="Georgia, serif" font-size="15" text-anchor="middle" transform="rotate(90 612 222)">Wording confidence</text>
+  <text x="566" y="120" fill="#B8902A" font-family="Arial, sans-serif" font-size="12" text-anchor="end">can be</text>
+  <text x="566" y="225" fill="#B8902A" font-family="Arial, sans-serif" font-size="12" text-anchor="end">high at</text>
+  <text x="566" y="330" fill="#B8902A" font-family="Arial, sans-serif" font-size="12" text-anchor="end">any layer</text>
+
+  <text x="320" y="416" fill="#111827" font-family="Arial, sans-serif" font-size="13" text-anchor="middle">Confident tone tells you nothing about which layer a sentence lives on.</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="AI input and human expertise combining into an owned decision.">
+  <rect x="0" y="0" width="640" height="360" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1E2A8E">The decision is yours</text>
+
+  <rect x="30" y="62" width="200" height="92" rx="10" fill="#1E2A8E"/>
+  <text x="130" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">AI input</text>
+  <text x="130" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">raw material,</text>
+  <text x="130" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">a fast first draft</text>
+
+  <rect x="30" y="208" width="200" height="92" rx="10" fill="#3E9B6B"/>
+  <text x="130" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">Your expertise</text>
+  <text x="130" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">context, values,</text>
+  <text x="130" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">accountability</text>
+
+  <path d="M230 108 L294 162" stroke="#D4AF37" stroke-width="4" fill="none"/>
+  <polygon points="294,162 282,159 287,172" fill="#D4AF37"/>
+  <path d="M230 254 L294 198" stroke="#D4AF37" stroke-width="4" fill="none"/>
+  <polygon points="294,198 287,188 282,201" fill="#D4AF37"/>
+
+  <circle cx="340" cy="180" r="56" fill="#D4AF37"/>
+  <text x="340" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#141B5C">Synthesis</text>
+  <text x="340" y="197" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#141B5C">you combine</text>
+
+  <path d="M396 180 L470 180" stroke="#141B5C" stroke-width="4" fill="none"/>
+  <polygon points="470,180 458,173 458,187" fill="#141B5C"/>
+
+  <rect x="474" y="130" width="140" height="100" rx="10" fill="#141B5C"/>
+  <text x="544" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Owned</text>
+  <text x="544" y="194" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">decision</text>
+  <text x="544" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#C4683A">your name on it</text>
+</svg>

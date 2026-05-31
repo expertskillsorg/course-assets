@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="480" fill="#FFFFFF"/>
+  <text x="360" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The EDGE Loop</text>
+  <text x="360" y="64" text-anchor="middle" font-size="13" fill="#374151">Run it on every output, fast or thorough, then start again</text>
+
+  <!-- center hub -->
+  <circle cx="360" cy="262" r="58" fill="#141B5C"/>
+  <text x="360" y="256" text-anchor="middle" font-size="26" font-weight="bold" fill="#FFFFFF">EDGE</text>
+  <text x="360" y="280" text-anchor="middle" font-size="12" fill="#D4AF37">the loop</text>
+
+  <!-- curved arrows forming the cycle -->
+  <g fill="none" stroke="#D4AF37" stroke-width="3">
+    <path d="M 360 138 A 124 124 0 0 1 484 262" marker-end="url(#ah)"/>
+    <path d="M 484 262 A 124 124 0 0 1 360 386" marker-end="url(#ah)"/>
+    <path d="M 360 386 A 124 124 0 0 1 236 262" marker-end="url(#ah)"/>
+    <path d="M 236 262 A 124 124 0 0 1 360 138" marker-end="url(#ah)"/>
+  </g>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#D4AF37"/>
+    </marker>
+  </defs>
+
+  <!-- E - Examine (top) -->
+  <g>
+    <rect x="288" y="92" width="144" height="62" rx="10" fill="#1E2A8E"/>
+    <text x="360" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">E — Examine</text>
+    <text x="360" y="138" text-anchor="middle" font-size="11" fill="#FFFFFF">surface the claims</text>
+  </g>
+
+  <!-- D - Detect (right) -->
+  <g>
+    <rect x="500" y="231" width="156" height="62" rx="10" fill="#3E9B6B"/>
+    <text x="578" y="257" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">D — Detect</text>
+    <text x="578" y="277" text-anchor="middle" font-size="11" fill="#FFFFFF">find errors and bias</text>
+  </g>
+
+  <!-- G - Gauge (bottom) -->
+  <g>
+    <rect x="288" y="370" width="144" height="62" rx="10" fill="#C4683A"/>
+    <text x="360" y="396" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">G — Gauge</text>
+    <text x="360" y="416" text-anchor="middle" font-size="11" fill="#FFFFFF">weigh the stakes</text>
+  </g>
+
+  <!-- E - Exercise (left) -->
+  <g>
+    <rect x="64" y="231" width="156" height="62" rx="10" fill="#1E2A8E"/>
+    <text x="142" y="251" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">E — Exercise</text>
+    <text x="142" y="269" text-anchor="middle" font-size="11" fill="#FFFFFF">make and own</text>
+    <text x="142" y="283" text-anchor="middle" font-size="11" fill="#FFFFFF">the call</text>
+  </g>
+
+  <text x="360" y="466" text-anchor="middle" font-size="11" fill="#374151">Each new AI output starts the cycle again.</text>
+</svg>
