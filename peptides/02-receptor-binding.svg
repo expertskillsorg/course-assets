@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="360" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">How a peptide signals a cell</text>
+
+  <!-- cell membrane band -->
+  <rect x="40" y="150" width="680" height="34" fill="#E5E7EB"/>
+  <text x="56" y="142" font-size="12" fill="#374151">Cell surface</text>
+  <text x="640" y="206" font-size="12" fill="#374151">Inside the cell</text>
+
+  <!-- STEP 1: peptide approaches -->
+  <text x="150" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">1. Peptide arrives</text>
+  <!-- peptide as small bead chain (key) -->
+  <g>
+    <circle cx="120" cy="110" r="11" fill="#D4AF37"/>
+    <circle cx="138" cy="118" r="11" fill="#D4AF37"/>
+    <circle cx="156" cy="110" r="11" fill="#D4AF37"/>
+    <line x1="120" y1="110" x2="138" y2="118" stroke="#C4683A" stroke-width="3"/>
+    <line x1="138" y1="118" x2="156" y2="110" stroke="#C4683A" stroke-width="3"/>
+  </g>
+  <!-- receptor 1 (empty) drawn into membrane -->
+  <path d="M110 184 L110 168 Q138 150 166 168 L166 184 Z" fill="#1E2A8E"/>
+  <text x="138" y="172" text-anchor="middle" font-size="10" fill="#FFFFFF">receptor</text>
+  <line x="138" y1="120" x2="138" y2="152" stroke="#374151" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- arrow -->
+  <path d="M196 110 L246 110" stroke="#374151" stroke-width="2.5" marker-end="url(#ar)"/>
+
+  <!-- STEP 2: binding (key in lock) -->
+  <text x="330" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">2. It binds the matching receptor</text>
+  <g>
+    <circle cx="312" cy="128" r="11" fill="#D4AF37"/>
+    <circle cx="330" cy="136" r="11" fill="#D4AF37"/>
+    <circle cx="348" cy="128" r="11" fill="#D4AF37"/>
+    <line x1="312" y1="128" x2="330" y2="136" stroke="#C4683A" stroke-width="3"/>
+    <line x1="330" y1="136" x2="348" y2="128" stroke="#C4683A" stroke-width="3"/>
+  </g>
+  <path d="M302 184 L302 168 Q330 150 358 168 L358 184 Z" fill="#3E9B6B"/>
+  <text x="330" y="172" text-anchor="middle" font-size="10" fill="#FFFFFF">fits</text>
+
+  <!-- arrow -->
+  <path d="M388 110 L438 110" stroke="#374151" stroke-width="2.5" marker-end="url(#ar)"/>
+
+  <!-- STEP 3: downstream effect inside cell -->
+  <text x="560" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">3. The cell responds</text>
+  <g>
+    <circle cx="542" cy="128" r="11" fill="#D4AF37"/>
+    <circle cx="560" cy="136" r="11" fill="#D4AF37"/>
+    <circle cx="578" cy="128" r="11" fill="#D4AF37"/>
+    <line x1="542" y1="128" x2="560" y2="136" stroke="#C4683A" stroke-width="3"/>
+    <line x1="560" y1="136" x2="578" y2="128" stroke="#C4683A" stroke-width="3"/>
+  </g>
+  <path d="M532 184 L532 168 Q560 150 588 168 L588 184 Z" fill="#3E9B6B"/>
+
+  <!-- signal cascade inside cell -->
+  <circle cx="560" cy="218" r="8" fill="#1E2A8E"/>
+  <circle cx="535" cy="252" r="8" fill="#1E2A8E"/>
+  <circle cx="585" cy="252" r="8" fill="#1E2A8E"/>
+  <line x1="560" y1="190" x2="560" y2="210" stroke="#374151" stroke-width="1.5"/>
+  <line x1="556" y1="224" x2="538" y2="246" stroke="#374151" stroke-width="1.5"/>
+  <line x1="564" y1="224" x2="582" y2="246" stroke="#374151" stroke-width="1.5"/>
+  <rect x="498" y="288" width="124" height="40" rx="6" fill="#D4AF37"/>
+  <text x="560" y="313" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">downstream effect</text>
+
+  <!-- bottom note -->
+  <text x="380" y="350" text-anchor="middle" font-size="12" fill="#374151">The peptide does not act directly. It tells the cell to do something, and the cell carries it out.</text>
+
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+</svg>

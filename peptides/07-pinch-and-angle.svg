@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" font-family="Arial, sans-serif">
+  <rect width="560" height="360" fill="#FFFFFF"/>
+  <text x="280" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#141B5C">The Pinch and Needle Angle</text>
+
+  <!-- ===== LEFT: thick fat, 90 degrees ===== -->
+  <text x="150" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2A8E">Generous fold: 90 degrees</text>
+
+  <!-- muscle layer -->
+  <rect x="40" y="250" width="220" height="50" fill="#C4683A" opacity="0.55"/>
+  <text x="150" y="280" text-anchor="middle" font-size="12" fill="#111827">Muscle</text>
+
+  <!-- fat layer with a lifted pinch -->
+  <path d="M40 250 L40 200 Q90 130 150 130 Q210 130 260 200 L260 250 Z" fill="#D4AF37" opacity="0.50"/>
+  <text x="150" y="235" text-anchor="middle" font-size="12" fill="#111827">Fat</text>
+  <!-- skin top edge -->
+  <path d="M40 200 Q90 130 150 130 Q210 130 260 200" fill="none" stroke="#374151" stroke-width="3"/>
+
+  <!-- needle straight in (90) -->
+  <line x1="150" y1="60" x2="150" y2="178" stroke="#141B5C" stroke-width="4"/>
+  <polygon points="150,190 145,176 155,176" fill="#141B5C"/>
+  <!-- angle marker -->
+  <path d="M132 132 A18 18 0 0 0 168 132" fill="none" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="150" y="118" text-anchor="middle" font-size="11" fill="#3E9B6B">90&#176;</text>
+
+  <!-- ===== RIGHT: thin fat, 45 degrees ===== -->
+  <text x="410" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2A8E">Thin fold: 45 degrees</text>
+
+  <!-- muscle layer -->
+  <rect x="300" y="250" width="220" height="50" fill="#C4683A" opacity="0.55"/>
+  <text x="410" y="280" text-anchor="middle" font-size="12" fill="#111827">Muscle</text>
+
+  <!-- thin fat layer -->
+  <path d="M300 250 L300 218 Q355 188 410 188 Q465 188 520 218 L520 250 Z" fill="#D4AF37" opacity="0.50"/>
+  <text x="410" y="242" text-anchor="middle" font-size="12" fill="#111827">Fat (thin)</text>
+  <path d="M300 218 Q355 188 410 188 Q465 188 520 218" fill="none" stroke="#374151" stroke-width="3"/>
+
+  <!-- needle at 45 -->
+  <line x1="345" y1="105" x2="412" y2="216" stroke="#141B5C" stroke-width="4"/>
+  <polygon points="418,226 408,217 416,210" fill="#141B5C"/>
+  <!-- angle marker -->
+  <path d="M392 192 A18 18 0 0 0 408 206" fill="none" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="372" y="200" text-anchor="middle" font-size="11" fill="#3E9B6B">45&#176;</text>
+
+  <text x="280" y="338" text-anchor="middle" font-size="12" fill="#374151">The pinch lifts fat off the muscle; the angle matches the depth of fat available.</text>
+</svg>

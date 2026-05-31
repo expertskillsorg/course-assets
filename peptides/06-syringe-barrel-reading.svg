@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="360" fill="#FFFFFF"/>
+  <text x="320" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Reading 25 units on a U-100 syringe</text>
+
+  <!-- Needle (left) -->
+  <rect x="40" y="172" width="60" height="6" fill="#374151"/>
+  <rect x="100" y="168" width="14" height="14" rx="2" fill="#374151"/>
+
+  <!-- Barrel -->
+  <rect x="114" y="150" width="420" height="50" rx="6" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="3"/>
+
+  <!-- Liquid fill: 0 to 25 units = quarter of barrel -->
+  <rect x="117" y="153" width="101" height="44" rx="4" fill="#D4AF37" opacity="0.55"/>
+
+  <!-- Plunger stopper at 25-unit line -->
+  <rect x="214" y="150" width="10" height="50" fill="#C4683A"/>
+  <!-- Plunger rod to the right -->
+  <rect x="224" y="170" width="300" height="10" fill="#374151"/>
+  <rect x="534" y="158" width="14" height="34" rx="3" fill="#374151"/>
+
+  <!-- Tick marks along the barrel: 0,25,50,75,100 -->
+  <!-- Barrel spans x 114 to 534 = 420 px for 100 units -->
+  <g stroke="#1E2A8E" stroke-width="2">
+    <line x1="114" y1="150" x2="114" y2="138"/>
+    <line x1="219" y1="150" x2="219" y2="134"/>
+    <line x1="324" y1="150" x2="324" y2="138"/>
+    <line x1="429" y1="150" x2="429" y2="138"/>
+    <line x1="534" y1="150" x2="534" y2="138"/>
+  </g>
+  <!-- minor ticks every 5 units -->
+  <g stroke="#9CA3AF" stroke-width="1">
+    <line x1="135" y1="150" x2="135" y2="144"/>
+    <line x1="156" y1="150" x2="156" y2="144"/>
+    <line x1="177" y1="150" x2="177" y2="144"/>
+    <line x1="198" y1="150" x2="198" y2="144"/>
+    <line x1="240" y1="150" x2="240" y2="144"/>
+    <line x1="261" y1="150" x2="261" y2="144"/>
+    <line x1="282" y1="150" x2="282" y2="144"/>
+    <line x1="303" y1="150" x2="303" y2="144"/>
+  </g>
+
+  <g font-size="13" fill="#374151" text-anchor="middle">
+    <text x="114" y="128">0</text>
+    <text x="219" y="126" font-weight="bold" fill="#C4683A">25</text>
+    <text x="324" y="128">50</text>
+    <text x="429" y="128">75</text>
+    <text x="534" y="128">100</text>
+  </g>
+
+  <!-- Callout to the stopper face -->
+  <line x1="219" y1="210" x2="219" y2="244" stroke="#C4683A" stroke-width="2"/>
+  <text x="219" y="262" text-anchor="middle" font-size="14" font-weight="bold" fill="#C4683A">Line up the flat face of the stopper here</text>
+  <text x="219" y="282" text-anchor="middle" font-size="13" fill="#374151">25 units = 0.25 mL = 2.5 mg from a 10 mg/mL vial</text>
+
+  <text x="320" y="330" text-anchor="middle" font-size="13" fill="#374151">The marks count volume (units), not the amount of peptide.</text>
+</svg>

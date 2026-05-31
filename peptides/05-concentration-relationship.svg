@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Arial, sans-serif">
+  <rect width="720" height="420" fill="#FFFFFF"/>
+  <text x="360" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Same 5 mg powder, different water, different strength</text>
+
+  <!-- LEFT vial: 1 mL -->
+  <g>
+    <text x="190" y="80" text-anchor="middle" font-size="16" font-weight="bold" fill="#1E2A8E">Add 1 mL water</text>
+    <!-- vial body -->
+    <rect x="150" y="100" width="80" height="200" rx="10" fill="#F3F4F6" stroke="#374151" stroke-width="2"/>
+    <!-- cap -->
+    <rect x="165" y="88" width="50" height="18" rx="4" fill="#D4AF37" stroke="#374151" stroke-width="2"/>
+    <!-- liquid level (small volume, strong) -->
+    <rect x="152" y="220" width="76" height="78" rx="8" fill="#1E2A8E" opacity="0.85"/>
+    <text x="190" y="265" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold">concentrated</text>
+    <text x="190" y="334" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">5 mg/mL</text>
+    <text x="190" y="358" text-anchor="middle" font-size="14" fill="#374151">= 5000 mcg/mL (stronger)</text>
+  </g>
+
+  <!-- center equals/contrast -->
+  <text x="360" y="210" text-anchor="middle" font-size="40" font-weight="bold" fill="#C4683A">vs</text>
+
+  <!-- RIGHT vial: 2 mL -->
+  <g>
+    <text x="530" y="80" text-anchor="middle" font-size="16" font-weight="bold" fill="#1E2A8E">Add 2 mL water</text>
+    <rect x="490" y="100" width="80" height="200" rx="10" fill="#F3F4F6" stroke="#374151" stroke-width="2"/>
+    <rect x="505" y="88" width="50" height="18" rx="4" fill="#D4AF37" stroke="#374151" stroke-width="2"/>
+    <!-- liquid level (larger volume, weaker) -->
+    <rect x="492" y="160" width="76" height="138" rx="8" fill="#3E9B6B" opacity="0.7"/>
+    <text x="530" y="235" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold">spread thin</text>
+    <text x="530" y="334" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">2.5 mg/mL</text>
+    <text x="530" y="358" text-anchor="middle" font-size="14" fill="#374151">= 2500 mcg/mL (weaker)</text>
+  </g>
+
+  <text x="360" y="398" text-anchor="middle" font-size="14" fill="#374151" font-style="italic">The peptide amount never changes. Only the water sets how strong each drop is.</text>
+</svg>

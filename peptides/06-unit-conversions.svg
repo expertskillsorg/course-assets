@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="400" fill="#FFFFFF"/>
+
+  <!-- Title row -->
+  <text x="320" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The two conversions you rely on</text>
+
+  <!-- Amount panel -->
+  <rect x="40" y="70" width="560" height="130" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="60" y="100" font-size="15" font-weight="bold" fill="#C4683A">AMOUNT OF PEPTIDE</text>
+
+  <rect x="70" y="120" width="170" height="60" rx="8" fill="#1E2A8E"/>
+  <text x="155" y="146" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">1 mg</text>
+  <text x="155" y="168" text-anchor="middle" font-size="13" fill="#FFFFFF">milligram</text>
+
+  <text x="320" y="145" text-anchor="middle" font-size="16" font-weight="bold" fill="#374151">× 1,000</text>
+  <line x1="245" y1="150" x2="395" y2="150" stroke="#3E9B6B" stroke-width="3"/>
+  <polygon points="395,150 383,143 383,157" fill="#3E9B6B"/>
+  <text x="320" y="175" text-anchor="middle" font-size="13" fill="#374151">÷ 1,000 to reverse</text>
+
+  <rect x="400" y="120" width="170" height="60" rx="8" fill="#D4AF37"/>
+  <text x="485" y="146" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">1,000 mcg</text>
+  <text x="485" y="168" text-anchor="middle" font-size="13" fill="#141B5C">micrograms</text>
+
+  <!-- Volume panel -->
+  <rect x="40" y="220" width="560" height="150" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="60" y="250" font-size="15" font-weight="bold" fill="#3E9B6B">VOLUME OF LIQUID</text>
+
+  <rect x="70" y="270" width="170" height="60" rx="8" fill="#1E2A8E"/>
+  <text x="155" y="296" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">1 mL</text>
+  <text x="155" y="318" text-anchor="middle" font-size="13" fill="#FFFFFF">milliliter</text>
+
+  <text x="320" y="295" text-anchor="middle" font-size="16" font-weight="bold" fill="#374151">= 100</text>
+  <line x1="245" y1="300" x2="395" y2="300" stroke="#3E9B6B" stroke-width="3"/>
+  <polygon points="395,300 383,293 383,307" fill="#3E9B6B"/>
+
+  <rect x="400" y="270" width="170" height="60" rx="8" fill="#D4AF37"/>
+  <text x="485" y="296" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">100 units</text>
+  <text x="485" y="318" text-anchor="middle" font-size="13" fill="#141B5C">on a U-100 syringe</text>
+
+  <text x="320" y="356" text-anchor="middle" font-size="14" font-weight="bold" fill="#C4683A">so 1 unit = 0.01 mL</text>
+</svg>
