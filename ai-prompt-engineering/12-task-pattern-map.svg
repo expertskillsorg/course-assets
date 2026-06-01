@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="460" fill="#ffffff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Common Work Tasks and the Patterns They Lean On</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#374151">Same framework, different parts do the heavy lifting</text>
+
+  <!-- Writing & Email -->
+  <rect x="40" y="86" width="330" height="160" rx="10" fill="#1E2A8E"/>
+  <text x="60" y="116" font-size="16" font-weight="bold" fill="#ffffff">Writing &amp; Email</text>
+  <text x="60" y="138" font-size="12" fill="#E5E7EB">Drafts, edits, replies</text>
+  <rect x="60" y="152" width="80" height="26" rx="13" fill="#D4AF37"/>
+  <text x="100" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#141B5C">Role</text>
+  <rect x="150" y="152" width="100" height="26" rx="13" fill="#D4AF37"/>
+  <text x="200" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#141B5C">Voice/Tone</text>
+  <rect x="60" y="186" width="120" height="26" rx="13" fill="#3E9B6B"/>
+  <text x="120" y="204" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">Few-Shot</text>
+  <rect x="190" y="186" width="90" height="26" rx="13" fill="#C4683A"/>
+  <text x="235" y="204" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">Format</text>
+
+  <!-- Analysis & Research -->
+  <rect x="390" y="86" width="330" height="160" rx="10" fill="#141B5C"/>
+  <text x="410" y="116" font-size="16" font-weight="bold" fill="#ffffff">Analysis &amp; Research</text>
+  <text x="410" y="138" font-size="12" fill="#E5E7EB">Summaries, comparisons, findings</text>
+  <rect x="410" y="152" width="110" height="26" rx="13" fill="#3E9B6B"/>
+  <text x="465" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">Context</text>
+  <rect x="530" y="152" width="130" height="26" rx="13" fill="#3E9B6B"/>
+  <text x="595" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">Decomposition</text>
+  <rect x="410" y="186" width="90" height="26" rx="13" fill="#C4683A"/>
+  <text x="455" y="204" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">Format</text>
+  <rect x="510" y="186" width="150" height="26" rx="13" fill="#C4683A"/>
+  <text x="585" y="204" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">Verify the facts</text>
+
+  <!-- Planning & Brainstorming -->
+  <rect x="40" y="266" width="330" height="160" rx="10" fill="#3E9B6B"/>
+  <text x="60" y="296" font-size="16" font-weight="bold" fill="#ffffff">Planning &amp; Brainstorming</text>
+  <text x="60" y="318" font-size="12" fill="#ffffff">Outlines, options, plans</text>
+  <rect x="60" y="332" width="80" height="26" rx="13" fill="#1E2A8E"/>
+  <text x="100" y="350" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">Role</text>
+  <rect x="150" y="332" width="120" height="26" rx="13" fill="#1E2A8E"/>
+  <text x="210" y="350" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">Context</text>
+  <rect x="60" y="366" width="150" height="26" rx="13" fill="#D4AF37"/>
+  <text x="135" y="384" text-anchor="middle" font-size="11" font-weight="bold" fill="#141B5C">Decomposition</text>
+  <rect x="220" y="366" width="120" height="26" rx="13" fill="#D4AF37"/>
+  <text x="280" y="384" text-anchor="middle" font-size="11" font-weight="bold" fill="#141B5C">Refinement</text>
+
+  <!-- The constant -->
+  <rect x="390" y="266" width="330" height="160" rx="10" fill="#ffffff" stroke="#1E2A8E" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="410" y="296" font-size="16" font-weight="bold" fill="#141B5C">Underneath every task</text>
+  <text x="410" y="324" font-size="13" fill="#374151">The R-C-T-F-E skeleton is always</text>
+  <text x="410" y="344" font-size="13" fill="#374151">there. A task just decides which</text>
+  <text x="410" y="364" font-size="13" fill="#374151">parts carry the weight, and which</text>
+  <text x="410" y="384" font-size="13" fill="#374151">patterns you add on top.</text>
+  <text x="410" y="412" font-size="12" font-style="italic" fill="#1E2A8E">One framework. Many playbooks.</text>
+</svg>

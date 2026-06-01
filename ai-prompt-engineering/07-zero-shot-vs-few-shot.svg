@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="420" fill="#ffffff"/>
+
+  <!-- LEFT: zero-shot -->
+  <text x="30" y="40" font-size="20" font-weight="bold" fill="#141B5C">Zero-shot prompt</text>
+  <text x="30" y="62" font-size="13" fill="#374151">No example shown</text>
+
+  <rect x="30" y="78" width="300" height="120" rx="8" fill="#ffffff" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="46" y="104" font-size="13" fill="#111827">"Write a product blurb for</text>
+  <text x="46" y="124" font-size="13" fill="#111827">our new water bottle."</text>
+  <text x="46" y="160" font-size="12" fill="#374151" font-style="italic">No sample of your style.</text>
+  <text x="46" y="178" font-size="12" fill="#374151" font-style="italic">AI guesses the tone.</text>
+
+  <!-- arrow down -->
+  <line x1="180" y1="200" x2="180" y2="234" stroke="#374151" stroke-width="2"/>
+  <polygon points="180,244 174,232 186,232" fill="#374151"/>
+
+  <rect x="30" y="248" width="300" height="120" rx="8" fill="#ffffff" stroke="#C4683A" stroke-width="2"/>
+  <text x="46" y="274" font-size="13" font-weight="bold" fill="#C4683A">Result: generic</text>
+  <text x="46" y="298" font-size="12" fill="#111827">"Introducing our amazing new</text>
+  <text x="46" y="316" font-size="12" fill="#111827">water bottle! Stay hydrated</text>
+  <text x="46" y="334" font-size="12" fill="#111827">in style with this must-have</text>
+  <text x="46" y="352" font-size="12" fill="#111827">essential."</text>
+
+  <!-- divider -->
+  <line x1="380" y1="30" x2="380" y2="390" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- RIGHT: few-shot -->
+  <text x="410" y="40" font-size="20" font-weight="bold" fill="#1E2A8E">Few-shot prompt</text>
+  <text x="410" y="62" font-size="13" fill="#374151">Two samples shown first</text>
+
+  <rect x="410" y="78" width="320" height="120" rx="8" fill="#ffffff" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="426" y="102" font-size="12" fill="#374151">Examples of our voice:</text>
+  <text x="426" y="122" font-size="12" fill="#111827">"Hi. Quiet bottle, big day.</text>
+  <text x="426" y="138" font-size="12" fill="#111827">Keeps cold cold for 18 hours."</text>
+  <text x="426" y="160" font-size="12" fill="#111827">"No frills. Just water, kept</text>
+  <text x="426" y="176" font-size="12" fill="#111827">right." Now write the next one.</text>
+
+  <!-- arrow down -->
+  <line x1="570" y1="200" x2="570" y2="234" stroke="#3E9B6B" stroke-width="2"/>
+  <polygon points="570,244 564,232 576,232" fill="#3E9B6B"/>
+
+  <rect x="410" y="248" width="320" height="120" rx="8" fill="#ffffff" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="426" y="274" font-size="13" font-weight="bold" fill="#3E9B6B">Result: matches your voice</text>
+  <text x="426" y="298" font-size="12" fill="#111827">"Cold water, all day. No noise,</text>
+  <text x="426" y="316" font-size="12" fill="#111827">no fuss. Holds 18 hours of</text>
+  <text x="426" y="334" font-size="12" fill="#111827">cold and gets out of your way."</text>
+
+  <text x="410" y="404" font-size="13" fill="#D4AF37" font-weight="bold">The examples steer the output toward your style.</text>
+</svg>

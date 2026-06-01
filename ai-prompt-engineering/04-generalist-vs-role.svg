@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" font-family="Arial, sans-serif">
+  <rect width="760" height="460" fill="#ffffff"/>
+  <text x="380" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Same task: "Summarize this department budget"</text>
+
+  <!-- Left: generalist -->
+  <rect x="30" y="64" width="330" height="356" rx="10" fill="#ffffff" stroke="#E5E7EB" stroke-width="2"/>
+  <rect x="30" y="64" width="330" height="46" rx="10" fill="#374151"/>
+  <rect x="30" y="90" width="330" height="20" fill="#374151"/>
+  <text x="195" y="94" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">No role (generalist)</text>
+
+  <text x="52" y="142" font-size="13" fill="#374151">Prompt: "Summarize this budget."</text>
+
+  <text x="52" y="180" font-size="14" font-weight="bold" fill="#111827">The answer describes:</text>
+  <text x="52" y="208" font-size="13" fill="#374151">- Restates each line item</text>
+  <text x="52" y="232" font-size="13" fill="#374151">- Explains what a budget is</text>
+  <text x="52" y="256" font-size="13" fill="#374151">- Flat, even, no priorities</text>
+  <text x="52" y="280" font-size="13" fill="#374151">- Hedged, cautious wording</text>
+
+  <rect x="52" y="312" width="286" height="86" rx="8" fill="#ffffff" stroke="#C4683A" stroke-width="2"/>
+  <text x="68" y="338" font-size="13" font-weight="bold" fill="#C4683A">Result: a recap</text>
+  <text x="68" y="362" font-size="12" fill="#374151">Correct, but average. You still</text>
+  <text x="68" y="380" font-size="12" fill="#374151">have to figure out what matters.</text>
+
+  <!-- Arrow -->
+  <text x="380" y="250" text-anchor="middle" font-size="26" fill="#D4AF37" font-weight="bold">&#8594;</text>
+  <text x="380" y="276" text-anchor="middle" font-size="11" fill="#374151">add a role</text>
+
+  <!-- Right: assigned role -->
+  <rect x="400" y="64" width="330" height="356" rx="10" fill="#ffffff" stroke="#3E9B6B" stroke-width="2"/>
+  <rect x="400" y="64" width="330" height="46" rx="10" fill="#1E2A8E"/>
+  <rect x="400" y="90" width="330" height="20" fill="#1E2A8E"/>
+  <text x="565" y="94" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">CFO role assigned</text>
+
+  <text x="422" y="142" font-size="13" fill="#374151">Prompt: "You are a CFO reviewing</text>
+  <text x="422" y="160" font-size="13" fill="#374151">this budget. Flag the top 3 risks."</text>
+
+  <text x="422" y="194" font-size="14" font-weight="bold" fill="#111827">The answer evaluates:</text>
+  <text x="422" y="222" font-size="13" fill="#374151">- Leads with what is overspent</text>
+  <text x="422" y="246" font-size="13" fill="#374151">- Flags the riskiest line items</text>
+  <text x="422" y="270" font-size="13" fill="#374151">- Recommends what to cut first</text>
+  <text x="422" y="294" font-size="13" fill="#374151">- Speaks in finance shorthand</text>
+
+  <rect x="422" y="320" width="286" height="78" rx="8" fill="#ffffff" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="438" y="346" font-size="13" font-weight="bold" fill="#3E9B6B">Result: a read you can act on</text>
+  <text x="438" y="370" font-size="12" fill="#374151">Pitched at the level you need.</text>
+  <text x="438" y="388" font-size="12" fill="#374151">Cost: one extra sentence.</text>
+</svg>
