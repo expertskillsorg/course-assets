@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Arial, sans-serif">
+  <rect width="720" height="420" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Inside Liability vs Outside Liability</text>
+
+  <!-- The wall down the middle -->
+  <rect x="350" y="70" width="20" height="300" fill="#1E2A8E"/>
+  <text x="360" y="392" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">The LLC wall</text>
+
+  <!-- LEFT: the business / LLC -->
+  <text x="175" y="92" text-anchor="middle" font-size="15" font-weight="bold" fill="#141B5C">The Business (LLC)</text>
+  <rect x="55" y="105" width="240" height="120" rx="10" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="175" y="135" text-anchor="middle" font-size="13" fill="#374151">Rental properties</text>
+  <text x="175" y="160" text-anchor="middle" font-size="13" fill="#374151">Business bank account</text>
+  <text x="175" y="185" text-anchor="middle" font-size="13" fill="#374151">Business insurance</text>
+  <text x="175" y="210" text-anchor="middle" font-size="13" fill="#374151">Rent income</text>
+
+  <!-- RIGHT: the owner -->
+  <text x="545" y="92" text-anchor="middle" font-size="15" font-weight="bold" fill="#141B5C">You, Personally</text>
+  <rect x="425" y="105" width="240" height="120" rx="10" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+  <text x="545" y="135" text-anchor="middle" font-size="13" fill="#374151">Your home</text>
+  <text x="545" y="160" text-anchor="middle" font-size="13" fill="#374151">Personal savings</text>
+  <text x="545" y="185" text-anchor="middle" font-size="13" fill="#374151">Your car</text>
+  <text x="545" y="210" text-anchor="middle" font-size="13" fill="#374151">Personal accounts</text>
+
+  <!-- INSIDE liability arrow: starts in business, stays, blocked at wall -->
+  <text x="175" y="268" text-anchor="middle" font-size="13" font-weight="bold" fill="#3E9B6B">Inside claim (tenant injury)</text>
+  <line x1="175" y1="278" x2="175" y2="300" stroke="#3E9B6B" stroke-width="3"/>
+  <path d="M175 300 L320 300" stroke="#3E9B6B" stroke-width="3" marker-end="url(#greenArrow)"/>
+  <!-- blocked at wall -->
+  <line x1="335" y1="288" x2="349" y2="312" stroke="#C4683A" stroke-width="3"/>
+  <line x1="349" y1="288" x2="335" y2="312" stroke="#C4683A" stroke-width="3"/>
+  <text x="220" y="320" text-anchor="middle" font-size="11" fill="#374151">stays in the business</text>
+
+  <!-- OUTSIDE liability arrow: starts outside owner, blocked at wall -->
+  <text x="545" y="268" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">Outside claim (your car accident)</text>
+  <line x1="545" y1="278" x2="545" y2="300" stroke="#C4683A" stroke-width="3"/>
+  <path d="M545 300 L400 300" stroke="#C4683A" stroke-width="3" marker-end="url(#orangeArrow)"/>
+  <line x1="371" y1="288" x2="385" y2="312" stroke="#1E2A8E" stroke-width="3"/>
+  <line x1="385" y1="288" x2="371" y2="312" stroke="#1E2A8E" stroke-width="3"/>
+  <text x="500" y="320" text-anchor="middle" font-size="11" fill="#374151">kept off the business assets</text>
+
+  <defs>
+    <marker id="greenArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#3E9B6B"/>
+    </marker>
+    <marker id="orangeArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#C4683A"/>
+    </marker>
+  </defs>
+</svg>

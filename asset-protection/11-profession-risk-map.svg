@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="Arial, sans-serif">
+  <rect width="720" height="460" fill="#ffffff"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Profession by Risk: Where Exposure Sits and Which Layer Answers It</text>
+
+  <!-- column headers -->
+  <text x="150" y="78" text-anchor="middle" font-size="14" font-weight="bold" fill="#374151">Profession</text>
+  <text x="375" y="78" text-anchor="middle" font-size="14" font-weight="bold" fill="#374151">Biggest Exposure</text>
+  <text x="615" y="78" text-anchor="middle" font-size="14" font-weight="bold" fill="#374151">Layer That Answers It</text>
+  <line x1="40" y1="90" x2="680" y2="90" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- Row 1: Doctor -->
+  <rect x="40" y="104" width="220" height="86" rx="8" fill="#1E2A8E"/>
+  <text x="150" y="140" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">Doctor / Dentist</text>
+  <text x="150" y="162" text-anchor="middle" font-size="12" fill="#ffffff">high claim severity</text>
+  <text x="375" y="138" text-anchor="middle" font-size="13" fill="#111827">Malpractice claim</text>
+  <text x="375" y="158" text-anchor="middle" font-size="13" fill="#111827">above the policy limit</text>
+  <rect x="500" y="116" width="180" height="28" rx="6" fill="#3E9B6B"/>
+  <text x="590" y="135" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">Layer 1: Insurance + umbrella</text>
+  <rect x="500" y="150" width="180" height="28" rx="6" fill="#D4AF37"/>
+  <text x="590" y="169" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Layer 2: Exemptions</text>
+
+  <!-- Row 2: Lawyer -->
+  <rect x="40" y="204" width="220" height="86" rx="8" fill="#1E2A8E"/>
+  <text x="150" y="240" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">Lawyer</text>
+  <text x="150" y="262" text-anchor="middle" font-size="12" fill="#ffffff">professional + personal</text>
+  <text x="375" y="238" text-anchor="middle" font-size="13" fill="#111827">Malpractice and</text>
+  <text x="375" y="258" text-anchor="middle" font-size="13" fill="#111827">personal liability</text>
+  <rect x="500" y="216" width="180" height="28" rx="6" fill="#3E9B6B"/>
+  <text x="590" y="235" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">Layer 1: Insurance + umbrella</text>
+  <rect x="500" y="250" width="180" height="28" rx="6" fill="#D4AF37"/>
+  <text x="590" y="269" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Layer 2: Exemptions</text>
+
+  <!-- Row 3: Practice owner -->
+  <rect x="40" y="304" width="220" height="86" rx="8" fill="#1E2A8E"/>
+  <text x="150" y="340" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">Owns the practice</text>
+  <text x="150" y="362" text-anchor="middle" font-size="12" fill="#ffffff">business + personal</text>
+  <text x="375" y="338" text-anchor="middle" font-size="13" fill="#111827">A business dispute</text>
+  <text x="375" y="358" text-anchor="middle" font-size="13" fill="#111827">reaching personal money</text>
+  <rect x="500" y="316" width="180" height="28" rx="6" fill="#C4683A"/>
+  <text x="590" y="335" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">Layer 3: Practice entity</text>
+  <rect x="500" y="350" width="180" height="28" rx="6" fill="#D4AF37"/>
+  <text x="590" y="369" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Layer 2: Exemptions</text>
+
+  <!-- footnote -->
+  <line x1="40" y1="406" x2="680" y2="406" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="40" y="430" font-size="12" fill="#374151">Across all three, retirement accounts and home equity are protected by Layer 2 exemptions</text>
+  <text x="40" y="448" font-size="12" fill="#374151">for free. A trust (Layer 4) is added only if exposed value is large enough to need it.</text>
+</svg>

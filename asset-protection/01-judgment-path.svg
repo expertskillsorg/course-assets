@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="360" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">How a Claim Becomes a Lien on Your Money</text>
+
+  <!-- Stage 1 -->
+  <rect x="30" y="70" width="150" height="84" rx="8" fill="#1E2A8E"/>
+  <text x="105" y="104" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">1. The Claim</text>
+  <text x="105" y="126" text-anchor="middle" font-size="11" fill="#E5E7EB">Demand letter:</text>
+  <text x="105" y="142" text-anchor="middle" font-size="11" fill="#E5E7EB">"You owe me."</text>
+
+  <!-- Stage 2 -->
+  <rect x="220" y="70" width="150" height="84" rx="8" fill="#1E2A8E"/>
+  <text x="295" y="104" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">2. Lawsuit Filed</text>
+  <text x="295" y="126" text-anchor="middle" font-size="11" fill="#E5E7EB">Complaint in court;</text>
+  <text x="295" y="142" text-anchor="middle" font-size="11" fill="#E5E7EB">you must respond.</text>
+
+  <!-- Stage 3 -->
+  <rect x="410" y="70" width="150" height="84" rx="8" fill="#141B5C"/>
+  <text x="485" y="104" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">3. Judgment</text>
+  <text x="485" y="126" text-anchor="middle" font-size="11" fill="#E5E7EB">Court rules you owe</text>
+  <text x="485" y="142" text-anchor="middle" font-size="11" fill="#E5E7EB">a set dollar amount.</text>
+
+  <!-- Stage 4 -->
+  <rect x="600" y="70" width="150" height="84" rx="8" fill="#C4683A"/>
+  <text x="675" y="104" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">4. Collection</text>
+  <text x="675" y="126" text-anchor="middle" font-size="11" fill="#FBE9DF">Lien, levy, or wage</text>
+  <text x="675" y="142" text-anchor="middle" font-size="11" fill="#FBE9DF">garnishment.</text>
+
+  <!-- Arrows between stages -->
+  <g fill="#D4AF37">
+    <polygon points="182,112 214,112 214,104 230,116 214,128 214,120 182,120"/>
+    <polygon points="372,112 404,112 404,104 420,116 404,128 404,120 372,120"/>
+    <polygon points="562,112 594,112 594,104 610,116 594,128 594,120 562,120"/>
+  </g>
+
+  <!-- Collection reaches assets -->
+  <line x1="675" y1="154" x2="675" y2="196" stroke="#C4683A" stroke-width="3"/>
+  <polygon points="667,190 683,190 675,206" fill="#C4683A"/>
+
+  <text x="380" y="244" text-anchor="middle" font-size="13" font-weight="bold" fill="#374151">The collection tools reach into your assets:</text>
+
+  <!-- Asset chips -->
+  <rect x="140" y="262" width="160" height="64" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="220" y="290" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">Lien on home</text>
+  <text x="220" y="310" text-anchor="middle" font-size="11" fill="#374151">attaches to equity</text>
+
+  <rect x="320" y="262" width="160" height="64" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="400" y="290" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">Levy on accounts</text>
+  <text x="400" y="310" text-anchor="middle" font-size="11" fill="#374151">drains bank funds</text>
+
+  <rect x="500" y="262" width="160" height="64" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="580" y="290" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">Garnishment</text>
+  <text x="580" y="310" text-anchor="middle" font-size="11" fill="#374151">takes part of wages</text>
+
+  <line x1="675" y1="206" x2="675" y2="226" stroke="#C4683A" stroke-width="3"/>
+  <line x1="220" y1="226" x2="580" y2="226" stroke="#C4683A" stroke-width="3"/>
+  <line x1="220" y1="226" x2="220" y2="260" stroke="#C4683A" stroke-width="3"/>
+  <line x1="400" y1="226" x2="400" y2="260" stroke="#C4683A" stroke-width="3"/>
+  <line x1="580" y1="226" x2="580" y2="260" stroke="#C4683A" stroke-width="3"/>
+  <polygon points="212,254 228,254 220,262" fill="#C4683A"/>
+  <polygon points="392,254 408,254 400,262" fill="#C4683A"/>
+  <polygon points="572,254 588,254 580,262" fill="#C4683A"/>
+</svg>
