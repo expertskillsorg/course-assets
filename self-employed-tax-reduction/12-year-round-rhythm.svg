@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Arial, sans-serif" role="img" aria-label="A year-round rhythm: keep records monthly, pay estimated taxes quarterly, and make big lever moves at year-end, all feeding one lower tax bill.">
+  <rect x="0" y="0" width="720" height="380" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Year-Round Tax-Reduction Rhythm</text>
+
+  <!-- Monthly lane -->
+  <rect x="40" y="66" width="640" height="74" rx="8" fill="#F4F6FB" stroke="#E5E7EB"/>
+  <rect x="40" y="66" width="10" height="74" rx="5" fill="#3E9B6B"/>
+  <text x="68" y="92" font-size="15" font-weight="bold" fill="#141B5C">Monthly</text>
+  <text x="68" y="114" font-size="13" fill="#374151">Keep records: log income and expenses, snap receipts,</text>
+  <text x="68" y="131" font-size="13" fill="#374151">track mileage. The foundation under every lever.</text>
+
+  <!-- Quarterly lane -->
+  <rect x="40" y="154" width="640" height="74" rx="8" fill="#F4F6FB" stroke="#E5E7EB"/>
+  <rect x="40" y="154" width="10" height="74" rx="5" fill="#1E2A8E"/>
+  <text x="68" y="180" font-size="15" font-weight="bold" fill="#141B5C">Quarterly</text>
+  <text x="68" y="202" font-size="13" fill="#374151">Pay estimated taxes by the four due dates, set to your</text>
+  <text x="68" y="219" font-size="13" fill="#374151">safe-harbor target. No spring surprise, no penalty.</text>
+
+  <!-- Year-end lane -->
+  <rect x="40" y="242" width="640" height="74" rx="8" fill="#F4F6FB" stroke="#E5E7EB"/>
+  <rect x="40" y="242" width="10" height="74" rx="5" fill="#D4AF37"/>
+  <text x="68" y="268" font-size="15" font-weight="bold" fill="#141B5C">Year-End</text>
+  <text x="68" y="290" font-size="13" fill="#374151">Pull the big levers: time income and expenses, fund</text>
+  <text x="68" y="307" font-size="13" fill="#374151">retirement, buy planned equipment, revisit structure.</text>
+
+  <!-- Outcome arrow -->
+  <line x1="360" y1="316" x2="360" y2="344" stroke="#C4683A" stroke-width="2"/>
+  <polygon points="360,356 353,344 367,344" fill="#C4683A"/>
+  <text x="382" y="354" font-size="14" font-weight="bold" fill="#C4683A">One lower tax bill</text>
+</svg>

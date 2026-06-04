@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="380" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Same $95,000 Profit, Two Ways It Is Taxed</text>
+
+  <!-- Sole proprietor column -->
+  <text x="170" y="74" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">Sole Proprietor</text>
+  <rect x="70" y="90" width="200" height="190" rx="6" fill="#C4683A"/>
+  <text x="170" y="175" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">All $95,000</text>
+  <text x="170" y="200" text-anchor="middle" font-size="13" fill="#FFFFFF">is earnings</text>
+  <text x="170" y="304" text-anchor="middle" font-size="13" fill="#374151">15.3% SE tax on</text>
+  <text x="170" y="322" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">the full $95,000</text>
+
+  <!-- S-corp column -->
+  <text x="470" y="74" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">S-Corp</text>
+  <rect x="370" y="90" width="200" height="110" rx="6" fill="#C4683A"/>
+  <text x="470" y="138" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Salary</text>
+  <text x="470" y="160" text-anchor="middle" font-size="14" fill="#FFFFFF">$55,000</text>
+  <rect x="370" y="204" width="200" height="76" rx="6" fill="#3E9B6B"/>
+  <text x="470" y="236" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Distributions</text>
+  <text x="470" y="256" text-anchor="middle" font-size="14" fill="#FFFFFF">$40,000</text>
+  <text x="470" y="304" text-anchor="middle" font-size="13" fill="#374151">15.3% applies to the</text>
+  <text x="470" y="322" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">salary only</text>
+
+  <!-- legend -->
+  <rect x="180" y="348" width="14" height="14" fill="#C4683A"/>
+  <text x="200" y="360" font-size="12" fill="#374151">Pays 15.3% SE tax</text>
+  <rect x="370" y="348" width="14" height="14" fill="#3E9B6B"/>
+  <text x="390" y="360" font-size="12" fill="#374151">Skips the 15.3%</text>
+</svg>

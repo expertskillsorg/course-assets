@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="A timeline from October through April showing when year-end tax moves happen: review and plan in the fall, make the last-call moves before December 31, then gather documents and file in the new year">
+  <rect x="0" y="0" width="720" height="420" fill="#FFFFFF"/>
+  <text x="360" y="38" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#141B5C" font-weight="bold">The Year-End Timing Calendar</text>
+  <text x="360" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#374151">When each move happens, and the deadline that drives it</text>
+
+  <!-- timeline base -->
+  <line x1="60" y1="150" x2="660" y2="150" stroke="#E5E7EB" stroke-width="4"/>
+
+  <!-- Dec 31 marker -->
+  <line x1="430" y1="110" x2="430" y2="300" stroke="#C4683A" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="430" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#C4683A" font-weight="bold">Dec 31 cutoff</text>
+
+  <!-- nodes -->
+  <!-- Fall: plan -->
+  <circle cx="150" cy="150" r="12" fill="#1E2A8E"/>
+  <text x="150" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#1E2A8E" font-weight="bold">Oct - Nov</text>
+  <rect x="80" y="180" width="150" height="86" rx="8" fill="#1E2A8E"/>
+  <text x="155" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Review and plan</text>
+  <text x="155" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Estimate profit</text>
+  <text x="155" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Spot the levers</text>
+  <text x="155" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">to still pull</text>
+
+  <!-- December: last-call -->
+  <circle cx="350" cy="150" r="12" fill="#3E9B6B"/>
+  <text x="350" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#3E9B6B" font-weight="bold">December</text>
+  <rect x="275" y="180" width="150" height="86" rx="8" fill="#3E9B6B"/>
+  <text x="350" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Last-call moves</text>
+  <text x="350" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Time income</text>
+  <text x="350" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">and expenses</text>
+  <text x="350" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Buy gear, fund plans</text>
+
+  <!-- Jan-Apr: gather/file -->
+  <circle cx="560" cy="150" r="12" fill="#D4AF37"/>
+  <text x="560" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#B8901F" font-weight="bold">Jan - Apr</text>
+  <rect x="485" y="180" width="160" height="86" rx="8" fill="#D4AF37"/>
+  <text x="565" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#141B5C" font-weight="bold">Gather and file</text>
+  <text x="565" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#141B5C">Collect 1099s, totals</text>
+  <text x="565" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#141B5C">Fund a SEP-IRA</text>
+  <text x="565" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#141B5C">until you file</text>
+
+  <text x="245" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151" font-style="italic">Most timing moves must clear before Dec 31.</text>
+  <text x="565" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151" font-style="italic">A few, like funding a plan, run into the new year.</text>
+</svg>

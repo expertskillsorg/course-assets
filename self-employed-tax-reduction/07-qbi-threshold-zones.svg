@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Arial, sans-serif">
+  <rect width="720" height="360" fill="#FFFFFF"/>
+  <text x="360" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Three QBI Income Zones</text>
+  <text x="360" y="62" text-anchor="middle" font-size="14" fill="#374151">Where your taxable income falls decides how the deduction works</text>
+
+  <!-- arrow track -->
+  <line x1="60" y1="120" x2="660" y2="120" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="60" y="108" font-size="13" fill="#374151">lower income</text>
+  <text x="660" y="108" text-anchor="end" font-size="13" fill="#374151">higher income</text>
+
+  <!-- threshold markers -->
+  <line x1="270" y1="100" x2="270" y2="270" stroke="#374151" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="450" y1="100" x2="450" y2="270" stroke="#374151" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="270" y="295" text-anchor="middle" font-size="12" fill="#374151">current threshold</text>
+  <text x="450" y="295" text-anchor="middle" font-size="12" fill="#374151">top of phase-out</text>
+
+  <!-- Zone 1: below -->
+  <rect x="60" y="135" width="210" height="120" rx="8" fill="#3E9B6B"/>
+  <text x="165" y="165" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Below threshold</text>
+  <text x="165" y="192" text-anchor="middle" font-size="13" fill="#FFFFFF">Simple: take up to 20%</text>
+  <text x="165" y="212" text-anchor="middle" font-size="13" fill="#FFFFFF">SSTB rules do not apply</text>
+  <text x="165" y="232" text-anchor="middle" font-size="13" fill="#FFFFFF">no wage/property test</text>
+
+  <!-- Zone 2: phase-out -->
+  <rect x="270" y="135" width="180" height="120" rx="8" fill="#D4AF37"/>
+  <text x="360" y="165" text-anchor="middle" font-size="16" font-weight="bold" fill="#141B5C">Phase-out zone</text>
+  <text x="360" y="192" text-anchor="middle" font-size="13" fill="#141B5C">Extra tests phase in</text>
+  <text x="360" y="212" text-anchor="middle" font-size="13" fill="#141B5C">SSTB benefit shrinks</text>
+  <text x="360" y="232" text-anchor="middle" font-size="13" fill="#141B5C">get help here</text>
+
+  <!-- Zone 3: above -->
+  <rect x="450" y="135" width="210" height="120" rx="8" fill="#C4683A"/>
+  <text x="555" y="165" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Above the top</text>
+  <text x="555" y="192" text-anchor="middle" font-size="13" fill="#FFFFFF">Full tests apply</text>
+  <text x="555" y="212" text-anchor="middle" font-size="13" fill="#FFFFFF">SSTB: no deduction</text>
+  <text x="555" y="232" text-anchor="middle" font-size="13" fill="#FFFFFF">wage/property limit caps it</text>
+
+  <text x="360" y="338" text-anchor="middle" font-size="12" fill="#374151">Dollar thresholds change each year and differ by filing status. Check the current figure.</text>
+</svg>

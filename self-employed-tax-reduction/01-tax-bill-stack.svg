@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="600" height="380" fill="#FFFFFF"/>
+  <text x="300" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">How Your Total Tax Bill Stacks Up</text>
+  <text x="300" y="56" text-anchor="middle" font-size="13" fill="#374151">On the same business profit, two taxes pile on top of each other</text>
+
+  <!-- baseline -->
+  <line x1="190" y1="320" x2="540" y2="320" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="190" y="340" text-anchor="middle" font-size="12" fill="#374151">$0</text>
+
+  <!-- Net profit starting point (left label column) -->
+  <text x="95" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">Net</text>
+  <text x="95" y="316" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">profit</text>
+  <text x="95" y="334" text-anchor="middle" font-size="11" fill="#374151">(what you</text>
+  <text x="95" y="348" text-anchor="middle" font-size="11" fill="#374151">earned)</text>
+
+  <!-- Stacked bar -->
+  <!-- Self-employment tax (bottom of stack) -->
+  <rect x="240" y="232" width="120" height="88" fill="#C4683A"/>
+  <text x="300" y="282" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Self-Employment</text>
+  <text x="300" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Tax (15.3%)</text>
+
+  <!-- Income tax (middle) -->
+  <rect x="240" y="120" width="120" height="112" fill="#1E2A8E"/>
+  <text x="300" y="172" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Income Tax</text>
+  <text x="300" y="190" text-anchor="middle" font-size="11" fill="#FFFFFF">(your bracket)</text>
+
+  <!-- Money you keep (top) -->
+  <rect x="240" y="72" width="120" height="48" fill="#3E9B6B"/>
+  <text x="300" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">What you keep</text>
+
+  <!-- Right-side annotations -->
+  <line x1="360" y1="276" x2="430" y2="276" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="438" y="272" font-size="12" fill="#374151">Funds Social Security</text>
+  <text x="438" y="288" font-size="12" fill="#374151">and Medicare</text>
+
+  <line x1="360" y1="176" x2="430" y2="176" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="438" y="172" font-size="12" fill="#374151">Same brackets a job</text>
+  <text x="438" y="188" font-size="12" fill="#374151">pays, on your profit</text>
+
+  <!-- Total bracket -->
+  <path d="M210 232 L200 232 L200 320 L210 320" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <text x="178" y="280" text-anchor="middle" font-size="12" font-weight="bold" fill="#D4AF37" transform="rotate(-90 178 280)">Your total tax bill</text>
+</svg>

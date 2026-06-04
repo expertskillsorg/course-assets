@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="A stair-step of tax brackets showing income filling each bracket; the top bracket is the marginal rate while the effective rate is the lower blended average across all brackets">
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+  <text x="320" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#141B5C">Marginal vs. Effective Rate</text>
+  <text x="320" y="54" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Your income fills one bracket before spilling into the next</text>
+
+  <!-- baseline -->
+  <line x1="90" y1="320" x2="600" y2="320" stroke="#111827" stroke-width="2"/>
+
+  <!-- stair-step bars (each taller = higher rate) -->
+  <!-- 10% -->
+  <rect x="100" y="290" width="90" height="30" fill="#3E9B6B"/>
+  <text x="145" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">10%</text>
+  <!-- 12% -->
+  <rect x="195" y="265" width="90" height="55" fill="#3E9B6B"/>
+  <text x="240" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">12%</text>
+  <!-- 22% (marginal - this is where the next dollar lands) -->
+  <rect x="290" y="195" width="90" height="125" fill="#D4AF37"/>
+  <text x="335" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">22%</text>
+  <!-- empty higher brackets -->
+  <rect x="385" y="150" width="90" height="170" fill="#E5E7EB"/>
+  <text x="430" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">24%</text>
+  <rect x="480" y="120" width="90" height="200" fill="#E5E7EB"/>
+  <text x="525" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">32%</text>
+
+  <!-- marginal callout -->
+  <line x1="335" y1="195" x2="335" y2="120" stroke="#C4683A" stroke-width="2" stroke-dasharray="4 3"/>
+  <rect x="300" y="92" width="160" height="26" rx="5" fill="#C4683A"/>
+  <text x="380" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Marginal rate = 22%</text>
+  <text x="380" y="134" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">(the rate on your next dollar)</text>
+
+  <!-- effective rate line -->
+  <line x1="90" y1="248" x2="600" y2="248" stroke="#1E2A8E" stroke-width="2.5" stroke-dasharray="7 4"/>
+  <rect x="455" y="218" width="170" height="26" rx="5" fill="#1E2A8E"/>
+  <text x="540" y="236" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Effective rate (blended)</text>
+
+  <text x="345" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Income (low to high) &#8594;</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, sans-serif">
+  <rect width="640" height="460" fill="#ffffff"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Which safe-harbor test fits you?</text>
+
+  <!-- Start node -->
+  <rect x="210" y="56" width="220" height="46" rx="8" fill="#1E2A8E"/>
+  <text x="320" y="84" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">Start: pick a target to hit</text>
+
+  <!-- Decision diamond -->
+  <polygon points="320,124 470,182 320,240 170,182" fill="#D4AF37"/>
+  <text x="320" y="174" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Last year's tax</text>
+  <text x="320" y="192" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">return on hand?</text>
+
+  <!-- connector start to diamond -->
+  <line x1="320" y1="102" x2="320" y2="124" stroke="#374151" stroke-width="2"/>
+
+  <!-- YES branch left -->
+  <line x1="170" y1="182" x2="110" y2="182" stroke="#374151" stroke-width="2"/>
+  <line x1="110" y1="182" x2="110" y2="270" stroke="#374151" stroke-width="2"/>
+  <text x="138" y="174" text-anchor="middle" font-size="12" font-weight="bold" fill="#3E9B6B">YES</text>
+  <rect x="20" y="270" width="200" height="120" rx="8" fill="#ffffff" stroke="#3E9B6B" stroke-width="2.5"/>
+  <text x="120" y="296" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Prior-year test</text>
+  <text x="120" y="320" text-anchor="middle" font-size="12" fill="#374151">Pay 100% of last</text>
+  <text x="120" y="338" text-anchor="middle" font-size="12" fill="#374151">year's total tax.</text>
+  <text x="120" y="362" text-anchor="middle" font-size="11" fill="#C4683A">Higher income: pay</text>
+  <text x="120" y="378" text-anchor="middle" font-size="11" fill="#C4683A">110% (current rule).</text>
+
+  <!-- NO branch right -->
+  <line x1="470" y1="182" x2="530" y2="182" stroke="#374151" stroke-width="2"/>
+  <line x1="530" y1="182" x2="530" y2="270" stroke="#374151" stroke-width="2"/>
+  <text x="502" y="174" text-anchor="middle" font-size="12" font-weight="bold" fill="#C4683A">NO</text>
+  <rect x="420" y="270" width="200" height="120" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="2.5"/>
+  <text x="520" y="296" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Current-year test</text>
+  <text x="520" y="320" text-anchor="middle" font-size="12" fill="#374151">Pay 90% of what</text>
+  <text x="520" y="338" text-anchor="middle" font-size="12" fill="#374151">you owe THIS year.</text>
+  <text x="520" y="362" text-anchor="middle" font-size="11" fill="#374151">Needs an income</text>
+  <text x="520" y="378" text-anchor="middle" font-size="11" fill="#374151">guess as you go.</text>
+
+  <!-- footer note -->
+  <text x="320" y="428" text-anchor="middle" font-size="11" fill="#374151">Hit either target and the penalty cannot apply. Percentages are current rules and can change.</text>
+  <text x="320" y="446" text-anchor="middle" font-size="11" fill="#374151">Check your own numbers with a tax professional.</text>
+</svg>
