@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="460" fill="#ffffff"/>
+  <text x="360" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">A Sample Three-Tier Pricing Menu</text>
+  <text x="360" y="58" text-anchor="middle" font-size="13" fill="#374151">More in each tier, a higher price, the same writer</text>
+
+  <!-- Entry tier -->
+  <rect x="30" y="84" width="200" height="330" rx="10" fill="#ffffff" stroke="#E5E7EB" stroke-width="2"/>
+  <rect x="30" y="84" width="200" height="52" rx="10" fill="#3E9B6B"/>
+  <rect x="30" y="120" width="200" height="16" fill="#3E9B6B"/>
+  <text x="130" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Entry</text>
+  <text x="130" y="127" text-anchor="middle" font-size="12" fill="#ffffff">about $50 to $150</text>
+  <text x="130" y="166" text-anchor="middle" font-size="12" fill="#374151">For: students,</text>
+  <text x="130" y="183" text-anchor="middle" font-size="12" fill="#374151">first jobs, simple work</text>
+  <line x1="50" y1="198" x2="210" y2="198" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="50" y="222" font-size="12" fill="#111827">- One resume</text>
+  <text x="50" y="246" font-size="12" fill="#111827">- One target role</text>
+  <text x="50" y="270" font-size="12" fill="#111827">- ATS-ready format</text>
+  <text x="50" y="294" font-size="12" fill="#111827">- One round of edits</text>
+  <text x="50" y="318" font-size="12" fill="#9CA3AF">- Cover letter (no)</text>
+  <text x="50" y="342" font-size="12" fill="#9CA3AF">- LinkedIn (no)</text>
+
+  <!-- Professional tier -->
+  <rect x="258" y="74" width="204" height="350" rx="10" fill="#ffffff" stroke="#D4AF37" stroke-width="3"/>
+  <rect x="258" y="74" width="204" height="56" rx="10" fill="#1E2A8E"/>
+  <rect x="258" y="112" width="204" height="18" fill="#1E2A8E"/>
+  <text x="360" y="98" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Professional</text>
+  <text x="360" y="120" text-anchor="middle" font-size="12" fill="#ffffff">about $200 to $400</text>
+  <rect x="320" y="62" width="80" height="22" rx="11" fill="#D4AF37"/>
+  <text x="360" y="77" text-anchor="middle" font-size="11" font-weight="bold" fill="#141B5C">MOST PICK</text>
+  <text x="360" y="160" text-anchor="middle" font-size="12" fill="#374151">For: working</text>
+  <text x="360" y="177" text-anchor="middle" font-size="12" fill="#374151">professionals, a real move</text>
+  <line x1="278" y1="192" x2="442" y2="192" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="278" y="216" font-size="12" fill="#111827">- Tailored resume</text>
+  <text x="278" y="240" font-size="12" fill="#111827">- One target role</text>
+  <text x="278" y="264" font-size="12" fill="#111827">- ATS-ready format</text>
+  <text x="278" y="288" font-size="12" fill="#111827">- Two rounds of edits</text>
+  <text x="278" y="312" font-size="12" fill="#111827">- Matching cover letter</text>
+  <text x="278" y="336" font-size="12" fill="#9CA3AF">- LinkedIn (add-on)</text>
+
+  <!-- Executive tier -->
+  <rect x="490" y="84" width="200" height="330" rx="10" fill="#ffffff" stroke="#E5E7EB" stroke-width="2"/>
+  <rect x="490" y="84" width="200" height="52" rx="10" fill="#C4683A"/>
+  <rect x="490" y="120" width="200" height="16" fill="#C4683A"/>
+  <text x="590" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Executive</text>
+  <text x="590" y="127" text-anchor="middle" font-size="12" fill="#ffffff">about $350 to $700+</text>
+  <text x="590" y="166" text-anchor="middle" font-size="12" fill="#374151">For: senior leaders,</text>
+  <text x="590" y="183" text-anchor="middle" font-size="12" fill="#374151">high-stakes searches</text>
+  <line x1="510" y1="198" x2="670" y2="198" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="510" y="222" font-size="12" fill="#111827">- Full resume</text>
+  <text x="510" y="246" font-size="12" fill="#111827">- Strategy call</text>
+  <text x="510" y="270" font-size="12" fill="#111827">- ATS-ready format</text>
+  <text x="510" y="294" font-size="12" fill="#111827">- Unlimited edits (30 days)</text>
+  <text x="510" y="318" font-size="12" fill="#111827">- Cover letter</text>
+  <text x="510" y="342" font-size="12" fill="#111827">- LinkedIn rewrite</text>
+
+  <text x="360" y="446" text-anchor="middle" font-size="11" fill="#9CA3AF">Rates shown are typical market ranges, not promised earnings.</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" font-family="Arial, sans-serif">
+  <rect width="560" height="420" fill="#FFFFFF"/>
+  <text x="28" y="34" font-size="18" font-weight="bold" fill="#141B5C">How a recruiter's eye moves across a resume</text>
+
+  <!-- Resume page -->
+  <rect x="40" y="58" width="300" height="330" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- Top third highlight zone -->
+  <rect x="40" y="58" width="300" height="110" rx="6" fill="#D4AF37" fill-opacity="0.18"/>
+  <text x="52" y="80" font-size="11" font-weight="bold" fill="#C4683A">TOP THIRD — highest priority</text>
+
+  <!-- Name + title block -->
+  <rect x="56" y="90" width="150" height="14" rx="3" fill="#1E2A8E"/>
+  <rect x="56" y="112" width="110" height="9" rx="3" fill="#374151"/>
+  <rect x="56" y="128" width="200" height="7" rx="3" fill="#E5E7EB"/>
+  <rect x="56" y="140" width="180" height="7" rx="3" fill="#E5E7EB"/>
+
+  <!-- Experience block lines -->
+  <rect x="56" y="186" width="130" height="10" rx="3" fill="#141B5C"/>
+  <rect x="56" y="206" width="190" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="56" y="218" width="170" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="56" y="244" width="120" height="10" rx="3" fill="#374151"/>
+  <rect x="56" y="264" width="190" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="56" y="276" width="160" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="56" y="312" width="170" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="56" y="324" width="140" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="56" y="356" width="150" height="6" rx="3" fill="#E5E7EB"/>
+
+  <!-- Eye-path arrow -->
+  <path d="M 70 96 L 250 96" stroke="#3E9B6B" stroke-width="3" fill="none"/>
+  <path d="M 250 96 L 70 118" stroke="#3E9B6B" stroke-width="3" fill="none"/>
+  <path d="M 70 118 L 200 190" stroke="#3E9B6B" stroke-width="3" fill="none"/>
+  <path d="M 200 190 L 80 248" stroke="#3E9B6B" stroke-width="3" fill="none" stroke-opacity="0.7"/>
+  <path d="M 80 248 L 170 318" stroke="#3E9B6B" stroke-width="3" fill="none" stroke-opacity="0.45"/>
+  <path d="M 170 318 L 100 388" stroke="#3E9B6B" stroke-width="3" fill="none" stroke-opacity="0.25"/>
+  <!-- arrowhead -->
+  <polygon points="100,388 112,378 114,392" fill="#3E9B6B" fill-opacity="0.45"/>
+
+  <!-- start dot -->
+  <circle cx="70" cy="96" r="6" fill="#C4683A"/>
+
+  <!-- Right-side legend -->
+  <text x="372" y="100" font-size="13" font-weight="bold" fill="#141B5C">What the eye lands on</text>
+  <circle cx="380" cy="124" r="5" fill="#1E2A8E"/>
+  <text x="394" y="128" font-size="12" fill="#374151">Name</text>
+  <circle cx="380" cy="148" r="5" fill="#374151"/>
+  <text x="394" y="152" font-size="12" fill="#374151">Current title</text>
+  <circle cx="380" cy="172" r="5" fill="#D4AF37"/>
+  <text x="394" y="176" font-size="12" fill="#374151">Headline / summary</text>
+  <circle cx="380" cy="196" r="5" fill="#141B5C"/>
+  <text x="394" y="200" font-size="12" fill="#374151">Recent job titles</text>
+
+  <text x="372" y="248" font-size="13" font-weight="bold" fill="#C4683A">Attention drops fast</text>
+  <rect x="372" y="262" width="150" height="12" rx="3" fill="#3E9B6B"/>
+  <rect x="372" y="280" width="150" height="12" rx="3" fill="#3E9B6B" fill-opacity="0.55"/>
+  <rect x="372" y="298" width="150" height="12" rx="3" fill="#3E9B6B" fill-opacity="0.25"/>
+  <text x="372" y="330" font-size="11" fill="#374151">Top of page gets most of the</text>
+  <text x="372" y="346" font-size="11" fill="#374151">first-pass attention; the rest</text>
+  <text x="372" y="362" font-size="11" fill="#374151">earns a look only if the top</text>
+  <text x="372" y="378" font-size="11" fill="#374151">third does its job.</text>
+</svg>

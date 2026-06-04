@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Arial, sans-serif">
+  <rect width="720" height="320" fill="#ffffff"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">A Simple 90-Day Client Roadmap</text>
+
+  <!-- timeline baseline -->
+  <line x1="80" y1="120" x2="640" y2="120" stroke="#E5E7EB" stroke-width="4"/>
+
+  <!-- nodes -->
+  <circle cx="120" cy="120" r="14" fill="#1E2A8E"/>
+  <circle cx="307" cy="120" r="14" fill="#3E9B6B"/>
+  <circle cx="493" cy="120" r="14" fill="#D4AF37"/>
+  <circle cx="640" cy="120" r="14" fill="#C4683A"/>
+
+  <!-- phase labels -->
+  <text x="120" y="92" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2A8E">Days 1-30</text>
+  <text x="307" y="92" text-anchor="middle" font-size="14" font-weight="bold" fill="#3E9B6B">Days 31-60</text>
+  <text x="493" y="92" text-anchor="middle" font-size="14" font-weight="bold" fill="#D4AF37">Days 61-90</text>
+  <text x="640" y="92" text-anchor="middle" font-size="14" font-weight="bold" fill="#C4683A">Day 90+</text>
+
+  <!-- phase cards -->
+  <rect x="60" y="150" width="150" height="120" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="135" y="176" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">Build proof</text>
+  <text x="135" y="200" text-anchor="middle" font-size="11" fill="#374151">2 sample</text>
+  <text x="135" y="216" text-anchor="middle" font-size="11" fill="#374151">transformations</text>
+  <text x="135" y="238" text-anchor="middle" font-size="11" fill="#374151">Network rewrites</text>
+  <text x="135" y="254" text-anchor="middle" font-size="11" fill="#374151">First testimonials</text>
+
+  <rect x="232" y="150" width="150" height="120" rx="8" fill="#ffffff" stroke="#3E9B6B" stroke-width="1.5"/>
+  <text x="307" y="176" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">First 3 clients</text>
+  <text x="307" y="200" text-anchor="middle" font-size="11" fill="#374151">Ask 10 people</text>
+  <text x="307" y="216" text-anchor="middle" font-size="11" fill="#374151">Launch rate</text>
+  <text x="307" y="238" text-anchor="middle" font-size="11" fill="#374151">Deliver fully</text>
+  <text x="307" y="254" text-anchor="middle" font-size="11" fill="#374151">Get referrals</text>
+
+  <rect x="418" y="150" width="150" height="120" rx="8" fill="#ffffff" stroke="#D4AF37" stroke-width="1.5"/>
+  <text x="493" y="176" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">Go public</text>
+  <text x="493" y="200" text-anchor="middle" font-size="11" fill="#374151">Post samples</text>
+  <text x="493" y="216" text-anchor="middle" font-size="11" fill="#374151">Local + online</text>
+  <text x="493" y="238" text-anchor="middle" font-size="11" fill="#374151">groups</text>
+  <text x="493" y="254" text-anchor="middle" font-size="11" fill="#374151">Pitch daily</text>
+
+  <rect x="585" y="150" width="120" height="120" rx="8" fill="#ffffff" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="645" y="176" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">Full price</text>
+  <text x="645" y="200" text-anchor="middle" font-size="11" fill="#374151">Standard</text>
+  <text x="645" y="216" text-anchor="middle" font-size="11" fill="#374151">menu</text>
+  <text x="645" y="238" text-anchor="middle" font-size="11" fill="#374151">Repeat and</text>
+  <text x="645" y="254" text-anchor="middle" font-size="11" fill="#374151">refer</text>
+</svg>
