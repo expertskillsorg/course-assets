@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="460" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Carrier Desensitization Step Ladder</text>
+  <text x="320" y="56" text-anchor="middle" font-size="12" fill="#374151">Climb one step only when the cat is relaxed. Drop back a step if stress shows.</text>
+
+  <!-- rising arrow -->
+  <line x1="56" y1="410" x2="600" y2="96" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- Step 1 -->
+  <rect x="44" y="384" width="200" height="46" rx="6" fill="#1E2A8E"/>
+  <text x="60" y="404" font-size="12" font-weight="bold" fill="#FFFFFF">1. Carrier out, door open</text>
+  <text x="60" y="421" font-size="11" fill="#FFFFFF">Leave it in the room as furniture</text>
+
+  <!-- Step 2 -->
+  <rect x="132" y="320" width="210" height="46" rx="6" fill="#3E9B6B"/>
+  <text x="148" y="340" font-size="12" font-weight="bold" fill="#FFFFFF">2. Feed inside</text>
+  <text x="148" y="357" font-size="11" fill="#FFFFFF">Treats and meals at the doorway, then in</text>
+
+  <!-- Step 3 -->
+  <rect x="222" y="256" width="220" height="46" rx="6" fill="#D4AF37"/>
+  <text x="238" y="276" font-size="12" font-weight="bold" fill="#141B5C">3. Close the door briefly</text>
+  <text x="238" y="293" font-size="11" fill="#141B5C">A few seconds, treat, open again</text>
+
+  <!-- Step 4 -->
+  <rect x="312" y="192" width="220" height="46" rx="6" fill="#C4683A"/>
+  <text x="328" y="212" font-size="12" font-weight="bold" fill="#FFFFFF">4. Lift and short carry</text>
+  <text x="328" y="229" font-size="11" fill="#FFFFFF">Lift, set down, walk a few steps</text>
+
+  <!-- Step 5 -->
+  <rect x="392" y="128" width="220" height="46" rx="6" fill="#1E2A8E"/>
+  <text x="408" y="148" font-size="12" font-weight="bold" fill="#FFFFFF">5. Into the car, engine off</text>
+  <text x="408" y="165" font-size="11" fill="#FFFFFF">Sit in the parked car, reward, exit</text>
+
+  <!-- Step 6 -->
+  <rect x="412" y="72" width="200" height="46" rx="6" fill="#141B5C"/>
+  <text x="428" y="92" font-size="12" font-weight="bold" fill="#FFFFFF">6. Engine on, short drive</text>
+  <text x="428" y="109" font-size="11" fill="#FFFFFF">Around the block, build up slowly</text>
+</svg>

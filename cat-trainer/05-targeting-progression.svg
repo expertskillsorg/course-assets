@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" font-family="Arial, sans-serif">
+  <rect width="760" height="300" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Targeting Progression</text>
+
+  <!-- Stage 1: still nose-touch -->
+  <rect x="30" y="60" width="220" height="200" rx="10" fill="#F4F6FB" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="140" y="88" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">1. Still nose-touch</text>
+  <!-- cat head -->
+  <circle cx="105" cy="170" r="34" fill="#D4AF37"/>
+  <polygon points="80,148 90,118 104,144" fill="#D4AF37"/>
+  <polygon points="130,148 120,118 106,144" fill="#D4AF37"/>
+  <circle cx="95" cy="166" r="3.5" fill="#111827"/>
+  <circle cx="118" cy="166" r="3.5" fill="#111827"/>
+  <path d="M101 180 q6 7 12 0" stroke="#374151" stroke-width="2" fill="none"/>
+  <!-- nose -->
+  <circle cx="139" cy="176" r="4" fill="#C4683A"/>
+  <!-- fingers -->
+  <line x1="150" y1="176" x2="200" y2="176" stroke="#374151" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="139" cy="176" r="11" fill="none" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="140" y="238" text-anchor="middle" font-size="12.5" fill="#374151">Hand held still by the nose</text>
+
+  <!-- Stage 2: reach to the side -->
+  <rect x="270" y="60" width="220" height="200" rx="10" fill="#F4F6FB" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="380" y="88" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">2. Reach to the side</text>
+  <circle cx="335" cy="178" r="34" fill="#D4AF37"/>
+  <polygon points="312,156 318,126 334,152" fill="#D4AF37"/>
+  <polygon points="358,156 352,126 336,152" fill="#D4AF37"/>
+  <circle cx="328" cy="174" r="3.5" fill="#111827"/>
+  <circle cx="350" cy="174" r="3.5" fill="#111827"/>
+  <circle cx="362" cy="160" r="4" fill="#C4683A"/>
+  <!-- target above and to side -->
+  <line x1="372" y1="150" x2="412" y2="118" stroke="#374151" stroke-width="6" stroke-linecap="round"/>
+  <path d="M362 168 q18 -14 24 -28" stroke="#3E9B6B" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  <text x="380" y="238" text-anchor="middle" font-size="12.5" fill="#374151">Cat moves to meet it</text>
+
+  <!-- Stage 3: follow a moving target -->
+  <rect x="510" y="60" width="220" height="200" rx="10" fill="#F4F6FB" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="620" y="88" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">3. Follow the target</text>
+  <!-- path -->
+  <path d="M548 200 q40 -50 90 -30 q40 16 60 -28" stroke="#C4683A" stroke-width="2.5" fill="none" stroke-dasharray="5 5"/>
+  <!-- start cat -->
+  <circle cx="552" cy="204" r="22" fill="#D4AF37" opacity="0.45"/>
+  <!-- moving cat -->
+  <circle cx="640" cy="172" r="28" fill="#D4AF37"/>
+  <polygon points="622,154 627,132 640,152" fill="#D4AF37"/>
+  <polygon points="658,154 653,132 640,152" fill="#D4AF37"/>
+  <circle cx="633" cy="170" r="3" fill="#111827"/>
+  <circle cx="650" cy="170" r="3" fill="#111827"/>
+  <circle cx="662" cy="160" r="3.5" fill="#C4683A"/>
+  <!-- target end -->
+  <circle cx="700" cy="140" r="8" fill="#3E9B6B"/>
+  <line x1="700" y1="148" x2="700" y2="178" stroke="#374151" stroke-width="5" stroke-linecap="round"/>
+  <text x="620" y="238" text-anchor="middle" font-size="12.5" fill="#374151">Steps along to keep contact</text>
+
+  <!-- arrows between stages -->
+  <path d="M252 160 l16 0 m-6 -6 l6 6 l-6 6" stroke="#1E2A8E" stroke-width="2.5" fill="none"/>
+  <path d="M492 160 l16 0 m-6 -6 l6 6 l-6 6" stroke="#1E2A8E" stroke-width="2.5" fill="none"/>
+</svg>

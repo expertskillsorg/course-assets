@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Arial, sans-serif">
+  <rect width="640" height="360" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Shaping: Building a Behavior One Step at a Time</text>
+  <text x="320" y="56" text-anchor="middle" font-size="13" fill="#374151">Goal: the cat walks into the carrier. Each small step is marked and rewarded.</text>
+
+  <!-- staircase steps, rising left to right -->
+  <!-- step 1 -->
+  <rect x="40" y="280" width="100" height="40" fill="#E5E7EB"/>
+  <rect x="40" y="270" width="100" height="10" fill="#1E2A8E"/>
+  <text x="90" y="305" text-anchor="middle" font-size="12" fill="#111827">Look at</text>
+  <text x="90" y="318" text-anchor="middle" font-size="12" fill="#111827">carrier</text>
+
+  <!-- step 2 -->
+  <rect x="150" y="240" width="100" height="80" fill="#E5E7EB"/>
+  <rect x="150" y="230" width="100" height="10" fill="#1E2A8E"/>
+  <text x="200" y="266" text-anchor="middle" font-size="12" fill="#111827">Step</text>
+  <text x="200" y="279" text-anchor="middle" font-size="12" fill="#111827">toward it</text>
+
+  <!-- step 3 -->
+  <rect x="260" y="200" width="100" height="120" fill="#E5E7EB"/>
+  <rect x="260" y="190" width="100" height="10" fill="#1E2A8E"/>
+  <text x="310" y="226" text-anchor="middle" font-size="12" fill="#111827">Sniff the</text>
+  <text x="310" y="239" text-anchor="middle" font-size="12" fill="#111827">opening</text>
+
+  <!-- step 4 -->
+  <rect x="370" y="160" width="100" height="160" fill="#E5E7EB"/>
+  <rect x="370" y="150" width="100" height="10" fill="#1E2A8E"/>
+  <text x="420" y="186" text-anchor="middle" font-size="12" fill="#111827">One paw</text>
+  <text x="420" y="199" text-anchor="middle" font-size="12" fill="#111827">inside</text>
+
+  <!-- step 5 -->
+  <rect x="480" y="120" width="120" height="200" fill="#D4AF37"/>
+  <rect x="480" y="110" width="120" height="10" fill="#141B5C"/>
+  <text x="540" y="148" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Full</text>
+  <text x="540" y="164" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">entry</text>
+  <text x="540" y="184" text-anchor="middle" font-size="11" fill="#141B5C">goal!</text>
+
+  <!-- rising arrow -->
+  <line x1="60" y1="262" x2="555" y2="100" stroke="#3E9B6B" stroke-width="3"/>
+  <polygon points="555,100 540,102 549,113" fill="#3E9B6B"/>
+  <text x="300" y="92" text-anchor="middle" font-size="12" fill="#3E9B6B">each step earns marks before you raise the bar</text>
+
+  <!-- footer note -->
+  <text x="320" y="346" text-anchor="middle" font-size="12" font-style="italic" fill="#C4683A">If the cat stalls, your step was too big. Drop back and split it smaller.</text>
+</svg>

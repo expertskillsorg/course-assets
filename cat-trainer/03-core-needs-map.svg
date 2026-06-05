@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="520" fill="#FFFFFF"/>
+  <text x="360" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">A Cat's Core Needs and Resource Map</text>
+  <text x="360" y="60" text-anchor="middle" font-size="13" fill="#374151">Each need is met by a resource the cat must be able to reach safely</text>
+
+  <!-- spokes -->
+  <g stroke="#E5E7EB" stroke-width="2">
+    <line x1="360" y1="270" x2="180" y2="150"/>
+    <line x1="360" y1="270" x2="360" y2="120"/>
+    <line x1="360" y1="270" x2="540" y2="150"/>
+    <line x1="360" y1="270" x2="600" y2="270"/>
+    <line x1="360" y1="270" x2="540" y2="390"/>
+    <line x1="360" y1="270" x2="360" y2="430"/>
+    <line x1="360" y1="270" x2="180" y2="390"/>
+    <line x1="360" y1="270" x2="120" y2="270"/>
+  </g>
+
+  <!-- center cat -->
+  <circle cx="360" cy="270" r="58" fill="#1E2A8E"/>
+  <circle cx="360" cy="270" r="58" fill="none" stroke="#141B5C" stroke-width="3"/>
+  <!-- simple cat head -->
+  <path d="M335 252 L330 232 L348 246 Z" fill="#D4AF37"/>
+  <path d="M385 252 L390 232 L372 246 Z" fill="#D4AF37"/>
+  <circle cx="360" cy="268" r="26" fill="#D4AF37"/>
+  <circle cx="350" cy="264" r="3.5" fill="#141B5C"/>
+  <circle cx="370" cy="264" r="3.5" fill="#141B5C"/>
+  <path d="M360 272 L356 278 M360 272 L364 278" stroke="#141B5C" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <line x1="338" y1="270" x2="318" y2="266" stroke="#141B5C" stroke-width="1.5"/>
+  <line x1="338" y1="274" x2="318" y2="276" stroke="#141B5C" stroke-width="1.5"/>
+  <line x1="382" y1="270" x2="402" y2="266" stroke="#141B5C" stroke-width="1.5"/>
+  <line x1="382" y1="274" x2="402" y2="276" stroke="#141B5C" stroke-width="1.5"/>
+  <text x="360" y="316" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">YOUR CAT</text>
+
+  <!-- need nodes -->
+  <!-- top-left: hide -->
+  <g>
+    <rect x="108" y="126" width="144" height="48" rx="8" fill="#3E9B6B"/>
+    <text x="180" y="148" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Safe hiding spot</text>
+    <text x="180" y="164" text-anchor="middle" font-size="11" fill="#FFFFFF">to retreat and feel safe</text>
+  </g>
+  <!-- top: vertical space -->
+  <g>
+    <rect x="288" y="96" width="144" height="48" rx="8" fill="#1E2A8E"/>
+    <text x="360" y="118" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Vertical space</text>
+    <text x="360" y="134" text-anchor="middle" font-size="11" fill="#FFFFFF">perches and high ground</text>
+  </g>
+  <!-- top-right: play/hunt -->
+  <g>
+    <rect x="468" y="126" width="144" height="48" rx="8" fill="#C4683A"/>
+    <text x="540" y="148" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Play and the hunt</text>
+    <text x="540" y="164" text-anchor="middle" font-size="11" fill="#FFFFFF">chase, pounce, catch</text>
+  </g>
+  <!-- right: water -->
+  <g>
+    <rect x="528" y="246" width="144" height="48" rx="8" fill="#1E2A8E"/>
+    <text x="600" y="268" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Water</text>
+    <text x="600" y="284" text-anchor="middle" font-size="11" fill="#FFFFFF">away from food and litter</text>
+  </g>
+  <!-- bottom-right: litter -->
+  <g>
+    <rect x="468" y="366" width="144" height="48" rx="8" fill="#3E9B6B"/>
+    <text x="540" y="388" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Litter box</text>
+    <text x="540" y="404" text-anchor="middle" font-size="11" fill="#FFFFFF">quiet and accessible</text>
+  </g>
+  <!-- bottom: rest -->
+  <g>
+    <rect x="288" y="406" width="144" height="48" rx="8" fill="#141B5C"/>
+    <text x="360" y="428" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Rest spots</text>
+    <text x="360" y="444" text-anchor="middle" font-size="11" fill="#FFFFFF">warm, undisturbed sleep</text>
+  </g>
+  <!-- bottom-left: scratch -->
+  <g>
+    <rect x="108" y="366" width="144" height="48" rx="8" fill="#C4683A"/>
+    <text x="180" y="388" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Scratching surface</text>
+    <text x="180" y="404" text-anchor="middle" font-size="11" fill="#FFFFFF">claw care and marking</text>
+  </g>
+  <!-- left: food -->
+  <g>
+    <rect x="48" y="246" width="144" height="48" rx="8" fill="#D4AF37"/>
+    <text x="120" y="268" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Food</text>
+    <text x="120" y="284" text-anchor="middle" font-size="11" fill="#141B5C">separate from water and box</text>
+  </g>
+</svg>
