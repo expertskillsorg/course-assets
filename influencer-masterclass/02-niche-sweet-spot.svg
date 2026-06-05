@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="520" fill="#FFFFFF"/>
+  <text x="320" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Niche Sweet Spot</text>
+
+  <!-- Three overlapping circles -->
+  <circle cx="245" cy="215" r="150" fill="#1E2A8E" fill-opacity="0.22" stroke="#1E2A8E" stroke-width="2"/>
+  <circle cx="395" cy="215" r="150" fill="#3E9B6B" fill-opacity="0.22" stroke="#3E9B6B" stroke-width="2"/>
+  <circle cx="320" cy="345" r="150" fill="#D4AF37" fill-opacity="0.22" stroke="#C4683A" stroke-width="2"/>
+
+  <!-- Circle labels -->
+  <text x="155" y="150" text-anchor="middle" font-size="18" font-weight="bold" fill="#1E2A8E">Interest</text>
+  <text x="155" y="172" text-anchor="middle" font-size="13" fill="#374151">what you</text>
+  <text x="155" y="189" text-anchor="middle" font-size="13" fill="#374151">love</text>
+
+  <text x="485" y="150" text-anchor="middle" font-size="18" font-weight="bold" fill="#3E9B6B">Skill</text>
+  <text x="485" y="172" text-anchor="middle" font-size="13" fill="#374151">what you</text>
+  <text x="485" y="189" text-anchor="middle" font-size="13" fill="#374151">are good at</text>
+
+  <text x="320" y="450" text-anchor="middle" font-size="18" font-weight="bold" fill="#C4683A">Audience Demand</text>
+  <text x="320" y="472" text-anchor="middle" font-size="13" fill="#374151">what people search for and brands pay for</text>
+
+  <!-- Center sweet spot label -->
+  <circle cx="320" cy="260" r="52" fill="#FFFFFF" fill-opacity="0.78" stroke="#141B5C" stroke-width="1.5"/>
+  <text x="320" y="252" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Your</text>
+  <text x="320" y="270" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Niche</text>
+  <text x="320" y="288" text-anchor="middle" font-size="11" fill="#374151">all three</text>
+
+  <!-- two-overlap mini labels -->
+  <text x="320" y="160" text-anchor="middle" font-size="11" fill="#141B5C">a hobby</text>
+  <text x="205" y="335" text-anchor="middle" font-size="11" fill="#141B5C">a side gig</text>
+  <text x="435" y="335" text-anchor="middle" font-size="11" fill="#141B5C">a job</text>
+</svg>

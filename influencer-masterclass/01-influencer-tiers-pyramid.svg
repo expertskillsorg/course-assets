@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="470" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Influencer Tiers</text>
+  <text x="360" y="56" text-anchor="middle" font-size="13" fill="#374151">Bigger reach at the top, deeper trust at the base</text>
+
+  <!-- Pyramid tiers, narrow (mega) at top to wide (nano) at base -->
+  <!-- Mega -->
+  <polygon points="300,80 420,80 444,136 276,136" fill="#141B5C"/>
+  <text x="360" y="108" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Mega</text>
+  <text x="360" y="126" text-anchor="middle" font-size="11" fill="#FFFFFF">1M+ followers</text>
+
+  <!-- Macro -->
+  <polygon points="276,140 444,140 468,196 252,196" fill="#1E2A8E"/>
+  <text x="360" y="168" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Macro</text>
+  <text x="360" y="186" text-anchor="middle" font-size="11" fill="#FFFFFF">100K - 1M</text>
+
+  <!-- Mid -->
+  <polygon points="252,200 468,200 492,256 228,256" fill="#3E9B6B"/>
+  <text x="360" y="228" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Mid</text>
+  <text x="360" y="246" text-anchor="middle" font-size="11" fill="#FFFFFF">50K - 100K</text>
+
+  <!-- Micro -->
+  <polygon points="228,260 492,260 516,316 204,316" fill="#C4683A"/>
+  <text x="360" y="288" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Micro</text>
+  <text x="360" y="306" text-anchor="middle" font-size="11" fill="#FFFFFF">10K - 50K</text>
+
+  <!-- Nano -->
+  <polygon points="204,320 516,320 540,376 180,376" fill="#D4AF37"/>
+  <text x="360" y="348" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Nano</text>
+  <text x="360" y="366" text-anchor="middle" font-size="11" fill="#141B5C">1K - 10K followers</text>
+
+  <!-- Reach arrow (left, points up = more reach near top) -->
+  <line x1="120" y1="370" x2="120" y2="95" stroke="#1E2A8E" stroke-width="2.5"/>
+  <polygon points="120,82 114,98 126,98" fill="#1E2A8E"/>
+  <text x="104" y="235" text-anchor="middle" font-size="12" font-weight="bold" fill="#1E2A8E" transform="rotate(-90 104 235)">More reach</text>
+
+  <!-- Engagement arrow (right, points down = more engagement near base) -->
+  <line x1="600" y1="95" x2="600" y2="370" stroke="#C4683A" stroke-width="2.5"/>
+  <polygon points="600,383 594,367 606,367" fill="#C4683A"/>
+  <text x="616" y="235" text-anchor="middle" font-size="12" font-weight="bold" fill="#C4683A" transform="rotate(90 616 235)">More engagement and trust</text>
+
+  <!-- Beginner marker -->
+  <text x="360" y="418" text-anchor="middle" font-size="12" font-weight="bold" fill="#3E9B6B">Most beginners start here, in the Nano and Micro tiers</text>
+  <text x="360" y="440" text-anchor="middle" font-size="11" fill="#374151">where engagement is highest and brands are actively looking.</text>
+  <text x="360" y="460" text-anchor="middle" font-size="10" fill="#374151">Follower bands are rough industry ranges and vary by source.</text>
+</svg>

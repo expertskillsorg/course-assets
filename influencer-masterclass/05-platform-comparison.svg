@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" role="img" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="440" fill="#FFFFFF"/>
+  <text x="30" y="36" font-size="20" font-weight="bold" fill="#141B5C">The Major Platforms at a Glance</text>
+  <text x="30" y="58" font-size="13" fill="#374151">How they generally differ in 2026 by format, audience, and discovery</text>
+
+  <!-- Row labels column -->
+  <text x="30" y="120" font-size="13" font-weight="bold" fill="#374151">Main format</text>
+  <text x="30" y="220" font-size="13" font-weight="bold" fill="#374151">Audience lean</text>
+  <text x="30" y="320" font-size="13" font-weight="bold" fill="#374151">How people</text>
+  <text x="30" y="338" font-size="13" font-weight="bold" fill="#374151">find you</text>
+
+  <!-- TikTok column -->
+  <rect x="180" y="80" width="170" height="330" rx="10" fill="#F4F1FB" stroke="#E5E7EB"/>
+  <rect x="180" y="80" width="170" height="40" rx="10" fill="#1E2A8E"/>
+  <text x="265" y="106" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TikTok</text>
+  <text x="265" y="140" font-size="12" fill="#111827" text-anchor="middle">Short vertical</text>
+  <text x="265" y="158" font-size="12" fill="#111827" text-anchor="middle">video</text>
+  <text x="265" y="240" font-size="12" fill="#111827" text-anchor="middle">Younger,</text>
+  <text x="265" y="258" font-size="12" fill="#111827" text-anchor="middle">trend-driven</text>
+  <circle cx="265" cy="350" r="9" fill="#3E9B6B"/>
+  <text x="265" y="380" font-size="12" fill="#111827" text-anchor="middle">Mostly the</text>
+  <text x="265" y="396" font-size="12" fill="#111827" text-anchor="middle">For You feed</text>
+
+  <!-- Instagram column -->
+  <rect x="370" y="80" width="170" height="330" rx="10" fill="#FBF1EC" stroke="#E5E7EB"/>
+  <rect x="370" y="80" width="170" height="40" rx="10" fill="#C4683A"/>
+  <text x="455" y="106" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Instagram</text>
+  <text x="455" y="140" font-size="12" fill="#111827" text-anchor="middle">Reels, photos,</text>
+  <text x="455" y="158" font-size="12" fill="#111827" text-anchor="middle">carousels</text>
+  <text x="455" y="240" font-size="12" fill="#111827" text-anchor="middle">Broad, visual,</text>
+  <text x="455" y="258" font-size="12" fill="#111827" text-anchor="middle">lifestyle</text>
+  <circle cx="455" cy="350" r="9" fill="#D4AF37"/>
+  <text x="455" y="380" font-size="12" fill="#111827" text-anchor="middle">Reels feed +</text>
+  <text x="455" y="396" font-size="12" fill="#111827" text-anchor="middle">followers</text>
+
+  <!-- YouTube column -->
+  <rect x="560" y="80" width="170" height="330" rx="10" fill="#EAF4EF" stroke="#E5E7EB"/>
+  <rect x="560" y="80" width="170" height="40" rx="10" fill="#3E9B6B"/>
+  <text x="645" y="106" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">YouTube</text>
+  <text x="645" y="140" font-size="12" fill="#111827" text-anchor="middle">Long video +</text>
+  <text x="645" y="158" font-size="12" fill="#111827" text-anchor="middle">Shorts</text>
+  <text x="645" y="240" font-size="12" fill="#111827" text-anchor="middle">All ages,</text>
+  <text x="645" y="258" font-size="12" fill="#111827" text-anchor="middle">search-led</text>
+  <circle cx="645" cy="350" r="9" fill="#1E2A8E"/>
+  <text x="645" y="380" font-size="12" fill="#111827" text-anchor="middle">Search +</text>
+  <text x="645" y="396" font-size="12" fill="#111827" text-anchor="middle">suggested</text>
+
+  <!-- divider lines -->
+  <line x1="180" y1="180" x2="730" y2="180" stroke="#E5E7EB"/>
+  <line x1="180" y1="285" x2="730" y2="285" stroke="#E5E7EB"/>
+</svg>

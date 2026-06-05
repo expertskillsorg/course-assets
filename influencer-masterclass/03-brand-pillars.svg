@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Arial, sans-serif">
+  <rect width="640" height="380" fill="#FFFFFF"/>
+
+  <!-- Roof beam: the personal brand -->
+  <rect x="70" y="60" width="500" height="56" rx="6" fill="#141B5C"/>
+  <text x="320" y="86" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="bold">YOUR PERSONAL BRAND</text>
+  <text x="320" y="106" text-anchor="middle" fill="#D4AF37" font-size="13">one consistent identity</text>
+
+  <!-- Pillar 1: Voice -->
+  <rect x="92" y="130" width="96" height="170" rx="5" fill="#1E2A8E"/>
+  <text x="140" y="225" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold">VOICE</text>
+  <text x="140" y="247" text-anchor="middle" fill="#FFFFFF" font-size="11">how you sound</text>
+
+  <!-- Pillar 2: Values -->
+  <rect x="208" y="130" width="96" height="170" rx="5" fill="#3E9B6B"/>
+  <text x="256" y="225" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold">VALUES</text>
+  <text x="256" y="247" text-anchor="middle" fill="#FFFFFF" font-size="11">what you</text>
+  <text x="256" y="262" text-anchor="middle" fill="#FFFFFF" font-size="11">stand for</text>
+
+  <!-- Pillar 3: Look -->
+  <rect x="324" y="130" width="96" height="170" rx="5" fill="#C4683A"/>
+  <text x="372" y="225" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold">LOOK</text>
+  <text x="372" y="247" text-anchor="middle" fill="#FFFFFF" font-size="11">your visual</text>
+  <text x="372" y="262" text-anchor="middle" fill="#FFFFFF" font-size="11">style</text>
+
+  <!-- Pillar 4: Promise -->
+  <rect x="440" y="130" width="96" height="170" rx="5" fill="#D4AF37"/>
+  <text x="488" y="225" text-anchor="middle" fill="#141B5C" font-size="18" font-weight="bold">PROMISE</text>
+  <text x="488" y="247" text-anchor="middle" fill="#141B5C" font-size="11">what people</text>
+  <text x="488" y="262" text-anchor="middle" fill="#141B5C" font-size="11">get from you</text>
+
+  <!-- Base / foundation -->
+  <rect x="70" y="312" width="500" height="34" rx="6" fill="#374151"/>
+  <text x="320" y="334" text-anchor="middle" fill="#FFFFFF" font-size="13">consistency across every post</text>
+</svg>
