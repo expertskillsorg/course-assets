@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" role="img" aria-label="The file-opening workflow from contract handoff to a ready file" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="880" height="320" fill="#FFFFFF"/>
+  <text x="40" y="42" font-size="22" font-weight="bold" fill="#141B5C">Opening the File: From Contract Handoff to a Ready File</text>
+  <line x1="40" y1="58" x2="840" y2="58" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- arrow connectors drawn behind boxes -->
+  <g stroke="#D4AF37" stroke-width="3" fill="none">
+    <line x1="180" y1="170" x2="206" y2="170"/>
+    <line x1="346" y1="170" x2="372" y2="170"/>
+    <line x1="512" y1="170" x2="538" y2="170"/>
+    <line x1="678" y1="170" x2="704" y2="170"/>
+  </g>
+  <g fill="#D4AF37">
+    <polygon points="206,164 218,170 206,176"/>
+    <polygon points="372,164 384,170 372,176"/>
+    <polygon points="538,164 550,170 538,176"/>
+    <polygon points="704,164 716,170 704,176"/>
+  </g>
+
+  <!-- Stage 1 -->
+  <rect x="40" y="100" width="140" height="140" rx="10" fill="#1E2A8E"/>
+  <circle cx="110" cy="132" r="16" fill="#D4AF37"/>
+  <text x="110" y="139" font-size="18" font-weight="bold" fill="#141B5C" text-anchor="middle">1</text>
+  <text x="110" y="178" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Contract</text>
+  <text x="110" y="197" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">handoff</text>
+  <text x="110" y="222" font-size="11" fill="#E5E7EB" text-anchor="middle">Agent sends the</text>
+  <text x="110" y="235" font-size="11" fill="#E5E7EB" text-anchor="middle">signed deal</text>
+
+  <!-- Stage 2 -->
+  <rect x="218" y="100" width="140" height="140" rx="10" fill="#3E9B6B"/>
+  <circle cx="288" cy="132" r="16" fill="#D4AF37"/>
+  <text x="288" y="139" font-size="18" font-weight="bold" fill="#141B5C" text-anchor="middle">2</text>
+  <text x="288" y="178" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Intake</text>
+  <text x="288" y="197" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">check</text>
+  <text x="288" y="222" font-size="11" fill="#FFFFFF" text-anchor="middle">Fully executed?</text>
+  <text x="288" y="235" font-size="11" fill="#FFFFFF" text-anchor="middle">All attachments?</text>
+
+  <!-- Stage 3 -->
+  <rect x="384" y="100" width="140" height="140" rx="10" fill="#C4683A"/>
+  <circle cx="454" cy="132" r="16" fill="#D4AF37"/>
+  <text x="454" y="139" font-size="18" font-weight="bold" fill="#141B5C" text-anchor="middle">3</text>
+  <text x="454" y="178" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Gather</text>
+  <text x="454" y="197" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">details</text>
+  <text x="454" y="222" font-size="11" fill="#FFFFFF" text-anchor="middle">Contacts, escrow,</text>
+  <text x="454" y="235" font-size="11" fill="#FFFFFF" text-anchor="middle">key dates</text>
+
+  <!-- Stage 4 -->
+  <rect x="550" y="100" width="140" height="140" rx="10" fill="#1E2A8E"/>
+  <circle cx="620" cy="132" r="16" fill="#D4AF37"/>
+  <text x="620" y="139" font-size="18" font-weight="bold" fill="#141B5C" text-anchor="middle">4</text>
+  <text x="620" y="178" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">File setup</text>
+  <text x="620" y="197" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">and naming</text>
+  <text x="620" y="222" font-size="11" fill="#E5E7EB" text-anchor="middle">One folder,</text>
+  <text x="620" y="235" font-size="11" fill="#E5E7EB" text-anchor="middle">consistent name</text>
+
+  <!-- Stage 5 -->
+  <rect x="716" y="100" width="140" height="140" rx="10" fill="#141B5C"/>
+  <circle cx="786" cy="132" r="16" fill="#3E9B6B"/>
+  <text x="786" y="139" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="786" y="178" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Ready</text>
+  <text x="786" y="197" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">file</text>
+  <text x="786" y="222" font-size="11" fill="#E5E7EB" text-anchor="middle">Organized and</text>
+  <text x="786" y="235" font-size="11" fill="#E5E7EB" text-anchor="middle">ready to work</text>
+
+  <text x="40" y="288" font-size="13" fill="#374151">A clean intake on day one keeps every later step of the deal calmer.</text>
+</svg>

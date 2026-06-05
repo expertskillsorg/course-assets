@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="280" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#141B5C">The Closing-Week Sprint</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#374151">Four milestones from a cleared file to a closed deal</text>
+
+  <!-- Stage 1: Clear to close -->
+  <rect x="24" y="92" width="150" height="96" rx="10" fill="#1E2A8E"/>
+  <text x="99" y="124" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Clear to Close</text>
+  <text x="99" y="148" text-anchor="middle" font-size="11" fill="#E5E7EB">Lender confirms all</text>
+  <text x="99" y="163" text-anchor="middle" font-size="11" fill="#E5E7EB">loan conditions met</text>
+
+  <!-- Stage 2: Signing -->
+  <rect x="204" y="92" width="150" height="96" rx="10" fill="#3E9B6B"/>
+  <text x="279" y="124" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Signing</text>
+  <text x="279" y="148" text-anchor="middle" font-size="11" fill="#FFFFFF">Parties sign closing</text>
+  <text x="279" y="163" text-anchor="middle" font-size="11" fill="#FFFFFF">docs with a notary</text>
+
+  <!-- Stage 3: Funding -->
+  <rect x="384" y="92" width="150" height="96" rx="10" fill="#C4683A"/>
+  <text x="459" y="124" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Funding</text>
+  <text x="459" y="148" text-anchor="middle" font-size="11" fill="#FFFFFF">Loan funds released,</text>
+  <text x="459" y="163" text-anchor="middle" font-size="11" fill="#FFFFFF">escrow disburses</text>
+
+  <!-- Stage 4: Recording -->
+  <rect x="564" y="92" width="150" height="96" rx="10" fill="#D4AF37"/>
+  <text x="639" y="124" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Recording</text>
+  <text x="639" y="148" text-anchor="middle" font-size="11" fill="#141B5C">County records the</text>
+  <text x="639" y="163" text-anchor="middle" font-size="11" fill="#141B5C">new ownership</text>
+
+  <!-- Arrows -->
+  <g fill="#374151">
+    <polygon points="178,140 196,132 196,148"/>
+    <polygon points="358,140 376,132 376,148"/>
+    <polygon points="538,140 556,132 556,148"/>
+  </g>
+
+  <!-- Closed banner -->
+  <rect x="240" y="222" width="280" height="40" rx="20" fill="#141B5C"/>
+  <text x="380" y="247" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Deal officially closed at recording</text>
+</svg>

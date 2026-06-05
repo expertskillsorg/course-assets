@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="440" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Critical-Date Sheet: The Deal's Control Panel</text>
+  <text x="360" y="56" text-anchor="middle" font-size="13" fill="#374151">Anchor: Effective Date = June 2 (every deadline counts from here)</text>
+
+  <!-- Header row -->
+  <rect x="30" y="74" width="660" height="38" fill="#1E2A8E"/>
+  <text x="48" y="98" font-size="13" font-weight="bold" fill="#FFFFFF">Milestone</text>
+  <text x="330" y="98" font-size="13" font-weight="bold" fill="#FFFFFF">Date</text>
+  <text x="450" y="98" font-size="13" font-weight="bold" fill="#FFFFFF">Responsible Party</text>
+  <text x="620" y="98" font-size="13" font-weight="bold" fill="#FFFFFF">Status</text>
+
+  <!-- Rows -->
+  <!-- Row 1: done -->
+  <rect x="30" y="112" width="660" height="44" fill="#F3F4F6"/>
+  <text x="48" y="139" font-size="13" fill="#111827">Earnest money deposit</text>
+  <text x="330" y="139" font-size="13" fill="#111827">June 5</text>
+  <text x="450" y="139" font-size="13" fill="#374151">Buyer</text>
+  <rect x="600" y="122" width="78" height="24" rx="12" fill="#3E9B6B"/>
+  <text x="639" y="139" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">Done</text>
+
+  <!-- Row 2: at risk -->
+  <rect x="30" y="156" width="660" height="44" fill="#FFFFFF"/>
+  <text x="48" y="183" font-size="13" fill="#111827">Inspection deadline</text>
+  <text x="330" y="183" font-size="13" fill="#111827">June 12</text>
+  <text x="450" y="183" font-size="13" fill="#374151">Buyer + inspector</text>
+  <rect x="600" y="166" width="78" height="24" rx="12" fill="#C4683A"/>
+  <text x="639" y="183" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">At risk</text>
+
+  <!-- Row 3: open -->
+  <rect x="30" y="200" width="660" height="44" fill="#F3F4F6"/>
+  <text x="48" y="227" font-size="13" fill="#111827">Appraisal complete</text>
+  <text x="330" y="227" font-size="13" fill="#111827">June 18</text>
+  <text x="450" y="227" font-size="13" fill="#374151">Lender</text>
+  <rect x="600" y="210" width="78" height="24" rx="12" fill="#D4AF37"/>
+  <text x="639" y="227" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Open</text>
+
+  <!-- Row 4: open -->
+  <rect x="30" y="244" width="660" height="44" fill="#FFFFFF"/>
+  <text x="48" y="271" font-size="13" fill="#111827">Loan approval</text>
+  <text x="330" y="271" font-size="13" fill="#111827">June 23</text>
+  <text x="450" y="271" font-size="13" fill="#374151">Lender</text>
+  <rect x="600" y="254" width="78" height="24" rx="12" fill="#D4AF37"/>
+  <text x="639" y="271" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Open</text>
+
+  <!-- Row 5: open -->
+  <rect x="30" y="288" width="660" height="44" fill="#F3F4F6"/>
+  <text x="48" y="315" font-size="13" fill="#111827">Final walkthrough</text>
+  <text x="330" y="315" font-size="13" fill="#111827">June 29</text>
+  <text x="450" y="315" font-size="13" fill="#374151">Buyer + agent</text>
+  <rect x="600" y="298" width="78" height="24" rx="12" fill="#D4AF37"/>
+  <text x="639" y="315" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Open</text>
+
+  <!-- Row 6: open -->
+  <rect x="30" y="332" width="660" height="44" fill="#FFFFFF"/>
+  <text x="48" y="359" font-size="13" fill="#111827">Closing</text>
+  <text x="330" y="359" font-size="13" fill="#111827">June 30</text>
+  <text x="450" y="359" font-size="13" fill="#374151">Escrow</text>
+  <rect x="600" y="342" width="78" height="24" rx="12" fill="#D4AF37"/>
+  <text x="639" y="359" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Open</text>
+
+  <!-- border -->
+  <rect x="30" y="74" width="660" height="302" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- legend -->
+  <text x="30" y="408" font-size="12" font-weight="bold" fill="#374151">Status legend:</text>
+  <rect x="128" y="398" width="14" height="14" rx="7" fill="#3E9B6B"/>
+  <text x="148" y="409" font-size="12" fill="#374151">Done</text>
+  <rect x="200" y="398" width="14" height="14" rx="7" fill="#D4AF37"/>
+  <text x="220" y="409" font-size="12" fill="#374151">Open</text>
+  <rect x="270" y="398" width="14" height="14" rx="7" fill="#C4683A"/>
+  <text x="290" y="409" font-size="12" fill="#374151">At risk</text>
+</svg>

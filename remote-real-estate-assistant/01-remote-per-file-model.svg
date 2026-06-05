@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="420" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Remote, Paid-Per-File Model</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#374151">Files flow in from agents. Fees flow back out per closed deal.</text>
+
+  <!-- Left column: agents sending files -->
+  <text x="120" y="92" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2A8E">Agents (clients)</text>
+  <rect x="40" y="104" width="160" height="46" rx="6" fill="#1E2A8E"/>
+  <text x="120" y="132" text-anchor="middle" font-size="13" fill="#FFFFFF">Agent A: new contract</text>
+  <rect x="40" y="160" width="160" height="46" rx="6" fill="#1E2A8E"/>
+  <text x="120" y="188" text-anchor="middle" font-size="13" fill="#FFFFFF">Agent B: new contract</text>
+  <rect x="40" y="216" width="160" height="46" rx="6" fill="#1E2A8E"/>
+  <text x="120" y="244" text-anchor="middle" font-size="13" fill="#FFFFFF">Agent C: new contract</text>
+
+  <!-- arrows files in -->
+  <line x1="200" y1="127" x2="300" y2="200" stroke="#374151" stroke-width="2"/>
+  <line x1="200" y1="183" x2="300" y2="207" stroke="#374151" stroke-width="2"/>
+  <line x1="200" y1="239" x2="300" y2="214" stroke="#374151" stroke-width="2"/>
+  <polygon points="300,207 288,201 290,213" fill="#374151"/>
+  <text x="232" y="150" font-size="11" fill="#374151">files in</text>
+
+  <!-- Center: the remote TC -->
+  <rect x="300" y="150" width="160" height="120" rx="10" fill="#D4AF37"/>
+  <text x="380" y="196" text-anchor="middle" font-size="15" font-weight="bold" fill="#141B5C">Remote TC</text>
+  <text x="380" y="218" text-anchor="middle" font-size="12" fill="#141B5C">manages each file</text>
+  <text x="380" y="236" text-anchor="middle" font-size="12" fill="#141B5C">to closing,</text>
+  <text x="380" y="254" text-anchor="middle" font-size="12" fill="#141B5C">all from home</text>
+
+  <!-- Right: closed deals + fee -->
+  <line x1="460" y1="210" x2="560" y2="210" stroke="#3E9B6B" stroke-width="2"/>
+  <polygon points="560,210 548,204 548,216" fill="#3E9B6B"/>
+  <text x="490" y="200" font-size="11" fill="#374151">deal closes</text>
+
+  <rect x="560" y="168" width="160" height="84" rx="8" fill="#3E9B6B"/>
+  <text x="640" y="198" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Closed deal</text>
+  <text x="640" y="222" text-anchor="middle" font-size="13" fill="#FFFFFF">Flat fee paid</text>
+  <text x="640" y="240" text-anchor="middle" font-size="12" fill="#FFFFFF">per file</text>
+
+  <!-- fee flows back to TC -->
+  <path d="M560 240 C 500 300, 440 300, 400 272" fill="none" stroke="#C4683A" stroke-width="2" stroke-dasharray="5,4"/>
+  <polygon points="400,272 410,266 410,278" fill="#C4683A"/>
+  <text x="470" y="312" text-anchor="middle" font-size="11" fill="#C4683A">fee out, per closed file</text>
+
+  <!-- footer income math -->
+  <rect x="40" y="338" width="680" height="58" rx="8" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <text x="60" y="364" font-size="13" font-weight="bold" fill="#141B5C">Income math:</text>
+  <text x="60" y="384" font-size="13" fill="#374151">files closed per month  x  flat fee per file  =  monthly income.  More agents and a steady reputation grow both numbers.</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="520" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Cast of a Transaction</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#374151">Two sides, the specialists, and the coordinator in the middle</text>
+
+  <!-- connecting lines (drawn first, behind boxes) -->
+  <g stroke="#D4AF37" stroke-width="2">
+    <line x1="380" y1="260" x2="150" y2="135"/>
+    <line x1="380" y1="260" x2="610" y2="135"/>
+    <line x1="380" y1="260" x2="130" y2="300"/>
+    <line x1="380" y1="260" x2="630" y2="300"/>
+    <line x1="380" y1="260" x2="230" y2="430"/>
+    <line x1="380" y1="260" x2="380" y2="450"/>
+    <line x1="380" y1="260" x2="530" y2="430"/>
+  </g>
+
+  <!-- center: coordinator -->
+  <circle cx="380" cy="260" r="62" fill="#1E2A8E"/>
+  <text x="380" y="252" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Transaction</text>
+  <text x="380" y="270" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Coordinator</text>
+  <text x="380" y="288" text-anchor="middle" font-size="11" fill="#D4AF37">(you, neutral)</text>
+
+  <!-- buyer side (left top) -->
+  <rect x="60" y="100" width="180" height="68" rx="8" fill="#3E9B6B"/>
+  <text x="150" y="126" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Buyer side</text>
+  <text x="150" y="146" text-anchor="middle" font-size="12" fill="#FFFFFF">Buyer + buyer's agent</text>
+  <text x="150" y="161" text-anchor="middle" font-size="11" fill="#E5E7EB">under a broker</text>
+
+  <!-- seller side (right top) -->
+  <rect x="520" y="100" width="180" height="68" rx="8" fill="#C4683A"/>
+  <text x="610" y="126" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Seller side</text>
+  <text x="610" y="146" text-anchor="middle" font-size="12" fill="#FFFFFF">Seller + listing agent</text>
+  <text x="610" y="161" text-anchor="middle" font-size="11" fill="#FFE9DC">under a broker</text>
+
+  <!-- escrow (left middle) -->
+  <rect x="40" y="280" width="170" height="56" rx="8" fill="#141B5C"/>
+  <text x="125" y="306" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Escrow officer</text>
+  <text x="125" y="324" text-anchor="middle" font-size="11" fill="#E5E7EB">holds money + docs</text>
+
+  <!-- title/lender (right middle) -->
+  <rect x="550" y="280" width="170" height="56" rx="8" fill="#141B5C"/>
+  <text x="635" y="306" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Title + Lender</text>
+  <text x="635" y="324" text-anchor="middle" font-size="11" fill="#E5E7EB">ownership + the loan</text>
+
+  <!-- inspector (bottom left) -->
+  <rect x="140" y="405" width="180" height="54" rx="8" fill="#1E2A8E"/>
+  <text x="230" y="430" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Home inspector</text>
+  <text x="230" y="448" text-anchor="middle" font-size="11" fill="#E5E7EB">checks condition</text>
+
+  <!-- appraiser (bottom center) -->
+  <rect x="290" y="455" width="180" height="54" rx="8" fill="#1E2A8E"/>
+  <text x="380" y="480" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Appraiser</text>
+  <text x="380" y="498" text-anchor="middle" font-size="11" fill="#E5E7EB">confirms value</text>
+
+  <!-- HOA (bottom right) -->
+  <rect x="440" y="405" width="180" height="54" rx="8" fill="#1E2A8E"/>
+  <text x="530" y="430" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">HOA (if any)</text>
+  <text x="530" y="448" text-anchor="middle" font-size="11" fill="#E5E7EB">community docs</text>
+</svg>

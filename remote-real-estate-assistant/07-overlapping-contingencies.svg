@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="380" fill="#FFFFFF"/>
+  <text x="40" y="40" font-size="20" font-weight="bold" fill="#141B5C">One Deal, Overlapping Contingency Periods</text>
+  <text x="40" y="62" font-size="13" fill="#374151">A 30-day escrow. Three clocks running at once.</text>
+
+  <!-- Timeline axis -->
+  <line x1="120" y1="100" x2="680" y2="100" stroke="#374151" stroke-width="2"/>
+  <!-- day ticks: day 0 at x=120, day 30 at x=680 -> 18.67 px/day -->
+  <g fill="#374151" font-size="11" text-anchor="middle">
+    <line x1="120" y1="95" x2="120" y2="105" stroke="#374151" stroke-width="2"/>
+    <text x="120" y="88">Day 0</text>
+    <line x1="306" y1="95" x2="306" y2="105" stroke="#374151" stroke-width="2"/>
+    <text x="306" y="88">Day 10</text>
+    <line x1="493" y1="95" x2="493" y2="105" stroke="#374151" stroke-width="2"/>
+    <text x="493" y="88">Day 20</text>
+    <line x1="680" y1="95" x2="680" y2="105" stroke="#374151" stroke-width="2"/>
+    <text x="680" y="88">Day 30 (Close)</text>
+  </g>
+
+  <!-- Inspection period: day 0 to day 10 -->
+  <rect x="120" y="130" width="186" height="36" rx="6" fill="#3E9B6B"/>
+  <text x="213" y="153" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Inspection</text>
+  <text x="120" y="186" font-size="11" fill="#374151">Days 0-10</text>
+
+  <!-- Appraisal period: day 7 to day 17 (overlaps inspection tightly) -->
+  <rect x="251" y="186" width="187" height="36" rx="6" fill="#C4683A"/>
+  <text x="344" y="209" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Appraisal</text>
+  <text x="251" y="242" font-size="11" fill="#374151">Days 7-17</text>
+
+  <!-- Financing period: day 0 to day 25 (stretches across both) -->
+  <rect x="120" y="248" width="467" height="36" rx="6" fill="#1E2A8E"/>
+  <text x="353" y="271" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Financing</text>
+  <text x="120" y="304" font-size="11" fill="#374151">Days 0-25</text>
+
+  <!-- overlap highlight band between day 7 and day 10 -->
+  <rect x="251" y="124" width="55" height="166" fill="#D4AF37" fill-opacity="0.18"/>
+  <text x="278" y="330" font-size="11" font-weight="bold" fill="#D4AF37" text-anchor="middle">tight</text>
+  <text x="278" y="344" font-size="11" font-weight="bold" fill="#D4AF37" text-anchor="middle">overlap</text>
+
+  <!-- close marker -->
+  <line x1="680" y1="124" x2="680" y2="296" stroke="#141B5C" stroke-width="2" stroke-dasharray="4 3"/>
+
+  <text x="40" y="368" font-size="11" fill="#374151">You watch every bar at the same time. A missed clock on one can sink the whole deal.</text>
+</svg>
