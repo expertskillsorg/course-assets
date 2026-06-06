@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 360" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="620" height="360" fill="#FFFFFF"/>
+  <text x="310" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Where Podcast Targets Sit on a LUFS Scale</text>
+
+  <!-- scale bar -->
+  <defs>
+    <linearGradient id="lufsgrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C4683A"/>
+      <stop offset="42%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#3E9B6B"/>
+      <stop offset="62%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#1E2A8E"/>
+    </linearGradient>
+  </defs>
+  <rect x="232" y="70" width="64" height="240" rx="8" fill="url(#lufsgrad)" stroke="#141B5C" stroke-width="1.5"/>
+
+  <!-- tick labels left of bar -->
+  <text x="222" y="78" text-anchor="end" font-size="13" fill="#374151">0 LUFS (max)</text>
+  <line x1="226" y1="73" x2="232" y2="73" stroke="#374151" stroke-width="1.5"/>
+
+  <text x="222" y="148" text-anchor="end" font-size="13" fill="#374151">-9</text>
+  <line x1="226" y1="143" x2="232" y2="143" stroke="#374151" stroke-width="1.5"/>
+
+  <text x="222" y="188" text-anchor="end" font-size="13" font-weight="bold" fill="#111827">-16</text>
+  <line x1="226" y1="183" x2="232" y2="183" stroke="#111827" stroke-width="2"/>
+
+  <text x="222" y="218" text-anchor="end" font-size="13" font-weight="bold" fill="#111827">-19</text>
+  <line x1="226" y1="213" x2="232" y2="213" stroke="#111827" stroke-width="2"/>
+
+  <text x="222" y="306" text-anchor="end" font-size="13" fill="#374151">-30 (very quiet)</text>
+  <line x1="226" y1="301" x2="232" y2="301" stroke="#374151" stroke-width="1.5"/>
+
+  <!-- callout zones right of bar -->
+  <line x1="296" y1="95" x2="340" y2="95" stroke="#C4683A" stroke-width="2"/>
+  <text x="346" y="92" font-size="13" font-weight="bold" fill="#C4683A">Too loud</text>
+  <text x="346" y="109" font-size="11.5" fill="#374151">Harsh, tiring; apps turn it down</text>
+
+  <!-- target band -->
+  <rect x="296" y="178" width="250" height="44" rx="6" fill="#EAF5EE" stroke="#3E9B6B" stroke-width="1.5"/>
+  <text x="306" y="196" font-size="13" font-weight="bold" fill="#3E9B6B">Podcast target band</text>
+  <text x="306" y="213" font-size="11.5" fill="#374151">-16 LUFS stereo  ·  -19 LUFS mono</text>
+  <line x1="296" y1="183" x2="296" y2="183" stroke="#3E9B6B" stroke-width="2"/>
+
+  <line x1="296" y1="300" x2="340" y2="300" stroke="#1E2A8E" stroke-width="2"/>
+  <text x="346" y="297" font-size="13" font-weight="bold" fill="#1E2A8E">Too quiet</text>
+  <text x="346" y="314" font-size="11.5" fill="#374151">Listeners reach for the volume</text>
+
+  <text x="310" y="346" text-anchor="middle" font-size="12.5" fill="#374151">Aim for the green band so your show matches every other podcast in the queue.</text>
+</svg>

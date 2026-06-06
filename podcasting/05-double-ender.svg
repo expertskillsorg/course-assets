@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="380" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">How a Double-Ender Records Clean Tracks</text>
+
+  <!-- Host side -->
+  <rect x="40" y="70" width="220" height="120" rx="10" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+  <circle cx="90" cy="115" r="20" fill="#1E2A8E"/>
+  <text x="125" y="110" font-size="15" font-weight="bold" fill="#111827">Host</text>
+  <text x="125" y="130" font-size="12" fill="#374151">records own mic</text>
+  <rect x="60" y="150" width="180" height="24" rx="4" fill="#3E9B6B"/>
+  <text x="150" y="167" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">Host track (local, clean)</text>
+
+  <!-- Guest side -->
+  <rect x="460" y="70" width="220" height="120" rx="10" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+  <circle cx="510" cy="115" r="20" fill="#C4683A"/>
+  <text x="545" y="110" font-size="15" font-weight="bold" fill="#111827">Guest</text>
+  <text x="545" y="130" font-size="12" fill="#374151">records own mic</text>
+  <rect x="480" y="150" width="180" height="24" rx="4" fill="#3E9B6B"/>
+  <text x="570" y="167" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">Guest track (local, clean)</text>
+
+  <!-- live call link -->
+  <path d="M260 110 H460" stroke="#D4AF37" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="360" y="100" text-anchor="middle" font-size="11" fill="#374151">live call (talk only)</text>
+
+  <!-- arrows down to combine -->
+  <path d="M150 174 V250 H345" stroke="#1E2A8E" stroke-width="2" fill="none"/>
+  <path d="M570 174 V250 H375" stroke="#1E2A8E" stroke-width="2" fill="none"/>
+  <polygon points="345,250 333,245 333,255" fill="#1E2A8E"/>
+  <polygon points="375,250 387,245 387,255" fill="#1E2A8E"/>
+
+  <!-- combine box -->
+  <rect x="240" y="270" width="240" height="80" rx="10" fill="#141B5C"/>
+  <text x="360" y="302" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Combine in editor</text>
+  <text x="360" y="326" text-anchor="middle" font-size="12" fill="#D4AF37">two clean tracks, perfectly in sync</text>
+</svg>

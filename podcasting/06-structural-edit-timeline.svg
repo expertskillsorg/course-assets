@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Arial, sans-serif">
+  <rect width="720" height="380" fill="#ffffff"/>
+  <text x="24" y="34" font-size="19" font-weight="bold" fill="#141B5C">The episode as a timeline of segments</text>
+
+  <!-- BEFORE -->
+  <text x="24" y="74" font-size="15" font-weight="bold" fill="#374151">BEFORE the structural edit (42:00)</text>
+  <!-- weak intro -->
+  <rect x="24" y="86" width="70" height="44" rx="4" fill="#C4683A"/>
+  <text x="59" y="113" font-size="11" fill="#ffffff" text-anchor="middle">Slow intro</text>
+  <!-- hook (buried) -->
+  <rect x="98" y="86" width="90" height="44" rx="4" fill="#3E9B6B"/>
+  <text x="143" y="108" font-size="11" fill="#ffffff" text-anchor="middle">The hook</text>
+  <text x="143" y="122" font-size="10" fill="#ffffff" text-anchor="middle">(buried)</text>
+  <!-- story A -->
+  <rect x="192" y="86" width="120" height="44" rx="4" fill="#1E2A8E"/>
+  <text x="252" y="113" font-size="11" fill="#ffffff" text-anchor="middle">Depot story</text>
+  <!-- tangent -->
+  <rect x="316" y="86" width="100" height="44" rx="4" fill="#C4683A"/>
+  <text x="366" y="113" font-size="11" fill="#ffffff" text-anchor="middle">Tangent</text>
+  <!-- story B -->
+  <rect x="420" y="86" width="120" height="44" rx="4" fill="#1E2A8E"/>
+  <text x="480" y="113" font-size="11" fill="#ffffff" text-anchor="middle">Fire of 1908</text>
+  <!-- dead segment -->
+  <rect x="544" y="86" width="80" height="44" rx="4" fill="#C4683A"/>
+  <text x="584" y="113" font-size="10" fill="#ffffff" text-anchor="middle">Dead bit</text>
+  <!-- outro -->
+  <rect x="628" y="86" width="68" height="44" rx="4" fill="#D4AF37"/>
+  <text x="662" y="113" font-size="11" fill="#141B5C" text-anchor="middle">Outro</text>
+
+  <!-- arrow -->
+  <line x1="360" y1="160" x2="360" y2="208" stroke="#374151" stroke-width="2"/>
+  <polygon points="360,216 353,204 367,204" fill="#374151"/>
+  <text x="375" y="190" font-size="13" font-style="italic" fill="#374151">cut weak parts, lead with the hook, reorder</text>
+
+  <!-- AFTER -->
+  <text x="24" y="252" font-size="15" font-weight="bold" fill="#374151">AFTER the structural edit (29:00)</text>
+  <!-- hook first -->
+  <rect x="24" y="264" width="110" height="44" rx="4" fill="#3E9B6B"/>
+  <text x="79" y="286" font-size="11" fill="#ffffff" text-anchor="middle">The hook</text>
+  <text x="79" y="300" font-size="10" fill="#ffffff" text-anchor="middle">(up front)</text>
+  <!-- short intro -->
+  <rect x="138" y="264" width="64" height="44" rx="4" fill="#D4AF37"/>
+  <text x="170" y="291" font-size="10" fill="#141B5C" text-anchor="middle">Tight intro</text>
+  <!-- story A -->
+  <rect x="206" y="264" width="150" height="44" rx="4" fill="#1E2A8E"/>
+  <text x="281" y="291" font-size="11" fill="#ffffff" text-anchor="middle">Depot story</text>
+  <!-- story B -->
+  <rect x="360" y="264" width="150" height="44" rx="4" fill="#1E2A8E"/>
+  <text x="435" y="291" font-size="11" fill="#ffffff" text-anchor="middle">Fire of 1908</text>
+  <!-- outro -->
+  <rect x="514" y="264" width="70" height="44" rx="4" fill="#D4AF37"/>
+  <text x="549" y="291" font-size="11" fill="#141B5C" text-anchor="middle">Outro</text>
+
+  <!-- legend -->
+  <rect x="24" y="338" width="14" height="14" rx="2" fill="#3E9B6B"/>
+  <text x="44" y="350" font-size="12" fill="#374151">Hook</text>
+  <rect x="100" y="338" width="14" height="14" rx="2" fill="#1E2A8E"/>
+  <text x="120" y="350" font-size="12" fill="#374151">Strong content</text>
+  <rect x="230" y="338" width="14" height="14" rx="2" fill="#C4683A"/>
+  <text x="250" y="350" font-size="12" fill="#374151">Cut (weak / tangent / dead)</text>
+  <rect x="450" y="338" width="14" height="14" rx="2" fill="#D4AF37"/>
+  <text x="470" y="350" font-size="12" fill="#374151">Intro / outro</text>
+</svg>

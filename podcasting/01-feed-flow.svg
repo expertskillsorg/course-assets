@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="360" fill="#FFFFFF"/>
+  <text x="380" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#141B5C">From your audio file to every listener's app</text>
+
+  <!-- Step 1: You upload -->
+  <rect x="30" y="70" width="150" height="90" rx="8" fill="#1E2A8E"/>
+  <text x="105" y="105" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">1. You</text>
+  <text x="105" y="127" text-anchor="middle" font-size="12" fill="#FFFFFF">upload one</text>
+  <text x="105" y="144" text-anchor="middle" font-size="12" fill="#FFFFFF">audio file (MP3)</text>
+
+  <!-- Arrow 1 -->
+  <line x1="180" y1="115" x2="225" y2="115" stroke="#374151" stroke-width="3"/>
+  <polygon points="225,109 237,115 225,121" fill="#374151"/>
+
+  <!-- Step 2: Host -->
+  <rect x="237" y="70" width="150" height="90" rx="8" fill="#3E9B6B"/>
+  <text x="312" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">2. Your host</text>
+  <text x="312" y="121" text-anchor="middle" font-size="12" fill="#FFFFFF">stores the file</text>
+  <text x="312" y="138" text-anchor="middle" font-size="12" fill="#FFFFFF">and builds a feed</text>
+
+  <!-- Arrow 2 -->
+  <line x1="387" y1="115" x2="432" y2="115" stroke="#374151" stroke-width="3"/>
+  <polygon points="432,109 444,115 432,121" fill="#374151"/>
+
+  <!-- Step 3: RSS feed -->
+  <rect x="444" y="70" width="150" height="90" rx="8" fill="#D4AF37"/>
+  <text x="519" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">3. RSS feed</text>
+  <text x="519" y="121" text-anchor="middle" font-size="12" fill="#141B5C">a text list of</text>
+  <text x="519" y="138" text-anchor="middle" font-size="12" fill="#141B5C">every episode</text>
+
+  <!-- Fan-out point -->
+  <circle cx="594" cy="115" r="5" fill="#374151"/>
+
+  <!-- Lines fanning to directories/apps -->
+  <line x1="599" y1="115" x2="650" y2="225" stroke="#374151" stroke-width="2.5"/>
+  <line x1="599" y1="115" x2="650" y2="270" stroke="#374151" stroke-width="2.5"/>
+  <line x1="599" y1="115" x2="650" y2="315" stroke="#374151" stroke-width="2.5"/>
+
+  <!-- Step 4 label -->
+  <text x="519" y="200" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">4. Apps read the feed and pull each new episode</text>
+
+  <!-- App boxes -->
+  <rect x="650" y="208" width="90" height="34" rx="6" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+  <text x="695" y="230" text-anchor="middle" font-size="12" fill="#111827">Apple</text>
+
+  <rect x="650" y="253" width="90" height="34" rx="6" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+  <text x="695" y="275" text-anchor="middle" font-size="12" fill="#111827">Spotify</text>
+
+  <rect x="650" y="298" width="90" height="34" rx="6" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+  <text x="695" y="320" text-anchor="middle" font-size="12" fill="#111827">Other apps</text>
+
+  <!-- Ownership note -->
+  <text x="105" y="300" font-size="13" font-weight="bold" fill="#1E2A8E">You own the feed.</text>
+  <text x="105" y="320" font-size="12" fill="#374151">The apps are only</text>
+  <text x="105" y="337" font-size="12" fill="#374151">windows into it.</text>
+</svg>
