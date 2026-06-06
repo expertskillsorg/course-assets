@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" role="img" aria-label="A fit map plotting four organizing niches against your personal strengths and local demand, with the best niches sitting where both are high">
+  <rect x="0" y="0" width="640" height="460" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#141B5C">Finding Your Best Niche</text>
+  <text x="320" y="56" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#374151">Where your strengths meet real local demand</text>
+
+  <!-- plot frame -->
+  <rect x="110" y="80" width="450" height="320" fill="#F8F9FB" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- quadrant divider lines -->
+  <line x1="335" y1="80" x2="335" y2="400" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="110" y1="240" x2="560" y2="240" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- best-fit zone highlight (top-right) -->
+  <rect x="335" y="80" width="225" height="160" fill="#3E9B6B" fill-opacity="0.12"/>
+  <text x="447" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#3E9B6B">YOUR SWEET SPOT</text>
+
+  <!-- axes labels -->
+  <text x="335" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#141B5C">Local demand  &#8594;</text>
+  <text x="74" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#141B5C" transform="rotate(-90 74 240)">Your strengths  &#8594;</text>
+
+  <text x="222" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Strong skill, thin market</text>
+  <text x="447" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">In demand, but not your strength yet</text>
+
+  <!-- plotted niches -->
+  <!-- Move management: high strength, high demand -->
+  <circle cx="470" cy="135" r="9" fill="#1E2A8E"/>
+  <text x="470" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#141B5C">Move management</text>
+
+  <!-- Senior downsizing: high-ish both -->
+  <circle cx="400" cy="180" r="9" fill="#D4AF37"/>
+  <text x="400" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#141B5C">Senior downsizing</text>
+
+  <!-- Paperwork/digital: lower demand, decent skill -->
+  <circle cx="250" cy="200" r="9" fill="#C4683A"/>
+  <text x="250" y="227" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#141B5C">Paperwork &amp; digital</text>
+
+  <!-- Home-office/small business: demand, lower skill fit -->
+  <circle cx="430" cy="320" r="9" fill="#3E9B6B"/>
+  <text x="430" y="347" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#141B5C">Small-business office</text>
+
+  <text x="320" y="452" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Plot each niche yourself. The best bet sits high on both axes.</text>
+</svg>

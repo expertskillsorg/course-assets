@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-label="A client-acquisition funnel narrowing from many people reached down to a few booked jobs">
+  <rect x="0" y="0" width="640" height="440" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#141B5C">The Client-Acquisition Funnel</text>
+  <text x="320" y="56" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#374151">Many people hear about you. A few become booked jobs.</text>
+
+  <!-- Funnel stage 1 -->
+  <polygon points="120,80 520,80 470,140 170,140" fill="#1E2A8E"/>
+  <text x="320" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Reach</text>
+  <text x="560" y="116" font-family="Arial, sans-serif" font-size="12" fill="#374151">Warm circle, referrals, local, social</text>
+
+  <!-- Stage 2 -->
+  <polygon points="170,148 470,148 430,208 210,208" fill="#3E9B6B"/>
+  <text x="320" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Inquiries</text>
+  <text x="560" y="184" font-family="Arial, sans-serif" font-size="12" fill="#374151">People who ask a question</text>
+
+  <!-- Stage 3 -->
+  <polygon points="210,216 430,216 395,276 245,276" fill="#D4AF37"/>
+  <text x="320" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#141B5C">Consults</text>
+  <text x="560" y="252" font-family="Arial, sans-serif" font-size="12" fill="#374151">A booked call or visit</text>
+
+  <!-- Stage 4 -->
+  <polygon points="245,284 395,284 360,344 280,344" fill="#C4683A"/>
+  <text x="320" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Booked Jobs</text>
+  <text x="560" y="320" font-family="Arial, sans-serif" font-size="12" fill="#374151">Your first paying clients</text>
+
+  <!-- arrow note -->
+  <text x="80" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151" transform="rotate(-90 80 220)">More in at the top means more out at the bottom</text>
+
+  <text x="320" y="388" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#111827" font-weight="bold">Two ways to get more jobs: pour more in at the top, or stop the leaks between stages.</text>
+  <text x="320" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">A fast, friendly reply is the single biggest leak-stopper.</text>
+</svg>

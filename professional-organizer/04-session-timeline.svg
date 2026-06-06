@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" font-family="Arial, sans-serif">
+  <rect width="880" height="260" fill="#FFFFFF"/>
+  <text x="40" y="40" font-size="20" font-weight="bold" fill="#141B5C">One Organizing Session, Start to Finish</text>
+
+  <!-- main timeline bar -->
+  <line x1="50" y1="120" x2="830" y2="120" stroke="#E5E7EB" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Arrival -->
+  <circle cx="90" cy="120" r="11" fill="#1E2A8E"/>
+  <text x="90" y="90" font-size="13" font-weight="bold" fill="#111827" text-anchor="middle">Arrival</text>
+  <text x="90" y="150" font-size="11" fill="#374151" text-anchor="middle">Greet,</text>
+  <text x="90" y="165" font-size="11" fill="#374151" text-anchor="middle">walkthrough</text>
+
+  <!-- Setup -->
+  <circle cx="175" cy="120" r="11" fill="#1E2A8E"/>
+  <text x="175" y="90" font-size="13" font-weight="bold" fill="#111827" text-anchor="middle">Setup</text>
+  <text x="175" y="150" font-size="11" fill="#374151" text-anchor="middle">Confirm goal,</text>
+  <text x="175" y="165" font-size="11" fill="#374151" text-anchor="middle">before photos</text>
+
+  <!-- Six method steps band -->
+  <rect x="240" y="104" width="430" height="32" rx="16" fill="#3E9B6B"/>
+  <text x="455" y="125" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">The Six-Step Method</text>
+  <text x="455" y="78" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">Assess  Declutter  Sort  Contain  Label  Maintain</text>
+  <circle cx="262" cy="120" r="6" fill="#D4AF37"/>
+  <circle cx="330" cy="120" r="6" fill="#D4AF37"/>
+  <circle cx="398" cy="120" r="6" fill="#D4AF37"/>
+  <circle cx="512" cy="120" r="6" fill="#D4AF37"/>
+  <circle cx="580" cy="120" r="6" fill="#D4AF37"/>
+  <circle cx="648" cy="120" r="6" fill="#D4AF37"/>
+
+  <!-- Handoff -->
+  <circle cx="750" cy="120" r="11" fill="#C4683A"/>
+  <text x="750" y="90" font-size="13" font-weight="bold" fill="#111827" text-anchor="middle">Handoff</text>
+  <text x="750" y="150" font-size="11" fill="#374151" text-anchor="middle">Walkthrough,</text>
+  <text x="750" y="165" font-size="11" fill="#374151" text-anchor="middle">photos, payment</text>
+
+  <!-- End -->
+  <circle cx="815" cy="120" r="11" fill="#141B5C"/>
+  <text x="815" y="90" font-size="13" font-weight="bold" fill="#111827" text-anchor="middle">Next visit</text>
+  <text x="815" y="150" font-size="11" fill="#374151" text-anchor="middle">booked</text>
+
+  <text x="40" y="230" font-size="12" fill="#374151">Prep happens before arrival. Most of the booked clock goes to Declutter, Sort, and Contain.</text>
+</svg>

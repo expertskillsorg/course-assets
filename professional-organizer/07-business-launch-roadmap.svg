@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="A five-stop roadmap for launching a one-person organizing business: pick a structure, register the name and get an EIN, check local licenses, open a business bank account, then track money and set aside taxes.">
+  <rect x="0" y="0" width="760" height="300" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#141B5C">Your Business-Launch Roadmap</text>
+
+  <!-- connecting road -->
+  <line x1="80" y1="150" x2="680" y2="150" stroke="#E5E7EB" stroke-width="6"/>
+
+  <!-- Stop 1 -->
+  <circle cx="100" cy="150" r="26" fill="#1E2A8E"/>
+  <text x="100" y="157" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="100" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#111827">Pick a</text>
+  <text x="100" y="221" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#111827">structure</text>
+  <text x="100" y="241" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">sole prop or LLC</text>
+
+  <!-- Stop 2 -->
+  <circle cx="245" cy="150" r="26" fill="#3E9B6B"/>
+  <text x="245" y="157" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">2</text>
+  <text x="245" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#111827">Register name</text>
+  <text x="245" y="221" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#111827">and EIN</text>
+  <text x="245" y="241" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">free from the IRS</text>
+
+  <!-- Stop 3 -->
+  <circle cx="390" cy="150" r="26" fill="#D4AF37"/>
+  <text x="390" y="157" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">3</text>
+  <text x="390" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#111827">Check local</text>
+  <text x="390" y="221" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#111827">licenses</text>
+  <text x="390" y="241" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">rules vary by state</text>
+
+  <!-- Stop 4 -->
+  <circle cx="535" cy="150" r="26" fill="#C4683A"/>
+  <text x="535" y="157" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">4</text>
+  <text x="535" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#111827">Open a business</text>
+  <text x="535" y="221" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#111827">bank account</text>
+  <text x="535" y="241" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">keep money separate</text>
+
+  <!-- Stop 5 -->
+  <circle cx="680" cy="150" r="26" fill="#141B5C"/>
+  <text x="680" y="157" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">5</text>
+  <text x="680" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#111827">Track money,</text>
+  <text x="680" y="221" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#111827">save for taxes</text>
+  <text x="680" y="241" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">from day one</text>
+
+  <text x="380" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Confirm the exact steps for your state and city before you take a paid job.</text>
+</svg>

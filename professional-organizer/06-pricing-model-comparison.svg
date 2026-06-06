@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="420" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Three Ways to Price an Organizing Job</text>
+  <text x="380" y="58" text-anchor="middle" font-size="13" fill="#374151">Risk and skill needed climb as you move from hourly to flat project pricing</text>
+
+  <!-- Column: Hourly -->
+  <rect x="30" y="80" width="220" height="290" rx="10" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2.5"/>
+  <rect x="30" y="80" width="220" height="44" rx="10" fill="#3E9B6B"/>
+  <text x="140" y="108" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Hourly</text>
+  <text x="140" y="150" text-anchor="middle" font-size="13" fill="#111827" font-weight="bold">Charge per hour worked</text>
+  <text x="140" y="180" text-anchor="middle" font-size="12" fill="#374151">Simple to quote</text>
+  <text x="140" y="204" text-anchor="middle" font-size="12" fill="#374151">Lowest risk to you</text>
+  <text x="140" y="228" text-anchor="middle" font-size="12" fill="#374151">Income capped by hours</text>
+  <text x="140" y="252" text-anchor="middle" font-size="12" fill="#374151">Client watches the clock</text>
+  <rect x="55" y="310" width="170" height="34" rx="6" fill="#E5E7EB"/>
+  <text x="140" y="332" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Best for beginners</text>
+
+  <!-- Column: Package -->
+  <rect x="270" y="80" width="220" height="290" rx="10" fill="#FFFFFF" stroke="#D4AF37" stroke-width="2.5"/>
+  <rect x="270" y="80" width="220" height="44" rx="10" fill="#D4AF37"/>
+  <text x="380" y="108" text-anchor="middle" font-size="17" font-weight="bold" fill="#141B5C">Package</text>
+  <text x="380" y="150" text-anchor="middle" font-size="13" fill="#111827" font-weight="bold">Bundle of hours, one price</text>
+  <text x="380" y="180" text-anchor="middle" font-size="12" fill="#374151">Raises average sale</text>
+  <text x="380" y="204" text-anchor="middle" font-size="12" fill="#374151">Books bigger jobs</text>
+  <text x="380" y="228" text-anchor="middle" font-size="12" fill="#374151">Needs to know your pace</text>
+  <text x="380" y="252" text-anchor="middle" font-size="12" fill="#374151">Often paid upfront</text>
+  <rect x="295" y="310" width="170" height="34" rx="6" fill="#E5E7EB"/>
+  <text x="380" y="332" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Add once you know pace</text>
+
+  <!-- Column: Project / Flat -->
+  <rect x="510" y="80" width="220" height="290" rx="10" fill="#FFFFFF" stroke="#C4683A" stroke-width="2.5"/>
+  <rect x="510" y="80" width="220" height="44" rx="10" fill="#C4683A"/>
+  <text x="620" y="108" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Per-Project (Flat)</text>
+  <text x="620" y="150" text-anchor="middle" font-size="13" fill="#111827" font-weight="bold">One price for the whole job</text>
+  <text x="620" y="180" text-anchor="middle" font-size="12" fill="#374151">Most reward if you're fast</text>
+  <text x="620" y="204" text-anchor="middle" font-size="12" fill="#374151">Client knows the total</text>
+  <text x="620" y="228" text-anchor="middle" font-size="12" fill="#374151">You eat the overruns</text>
+  <text x="620" y="252" text-anchor="middle" font-size="12" fill="#374151">Hardest to estimate</text>
+  <rect x="535" y="310" width="170" height="34" rx="6" fill="#E5E7EB"/>
+  <text x="620" y="332" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Wait until experienced</text>
+
+  <!-- arrow -->
+  <line x1="60" y1="398" x2="700" y2="398" stroke="#374151" stroke-width="2"/>
+  <polygon points="700,398 690,393 690,403" fill="#374151"/>
+  <text x="380" y="416" text-anchor="middle" font-size="12" fill="#374151" font-style="italic">More estimating skill and more risk you carry</text>
+</svg>

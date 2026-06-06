@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="360" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#141B5C">The Client Journey: Consult to Repeat Business</text>
+
+  <!-- connecting track -->
+  <line x1="110" y1="150" x2="650" y2="150" stroke="#E5E7EB" stroke-width="4"/>
+
+  <!-- Stage 1 -->
+  <circle cx="110" cy="150" r="34" fill="#1E2A8E"/>
+  <text x="110" y="156" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="110" y="212" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Consult</text>
+  <text x="110" y="232" text-anchor="middle" font-size="11" fill="#374151">Surface goals,</text>
+  <text x="110" y="247" text-anchor="middle" font-size="11" fill="#374151">scope, budget</text>
+
+  <!-- Stage 2 -->
+  <circle cx="245" cy="150" r="34" fill="#1E2A8E"/>
+  <text x="245" y="156" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">2</text>
+  <text x="245" y="212" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Quote and Book</text>
+  <text x="245" y="232" text-anchor="middle" font-size="11" fill="#374151">Plan, deposit,</text>
+  <text x="245" y="247" text-anchor="middle" font-size="11" fill="#374151">first session set</text>
+
+  <!-- Stage 3 -->
+  <circle cx="380" cy="150" r="34" fill="#3E9B6B"/>
+  <text x="380" y="156" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">3</text>
+  <text x="380" y="212" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Deliver</text>
+  <text x="380" y="232" text-anchor="middle" font-size="11" fill="#374151">The session and</text>
+  <text x="380" y="247" text-anchor="middle" font-size="11" fill="#374151">strong handoff</text>
+
+  <!-- Stage 4 -->
+  <circle cx="515" cy="150" r="34" fill="#D4AF37"/>
+  <text x="515" y="156" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">4</text>
+  <text x="515" y="212" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Follow Up</text>
+  <text x="515" y="232" text-anchor="middle" font-size="11" fill="#374151">Thank, check in,</text>
+  <text x="515" y="247" text-anchor="middle" font-size="11" fill="#374151">ask for a review</text>
+
+  <!-- Stage 5 -->
+  <circle cx="650" cy="150" r="34" fill="#C4683A"/>
+  <text x="650" y="156" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">5</text>
+  <text x="650" y="212" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Repeat and Refer</text>
+  <text x="650" y="232" text-anchor="middle" font-size="11" fill="#374151">More work and</text>
+  <text x="650" y="247" text-anchor="middle" font-size="11" fill="#374151">new clients</text>
+
+  <!-- loop arrow from 5 back to 4/1 region -->
+  <path d="M 650 116 C 650 70, 110 70, 110 112" fill="none" stroke="#C4683A" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <polygon points="110,116 105,104 115,104" fill="#C4683A"/>
+  <text x="380" y="62" text-anchor="middle" font-size="12" font-style="italic" fill="#C4683A">Referrals and repeat bookings feed the next consult</text>
+</svg>

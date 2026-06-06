@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" role="img" aria-label="The six-step organizing method shown as a left-to-right process flow: Assess, Declutter, Sort, Contain, Label, Maintain">
+  <rect x="0" y="0" width="760" height="240" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#141B5C">The Six-Step Organizing Method</text>
+
+  <!-- Step boxes -->
+  <g font-family="Arial, sans-serif">
+    <!-- 1 Assess -->
+    <rect x="20" y="80" width="110" height="80" rx="8" fill="#1E2A8E"/>
+    <text x="75" y="108" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">1. Assess</text>
+    <text x="75" y="130" text-anchor="middle" font-size="10" fill="#FFFFFF">Look, ask,</text>
+    <text x="75" y="144" text-anchor="middle" font-size="10" fill="#FFFFFF">set the goal</text>
+
+    <!-- 2 Declutter -->
+    <rect x="150" y="80" width="110" height="80" rx="8" fill="#1E2A8E"/>
+    <text x="205" y="108" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">2. Declutter</text>
+    <text x="205" y="130" text-anchor="middle" font-size="10" fill="#FFFFFF">Decide what</text>
+    <text x="205" y="144" text-anchor="middle" font-size="10" fill="#FFFFFF">stays</text>
+
+    <!-- 3 Sort -->
+    <rect x="280" y="80" width="110" height="80" rx="8" fill="#3E9B6B"/>
+    <text x="335" y="108" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">3. Sort</text>
+    <text x="335" y="130" text-anchor="middle" font-size="10" fill="#FFFFFF">Group like</text>
+    <text x="335" y="144" text-anchor="middle" font-size="10" fill="#FFFFFF">with like</text>
+
+    <!-- 4 Contain -->
+    <rect x="410" y="80" width="110" height="80" rx="8" fill="#3E9B6B"/>
+    <text x="465" y="108" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">4. Contain</text>
+    <text x="465" y="130" text-anchor="middle" font-size="10" fill="#FFFFFF">Fit bins to</text>
+    <text x="465" y="144" text-anchor="middle" font-size="10" fill="#FFFFFF">the space</text>
+
+    <!-- 5 Label -->
+    <rect x="540" y="80" width="110" height="80" rx="8" fill="#D4AF37"/>
+    <text x="595" y="108" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">5. Label</text>
+    <text x="595" y="130" text-anchor="middle" font-size="10" fill="#141B5C">Name every</text>
+    <text x="595" y="144" text-anchor="middle" font-size="10" fill="#141B5C">home</text>
+
+    <!-- 6 Maintain -->
+    <rect x="670" y="80" width="80" height="80" rx="8" fill="#C4683A"/>
+    <text x="710" y="108" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">6.</text>
+    <text x="710" y="124" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">Maintain</text>
+    <text x="710" y="146" text-anchor="middle" font-size="10" fill="#FFFFFF">Keep it up</text>
+  </g>
+
+  <!-- Arrows -->
+  <g fill="#374151">
+    <polygon points="132,120 148,120 148,116 150,120 148,124 148,120"/>
+    <polygon points="262,120 278,120 278,116 280,120 278,124 278,120"/>
+    <polygon points="392,120 408,120 408,116 410,120 408,124 408,120"/>
+    <polygon points="522,120 538,120 538,116 540,120 538,124 538,120"/>
+    <polygon points="652,120 668,120 668,116 670,120 668,124 668,120"/>
+  </g>
+
+  <text x="380" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Same order, any room: never buy containers before you sort.</text>
+</svg>
