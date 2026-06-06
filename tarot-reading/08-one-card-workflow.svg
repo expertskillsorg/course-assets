@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="250" fill="#ffffff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#141B5C">The One-Card Reading Workflow</text>
+
+  <!-- Step 1: Shuffle -->
+  <g>
+    <rect x="30" y="70" width="150" height="120" rx="10" fill="#1E2A8E"/>
+    <circle cx="105" cy="108" r="20" fill="none" stroke="#D4AF37" stroke-width="3"/>
+    <path d="M93 108 a12 12 0 0 1 24 0" fill="none" stroke="#D4AF37" stroke-width="3"/>
+    <path d="M117 108 a12 12 0 0 1 -24 0" fill="none" stroke="#D4AF37" stroke-width="3"/>
+    <text x="105" y="155" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">1. Shuffle</text>
+    <text x="105" y="176" text-anchor="middle" font-size="11" fill="#E5E7EB">hold the question</text>
+  </g>
+
+  <!-- Step 2: Draw -->
+  <g>
+    <rect x="210" y="70" width="150" height="120" rx="10" fill="#3E9B6B"/>
+    <rect x="92" y="0" width="0" height="0"/>
+    <rect x="93" y="98" width="24" height="34" rx="3" fill="#ffffff" stroke="#141B5C" stroke-width="2" transform="translate(192,0)"/>
+    <text x="285" y="155" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">2. Draw</text>
+    <text x="285" y="176" text-anchor="middle" font-size="11" fill="#ffffff">turn one card over</text>
+  </g>
+
+  <!-- Step 3: Interpret -->
+  <g>
+    <rect x="390" y="70" width="150" height="120" rx="10" fill="#C4683A"/>
+    <circle cx="465" cy="108" r="18" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <line x1="478" y1="121" x2="490" y2="133" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <text x="465" y="155" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">3. Interpret</text>
+    <text x="465" y="176" text-anchor="middle" font-size="11" fill="#ffffff">stack the five layers</text>
+  </g>
+
+  <!-- Step 4: Reflect -->
+  <g>
+    <rect x="570" y="70" width="160" height="120" rx="10" fill="#D4AF37"/>
+    <path d="M642 96 h26 a4 4 0 0 1 4 4 v22 a4 4 0 0 1 -4 4 h-18 l-8 8 v-8 a4 4 0 0 1 0 -30 z" fill="none" stroke="#141B5C" stroke-width="2.5"/>
+    <text x="650" y="155" text-anchor="middle" font-size="16" font-weight="bold" fill="#141B5C">4. Reflect</text>
+    <text x="650" y="176" text-anchor="middle" font-size="11" fill="#141B5C">answer and journal</text>
+  </g>
+
+  <!-- arrows -->
+  <g fill="#374151">
+    <path d="M184 130 l18 0 m-6 -6 l8 6 l-8 6 z"/>
+    <path d="M364 130 l18 0 m-6 -6 l8 6 l-8 6 z"/>
+    <path d="M544 130 l18 0 m-6 -6 l8 6 l-8 6 z"/>
+  </g>
+
+  <text x="380" y="228" text-anchor="middle" font-size="12" fill="#374151">One open question goes in. One plain answer comes out.</text>
+</svg>

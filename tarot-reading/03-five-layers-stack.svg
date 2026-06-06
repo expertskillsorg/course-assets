@@ -1,0 +1,59 @@
+<svg viewBox="0 0 640 460" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="460" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Five Layers, Stacked Into One Reading</text>
+  <text x="320" y="56" text-anchor="middle" font-size="13" fill="#374151">Each layer adds meaning. Together they become the card's message.</text>
+
+  <!-- Layer 1: Keyword -->
+  <rect x="60" y="80" width="380" height="48" rx="6" fill="#1E2A8E"/>
+  <circle cx="86" cy="104" r="13" fill="#FFFFFF"/>
+  <text x="86" y="109" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2A8E">1</text>
+  <text x="112" y="100" font-size="15" font-weight="bold" fill="#FFFFFF">Keyword</text>
+  <text x="112" y="118" font-size="12" fill="#E5E7EB">the card's one core idea</text>
+
+  <!-- Layer 2: Suit / Element -->
+  <rect x="60" y="138" width="380" height="48" rx="6" fill="#3E9B6B"/>
+  <circle cx="86" cy="162" r="13" fill="#FFFFFF"/>
+  <text x="86" y="167" text-anchor="middle" font-size="14" font-weight="bold" fill="#3E9B6B">2</text>
+  <text x="112" y="158" font-size="15" font-weight="bold" fill="#FFFFFF">Suit / Element</text>
+  <text x="112" y="176" font-size="12" fill="#E5E7EB">the life area it touches</text>
+
+  <!-- Layer 3: Number / Rank -->
+  <rect x="60" y="196" width="380" height="48" rx="6" fill="#D4AF37"/>
+  <circle cx="86" cy="220" r="13" fill="#FFFFFF"/>
+  <text x="86" y="225" text-anchor="middle" font-size="14" font-weight="bold" fill="#D4AF37">3</text>
+  <text x="112" y="216" font-size="15" font-weight="bold" fill="#111827">Number / Rank</text>
+  <text x="112" y="234" font-size="12" fill="#141B5C">where it sits in the story</text>
+
+  <!-- Layer 4: Image -->
+  <rect x="60" y="254" width="380" height="48" rx="6" fill="#C4683A"/>
+  <circle cx="86" cy="278" r="13" fill="#FFFFFF"/>
+  <text x="86" y="283" text-anchor="middle" font-size="14" font-weight="bold" fill="#C4683A">4</text>
+  <text x="112" y="274" font-size="15" font-weight="bold" fill="#FFFFFF">Image</text>
+  <text x="112" y="292" font-size="12" fill="#E5E7EB">what the picture shows</text>
+
+  <!-- Layer 5: Intuition -->
+  <rect x="60" y="312" width="380" height="48" rx="6" fill="#141B5C"/>
+  <circle cx="86" cy="336" r="13" fill="#FFFFFF"/>
+  <text x="86" y="341" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">5</text>
+  <text x="112" y="332" font-size="15" font-weight="bold" fill="#FFFFFF">Intuition</text>
+  <text x="112" y="350" font-size="12" fill="#E5E7EB">the feeling it gives you</text>
+
+  <!-- Arrow + result -->
+  <path d="M460 220 L505 220" stroke="#374151" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto">
+      <path d="M0 0 L8 5 L0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+
+  <rect x="510" y="150" width="110" height="140" rx="10" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2.5"/>
+  <text x="565" y="180" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">One</text>
+  <text x="565" y="198" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Reading</text>
+  <line x1="525" y1="210" x2="605" y2="210" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="565" y="232" text-anchor="middle" font-size="11" fill="#374151">a clear,</text>
+  <text x="565" y="248" text-anchor="middle" font-size="11" fill="#374151">specific</text>
+  <text x="565" y="264" text-anchor="middle" font-size="11" fill="#374151">meaning</text>
+
+  <text x="320" y="392" text-anchor="middle" font-size="13" fill="#374151">Position in a spread adds a sixth layer later, once you start laying out cards.</text>
+  <text x="320" y="420" text-anchor="middle" font-size="12" fill="#1E2A8E" font-weight="bold">No memorizing required. The same five layers work on every card in the deck.</text>
+</svg>

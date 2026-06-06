@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="360" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Four Court Ranks</text>
+  <text x="360" y="56" text-anchor="middle" font-size="13" fill="#374151">From youngest energy on the left to most mature on the right</text>
+
+  <!-- maturity arrow baseline -->
+  <line x1="60" y1="300" x2="660" y2="300" stroke="#E5E7EB" stroke-width="2"/>
+  <polygon points="660,300 648,294 648,306" fill="#E5E7EB"/>
+  <text x="60" y="324" font-size="11" fill="#374151">less mature, more raw</text>
+  <text x="660" y="324" text-anchor="end" font-size="11" fill="#374151">more mature, more in command</text>
+
+  <!-- PAGE -->
+  <rect x="48" y="86" width="140" height="190" rx="10" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2.5"/>
+  <circle cx="118" cy="124" r="20" fill="#3E9B6B"/>
+  <text x="118" y="130" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">P</text>
+  <text x="118" y="168" text-anchor="middle" font-size="16" font-weight="bold" fill="#141B5C">Page</text>
+  <text x="118" y="194" text-anchor="middle" font-size="12" fill="#374151">The learner</text>
+  <text x="118" y="214" text-anchor="middle" font-size="11" fill="#374151">curious, new,</text>
+  <text x="118" y="230" text-anchor="middle" font-size="11" fill="#374151">brings a message</text>
+
+  <!-- KNIGHT -->
+  <rect x="204" y="86" width="140" height="190" rx="10" fill="#FFFFFF" stroke="#C4683A" stroke-width="2.5"/>
+  <circle cx="274" cy="124" r="20" fill="#C4683A"/>
+  <text x="274" y="130" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">Kn</text>
+  <text x="274" y="168" text-anchor="middle" font-size="16" font-weight="bold" fill="#141B5C">Knight</text>
+  <text x="274" y="194" text-anchor="middle" font-size="12" fill="#374151">The doer</text>
+  <text x="274" y="214" text-anchor="middle" font-size="11" fill="#374151">action, drive,</text>
+  <text x="274" y="230" text-anchor="middle" font-size="11" fill="#374151">often to extremes</text>
+
+  <!-- QUEEN -->
+  <rect x="360" y="86" width="140" height="190" rx="10" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2.5"/>
+  <circle cx="430" cy="124" r="20" fill="#1E2A8E"/>
+  <text x="430" y="130" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">Q</text>
+  <text x="430" y="168" text-anchor="middle" font-size="16" font-weight="bold" fill="#141B5C">Queen</text>
+  <text x="430" y="194" text-anchor="middle" font-size="12" fill="#374151">Mastery inward</text>
+  <text x="430" y="214" text-anchor="middle" font-size="11" fill="#374151">nurtures, feels,</text>
+  <text x="430" y="230" text-anchor="middle" font-size="11" fill="#374151">holds it within</text>
+
+  <!-- KING -->
+  <rect x="516" y="86" width="140" height="190" rx="10" fill="#FFFFFF" stroke="#D4AF37" stroke-width="2.5"/>
+  <circle cx="586" cy="124" r="20" fill="#D4AF37"/>
+  <text x="586" y="130" text-anchor="middle" font-size="18" font-weight="bold" fill="#141B5C">K</text>
+  <text x="586" y="168" text-anchor="middle" font-size="16" font-weight="bold" fill="#141B5C">King</text>
+  <text x="586" y="194" text-anchor="middle" font-size="12" fill="#374151">Mastery outward</text>
+  <text x="586" y="214" text-anchor="middle" font-size="11" fill="#374151">leads, directs,</text>
+  <text x="586" y="230" text-anchor="middle" font-size="11" fill="#374151">acts on the world</text>
+</svg>

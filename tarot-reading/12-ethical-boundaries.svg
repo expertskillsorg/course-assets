@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="460" fill="#FFFFFF"/>
+  <text x="320" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Where a Reading Belongs</text>
+  <text x="320" y="62" text-anchor="middle" font-size="14" fill="#374151">Stay inside the green. Never cross into the red.</text>
+
+  <!-- Outer off-limits ring -->
+  <ellipse cx="320" cy="270" rx="300" ry="170" fill="#C4683A" opacity="0.12" stroke="#C4683A" stroke-width="2"/>
+  <text x="320" y="120" text-anchor="middle" font-size="15" font-weight="bold" fill="#C4683A">OFF LIMITS: refer to a qualified professional</text>
+
+  <!-- Inner allowed zone -->
+  <ellipse cx="320" cy="285" rx="180" ry="120" fill="#3E9B6B" opacity="0.16" stroke="#3E9B6B" stroke-width="2.5"/>
+  <text x="320" y="232" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E9B6B">ALLOWED: reflection and self-insight</text>
+
+  <!-- Allowed items -->
+  <text x="320" y="266" text-anchor="middle" font-size="13" fill="#111827">Feelings and self-understanding</text>
+  <text x="320" y="289" text-anchor="middle" font-size="13" fill="#111827">Choices the querent owns</text>
+  <text x="320" y="312" text-anchor="middle" font-size="13" fill="#111827">Patterns, hopes, and fears</text>
+  <text x="320" y="335" text-anchor="middle" font-size="13" fill="#111827">Coping with a hard situation</text>
+
+  <!-- Off-limits badges -->
+  <g>
+    <rect x="40" y="170" width="150" height="44" rx="8" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+    <text x="115" y="190" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">No medical</text>
+    <text x="115" y="206" text-anchor="middle" font-size="11" fill="#374151">advice or diagnosis</text>
+  </g>
+  <g>
+    <rect x="450" y="170" width="150" height="44" rx="8" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+    <text x="525" y="190" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">No legal</text>
+    <text x="525" y="206" text-anchor="middle" font-size="11" fill="#374151">advice or verdicts</text>
+  </g>
+  <g>
+    <rect x="245" y="392" width="150" height="44" rx="8" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+    <text x="320" y="412" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">No financial</text>
+    <text x="320" y="428" text-anchor="middle" font-size="11" fill="#374151">advice or predictions</text>
+  </g>
+
+  <!-- Disclaimer band -->
+  <rect x="60" y="138" width="520" height="2" fill="#D4AF37"/>
+</svg>
