@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="520" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Female Reproductive System</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#374151">Front view, simplified. Not to scale.</text>
+
+  <!-- Uterus body (pear shape) -->
+  <path d="M300 150
+           C300 110, 460 110, 460 150
+           C460 230, 430 300, 380 320
+           C330 300, 300 230, 300 150 Z"
+        fill="#C4683A" stroke="#141B5C" stroke-width="3"/>
+  <!-- Uterine cavity hint -->
+  <path d="M340 165 C355 215, 380 250, 380 270 C380 250, 405 215, 420 165 Z"
+        fill="#F3D9CC" stroke="none"/>
+
+  <!-- Left fallopian tube -->
+  <path d="M300 150 C250 120, 210 120, 185 150"
+        fill="none" stroke="#1E2A8E" stroke-width="9" stroke-linecap="round"/>
+  <!-- Right fallopian tube -->
+  <path d="M460 150 C510 120, 550 120, 575 150"
+        fill="none" stroke="#1E2A8E" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- Left ovary -->
+  <ellipse cx="172" cy="162" rx="26" ry="17" fill="#3E9B6B" stroke="#141B5C" stroke-width="2.5"/>
+  <!-- Right ovary -->
+  <ellipse cx="588" cy="162" rx="26" ry="17" fill="#3E9B6B" stroke="#141B5C" stroke-width="2.5"/>
+
+  <!-- Fimbriae (finger ends) near ovaries -->
+  <g stroke="#1E2A8E" stroke-width="3" stroke-linecap="round">
+    <line x1="192" y1="150" x2="180" y2="140"/>
+    <line x1="196" y1="155" x2="188" y2="142"/>
+    <line x1="568" y1="150" x2="580" y2="140"/>
+    <line x1="564" y1="155" x2="572" y2="142"/>
+  </g>
+
+  <!-- Cervix -->
+  <rect x="360" y="318" width="40" height="46" rx="8" fill="#D4AF37" stroke="#141B5C" stroke-width="3"/>
+
+  <!-- Vagina -->
+  <path d="M360 364 C350 410, 350 450, 360 480 L400 480 C410 450, 410 410, 400 364 Z"
+        fill="#C4683A" stroke="#141B5C" stroke-width="3"/>
+  <path d="M372 372 L388 372 L386 478 L374 478 Z" fill="#F3D9CC"/>
+
+  <!-- Labels with leader lines -->
+  <g font-size="14" fill="#111827">
+    <!-- Ovary left -->
+    <line x1="172" y1="178" x2="150" y2="225" stroke="#374151" stroke-width="1.5"/>
+    <text x="70" y="240" font-weight="bold">Ovary</text>
+    <text x="70" y="258" font-size="11" fill="#374151">stores and releases eggs</text>
+
+    <!-- Fallopian tube -->
+    <line x1="240" y1="125" x2="200" y2="95" stroke="#374151" stroke-width="1.5"/>
+    <text x="70" y="92" font-weight="bold">Fallopian tube</text>
+    <text x="70" y="110" font-size="11" fill="#374151">carries the egg to the uterus</text>
+
+    <!-- Uterus -->
+    <line x1="430" y1="200" x2="640" y2="240" stroke="#374151" stroke-width="1.5"/>
+    <text x="648" y="244" font-weight="bold">Uterus</text>
+    <text x="648" y="262" font-size="11" fill="#374151">where a baby grows</text>
+
+    <!-- Right tube/ovary -->
+    <line x1="520" y1="125" x2="600" y2="95" stroke="#374151" stroke-width="1.5"/>
+    <text x="610" y="92" font-weight="bold">Ovary + tube</text>
+
+    <!-- Cervix -->
+    <line x1="400" y1="340" x2="560" y2="360" stroke="#374151" stroke-width="1.5"/>
+    <text x="568" y="364" font-weight="bold">Cervix</text>
+    <text x="568" y="382" font-size="11" fill="#374151">the doorway of the uterus</text>
+
+    <!-- Vagina -->
+    <line x1="400" y1="440" x2="540" y2="450" stroke="#374151" stroke-width="1.5"/>
+    <text x="548" y="454" font-weight="bold">Vagina</text>
+    <text x="548" y="472" font-size="11" fill="#374151">the birth canal</text>
+  </g>
+</svg>

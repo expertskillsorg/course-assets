@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="560" fill="#ffffff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">From Your Goals to a Best-Fit Pathway</text>
+
+  <!-- Start -->
+  <rect x="300" y="54" width="160" height="46" rx="23" fill="#1E2A8E"/>
+  <text x="380" y="82" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">Start: your goal</text>
+
+  <!-- Decision 1 -->
+  <polygon points="380,118 510,170 380,222 250,170" fill="#D4AF37"/>
+  <text x="380" y="160" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">Ready to commit</text>
+  <text x="380" y="178" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">years now?</text>
+
+  <!-- line start to D1 -->
+  <line x1="380" y1="100" x2="380" y2="118" stroke="#374151" stroke-width="2"/>
+
+  <!-- No branch to doula -->
+  <line x1="250" y1="170" x2="150" y2="170" stroke="#374151" stroke-width="2"/>
+  <text x="200" y="162" text-anchor="middle" font-size="11" fill="#C4683A" font-weight="bold">Not yet</text>
+  <rect x="40" y="148" width="110" height="64" rx="8" fill="#C4683A"/>
+  <text x="95" y="174" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Doula first</text>
+  <text x="95" y="194" text-anchor="middle" font-size="10.5" fill="#ffffff">test the field,</text>
+  <text x="95" y="206" text-anchor="middle" font-size="10.5" fill="#ffffff">low barrier</text>
+
+  <!-- Yes down -->
+  <line x1="380" y1="222" x2="380" y2="252" stroke="#374151" stroke-width="2"/>
+  <text x="398" y="242" text-anchor="start" font-size="11" fill="#3E9B6B" font-weight="bold">Yes</text>
+
+  <!-- Decision 2 -->
+  <polygon points="380,252 520,308 380,364 240,308" fill="#D4AF37"/>
+  <text x="380" y="300" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">Want hospital scope</text>
+  <text x="380" y="318" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">and all-50-state license?</text>
+
+  <!-- No branch to right (out-of-hospital) -->
+  <line x1="520" y1="308" x2="600" y2="308" stroke="#374151" stroke-width="2"/>
+  <text x="560" y="300" text-anchor="middle" font-size="11" fill="#C4683A" font-weight="bold">No</text>
+
+  <!-- Decision 3 (state legality) -->
+  <polygon points="660,256 740,308 660,360 580,308" fill="#D4AF37"/>
+  <text x="660" y="304" text-anchor="middle" font-size="11" font-weight="bold" fill="#141B5C">CPM legal</text>
+  <text x="660" y="320" text-anchor="middle" font-size="11" font-weight="bold" fill="#141B5C">in your state?</text>
+
+  <!-- Yes down to CNM -->
+  <line x1="380" y1="364" x2="380" y2="430" stroke="#374151" stroke-width="2"/>
+  <text x="398" y="400" text-anchor="start" font-size="11" fill="#3E9B6B" font-weight="bold">Yes</text>
+
+  <rect x="300" y="430" width="160" height="70" rx="8" fill="#1E2A8E"/>
+  <text x="380" y="458" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">CNM</text>
+  <text x="380" y="478" text-anchor="middle" font-size="10.5" fill="#ffffff">nurse first, AMCB exam,</text>
+  <text x="380" y="492" text-anchor="middle" font-size="10.5" fill="#ffffff">broadest scope</text>
+
+  <!-- CPM yes -->
+  <line x1="660" y1="360" x2="660" y2="430" stroke="#374151" stroke-width="2"/>
+  <text x="678" y="400" text-anchor="start" font-size="11" fill="#3E9B6B" font-weight="bold">Yes</text>
+  <rect x="580" y="430" width="160" height="70" rx="8" fill="#3E9B6B"/>
+  <text x="660" y="458" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">CPM</text>
+  <text x="660" y="478" text-anchor="middle" font-size="10.5" fill="#ffffff">direct-entry, NARM,</text>
+  <text x="660" y="492" text-anchor="middle" font-size="10.5" fill="#ffffff">out-of-hospital focus</text>
+
+  <!-- CPM no -> reconsider -->
+  <line x1="660" y1="360" x2="520" y2="408" stroke="#374151" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="560" y="392" text-anchor="middle" font-size="10.5" fill="#C4683A" font-weight="bold">No</text>
+  <rect x="380" y="408" width="150" height="44" rx="8" fill="#141B5C"/>
+  <text x="455" y="428" text-anchor="middle" font-size="10.5" fill="#ffffff">Relocate, choose CM</text>
+  <text x="455" y="442" text-anchor="middle" font-size="10.5" fill="#ffffff">where legal, or rethink</text>
+
+  <!-- legend note -->
+  <text x="40" y="536" font-size="10.5" fill="#374151">Always confirm current licensure for your own state before committing. Legality varies and changes.</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="440" fill="#FFFFFF"/>
+  <text x="30" y="40" font-size="22" font-weight="bold" fill="#141B5C">Postpartum Physical Recovery Timeline</text>
+  <text x="30" y="64" font-size="14" fill="#374151">The usual arc after an uncomplicated birth (surgical and complicated births take longer)</text>
+
+  <!-- Axis -->
+  <line x1="120" y1="100" x2="720" y2="100" stroke="#374151" stroke-width="2"/>
+  <!-- ticks -->
+  <g font-size="12" fill="#374151" text-anchor="middle">
+    <line x1="140" y1="95" x2="140" y2="105" stroke="#374151" stroke-width="2"/>
+    <text x="140" y="124">Birth</text>
+    <line x1="280" y1="95" x2="280" y2="105" stroke="#374151" stroke-width="2"/>
+    <text x="280" y="124">Days 1 to 3</text>
+    <line x1="430" y1="95" x2="430" y2="105" stroke="#374151" stroke-width="2"/>
+    <text x="430" y="124">Week 1 to 2</text>
+    <line x1="580" y1="95" x2="580" y2="105" stroke="#374151" stroke-width="2"/>
+    <text x="580" y="124">Week 3 to 5</text>
+    <line x1="700" y1="95" x2="700" y2="105" stroke="#374151" stroke-width="2"/>
+    <text x="700" y="124">~Week 6</text>
+  </g>
+
+  <!-- Row labels -->
+  <g font-size="13" fill="#141B5C" text-anchor="end" font-weight="bold">
+    <text x="110" y="164">Uterus / afterpains</text>
+    <text x="110" y="214">Lochia (bleeding)</text>
+    <text x="110" y="264">Perineal healing</text>
+    <text x="110" y="314">Fluid loss / sweating</text>
+    <text x="110" y="364">Checkups</text>
+  </g>
+
+  <!-- Uterus shrinking bar (navy fading) -->
+  <rect x="140" y="150" width="560" height="20" rx="6" fill="#1E2A8E" opacity="0.85"/>
+  <text x="200" y="165" font-size="11" fill="#FFFFFF">afterpains as the uterus clamps down and shrinks</text>
+
+  <!-- Lochia color fade segments -->
+  <rect x="140" y="200" width="140" height="20" rx="6" fill="#C4683A"/>
+  <rect x="280" y="200" width="150" height="20" fill="#C4683A" opacity="0.6"/>
+  <rect x="430" y="200" width="150" height="20" fill="#8a5a3a" opacity="0.55"/>
+  <rect x="580" y="200" width="120" height="20" rx="6" fill="#D4AF37" opacity="0.5"/>
+  <text x="150" y="215" font-size="11" fill="#FFFFFF">red</text>
+  <text x="335" y="215" font-size="11" fill="#FFFFFF">pink</text>
+  <text x="480" y="215" font-size="11" fill="#FFFFFF">brown</text>
+  <text x="600" y="215" font-size="11" fill="#374151">pale, stops</text>
+
+  <!-- Perineal healing (green) -->
+  <rect x="140" y="250" width="440" height="20" rx="6" fill="#3E9B6B" opacity="0.85"/>
+  <text x="200" y="265" font-size="11" fill="#FFFFFF">soreness eases as tissue and any stitches knit</text>
+
+  <!-- Fluid loss (gold, early heavy) -->
+  <rect x="140" y="300" width="290" height="20" rx="6" fill="#D4AF37"/>
+  <text x="160" y="315" font-size="11" fill="#141B5C">heavy sweating and frequent urination</text>
+
+  <!-- Checkups markers -->
+  <circle cx="430" cy="360" r="9" fill="#1E2A8E"/>
+  <text x="430" cy="360" y="364" font-size="11" fill="#FFFFFF" text-anchor="middle">1</text>
+  <circle cx="700" cy="360" r="9" fill="#1E2A8E"/>
+  <text x="700" y="364" font-size="11" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="300" y="364" font-size="11" fill="#374151">early contact</text>
+  <text x="615" y="346" font-size="11" fill="#374151">6-week visit</text>
+
+  <!-- Direction note -->
+  <rect x="120" y="395" width="600" height="30" rx="6" fill="#F3F4F6"/>
+  <text x="135" y="414" font-size="13" fill="#141B5C" font-weight="bold">Normal recovery trends toward less:</text>
+  <text x="350" y="414" font-size="13" fill="#374151">less bleeding, lighter color, less pain, more energy.</text>
+</svg>

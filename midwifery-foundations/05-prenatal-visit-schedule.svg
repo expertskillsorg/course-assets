@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="360" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Prenatal Visit Schedule Across 40 Weeks</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#374151">Visits get closer together as the pregnancy nears birth</text>
+
+  <!-- main timeline axis -->
+  <line x1="60" y1="200" x2="700" y2="200" stroke="#374151" stroke-width="2"/>
+  <!-- week ticks: 0..40 mapped 60..700 -->
+  <!-- start -->
+  <line x1="60" y1="194" x2="60" y2="206" stroke="#374151" stroke-width="2"/>
+  <text x="60" y="226" text-anchor="middle" font-size="11" fill="#374151">Wk 0</text>
+  <line x1="508" y1="194" x2="508" y2="206" stroke="#374151" stroke-width="2"/>
+  <text x="508" y="226" text-anchor="middle" font-size="11" fill="#374151">Wk 28</text>
+  <line x1="636" y1="194" x2="636" y2="206" stroke="#374151" stroke-width="2"/>
+  <text x="636" y="226" text-anchor="middle" font-size="11" fill="#374151">Wk 36</text>
+  <line x1="700" y1="194" x2="700" y2="206" stroke="#374151" stroke-width="2"/>
+  <text x="700" y="226" text-anchor="middle" font-size="11" fill="#374151">Birth ~40</text>
+
+  <!-- phase bands above axis -->
+  <rect x="60" y="150" width="448" height="20" rx="4" fill="#1E2A8E"/>
+  <text x="284" y="164" text-anchor="middle" font-size="11" fill="#FFFFFF">Monthly (every 4 weeks)</text>
+  <rect x="508" y="150" width="128" height="20" rx="4" fill="#3E9B6B"/>
+  <text x="572" y="164" text-anchor="middle" font-size="11" fill="#FFFFFF">Every 2 wks</text>
+  <rect x="636" y="150" width="64" height="20" rx="4" fill="#C4683A"/>
+  <text x="668" y="164" text-anchor="middle" font-size="11" fill="#FFFFFF">Weekly</text>
+
+  <!-- visit dots on the axis -->
+  <!-- monthly: wk 9,12,16,20,24,28 -> x = 60 + (wk/40)*640 -->
+  <circle cx="204" cy="200" r="6" fill="#D4AF37" stroke="#141B5C" stroke-width="1.5"/>
+  <circle cx="252" cy="200" r="6" fill="#1E2A8E"/>
+  <circle cx="316" cy="200" r="6" fill="#1E2A8E"/>
+  <circle cx="380" cy="200" r="6" fill="#1E2A8E"/>
+  <circle cx="444" cy="200" r="6" fill="#1E2A8E"/>
+  <circle cx="508" cy="200" r="6" fill="#1E2A8E"/>
+  <!-- biweekly: wk 30,32,34,36 -->
+  <circle cx="540" cy="200" r="6" fill="#3E9B6B"/>
+  <circle cx="572" cy="200" r="6" fill="#3E9B6B"/>
+  <circle cx="604" cy="200" r="6" fill="#3E9B6B"/>
+  <circle cx="636" cy="200" r="6" fill="#3E9B6B"/>
+  <!-- weekly: wk 37,38,39,40 -->
+  <circle cx="652" cy="200" r="6" fill="#C4683A"/>
+  <circle cx="668" cy="200" r="6" fill="#C4683A"/>
+  <circle cx="684" cy="200" r="6" fill="#C4683A"/>
+  <circle cx="700" cy="200" r="6" fill="#C4683A"/>
+
+  <!-- first-visit callout -->
+  <line x1="204" y1="200" x2="204" y2="270" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="204" y="288" text-anchor="middle" font-size="11" font-weight="bold" fill="#141B5C">First visit</text>
+  <text x="204" y="304" text-anchor="middle" font-size="10" fill="#374151">~weeks 8 to 10</text>
+  <text x="204" y="318" text-anchor="middle" font-size="10" fill="#374151">history, dating, labs</text>
+
+  <!-- legend -->
+  <text x="380" y="346" text-anchor="middle" font-size="11" fill="#374151">Each dot is one prenatal visit. About 12 to 14 visits in a typical lower-risk pregnancy.</text>
+</svg>

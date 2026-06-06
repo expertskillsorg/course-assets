@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" font-family="Arial, sans-serif">
+  <rect width="860" height="420" fill="#ffffff"/>
+  <text x="430" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Common Fetal Positions and Presentations</text>
+  <text x="430" y="56" text-anchor="middle" font-size="13" fill="#374151">Which way the baby faces and which part comes first shapes the course of labor</text>
+
+  <!-- Helper: uterus shape per panel as a rounded teardrop -->
+  <!-- Panel 1: Ideal head-down anterior -->
+  <g>
+    <path d="M70 110 q70 -30 140 0 q40 70 -20 180 q-50 40 -100 0 q-60 -110 -20 -180 z" fill="#EEF6F1" stroke="#3E9B6B" stroke-width="2.5"/>
+    <!-- head down -->
+    <circle cx="140" cy="250" r="26" fill="#3E9B6B"/>
+    <!-- body up -->
+    <path d="M126 226 q14 -70 28 0" fill="#3E9B6B"/>
+    <text x="140" y="330" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">Head-down (ideal)</text>
+    <text x="140" y="349" text-anchor="middle" font-size="11" fill="#374151">facing the back,</text>
+    <text x="140" y="364" text-anchor="middle" font-size="11" fill="#374151">chin tucked</text>
+  </g>
+
+  <!-- Panel 2: Posterior -->
+  <g>
+    <path d="M270 110 q70 -30 140 0 q40 70 -20 180 q-50 40 -100 0 q-60 -110 -20 -180 z" fill="#FBF6EC" stroke="#D4AF37" stroke-width="2.5"/>
+    <circle cx="340" cy="250" r="26" fill="#D4AF37"/>
+    <path d="M326 226 q14 -70 28 0" fill="#D4AF37"/>
+    <!-- face dot toward front (right) -->
+    <circle cx="358" cy="250" r="4" fill="#141B5C"/>
+    <text x="340" y="330" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">Posterior</text>
+    <text x="340" y="349" text-anchor="middle" font-size="11" fill="#374151">head-down but</text>
+    <text x="340" y="364" text-anchor="middle" font-size="11" fill="#374151">facing forward</text>
+  </g>
+
+  <!-- Panel 3: Breech -->
+  <g>
+    <path d="M470 110 q70 -30 140 0 q40 70 -20 180 q-50 40 -100 0 q-60 -110 -20 -180 z" fill="#FBF0EA" stroke="#C4683A" stroke-width="2.5"/>
+    <!-- bottom down -->
+    <ellipse cx="540" cy="248" rx="28" ry="22" fill="#C4683A"/>
+    <!-- head up -->
+    <circle cx="540" cy="150" r="22" fill="#C4683A"/>
+    <path d="M524 168 q16 50 32 0" fill="#C4683A"/>
+    <text x="540" y="330" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">Breech</text>
+    <text x="540" y="349" text-anchor="middle" font-size="11" fill="#374151">bottom or feet</text>
+    <text x="540" y="364" text-anchor="middle" font-size="11" fill="#374151">first</text>
+  </g>
+
+  <!-- Panel 4: Transverse -->
+  <g>
+    <path d="M670 110 q70 -30 140 0 q40 70 -20 180 q-50 40 -100 0 q-60 -110 -20 -180 z" fill="#EDEFF8" stroke="#1E2A8E" stroke-width="2.5"/>
+    <!-- baby sideways -->
+    <circle cx="700" cy="195" r="22" fill="#1E2A8E"/>
+    <rect x="700" y="178" width="74" height="34" rx="16" fill="#1E2A8E"/>
+    <text x="740" y="330" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">Transverse</text>
+    <text x="740" y="349" text-anchor="middle" font-size="11" fill="#374151">lying sideways</text>
+    <text x="740" y="364" text-anchor="middle" font-size="11" fill="#374151">across the uterus</text>
+  </g>
+
+  <text x="430" y="402" text-anchor="middle" font-size="11" fill="#374151" font-style="italic">The pelvis (the bony passage) sits below each baby; only the head-down positions fit it smoothly for a vaginal birth.</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="470" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Newborn First-Hour Assessment</text>
+  <text x="360" y="56" text-anchor="middle" font-size="13" fill="#374151">The five Apgar signs, each scored 0 to 2, for a total out of 10</text>
+
+  <!-- timing pills -->
+  <rect x="232" y="72" width="120" height="30" rx="15" fill="#1E2A8E"/>
+  <text x="292" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">at 1 minute</text>
+  <rect x="368" y="72" width="120" height="30" rx="15" fill="#3E9B6B"/>
+  <text x="428" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">again at 5 minutes</text>
+
+  <!-- column headers -->
+  <text x="58" y="138" font-size="13" font-weight="bold" fill="#374151">SIGN (letter)</text>
+  <text x="250" y="138" font-size="13" font-weight="bold" fill="#374151">What it checks</text>
+  <text x="560" y="138" font-size="13" font-weight="bold" fill="#374151">Score</text>
+  <line x1="40" y1="148" x2="680" y2="148" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- rows -->
+  <!-- A -->
+  <circle cx="58" cy="178" r="16" fill="#C4683A"/>
+  <text x="58" y="184" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">A</text>
+  <text x="86" y="176" font-size="14" font-weight="bold" fill="#111827">Appearance</text>
+  <text x="86" y="194" font-size="12" fill="#374151">skin color</text>
+  <text x="250" y="184" font-size="13" fill="#374151">Pink, partly blue, or pale</text>
+  <text x="600" y="184" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2A8E">0 - 2</text>
+
+  <line x1="40" y1="208" x2="680" y2="208" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- P -->
+  <circle cx="58" cy="238" r="16" fill="#1E2A8E"/>
+  <text x="58" y="244" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">P</text>
+  <text x="86" y="236" font-size="14" font-weight="bold" fill="#111827">Pulse</text>
+  <text x="86" y="254" font-size="12" fill="#374151">heart rate</text>
+  <text x="250" y="244" font-size="13" fill="#374151">Above 100, below 100, or none</text>
+  <text x="600" y="244" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2A8E">0 - 2</text>
+
+  <line x1="40" y1="268" x2="680" y2="268" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- G -->
+  <circle cx="58" cy="298" r="16" fill="#3E9B6B"/>
+  <text x="58" y="304" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">G</text>
+  <text x="86" y="296" font-size="14" font-weight="bold" fill="#111827">Grimace</text>
+  <text x="86" y="314" font-size="12" fill="#374151">reflex response</text>
+  <text x="250" y="304" font-size="13" fill="#374151">Cry or cough when stimulated</text>
+  <text x="600" y="304" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2A8E">0 - 2</text>
+
+  <line x1="40" y1="328" x2="680" y2="328" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- A2 -->
+  <circle cx="58" cy="358" r="16" fill="#D4AF37"/>
+  <text x="58" y="364" text-anchor="middle" font-size="18" font-weight="bold" fill="#141B5C">A</text>
+  <text x="86" y="356" font-size="14" font-weight="bold" fill="#111827">Activity</text>
+  <text x="86" y="374" font-size="12" fill="#374151">muscle tone</text>
+  <text x="250" y="364" font-size="13" fill="#374151">Active, some flexing, or limp</text>
+  <text x="600" y="364" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2A8E">0 - 2</text>
+
+  <line x1="40" y1="388" x2="680" y2="388" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- R -->
+  <circle cx="58" cy="418" r="16" fill="#141B5C"/>
+  <text x="58" y="424" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">R</text>
+  <text x="86" y="416" font-size="14" font-weight="bold" fill="#111827">Respiration</text>
+  <text x="86" y="434" font-size="12" fill="#374151">breathing</text>
+  <text x="250" y="424" font-size="13" fill="#374151">Strong cry, weak, or absent</text>
+  <text x="600" y="424" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2A8E">0 - 2</text>
+
+  <!-- total bar -->
+  <line x1="40" y1="448" x2="680" y2="448" stroke="#141B5C" stroke-width="2"/>
+  <text x="250" y="466" font-size="13" font-weight="bold" fill="#141B5C">Total: 7 to 10 is the typical healthy range</text>
+  <rect x="556" y="452" width="88" height="14" rx="7" fill="#3E9B6B"/>
+  <text x="600" y="463" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF">out of 10</text>
+</svg>

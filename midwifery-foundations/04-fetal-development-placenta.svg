@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="Arial, sans-serif">
+  <rect width="720" height="460" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">How a Baby Grows, and the Placenta That Feeds It</text>
+
+  <!-- Top row: three trimesters -->
+  <text x="360" y="62" text-anchor="middle" font-size="13" fill="#374151">Fetal development across three trimesters</text>
+
+  <!-- Trimester 1 -->
+  <circle cx="130" cy="130" r="46" fill="#FBF5E6" stroke="#D4AF37" stroke-width="2"/>
+  <path d="M120 118 q8 -14 18 0 q10 16 -9 26 q-19 -10 -9 -26 z" fill="#C4683A"/>
+  <text x="130" y="200" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2A8E">First trimester</text>
+  <text x="130" y="219" text-anchor="middle" font-size="11" fill="#374151">Weeks 1 to 13</text>
+  <text x="130" y="235" text-anchor="middle" font-size="11" fill="#374151">Organs form</text>
+  <text x="130" y="250" text-anchor="middle" font-size="11" fill="#374151">~lime sized</text>
+
+  <!-- Trimester 2 -->
+  <circle cx="290" cy="130" r="46" fill="#FBF5E6" stroke="#D4AF37" stroke-width="2"/>
+  <ellipse cx="290" cy="135" rx="20" ry="26" fill="#C4683A"/>
+  <circle cx="290" cy="112" r="11" fill="#C4683A"/>
+  <text x="290" y="200" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2A8E">Second trimester</text>
+  <text x="290" y="219" text-anchor="middle" font-size="11" fill="#374151">Weeks 14 to 27</text>
+  <text x="290" y="235" text-anchor="middle" font-size="11" fill="#374151">Growth, movement</text>
+  <text x="290" y="250" text-anchor="middle" font-size="11" fill="#374151">quickening felt</text>
+
+  <!-- Trimester 3 -->
+  <circle cx="450" cy="130" r="46" fill="#FBF5E6" stroke="#D4AF37" stroke-width="2"/>
+  <ellipse cx="450" cy="138" rx="26" ry="30" fill="#C4683A"/>
+  <circle cx="450" cy="108" r="14" fill="#C4683A"/>
+  <text x="450" y="200" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2A8E">Third trimester</text>
+  <text x="450" y="219" text-anchor="middle" font-size="11" fill="#374151">Weeks 28 to 40</text>
+  <text x="450" y="235" text-anchor="middle" font-size="11" fill="#374151">Gains weight,</text>
+  <text x="450" y="250" text-anchor="middle" font-size="11" fill="#374151">matures for birth</text>
+
+  <!-- arrows between -->
+  <path d="M182 130 H240" stroke="#3E9B6B" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+  <path d="M342 130 H400" stroke="#3E9B6B" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0 0 L9 4.5 L0 9 z" fill="#3E9B6B"/>
+    </marker>
+  </defs>
+
+  <!-- divider -->
+  <line x1="40" y1="278" x2="680" y2="278" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <!-- Right / bottom: cutaway of uterus with placenta, cord, sac -->
+  <text x="600" y="120" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Inside the uterus</text>
+
+  <!-- uterus outline -->
+  <path d="M560 150 q-58 6 -58 78 q0 70 98 70 q98 0 98 -70 q0 -72 -58 -78 q-40 -6 -80 0 z" fill="#FBEDE6" stroke="#C4683A" stroke-width="2.5"/>
+  <!-- amniotic sac -->
+  <ellipse cx="600" cy="232" rx="74" ry="62" fill="#EAF4FF" stroke="#1E2A8E" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <!-- placenta on wall -->
+  <path d="M526 200 q-14 -8 -10 26 q4 30 18 22 q14 -8 14 -26 q0 -20 -22 -22 z" fill="#3E9B6B"/>
+  <!-- cord -->
+  <path d="M540 230 q26 6 44 18" stroke="#D4AF37" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- baby -->
+  <ellipse cx="610" cy="246" rx="20" ry="24" fill="#C4683A"/>
+  <circle cx="612" cy="222" r="12" fill="#C4683A"/>
+
+  <!-- labels for cutaway -->
+  <text x="498" y="330" font-size="11" fill="#3E9B6B" font-weight="bold">Placenta</text>
+  <line x1="516" y1="324" x2="524" y2="226" stroke="#3E9B6B" stroke-width="1"/>
+  <text x="560" y="346" font-size="11" fill="#D4AF37" font-weight="bold">Umbilical cord</text>
+  <line x1="582" y1="340" x2="566" y2="248" stroke="#D4AF37" stroke-width="1"/>
+  <text x="648" y="330" font-size="11" fill="#1E2A8E" font-weight="bold">Amniotic sac</text>
+  <line x1="666" y1="324" x2="668" y2="252" stroke="#1E2A8E" stroke-width="1"/>
+
+  <!-- left bottom: roles of placenta -->
+  <text x="60" y="312" font-size="13" font-weight="bold" fill="#141B5C">The placenta delivers:</text>
+  <circle cx="70" cy="338" r="5" fill="#3E9B6B"/><text x="84" y="342" font-size="12" fill="#374151">Oxygen and nutrients to the baby</text>
+  <circle cx="70" cy="364" r="5" fill="#3E9B6B"/><text x="84" y="368" font-size="12" fill="#374151">Carries waste away from the baby</text>
+  <circle cx="70" cy="390" r="5" fill="#3E9B6B"/><text x="84" y="394" font-size="12" fill="#374151">Makes hormones that sustain pregnancy</text>
+  <text x="60" y="426" font-size="11" fill="#374151" font-style="italic">A temporary organ, delivered after the baby is born.</text>
+</svg>
