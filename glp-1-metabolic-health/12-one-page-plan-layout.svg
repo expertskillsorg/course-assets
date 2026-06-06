@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="480" fill="#FFFFFF"/>
+  <text x="360" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Your One-Page GLP-1 Eating Plan</text>
+  <text x="360" y="54" text-anchor="middle" font-size="13" fill="#374151">Six boxes you fill in once, then keep where you will see it.</text>
+
+  <!-- outer page -->
+  <rect x="40" y="72" width="640" height="372" rx="8" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+
+  <!-- Box 1: My numbers -->
+  <rect x="56" y="88" width="196" height="108" rx="6" fill="#1E2A8E"/>
+  <text x="68" y="110" font-size="13" font-weight="bold" fill="#FFFFFF">1. My Numbers</text>
+  <text x="68" y="132" font-size="11" fill="#FFFFFF">Protein target: ____ g/day</text>
+  <text x="68" y="150" font-size="11" fill="#FFFFFF">Fluid goal: ____ per day</text>
+  <text x="68" y="168" font-size="11" fill="#FFFFFF">Per-meal protein: 25 to 40 g</text>
+  <text x="68" y="186" font-size="11" fill="#FFFFFF">Floor: never skip protein</text>
+
+  <!-- Box 2: My meals -->
+  <rect x="262" y="88" width="196" height="108" rx="6" fill="#3E9B6B"/>
+  <text x="274" y="110" font-size="13" font-weight="bold" fill="#FFFFFF">2. My Go-To Meals</text>
+  <text x="274" y="132" font-size="11" fill="#FFFFFF">Breakfasts: ____ , ____</text>
+  <text x="274" y="150" font-size="11" fill="#FFFFFF">Lunches: ____ , ____</text>
+  <text x="274" y="168" font-size="11" fill="#FFFFFF">Dinners: ____ , ____</text>
+  <text x="274" y="186" font-size="11" fill="#FFFFFF">Snacks: ____ , ____</text>
+
+  <!-- Box 3: Safe / bad-day -->
+  <rect x="468" y="88" width="196" height="108" rx="6" fill="#C4683A"/>
+  <text x="480" y="110" font-size="13" font-weight="bold" fill="#FFFFFF">3. Bad-Day Foods</text>
+  <text x="480" y="132" font-size="11" fill="#FFFFFF">Safe foods: ____</text>
+  <text x="480" y="150" font-size="11" fill="#FFFFFF">Easy protein: ____</text>
+  <text x="480" y="168" font-size="11" fill="#FFFFFF">Fluids on hand: ____</text>
+  <text x="480" y="186" font-size="11" fill="#FFFFFF">Red flags: call provider</text>
+
+  <!-- Box 4: Training -->
+  <rect x="56" y="208" width="196" height="108" rx="6" fill="#141B5C"/>
+  <text x="68" y="230" font-size="13" font-weight="bold" fill="#FFFFFF">4. My Training</text>
+  <text x="68" y="252" font-size="11" fill="#FFFFFF">Days: ____ and ____</text>
+  <text x="68" y="270" font-size="11" fill="#FFFFFF">Routine: full-body, 5 moves</text>
+  <text x="68" y="288" font-size="11" fill="#FFFFFF">Time: about 20 min</text>
+  <text x="68" y="306" font-size="11" fill="#FFFFFF">Rule: stop with good form</text>
+
+  <!-- Box 5: Maintenance -->
+  <rect x="262" y="208" width="196" height="108" rx="6" fill="#D4AF37"/>
+  <text x="274" y="230" font-size="13" font-weight="bold" fill="#141B5C">5. My Commitments</text>
+  <text x="274" y="252" font-size="11" fill="#141B5C">Protein floor (forever)</text>
+  <text x="274" y="270" font-size="11" fill="#141B5C">Weekly resistance training</text>
+  <text x="274" y="288" font-size="11" fill="#141B5C">Meal rhythm and planning</text>
+  <text x="274" y="306" font-size="11" fill="#141B5C">Light tracking</text>
+
+  <!-- Box 6: Care team -->
+  <rect x="468" y="208" width="196" height="108" rx="6" fill="#374151"/>
+  <text x="480" y="230" font-size="13" font-weight="bold" fill="#FFFFFF">6. My Care Team</text>
+  <text x="480" y="252" font-size="11" fill="#FFFFFF">Prescriber: ____</text>
+  <text x="480" y="270" font-size="11" fill="#FFFFFF">Phone: ____</text>
+  <text x="480" y="288" font-size="11" fill="#FFFFFF">Dietitian: ____</text>
+  <text x="480" y="306" font-size="11" fill="#FFFFFF">Next visit: ____</text>
+
+  <!-- footer band -->
+  <rect x="56" y="332" width="608" height="44" rx="6" fill="#E5E7EB"/>
+  <text x="360" y="352" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Eat protein first. Stop at comfortable, not stuffed. Sip fluids all day.</text>
+  <text x="360" y="370" text-anchor="middle" font-size="11" fill="#374151">One page, filled in once. The whole course on a single sheet.</text>
+
+  <text x="360" y="428" text-anchor="middle" font-size="12" fill="#1E2A8E" font-weight="bold">Dosing and diagnosis stay with your prescriber. This page is the food side.</text>
+</svg>

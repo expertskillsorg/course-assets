@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="420" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The GLP-1 Plate and the Order You Eat It</text>
+
+  <!-- THE PLATE (left) -->
+  <text x="200" y="66" text-anchor="middle" font-size="14" font-weight="bold" fill="#374151">Proportions</text>
+  <circle cx="200" cy="220" r="130" fill="#FFFFFF" stroke="#374151" stroke-width="3"/>
+
+  <!-- half: non-starchy vegetables (left semicircle) -->
+  <path d="M200,90 A130,130 0 0,0 200,350 Z" fill="#3E9B6B"/>
+  <!-- quarter: lean protein (top right) -->
+  <path d="M200,220 L200,90 A130,130 0 0,1 330,220 Z" fill="#C4683A"/>
+  <!-- quarter: smart carb (bottom right) -->
+  <path d="M200,220 L330,220 A130,130 0 0,1 200,350 Z" fill="#D4AF37"/>
+
+  <text x="130" y="216" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Half:</text>
+  <text x="130" y="234" text-anchor="middle" font-size="12" fill="#FFFFFF">non-starchy</text>
+  <text x="130" y="250" text-anchor="middle" font-size="12" fill="#FFFFFF">vegetables</text>
+
+  <text x="262" y="168" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">Quarter:</text>
+  <text x="262" y="184" text-anchor="middle" font-size="11" fill="#FFFFFF">lean protein</text>
+
+  <text x="262" y="280" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Quarter:</text>
+  <text x="262" y="296" text-anchor="middle" font-size="11" fill="#141B5C">smart carb</text>
+
+  <!-- little fat dot -->
+  <circle cx="200" cy="220" r="14" fill="#1E2A8E"/>
+  <text x="200" y="225" text-anchor="middle" font-size="9" fill="#FFFFFF">fat</text>
+
+  <!-- THE ORDER (right) -->
+  <text x="540" y="66" text-anchor="middle" font-size="14" font-weight="bold" fill="#374151">Eating order</text>
+
+  <!-- step 1 -->
+  <rect x="420" y="92" width="240" height="50" rx="8" fill="#C4683A"/>
+  <text x="448" y="123" font-size="18" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="475" y="116" font-size="13" font-weight="bold" fill="#FFFFFF">Protein first</text>
+  <text x="475" y="133" font-size="11" fill="#FFFFFF">so you never miss it</text>
+
+  <!-- arrow -->
+  <polygon points="540,144 532,158 548,158" fill="#374151"/>
+
+  <!-- step 2 -->
+  <rect x="420" y="160" width="240" height="50" rx="8" fill="#3E9B6B"/>
+  <text x="448" y="191" font-size="18" font-weight="bold" fill="#FFFFFF">2</text>
+  <text x="475" y="184" font-size="13" font-weight="bold" fill="#FFFFFF">Vegetables next</text>
+  <text x="475" y="201" font-size="11" fill="#FFFFFF">fiber and volume</text>
+
+  <!-- arrow -->
+  <polygon points="540,212 532,226 548,226" fill="#374151"/>
+
+  <!-- step 3 -->
+  <rect x="420" y="228" width="240" height="50" rx="8" fill="#D4AF37"/>
+  <text x="448" y="259" font-size="18" font-weight="bold" fill="#141B5C">3</text>
+  <text x="475" y="252" font-size="13" font-weight="bold" fill="#141B5C">Smart carb last</text>
+  <text x="475" y="269" font-size="11" fill="#141B5C">whatever you have room for</text>
+
+  <!-- caption band -->
+  <rect x="420" y="300" width="240" height="64" rx="8" fill="#141B5C"/>
+  <text x="540" y="326" text-anchor="middle" font-size="12" fill="#FFFFFF">The last bites often get left.</text>
+  <text x="540" y="346" text-anchor="middle" font-size="12" fill="#FFFFFF">So protein can never be last.</text>
+</svg>

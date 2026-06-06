@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="420" fill="#FFFFFF"/>
+  <text x="360" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Four Pillars of Every GLP-1 Meal</text>
+
+  <!-- roof / the meal it holds up -->
+  <polygon points="80,150 360,90 640,150" fill="#1E2A8E"/>
+  <text x="360" y="128" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">A balanced, well-tolerated meal</text>
+
+  <!-- lintel -->
+  <rect x="80" y="150" width="560" height="22" fill="#141B5C"/>
+
+  <!-- four pillars -->
+  <!-- pillar 1 -->
+  <rect x="100" y="172" width="110" height="180" rx="6" fill="#3E9B6B"/>
+  <text x="155" y="210" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="155" y="234" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Protein</text>
+  <text x="155" y="252" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">first</text>
+  <text x="155" y="296" text-anchor="middle" font-size="11" fill="#FFFFFF">Protects</text>
+  <text x="155" y="312" text-anchor="middle" font-size="11" fill="#FFFFFF">muscle and</text>
+  <text x="155" y="328" text-anchor="middle" font-size="11" fill="#FFFFFF">fullness</text>
+
+  <!-- pillar 2 -->
+  <rect x="240" y="172" width="110" height="180" rx="6" fill="#D4AF37"/>
+  <text x="295" y="210" text-anchor="middle" font-size="15" font-weight="bold" fill="#141B5C">2</text>
+  <text x="295" y="234" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Fiber and</text>
+  <text x="295" y="252" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">plants</text>
+  <text x="295" y="296" text-anchor="middle" font-size="11" fill="#141B5C">Eases</text>
+  <text x="295" y="312" text-anchor="middle" font-size="11" fill="#141B5C">digestion,</text>
+  <text x="295" y="328" text-anchor="middle" font-size="11" fill="#141B5C">steadier energy</text>
+
+  <!-- pillar 3 -->
+  <rect x="380" y="172" width="110" height="180" rx="6" fill="#C4683A"/>
+  <text x="435" y="210" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">3</text>
+  <text x="435" y="234" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Smart fats,</text>
+  <text x="435" y="252" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">few triggers</text>
+  <text x="435" y="296" text-anchor="middle" font-size="11" fill="#FFFFFF">Limits</text>
+  <text x="435" y="312" text-anchor="middle" font-size="11" fill="#FFFFFF">greasy foods</text>
+  <text x="435" y="328" text-anchor="middle" font-size="11" fill="#FFFFFF">that nauseate</text>
+
+  <!-- pillar 4 -->
+  <rect x="520" y="172" width="110" height="180" rx="6" fill="#1E2A8E"/>
+  <text x="575" y="210" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">4</text>
+  <text x="575" y="234" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Fluids and</text>
+  <text x="575" y="252" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">electrolytes</text>
+  <text x="575" y="296" text-anchor="middle" font-size="11" fill="#FFFFFF">Prevents the</text>
+  <text x="575" y="312" text-anchor="middle" font-size="11" fill="#FFFFFF">dehydration</text>
+  <text x="575" y="328" text-anchor="middle" font-size="11" fill="#FFFFFF">trap</text>
+
+  <!-- ground / foundation line -->
+  <rect x="80" y="352" width="560" height="18" fill="#374151"/>
+  <text x="360" y="394" text-anchor="middle" font-size="13" fill="#374151" font-style="italic">Remove one pillar and the meal stops holding you up.</text>
+</svg>

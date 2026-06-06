@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="460" fill="#FFFFFF"/>
+  <text x="360" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">On a Slowed Stomach: Safe vs Trigger Foods</text>
+
+  <!-- Safe column -->
+  <rect x="30" y="62" width="310" height="360" rx="12" fill="#F1F8F4" stroke="#3E9B6B" stroke-width="2"/>
+  <rect x="30" y="62" width="310" height="46" rx="12" fill="#3E9B6B"/>
+  <rect x="30" y="86" width="310" height="22" fill="#3E9B6B"/>
+  <text x="185" y="92" text-anchor="middle" font-size="19" font-weight="bold" fill="#FFFFFF">Safe foods</text>
+  <text x="185" y="128" text-anchor="middle" font-size="12.5" fill="#374151">Gentle, lower-fat, mild, easy to digest</text>
+
+  <g font-size="14.5" fill="#111827">
+    <circle cx="58" cy="156" r="4" fill="#3E9B6B"/><text x="72" y="161">Eggs and egg whites</text>
+    <circle cx="58" cy="186" r="4" fill="#3E9B6B"/><text x="72" y="191">Plain or Greek yogurt</text>
+    <circle cx="58" cy="216" r="4" fill="#3E9B6B"/><text x="72" y="221">Oatmeal</text>
+    <circle cx="58" cy="246" r="4" fill="#3E9B6B"/><text x="72" y="251">Cooked vegetables</text>
+    <circle cx="58" cy="276" r="4" fill="#3E9B6B"/><text x="72" y="281">Lean protein (chicken, fish, tofu)</text>
+    <circle cx="58" cy="306" r="4" fill="#3E9B6B"/><text x="72" y="311">Broth and clear soups</text>
+    <circle cx="58" cy="336" r="4" fill="#3E9B6B"/><text x="72" y="341">Cottage cheese</text>
+    <circle cx="58" cy="366" r="4" fill="#3E9B6B"/><text x="72" y="371">Crackers, toast, banana</text>
+  </g>
+  <text x="185" y="406" text-anchor="middle" font-size="12.5" font-style="italic" fill="#3E9B6B">Works with a slow gut</text>
+
+  <!-- Trigger column -->
+  <rect x="380" y="62" width="310" height="360" rx="12" fill="#FBF2EC" stroke="#C4683A" stroke-width="2"/>
+  <rect x="380" y="62" width="310" height="46" rx="12" fill="#C4683A"/>
+  <rect x="380" y="86" width="310" height="22" fill="#C4683A"/>
+  <text x="535" y="92" text-anchor="middle" font-size="19" font-weight="bold" fill="#FFFFFF">Trigger foods</text>
+  <text x="535" y="128" text-anchor="middle" font-size="12.5" fill="#374151">High-fat, very large, rich, or sugary</text>
+
+  <g font-size="14.5" fill="#111827">
+    <path d="M404 152 l8 8 M412 152 l-8 8" stroke="#C4683A" stroke-width="2.5" stroke-linecap="round"/><text x="424" y="161">Fried and greasy food</text>
+    <path d="M404 182 l8 8 M412 182 l-8 8" stroke="#C4683A" stroke-width="2.5" stroke-linecap="round"/><text x="424" y="191">Large or buffet-sized meals</text>
+    <path d="M404 212 l8 8 M412 212 l-8 8" stroke="#C4683A" stroke-width="2.5" stroke-linecap="round"/><text x="424" y="221">Heavy cream or cheese sauces</text>
+    <path d="M404 242 l8 8 M412 242 l-8 8" stroke="#C4683A" stroke-width="2.5" stroke-linecap="round"/><text x="424" y="251">Fatty cuts of meat</text>
+    <path d="M404 272 l8 8 M412 272 l-8 8" stroke="#C4683A" stroke-width="2.5" stroke-linecap="round"/><text x="424" y="281">Sugary drinks and desserts</text>
+    <path d="M404 302 l8 8 M412 302 l-8 8" stroke="#C4683A" stroke-width="2.5" stroke-linecap="round"/><text x="424" y="311">Fast food and fries</text>
+    <path d="M404 332 l8 8 M412 332 l-8 8" stroke="#C4683A" stroke-width="2.5" stroke-linecap="round"/><text x="424" y="341">More than a little alcohol</text>
+    <path d="M404 362 l8 8 M412 362 l-8 8" stroke="#C4683A" stroke-width="2.5" stroke-linecap="round"/><text x="424" y="371">Spicy, very rich dishes</text>
+  </g>
+  <text x="535" y="406" text-anchor="middle" font-size="12.5" font-style="italic" fill="#C4683A">Sits hardest in a slow gut</text>
+
+  <!-- center divider levers -->
+  <rect x="345" y="180" width="30" height="120" rx="6" fill="#D4AF37"/>
+  <text x="360" y="232" text-anchor="middle" font-size="11" font-weight="bold" fill="#141B5C" transform="rotate(-90 360 232)">FAT &amp; VOLUME</text>
+</svg>

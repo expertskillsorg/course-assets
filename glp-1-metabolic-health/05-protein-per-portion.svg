@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, sans-serif" role="img" aria-label="Bar chart ranking common protein sources by approximate grams of protein in a small, realistic portion">
+  <rect x="0" y="0" width="640" height="460" fill="#FFFFFF"/>
+  <text x="24" y="34" font-size="20" font-weight="bold" fill="#141B5C">Protein per realistic small portion</text>
+  <text x="24" y="56" font-size="13" fill="#374151">Approximate grams. A small-appetite serving, not a full plate.</text>
+
+  <!-- baseline axis -->
+  <line x1="190" y1="84" x2="190" y2="404" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- gridlines at 10,20,30 g (scale: 12px per gram, starting x=190) -->
+  <line x1="310" y1="84" x2="310" y2="404" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="430" y1="84" x2="430" y2="404" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="550" y1="84" x2="550" y2="404" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="186" y="420" font-size="11" fill="#374151">0</text>
+  <text x="304" y="420" font-size="11" fill="#374151">10 g</text>
+  <text x="424" y="420" font-size="11" fill="#374151">20 g</text>
+  <text x="544" y="420" font-size="11" fill="#374151">30 g</text>
+
+  <!-- Bars: y, label, grams, width = grams*12 -->
+  <!-- Chicken breast 3 oz ~26 g -> width 312 -->
+  <rect x="190" y="92" width="312" height="26" fill="#1E2A8E"/>
+  <text x="24" y="110" font-size="13" fill="#111827">Chicken breast (3 oz)</text>
+  <text x="508" y="110" font-size="12" font-weight="bold" fill="#141B5C">~26 g</text>
+
+  <!-- Greek yogurt 3/4 cup ~17 g -> 204 -->
+  <rect x="190" y="128" width="204" height="26" fill="#3E9B6B"/>
+  <text x="24" y="146" font-size="13" fill="#111827">Greek yogurt (3/4 cup)</text>
+  <text x="400" y="146" font-size="12" font-weight="bold" fill="#141B5C">~17 g</text>
+
+  <!-- Cottage cheese 1/2 cup ~12 g -> 144 -->
+  <rect x="190" y="164" width="144" height="26" fill="#3E9B6B"/>
+  <text x="24" y="182" font-size="13" fill="#111827">Cottage cheese (1/2 cup)</text>
+  <text x="340" y="182" font-size="12" font-weight="bold" fill="#141B5C">~12 g</text>
+
+  <!-- Two eggs ~12 g -> 144 -->
+  <rect x="190" y="200" width="144" height="26" fill="#1E2A8E"/>
+  <text x="24" y="218" font-size="13" fill="#111827">Eggs (2 large)</text>
+  <text x="340" y="218" font-size="12" font-weight="bold" fill="#141B5C">~12 g</text>
+
+  <!-- Tofu firm 3 oz ~9 g -> 108 -->
+  <rect x="190" y="236" width="108" height="26" fill="#D4AF37"/>
+  <text x="24" y="254" font-size="13" fill="#111827">Firm tofu (3 oz)</text>
+  <text x="304" y="254" font-size="12" font-weight="bold" fill="#141B5C">~9 g</text>
+
+  <!-- Edamame 1/2 cup ~9 g -> 108 -->
+  <rect x="190" y="272" width="108" height="26" fill="#D4AF37"/>
+  <text x="24" y="290" font-size="13" fill="#111827">Edamame (1/2 cup)</text>
+  <text x="304" y="290" font-size="12" font-weight="bold" fill="#141B5C">~9 g</text>
+
+  <!-- Lentils 1/2 cup ~9 g -> 108 -->
+  <rect x="190" y="308" width="108" height="26" fill="#D4AF37"/>
+  <text x="24" y="326" font-size="13" fill="#111827">Lentils, cooked (1/2 cup)</text>
+  <text x="304" y="326" font-size="12" font-weight="bold" fill="#141B5C">~9 g</text>
+
+  <!-- Black beans 1/2 cup ~7 g -> 84 -->
+  <rect x="190" y="344" width="84" height="26" fill="#D4AF37"/>
+  <text x="24" y="362" font-size="13" fill="#111827">Black beans (1/2 cup)</text>
+  <text x="280" y="362" font-size="12" font-weight="bold" fill="#141B5C">~7 g</text>
+
+  <!-- Legend -->
+  <rect x="24" y="438" width="14" height="12" fill="#1E2A8E"/>
+  <text x="44" y="448" font-size="11" fill="#374151">Animal</text>
+  <rect x="110" y="438" width="14" height="12" fill="#3E9B6B"/>
+  <text x="130" y="448" font-size="11" fill="#374151">Dairy</text>
+  <rect x="186" y="438" width="14" height="12" fill="#D4AF37"/>
+  <text x="206" y="448" font-size="11" fill="#374151">Plant</text>
+</svg>

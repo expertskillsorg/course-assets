@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="470" fill="#FFFFFF"/>
+  <text x="360" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Stubborn Symptom to Food Fix</text>
+  <text x="360" y="60" text-anchor="middle" font-size="13" fill="#374151">Food adjustments for ongoing problems. If it stays stubborn or severe, call your provider.</text>
+
+  <!-- column headers -->
+  <rect x="36" y="80" width="200" height="34" rx="8" fill="#1E2A8E"/>
+  <text x="136" y="103" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">If you have</text>
+  <rect x="252" y="80" width="436" height="34" rx="8" fill="#3E9B6B"/>
+  <text x="470" y="103" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Try this food fix first</text>
+
+  <!-- Row 1: nausea -->
+  <rect x="36" y="124" width="200" height="96" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <circle cx="66" cy="156" r="9" fill="#C4683A"/>
+  <text x="84" y="155" font-size="15" font-weight="bold" fill="#111827">Ongoing nausea</text>
+  <text x="84" y="178" font-size="12" fill="#374151">queasy most days</text>
+  <rect x="252" y="124" width="436" height="96" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <g fill="#111827" font-size="13">
+    <text x="272" y="150">Shrink portions, eat only safe foods (bland, low-fat)</text>
+    <text x="272" y="172">Cut trigger foods: fried, greasy, heavy sauces, sweet drinks</text>
+    <text x="272" y="194">Cool or room-temp foods if cooking smells set it off</text>
+  </g>
+
+  <!-- Row 2: constipation -->
+  <rect x="36" y="228" width="200" height="96" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <circle cx="66" cy="260" r="9" fill="#D4AF37"/>
+  <text x="84" y="259" font-size="15" font-weight="bold" fill="#111827">Constipation</text>
+  <text x="84" y="282" font-size="12" fill="#374151">that will not budge</text>
+  <rect x="252" y="228" width="436" height="96" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <g fill="#111827" font-size="13">
+    <text x="272" y="254">Add gentle fiber slowly: oats, cooked veg, soft fruit</text>
+    <text x="272" y="276">Raise fluids to your target; every fiber serving with water</text>
+    <text x="272" y="298">Move daily, even a short walk; ask provider before laxatives</text>
+  </g>
+
+  <!-- Row 3: reflux -->
+  <rect x="36" y="332" width="200" height="96" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <circle cx="66" cy="364" r="9" fill="#1E2A8E"/>
+  <text x="84" y="363" font-size="15" font-weight="bold" fill="#111827">Reflux and</text>
+  <text x="84" y="383" font-size="15" font-weight="bold" fill="#111827">heavy fullness</text>
+  <rect x="252" y="332" width="436" height="96" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <g fill="#111827" font-size="13">
+    <text x="272" y="358">Smaller meals; stop at first comfortable fullness</text>
+    <text x="272" y="380">Stay upright 30+ min after eating; no lying down full</text>
+    <text x="272" y="402">Lighter, earlier dinners; ease off fatty and acidic foods</text>
+  </g>
+
+  <text x="360" y="454" text-anchor="middle" font-size="12" font-style="italic" fill="#374151">Give one change a full week before judging it. Severe or persistent: that is a provider call, not a food fix.</text>
+</svg>

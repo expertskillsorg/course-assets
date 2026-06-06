@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="440" fill="#FFFFFF"/>
+  <text x="360" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Gentle vs Harsh Fiber on a Slowed Gut</text>
+  <text x="360" y="62" text-anchor="middle" font-size="13" fill="#374151">Same goal, easier on early nausea. Always pair fiber with fluids.</text>
+
+  <!-- Gentle column -->
+  <rect x="40" y="86" width="300" height="320" rx="12" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2"/>
+  <rect x="40" y="86" width="300" height="46" rx="12" fill="#3E9B6B"/>
+  <rect x="40" y="116" width="300" height="16" fill="#3E9B6B"/>
+  <text x="190" y="116" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">Gentle (start here)</text>
+
+  <g fill="#111827" font-size="14">
+    <circle cx="64" cy="166" r="5" fill="#3E9B6B"/><text x="80" y="171">Cooked or roasted vegetables</text>
+    <circle cx="64" cy="200" r="5" fill="#3E9B6B"/><text x="80" y="205">Oats and oatmeal</text>
+    <circle cx="64" cy="234" r="5" fill="#3E9B6B"/><text x="80" y="239">Soft berries, ripe banana</text>
+    <circle cx="64" cy="268" r="5" fill="#3E9B6B"/><text x="80" y="273">Peeled, cooked fruit (applesauce)</text>
+    <circle cx="64" cy="302" r="5" fill="#3E9B6B"/><text x="80" y="307">Well-cooked beans, lentils</text>
+    <circle cx="64" cy="336" r="5" fill="#3E9B6B"/><text x="80" y="341">Smooth nut butter, chia in liquid</text>
+  </g>
+  <text x="190" y="384" text-anchor="middle" font-size="12" font-style="italic" fill="#374151">Soft, cooked, small amounts</text>
+
+  <!-- Harsh column -->
+  <rect x="380" y="86" width="300" height="320" rx="12" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+  <rect x="380" y="86" width="300" height="46" rx="12" fill="#C4683A"/>
+  <rect x="380" y="116" width="300" height="16" fill="#C4683A"/>
+  <text x="530" y="116" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">Harsh (ease in later)</text>
+
+  <g fill="#111827" font-size="14">
+    <rect x="403" y="161" width="9" height="9" fill="#C4683A"/><text x="420" y="171">Large raw salads, raw kale</text>
+    <rect x="403" y="195" width="9" height="9" fill="#C4683A"/><text x="420" y="205">Skins, seeds, tough stems</text>
+    <rect x="403" y="229" width="9" height="9" fill="#C4683A"/><text x="420" y="239">Big servings of raw broccoli</text>
+    <rect x="403" y="263" width="9" height="9" fill="#C4683A"/><text x="420" y="273">Dried fruit by the handful</text>
+    <rect x="403" y="297" width="9" height="9" fill="#C4683A"/><text x="420" y="307">Whole nuts and seeds in bulk</text>
+    <rect x="403" y="331" width="9" height="9" fill="#C4683A"/><text x="420" y="341">A fiber jump with little water</text>
+  </g>
+  <text x="530" y="384" text-anchor="middle" font-size="12" font-style="italic" fill="#374151">Bulky, raw, all at once</text>
+
+  <!-- arrow -->
+  <text x="360" y="226" text-anchor="middle" font-size="26" fill="#D4AF37" font-weight="bold">to</text>
+</svg>

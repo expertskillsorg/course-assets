@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="460" fill="#FFFFFF"/>
+  <text x="320" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Fill-In-The-Blank Plate</text>
+  <text x="320" y="62" text-anchor="middle" font-size="14" fill="#374151">Pick one from each line, eat the protein first.</text>
+
+  <!-- Plate circle -->
+  <circle cx="200" cy="250" r="140" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="3"/>
+
+  <!-- Protein quarter (gold) -->
+  <path d="M200 250 L200 110 A140 140 0 0 1 340 250 Z" fill="#D4AF37"/>
+  <!-- Smart carb quarter (terracotta) -->
+  <path d="M200 250 L340 250 A140 140 0 0 1 200 390 Z" fill="#C4683A"/>
+  <!-- Vegetable half (green) -->
+  <path d="M200 250 L200 390 A140 140 0 0 1 200 110 Z" fill="#3E9B6B"/>
+
+  <!-- inner labels -->
+  <text x="258" y="190" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Protein</text>
+  <text x="258" y="207" text-anchor="middle" font-size="11" fill="#141B5C">(1/4)</text>
+  <text x="258" y="310" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Smart carb</text>
+  <text x="258" y="327" text-anchor="middle" font-size="11" fill="#FFFFFF">(1/4)</text>
+  <text x="130" y="250" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Vegetables</text>
+  <text x="130" y="267" text-anchor="middle" font-size="11" fill="#FFFFFF">(1/2)</text>
+
+  <!-- order arrow / number -->
+  <circle cx="258" cy="150" r="13" fill="#141B5C"/>
+  <text x="258" y="155" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">1</text>
+
+  <!-- Fill-in blanks panel -->
+  <rect x="380" y="110" width="240" height="280" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+
+  <rect x="380" y="110" width="240" height="34" rx="10" fill="#D4AF37"/>
+  <text x="396" y="132" font-size="13" font-weight="bold" fill="#141B5C">1. Protein base ____________</text>
+
+  <rect x="380" y="158" width="240" height="34" fill="#3E9B6B"/>
+  <text x="396" y="180" font-size="13" font-weight="bold" fill="#FFFFFF">2. Vegetable/fruit ________</text>
+
+  <rect x="380" y="206" width="240" height="34" fill="#C4683A"/>
+  <text x="396" y="228" font-size="13" font-weight="bold" fill="#FFFFFF">3. Smart carb ____________</text>
+
+  <rect x="380" y="254" width="240" height="34" fill="#1E2A8E"/>
+  <text x="396" y="276" font-size="13" font-weight="bold" fill="#FFFFFF">+ A little fat ____________</text>
+
+  <text x="396" y="318" font-size="12" fill="#374151">Tip: protein fills 1/4 of the</text>
+  <text x="396" y="336" font-size="12" fill="#374151">plate but should be the</text>
+  <text x="396" y="354" font-size="12" fill="#374151">first bite you take.</text>
+  <text x="396" y="378" font-size="11" font-style="italic" fill="#374151">Shrink the whole plate, not the protein.</text>
+</svg>
