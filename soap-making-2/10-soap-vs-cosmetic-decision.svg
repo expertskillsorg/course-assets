@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="520" fill="#ffffff"/>
+  <text x="30" y="38" font-size="22" font-weight="bold" fill="#141B5C">Soap or cosmetic? The claim decides.</text>
+
+  <!-- Decision question box -->
+  <rect x="40" y="64" width="300" height="70" rx="10" fill="#1E2A8E"/>
+  <text x="190" y="94" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Do you claim anything</text>
+  <text x="190" y="114" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">beyond cleaning?</text>
+
+  <!-- Arrow down-left (NO) -->
+  <line x1="130" y1="134" x2="100" y2="180" stroke="#374151" stroke-width="2"/>
+  <polygon points="100,180 94,168 108,170" fill="#374151"/>
+  <text x="80" y="160" font-size="13" font-weight="bold" fill="#3E9B6B">NO</text>
+
+  <!-- Arrow down-right (YES) -->
+  <line x1="250" y1="134" x2="280" y2="180" stroke="#374151" stroke-width="2"/>
+  <polygon points="280,180 272,170 286,168" fill="#374151"/>
+  <text x="288" y="160" font-size="13" font-weight="bold" fill="#C4683A">YES</text>
+
+  <!-- TRUE SOAP box -->
+  <rect x="20" y="184" width="170" height="120" rx="10" fill="#ffffff" stroke="#3E9B6B" stroke-width="2.5"/>
+  <text x="105" y="210" font-size="15" font-weight="bold" fill="#3E9B6B" text-anchor="middle">TRUE SOAP</text>
+  <text x="105" y="234" font-size="12" fill="#374151" text-anchor="middle">"Cleans your skin."</text>
+  <text x="105" y="256" font-size="12" fill="#374151" text-anchor="middle">Mostly fatty-acid</text>
+  <text x="105" y="272" font-size="12" fill="#374151" text-anchor="middle">salts.</text>
+  <text x="105" y="294" font-size="12" font-weight="bold" fill="#141B5C" text-anchor="middle">Overseen by CPSC</text>
+
+  <!-- COSMETIC box -->
+  <rect x="210" y="184" width="170" height="120" rx="10" fill="#ffffff" stroke="#C4683A" stroke-width="2.5"/>
+  <text x="295" y="210" font-size="15" font-weight="bold" fill="#C4683A" text-anchor="middle">COSMETIC</text>
+  <text x="295" y="234" font-size="12" fill="#374151" text-anchor="middle">"Moisturizes,"</text>
+  <text x="295" y="250" font-size="12" fill="#374151" text-anchor="middle">"exfoliates,"</text>
+  <text x="295" y="266" font-size="12" fill="#374151" text-anchor="middle">"deodorizes."</text>
+  <text x="295" y="294" font-size="12" font-weight="bold" fill="#141B5C" text-anchor="middle">Overseen by FDA</text>
+
+  <!-- Note -->
+  <text x="40" y="338" font-size="11.5" fill="#374151">A claim like "moisturizes" turns a plain bar into a cosmetic in the eyes of the law.</text>
+
+  <!-- Label parts panel -->
+  <rect x="420" y="64" width="310" height="420" rx="12" fill="#ffffff" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="575" y="92" font-size="15" font-weight="bold" fill="#141B5C" text-anchor="middle">Parts of a label</text>
+
+  <!-- mock label -->
+  <rect x="450" y="110" width="250" height="350" rx="8" fill="#D4AF37" opacity="0.12"/>
+  <rect x="450" y="110" width="250" height="350" rx="8" fill="none" stroke="#D4AF37" stroke-width="2"/>
+
+  <text x="575" y="150" font-size="16" font-weight="bold" fill="#141B5C" text-anchor="middle">Lavender Bar</text>
+  <text x="468" y="172" font-size="10" fill="#C4683A" font-weight="bold">1</text>
+  <text x="482" y="172" font-size="11" fill="#374151">Product name / identity</text>
+
+  <line x1="468" y1="186" x2="688" y2="186" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="575" y="214" font-size="12" fill="#374151" text-anchor="middle">Net wt. 4.5 oz (128 g)</text>
+  <text x="468" y="236" font-size="10" fill="#C4683A" font-weight="bold">2</text>
+  <text x="482" y="236" font-size="11" fill="#374151">Net weight (wt + metric)</text>
+
+  <line x1="468" y1="250" x2="688" y2="250" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="575" y="278" font-size="10.5" fill="#374151" text-anchor="middle">Ingredients (cosmetic only):</text>
+  <text x="575" y="294" font-size="10" fill="#374151" text-anchor="middle">Olive Oil, Coconut Oil,</text>
+  <text x="575" y="308" font-size="10" fill="#374151" text-anchor="middle">Water, Sodium Hydroxide...</text>
+  <text x="468" y="328" font-size="10" fill="#C4683A" font-weight="bold">3</text>
+  <text x="482" y="328" font-size="11" fill="#374151">Ingredient list (INCI)</text>
+
+  <line x1="468" y1="342" x2="688" y2="342" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="575" y="372" font-size="11" fill="#374151" text-anchor="middle">Made by Maple Lane Soap</text>
+  <text x="575" y="388" font-size="10" fill="#374151" text-anchor="middle">123 Main St, Town, ST 00000</text>
+  <text x="468" y="410" font-size="10" fill="#C4683A" font-weight="bold">4</text>
+  <text x="482" y="410" font-size="11" fill="#374151">Name + place of business</text>
+
+  <line x1="468" y1="424" x2="688" y2="424" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="575" y="448" font-size="10.5" fill="#374151" text-anchor="middle" font-style="italic">Contact for adverse events</text>
+</svg>

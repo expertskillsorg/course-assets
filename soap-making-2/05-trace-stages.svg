@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Arial, sans-serif">
+  <rect width="720" height="340" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Stages of Trace</text>
+  <text x="360" y="56" text-anchor="middle" font-size="13" fill="#374151">How a drizzle of batter sits on the surface as it thickens</text>
+
+  <!-- Light trace -->
+  <g>
+    <ellipse cx="140" cy="210" rx="92" ry="30" fill="#E5E7EB"/>
+    <path d="M48 210 a92 30 0 0 0 184 0 l-14 70 a78 24 0 0 1 -156 0 z" fill="#D4AF37" opacity="0.55"/>
+    <ellipse cx="140" cy="210" rx="92" ry="30" fill="#D4AF37" opacity="0.75"/>
+    <!-- thin drizzle line, mostly sunk -->
+    <path d="M104 206 q36 -6 72 2" fill="none" stroke="#C4683A" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+    <text x="140" y="296" text-anchor="middle" font-size="16" font-weight="bold" fill="#1E2A8E">Light trace</text>
+    <text x="140" y="316" text-anchor="middle" font-size="12" fill="#374151">Thin cream, faint line</text>
+  </g>
+
+  <!-- Medium trace -->
+  <g>
+    <ellipse cx="360" cy="210" rx="92" ry="30" fill="#E5E7EB"/>
+    <path d="M268 210 a92 30 0 0 0 184 0 l-14 70 a78 24 0 0 1 -156 0 z" fill="#D4AF37" opacity="0.7"/>
+    <ellipse cx="360" cy="206" rx="92" ry="30" fill="#D4AF37"/>
+    <!-- raised drizzle line sitting on top -->
+    <path d="M318 198 q42 -16 84 0" fill="none" stroke="#C4683A" stroke-width="5" stroke-linecap="round"/>
+    <text x="360" y="296" text-anchor="middle" font-size="16" font-weight="bold" fill="#1E2A8E">Medium trace</text>
+    <text x="360" y="316" text-anchor="middle" font-size="12" fill="#374151">Pudding, line holds briefly</text>
+  </g>
+
+  <!-- Thick trace -->
+  <g>
+    <ellipse cx="580" cy="210" rx="92" ry="30" fill="#E5E7EB"/>
+    <path d="M488 210 a92 30 0 0 0 184 0 l-14 70 a78 24 0 0 1 -156 0 z" fill="#3E9B6B" opacity="0.45"/>
+    <ellipse cx="580" cy="200" rx="92" ry="30" fill="#D4AF37"/>
+    <!-- a peak that holds -->
+    <path d="M540 200 q20 -46 40 0 z" fill="#D4AF37" stroke="#C4683A" stroke-width="3"/>
+    <text x="580" y="296" text-anchor="middle" font-size="16" font-weight="bold" fill="#1E2A8E">Thick trace</text>
+    <text x="580" y="316" text-anchor="middle" font-size="12" fill="#374151">Mashed potato, holds a peak</text>
+  </g>
+
+  <!-- arrow -->
+  <line x1="60" y1="120" x2="660" y2="120" stroke="#374151" stroke-width="2"/>
+  <polygon points="660,120 648,114 648,126" fill="#374151"/>
+  <text x="360" y="110" text-anchor="middle" font-size="12" fill="#374151" font-style="italic">more blending, thicker batter</text>
+</svg>
