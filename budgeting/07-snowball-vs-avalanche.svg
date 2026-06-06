@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 440" role="img" aria-label="Debt snowball versus avalanche side by side. The snowball method orders the same three debts by smallest balance first for quick wins. The avalanche method orders them by highest interest rate first to save the most money.">
+  <rect x="0" y="0" width="660" height="440" fill="#FFFFFF"/>
+  <text x="330" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#141B5C">Two Ways to Order the Same Debts</text>
+
+  <!-- LEFT: Snowball -->
+  <rect x="24" y="56" width="296" height="356" rx="10" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2"/>
+  <rect x="24" y="56" width="296" height="44" rx="10" fill="#3E9B6B"/>
+  <text x="172" y="84" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">Snowball</text>
+  <text x="172" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#374151">Smallest balance first &#183; for momentum</text>
+
+  <rect x="44" y="138" width="256" height="58" rx="6" fill="#E7F1EC" stroke="#3E9B6B" stroke-width="1.5"/>
+  <text x="58" y="162" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">1. Store card</text>
+  <text x="58" y="182" font-family="Arial, sans-serif" font-size="13" fill="#374151">$400 balance &#183; 22% rate</text>
+
+  <rect x="44" y="206" width="256" height="58" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="58" y="230" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">2. Credit card</text>
+  <text x="58" y="250" font-family="Arial, sans-serif" font-size="13" fill="#374151">$1,800 balance &#183; 26% rate</text>
+
+  <rect x="44" y="274" width="256" height="58" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="58" y="298" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">3. Car loan</text>
+  <text x="58" y="318" font-family="Arial, sans-serif" font-size="13" fill="#374151">$3,200 balance &#183; 9% rate</text>
+
+  <text x="172" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#3E9B6B" font-weight="bold">Quick wins keep you going</text>
+  <text x="172" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Best when you need to feel progress</text>
+
+  <!-- RIGHT: Avalanche -->
+  <rect x="340" y="56" width="296" height="356" rx="10" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+  <rect x="340" y="56" width="296" height="44" rx="10" fill="#C4683A"/>
+  <text x="488" y="84" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">Avalanche</text>
+  <text x="488" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#374151">Highest rate first &#183; for the math</text>
+
+  <rect x="360" y="138" width="256" height="58" rx="6" fill="#F6E9E1" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="374" y="162" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">1. Credit card</text>
+  <text x="374" y="182" font-family="Arial, sans-serif" font-size="13" fill="#374151">$1,800 balance &#183; 26% rate</text>
+
+  <rect x="360" y="206" width="256" height="58" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="374" y="230" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">2. Store card</text>
+  <text x="374" y="250" font-family="Arial, sans-serif" font-size="13" fill="#374151">$400 balance &#183; 22% rate</text>
+
+  <rect x="360" y="274" width="256" height="58" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="374" y="298" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">3. Car loan</text>
+  <text x="374" y="318" font-family="Arial, sans-serif" font-size="13" fill="#374151">$3,200 balance &#183; 9% rate</text>
+
+  <text x="488" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#C4683A" font-weight="bold">Less interest paid overall</text>
+  <text x="488" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Best when you want the lowest cost</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 460" font-family="Arial, sans-serif" role="img" aria-label="A one-page budget laid out top to bottom: income at the top, fixed bills and flexible spending subtracted from it, leaving what is left at the bottom.">
+  <rect x="0" y="0" width="560" height="460" fill="#FFFFFF"/>
+
+  <!-- Page frame -->
+  <rect x="30" y="20" width="500" height="420" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- Income band -->
+  <rect x="50" y="44" width="460" height="70" rx="8" fill="#1E2A8E"/>
+  <text x="70" y="76" fill="#FFFFFF" font-size="15" font-weight="bold">INCOME (take-home pay)</text>
+  <text x="70" y="98" fill="#D4AF37" font-size="13">Everything that actually hits your account</text>
+  <text x="490" y="86" fill="#FFFFFF" font-size="20" font-weight="bold" text-anchor="end">$3,200</text>
+
+  <!-- minus sign -->
+  <text x="280" y="138" fill="#374151" font-size="20" font-weight="bold" text-anchor="middle">minus</text>
+
+  <!-- Fixed bills band -->
+  <rect x="50" y="150" width="460" height="86" rx="8" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2"/>
+  <rect x="50" y="150" width="8" height="86" rx="4" fill="#3E9B6B"/>
+  <text x="74" y="178" fill="#141B5C" font-size="15" font-weight="bold">FIXED BILLS</text>
+  <text x="74" y="200" fill="#374151" font-size="12">Same amount every month: rent, utilities,</text>
+  <text x="74" y="218" fill="#374151" font-size="12">phone, insurance, subscriptions</text>
+  <text x="490" y="200" fill="#141B5C" font-size="18" font-weight="bold" text-anchor="end">$1,950</text>
+
+  <!-- minus sign -->
+  <text x="280" y="258" fill="#374151" font-size="20" font-weight="bold" text-anchor="middle">minus</text>
+
+  <!-- Flexible spending band -->
+  <rect x="50" y="270" width="460" height="86" rx="8" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+  <rect x="50" y="270" width="8" height="86" rx="4" fill="#C4683A"/>
+  <text x="74" y="298" fill="#141B5C" font-size="15" font-weight="bold">FLEXIBLE SPENDING</text>
+  <text x="74" y="320" fill="#374151" font-size="12">Spending you control: food, gas,</text>
+  <text x="74" y="338" fill="#374151" font-size="12">fun, personal, the rest</text>
+  <text x="490" y="320" fill="#141B5C" font-size="18" font-weight="bold" text-anchor="end">$1,050</text>
+
+  <!-- equals -->
+  <text x="280" y="378" fill="#374151" font-size="20" font-weight="bold" text-anchor="middle">equals</text>
+
+  <!-- What's left band -->
+  <rect x="50" y="390" width="460" height="42" rx="8" fill="#D4AF37"/>
+  <text x="70" y="417" fill="#141B5C" font-size="15" font-weight="bold">WHAT'S LEFT</text>
+  <text x="490" y="418" fill="#141B5C" font-size="20" font-weight="bold" text-anchor="end">$200</text>
+</svg>

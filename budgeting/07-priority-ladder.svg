@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" role="img" aria-label="A priority ladder for tight-income spending, funded from the bottom rung up: housing, then power and water, then food, then transport to work, then minimum debt payments, then everything else at the top.">
+  <rect x="0" y="0" width="640" height="460" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#141B5C">The Priority Ladder</text>
+  <text x="320" y="56" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#374151">Fund the bottom rung first, then climb only as money allows</text>
+
+  <!-- arrow up the side -->
+  <line x1="40" y1="420" x2="40" y2="92" stroke="#374151" stroke-width="2"/>
+  <polygon points="40,80 34,96 46,96" fill="#374151"/>
+  <text x="20" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151" transform="rotate(-90 20 260)">fund last</text>
+
+  <!-- Rung 6 (top) -->
+  <rect x="80" y="84" width="520" height="48" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="100" y="113" font-family="Arial, sans-serif" font-size="15" fill="#111827">Everything else: savings goals, wants, extras</text>
+
+  <!-- Rung 5 -->
+  <rect x="80" y="140" width="520" height="48" rx="6" fill="#F4EFE0" stroke="#D4AF37" stroke-width="2"/>
+  <text x="100" y="169" font-family="Arial, sans-serif" font-size="15" fill="#111827">Minimum debt payments (keep accounts current)</text>
+
+  <!-- Rung 4 -->
+  <rect x="80" y="196" width="520" height="48" rx="6" fill="#E7F1EC" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="100" y="225" font-family="Arial, sans-serif" font-size="15" fill="#111827">Transport to work (the income depends on it)</text>
+
+  <!-- Rung 3 -->
+  <rect x="80" y="252" width="520" height="48" rx="6" fill="#E7F1EC" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="100" y="281" font-family="Arial, sans-serif" font-size="15" fill="#111827">Food on the table</text>
+
+  <!-- Rung 2 -->
+  <rect x="80" y="308" width="520" height="48" rx="6" fill="#E9ECF7" stroke="#1E2A8E" stroke-width="2"/>
+  <text x="100" y="337" font-family="Arial, sans-serif" font-size="15" fill="#111827">Power, water, and heat (keep them on)</text>
+
+  <!-- Rung 1 (bottom) -->
+  <rect x="80" y="364" width="520" height="48" rx="6" fill="#1E2A8E" stroke="#141B5C" stroke-width="2"/>
+  <text x="100" y="393" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">Housing (rent or mortgage)</text>
+
+  <text x="610" y="392" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">fund first</text>
+</svg>
