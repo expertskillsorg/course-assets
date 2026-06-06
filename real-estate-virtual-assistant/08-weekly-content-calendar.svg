@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-label="A weekly social content calendar showing one post type assigned to each day: Monday market tip, Tuesday new listing, Wednesday local spotlight, Thursday client testimonial, Friday open house, Saturday behind the scenes, Sunday personal post">
+  <rect x="0" y="0" width="760" height="380" fill="#FFFFFF"/>
+  <text x="24" y="36" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#141B5C">A Sample Weekly Content Calendar</text>
+  <text x="24" y="58" font-family="Arial, sans-serif" font-size="13" fill="#374151">One planned post type per day keeps an agent's feed varied and consistent.</text>
+
+  <!-- Monday -->
+  <rect x="24" y="80" width="100" height="270" rx="6" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <rect x="24" y="80" width="100" height="34" rx="6" fill="#1E2A8E"/>
+  <text x="74" y="102" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">MON</text>
+  <rect x="34" y="130" width="80" height="60" rx="5" fill="#1E2A8E"/>
+  <text x="74" y="156" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Market</text>
+  <text x="74" y="172" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Tip</text>
+
+  <!-- Tuesday -->
+  <rect x="128" y="80" width="100" height="270" rx="6" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <rect x="128" y="80" width="100" height="34" rx="6" fill="#1E2A8E"/>
+  <text x="178" y="102" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TUE</text>
+  <rect x="138" y="130" width="80" height="60" rx="5" fill="#3E9B6B"/>
+  <text x="178" y="156" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">New</text>
+  <text x="178" y="172" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Listing</text>
+
+  <!-- Wednesday -->
+  <rect x="232" y="80" width="100" height="270" rx="6" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <rect x="232" y="80" width="100" height="34" rx="6" fill="#1E2A8E"/>
+  <text x="282" y="102" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">WED</text>
+  <rect x="242" y="130" width="80" height="60" rx="5" fill="#D4AF37"/>
+  <text x="282" y="156" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#111827" text-anchor="middle">Local</text>
+  <text x="282" y="172" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#111827" text-anchor="middle">Spotlight</text>
+
+  <!-- Thursday -->
+  <rect x="336" y="80" width="100" height="270" rx="6" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <rect x="336" y="80" width="100" height="34" rx="6" fill="#1E2A8E"/>
+  <text x="386" y="102" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">THU</text>
+  <rect x="346" y="130" width="80" height="60" rx="5" fill="#C4683A"/>
+  <text x="386" y="156" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Client</text>
+  <text x="386" y="172" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Review</text>
+
+  <!-- Friday -->
+  <rect x="440" y="80" width="100" height="270" rx="6" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <rect x="440" y="80" width="100" height="34" rx="6" fill="#1E2A8E"/>
+  <text x="490" y="102" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">FRI</text>
+  <rect x="450" y="130" width="80" height="60" rx="5" fill="#3E9B6B"/>
+  <text x="490" y="156" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Open</text>
+  <text x="490" y="172" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">House</text>
+
+  <!-- Saturday -->
+  <rect x="544" y="80" width="100" height="270" rx="6" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <rect x="544" y="80" width="100" height="34" rx="6" fill="#141B5C"/>
+  <text x="594" y="102" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">SAT</text>
+  <rect x="554" y="130" width="80" height="60" rx="5" fill="#374151"/>
+  <text x="594" y="156" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Behind</text>
+  <text x="594" y="172" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">the Scenes</text>
+
+  <!-- Sunday -->
+  <rect x="648" y="80" width="100" height="270" rx="6" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <rect x="648" y="80" width="100" height="34" rx="6" fill="#141B5C"/>
+  <text x="698" y="102" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">SUN</text>
+  <rect x="658" y="130" width="80" height="60" rx="5" fill="#D4AF37"/>
+  <text x="698" y="156" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#111827" text-anchor="middle">Personal</text>
+  <text x="698" y="172" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#111827" text-anchor="middle">Post</text>
+
+  <!-- legend / note -->
+  <text x="24" y="232" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#141B5C">The mix that works:</text>
+  <text x="24" y="254" font-family="Arial, sans-serif" font-size="12" fill="#374151">Value (tips, local) builds the audience.</text>
+  <text x="24" y="274" font-family="Arial, sans-serif" font-size="12" fill="#374151">Listings (new, open house) show the work.</text>
+  <text x="24" y="294" font-family="Arial, sans-serif" font-size="12" fill="#374151">Proof (reviews) builds trust.</text>
+  <text x="24" y="314" font-family="Arial, sans-serif" font-size="12" fill="#374151">Personal posts make the agent human.</text>
+  <text x="24" y="338" font-family="Arial, sans-serif" font-size="11" fill="#374151">Batch a week at once, then schedule it.</text>
+</svg>

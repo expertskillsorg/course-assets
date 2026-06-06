@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" role="img" aria-label="A lead entering a CRM and moving stage by stage from New through Closed, with a Nurture loop for leads not yet ready">
+  <rect x="0" y="0" width="760" height="320" fill="#FFFFFF"/>
+  <text x="30" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#141B5C">How a lead moves through a CRM pipeline</text>
+
+  <!-- Lead source in -->
+  <rect x="30" y="70" width="120" height="50" rx="8" fill="#D4AF37"/>
+  <text x="90" y="92" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#141B5C" text-anchor="middle">New lead from</text>
+  <text x="90" y="109" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#141B5C" text-anchor="middle">a website form</text>
+
+  <!-- arrow -->
+  <line x1="150" y1="95" x2="190" y2="95" stroke="#374151" stroke-width="2"/>
+  <polygon points="190,95 182,90 182,100" fill="#374151"/>
+
+  <!-- Stages row -->
+  <g font-family="Arial, sans-serif">
+    <rect x="190" y="70" width="100" height="50" rx="8" fill="#1E2A8E"/>
+    <text x="240" y="100" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">New</text>
+
+    <rect x="320" y="70" width="100" height="50" rx="8" fill="#1E2A8E"/>
+    <text x="370" y="93" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Attempting</text>
+    <text x="370" y="109" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">contact</text>
+
+    <rect x="450" y="70" width="100" height="50" rx="8" fill="#1E2A8E"/>
+    <text x="500" y="100" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Engaged</text>
+
+    <rect x="580" y="70" width="120" height="50" rx="8" fill="#1E2A8E"/>
+    <text x="640" y="93" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Appointment</text>
+    <text x="640" y="109" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">set</text>
+  </g>
+
+  <!-- arrows between stages -->
+  <g stroke="#374151" stroke-width="2" fill="#374151">
+    <line x1="290" y1="95" x2="318" y2="95"/><polygon points="320,95 312,90 312,100"/>
+    <line x1="420" y1="95" x2="448" y2="95"/><polygon points="450,95 442,90 442,100"/>
+    <line x1="550" y1="95" x2="578" y2="95"/><polygon points="580,95 572,90 572,100"/>
+  </g>
+
+  <!-- down to closing row -->
+  <line x1="640" y1="120" x2="640" y2="170" stroke="#374151" stroke-width="2"/>
+  <polygon points="640,170 635,162 645,162" fill="#374151"/>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="580" y="170" width="120" height="50" rx="8" fill="#3E9B6B"/>
+    <text x="640" y="193" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Under</text>
+    <text x="640" y="209" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">contract</text>
+
+    <rect x="450" y="170" width="100" height="50" rx="8" fill="#3E9B6B"/>
+    <text x="500" y="200" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Closed</text>
+  </g>
+  <line x1="578" y1="195" x2="552" y2="195" stroke="#374151" stroke-width="2"/>
+  <polygon points="550,195 558,190 558,200" fill="#374151"/>
+
+  <!-- Nurture loop -->
+  <rect x="190" y="240" width="360" height="50" rx="8" fill="#C4683A"/>
+  <text x="370" y="263" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Nurture: not ready yet, kept warm with</text>
+  <text x="370" y="280" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">long-term follow-up, then re-enters the pipeline</text>
+
+  <line x1="370" y1="120" x2="370" y2="238" stroke="#C4683A" stroke-width="2" stroke-dasharray="6 5"/>
+  <polygon points="370,240 365,232 375,232" fill="#C4683A"/>
+  <text x="385" y="180" font-family="Arial, sans-serif" font-size="11" fill="#C4683A">stalls</text>
+</svg>

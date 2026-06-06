@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Anatomy of an MLS Listing Record</text>
+  <text x="360" y="56" text-anchor="middle" font-size="13" fill="#374151">Each section is a group of fields a VA completes and verifies</text>
+
+  <!-- Identity -->
+  <rect x="30" y="80" width="320" height="120" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="2"/>
+  <rect x="30" y="80" width="320" height="28" rx="8" fill="#1E2A8E"/>
+  <text x="44" y="99" font-size="14" font-weight="bold" fill="#ffffff">1. Identity and Location</text>
+  <text x="44" y="128" font-size="12" fill="#111827">Full street address, unit, city, ZIP</text>
+  <text x="44" y="148" font-size="12" fill="#111827">County, subdivision, parcel ID</text>
+  <text x="44" y="168" font-size="12" fill="#111827">MLS number (assigned by the system)</text>
+  <text x="44" y="188" font-size="11" fill="#3E9B6B">Source: tax records and county data</text>
+
+  <!-- Price -->
+  <rect x="370" y="80" width="320" height="120" rx="8" fill="#ffffff" stroke="#D4AF37" stroke-width="2"/>
+  <rect x="370" y="80" width="320" height="28" rx="8" fill="#D4AF37"/>
+  <text x="384" y="99" font-size="14" font-weight="bold" fill="#141B5C">2. Price and Status</text>
+  <text x="384" y="128" font-size="12" fill="#111827">List price</text>
+  <text x="384" y="148" font-size="12" fill="#111827">Status (Active, Pending, Sold)</text>
+  <text x="384" y="168" font-size="12" fill="#111827">List date and expiration date</text>
+  <text x="384" y="188" font-size="11" fill="#3E9B6B">Source: the signed listing agreement</text>
+
+  <!-- Facts -->
+  <rect x="30" y="220" width="320" height="120" rx="8" fill="#ffffff" stroke="#3E9B6B" stroke-width="2"/>
+  <rect x="30" y="220" width="320" height="28" rx="8" fill="#3E9B6B"/>
+  <text x="44" y="239" font-size="14" font-weight="bold" fill="#ffffff">3. The Hard Facts</text>
+  <text x="44" y="268" font-size="12" fill="#111827">Bedrooms and bathrooms</text>
+  <text x="44" y="288" font-size="12" fill="#111827">Square footage, lot size, year built</text>
+  <text x="44" y="308" font-size="12" fill="#111827">Garage, stories, HOA fees</text>
+  <text x="44" y="328" font-size="11" fill="#C4683A">Verify every number, never guess</text>
+
+  <!-- Remarks -->
+  <rect x="370" y="220" width="320" height="120" rx="8" fill="#ffffff" stroke="#C4683A" stroke-width="2"/>
+  <rect x="370" y="220" width="320" height="28" rx="8" fill="#C4683A"/>
+  <text x="384" y="239" font-size="14" font-weight="bold" fill="#ffffff">4. Remarks</text>
+  <text x="384" y="268" font-size="12" fill="#111827">Public remarks (the sales description)</text>
+  <text x="384" y="288" font-size="12" fill="#111827">Private remarks (agent only)</text>
+  <text x="384" y="308" font-size="12" fill="#111827">Showing instructions</text>
+  <text x="384" y="328" font-size="11" fill="#C4683A">Describe the property, never the buyer</text>
+
+  <!-- Media -->
+  <rect x="30" y="360" width="660" height="120" rx="8" fill="#ffffff" stroke="#141B5C" stroke-width="2"/>
+  <rect x="30" y="360" width="660" height="28" rx="8" fill="#141B5C"/>
+  <text x="44" y="379" font-size="14" font-weight="bold" fill="#ffffff">5. Media and Documents</text>
+  <text x="44" y="408" font-size="12" fill="#111827">Photos (ordered, lead photo first)</text>
+  <text x="44" y="428" font-size="12" fill="#111827">Floor plans and virtual tour links</text>
+  <text x="44" y="448" font-size="12" fill="#111827">Required disclosures and attachments</text>
+  <text x="380" y="408" font-size="12" fill="#111827">Each MLS sets a minimum and maximum</text>
+  <text x="380" y="428" font-size="12" fill="#111827">photo count and a deadline to add them</text>
+  <text x="380" y="448" font-size="11" fill="#3E9B6B">The lead photo drives clicks on portals</text>
+</svg>

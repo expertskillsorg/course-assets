@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="460" fill="#FFFFFF"/>
+  <text x="380" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Employee vs Freelance Real Estate VA</text>
+
+  <!-- Column headers -->
+  <rect x="270" y="60" width="225" height="44" rx="6" fill="#1E2A8E"/>
+  <text x="382" y="88" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Employee</text>
+  <rect x="510" y="60" width="225" height="44" rx="6" fill="#3E9B6B"/>
+  <text x="622" y="88" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Freelance</text>
+
+  <!-- Row factor labels -->
+  <text x="25" y="142" font-size="15" font-weight="bold" fill="#111827">Income stability</text>
+  <text x="25" y="206" font-size="15" font-weight="bold" fill="#111827">Schedule control</text>
+  <text x="25" y="270" font-size="15" font-weight="bold" fill="#111827">Taxes handled by</text>
+  <text x="25" y="334" font-size="15" font-weight="bold" fill="#111827">Number of clients</text>
+  <text x="25" y="398" font-size="15" font-weight="bold" fill="#111827">Earning ceiling</text>
+
+  <!-- Row dividers -->
+  <line x1="20" y1="116" x2="740" y2="116" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="20" y1="170" x2="740" y2="170" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="20" y1="234" x2="740" y2="234" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="20" y1="298" x2="740" y2="298" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="20" y1="362" x2="740" y2="362" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="20" y1="420" x2="740" y2="420" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Employee cells -->
+  <text x="382" y="142" text-anchor="middle" font-size="14" fill="#374151">Steadier paycheck</text>
+  <text x="382" y="206" text-anchor="middle" font-size="14" fill="#374151">Set by employer</text>
+  <text x="382" y="270" text-anchor="middle" font-size="14" fill="#374151">Employer withholds</text>
+  <text x="382" y="334" text-anchor="middle" font-size="14" fill="#374151">Usually one</text>
+  <text x="382" y="398" text-anchor="middle" font-size="14" fill="#374151">Capped by wage</text>
+
+  <!-- Freelance cells -->
+  <text x="622" y="142" text-anchor="middle" font-size="14" fill="#374151">Varies with work</text>
+  <text x="622" y="206" text-anchor="middle" font-size="14" fill="#374151">You set it</text>
+  <text x="622" y="270" text-anchor="middle" font-size="14" fill="#374151">You set aside</text>
+  <text x="622" y="334" text-anchor="middle" font-size="14" fill="#374151">Several at once</text>
+  <text x="622" y="398" text-anchor="middle" font-size="14" fill="#374151">Higher, you scale</text>
+
+  <!-- Footer note -->
+  <text x="380" y="446" text-anchor="middle" font-size="12" fill="#C4683A">Most beginners start freelance with one part-time agent. Neither path is best; match it to your situation.</text>
+</svg>
