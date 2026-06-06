@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="460" fill="#FFFFFF"/>
+  <text x="30" y="40" font-size="22" font-weight="bold" fill="#141B5C">A Week of Logging Reveals a Pattern</text>
+  <text x="30" y="64" font-size="14" fill="#374151">Six days of foods, symptoms, severity, and context. One food keeps showing up.</text>
+
+  <!-- Header row -->
+  <rect x="30" y="84" width="700" height="34" fill="#1E2A8E"/>
+  <text x="44" y="106" font-size="13" font-weight="bold" fill="#FFFFFF">Day</text>
+  <text x="120" y="106" font-size="13" font-weight="bold" fill="#FFFFFF">What you ate (notable)</text>
+  <text x="400" y="106" font-size="13" font-weight="bold" fill="#FFFFFF">Symptom</text>
+  <text x="560" y="106" font-size="13" font-weight="bold" fill="#FFFFFF">Severity</text>
+  <text x="648" y="106" font-size="13" font-weight="bold" fill="#FFFFFF">Context</text>
+
+  <!-- Row 1 Mon: onion soup -> bloat -->
+  <rect x="30" y="118" width="700" height="46" fill="#FBEDE6"/>
+  <text x="44" y="146" font-size="13" fill="#111827">Mon</text>
+  <text x="120" y="146" font-size="13" fill="#111827">French onion soup, bread</text>
+  <text x="400" y="146" font-size="13" fill="#C4683A">Bloating, gas</text>
+  <text x="560" y="146" font-size="13" fill="#C4683A" font-weight="bold">7 / 10</text>
+  <text x="648" y="146" font-size="12" fill="#374151">Tired</text>
+
+  <!-- Row 2 Tue: safe -->
+  <rect x="30" y="164" width="700" height="46" fill="#FFFFFF"/>
+  <text x="44" y="192" font-size="13" fill="#111827">Tue</text>
+  <text x="120" y="192" font-size="13" fill="#111827">Oats, chicken, rice, carrots</text>
+  <text x="400" y="192" font-size="13" fill="#3E9B6B">None</text>
+  <text x="560" y="192" font-size="13" fill="#3E9B6B" font-weight="bold">1 / 10</text>
+  <text x="648" y="192" font-size="12" fill="#374151">Good sleep</text>
+
+  <!-- Row 3 Wed: garlic pasta -> bloat -->
+  <rect x="30" y="210" width="700" height="46" fill="#FBEDE6"/>
+  <text x="44" y="238" font-size="13" fill="#111827">Wed</text>
+  <text x="120" y="238" font-size="13" fill="#111827">Garlic pasta, salad</text>
+  <text x="400" y="238" font-size="13" fill="#C4683A">Bloating, gas</text>
+  <text x="560" y="238" font-size="13" fill="#C4683A" font-weight="bold">6 / 10</text>
+  <text x="648" y="238" font-size="12" fill="#374151">Normal day</text>
+
+  <!-- Row 4 Thu: safe -->
+  <rect x="30" y="256" width="700" height="46" fill="#FFFFFF"/>
+  <text x="44" y="284" font-size="13" fill="#111827">Thu</text>
+  <text x="120" y="284" font-size="13" fill="#111827">Eggs, banana, salmon, potato</text>
+  <text x="400" y="284" font-size="13" fill="#3E9B6B">None</text>
+  <text x="560" y="284" font-size="13" fill="#3E9B6B" font-weight="bold">1 / 10</text>
+  <text x="648" y="284" font-size="12" fill="#374151">Calm</text>
+
+  <!-- Row 5 Fri: onion-heavy stir fry -> bloat -->
+  <rect x="30" y="302" width="700" height="46" fill="#FBEDE6"/>
+  <text x="44" y="330" font-size="13" fill="#111827">Fri</text>
+  <text x="120" y="330" font-size="13" fill="#111827">Stir-fry, heavy onion + garlic</text>
+  <text x="400" y="330" font-size="13" fill="#C4683A">Bloating, gas</text>
+  <text x="560" y="330" font-size="13" fill="#C4683A" font-weight="bold">8 / 10</text>
+  <text x="648" y="330" font-size="12" fill="#374151">Stressed</text>
+
+  <!-- Row 6 Sat: safe -->
+  <rect x="30" y="348" width="700" height="46" fill="#FFFFFF"/>
+  <text x="44" y="376" font-size="13" fill="#111827">Sat</text>
+  <text x="120" y="376" font-size="13" fill="#111827">Yogurt, berries, rice bowl</text>
+  <text x="400" y="376" font-size="13" fill="#3E9B6B">None</text>
+  <text x="560" y="376" font-size="13" fill="#3E9B6B" font-weight="bold">2 / 10</text>
+  <text x="648" y="376" font-size="12" fill="#374151">Rest day</text>
+
+  <!-- table outline -->
+  <rect x="30" y="84" width="700" height="310" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- pattern callout -->
+  <rect x="30" y="408" width="700" height="36" rx="4" fill="#FDF6E3" stroke="#D4AF37" stroke-width="1.5"/>
+  <text x="44" y="431" font-size="13" fill="#141B5C"><tspan font-weight="bold">The pattern:</tspan> bad days (orange) all had onion or garlic. Safe days (green) did not.</text>
+</svg>

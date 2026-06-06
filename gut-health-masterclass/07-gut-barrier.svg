@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="460" fill="#ffffff"/>
+  <text x="360" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Gut Barrier: What Crosses and What Stays Out</text>
+
+  <!-- Region labels -->
+  <text x="120" y="70" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">GUT SIDE (inside the tube)</text>
+  <text x="600" y="70" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">BODY SIDE (bloodstream)</text>
+
+  <!-- Gut side background -->
+  <rect x="40" y="84" width="250" height="320" fill="#F4ECD8"/>
+  <!-- Body side background -->
+  <rect x="478" y="84" width="200" height="320" fill="#EAF3EE"/>
+
+  <!-- Mucus layer -->
+  <rect x="290" y="84" width="40" height="320" fill="#D4AF37" opacity="0.55"/>
+  <text x="310" y="424" text-anchor="middle" font-size="12" fill="#374151">Mucus coat</text>
+
+  <!-- Single cell layer (5 cells) -->
+  <g>
+    <rect x="330" y="84" width="40" height="64" rx="6" fill="#1E2A8E"/>
+    <rect x="330" y="148" width="40" height="64" rx="6" fill="#1E2A8E"/>
+    <rect x="330" y="212" width="40" height="64" rx="6" fill="#1E2A8E"/>
+    <rect x="330" y="276" width="40" height="64" rx="6" fill="#1E2A8E"/>
+    <rect x="330" y="340" width="40" height="64" rx="6" fill="#1E2A8E"/>
+  </g>
+  <text x="350" y="424" text-anchor="middle" font-size="12" fill="#374151">Cell wall</text>
+
+  <!-- Tight junction markers between cells -->
+  <g fill="#3E9B6B">
+    <circle cx="350" cy="148" r="5"/>
+    <circle cx="350" cy="212" r="5"/>
+    <circle cx="350" cy="276" r="5"/>
+    <circle cx="350" cy="340" r="5"/>
+  </g>
+  <text x="350" y="448" text-anchor="middle" font-size="12" fill="#3E9B6B" font-weight="bold">green dots = tight junctions (the seals)</text>
+
+  <!-- PASSES THROUGH: nutrients + water -->
+  <!-- nutrient dot 1 -->
+  <circle cx="200" cy="130" r="9" fill="#3E9B6B"/>
+  <circle cx="430" cy="130" r="9" fill="#3E9B6B"/>
+  <line x1="215" y1="130" x2="408" y2="130" stroke="#3E9B6B" stroke-width="3" marker-end="url(#arrowG)"/>
+  <!-- nutrient dot 2 / water -->
+  <circle cx="200" cy="300" r="9" fill="#3E9B6B"/>
+  <circle cx="430" cy="300" r="9" fill="#3E9B6B"/>
+  <line x1="215" y1="300" x2="408" y2="300" stroke="#3E9B6B" stroke-width="3" marker-end="url(#arrowG)"/>
+  <text x="540" y="135" font-size="14" fill="#3E9B6B" font-weight="bold">Nutrients</text>
+  <text x="540" y="305" font-size="14" fill="#3E9B6B" font-weight="bold">Water</text>
+
+  <!-- HELD BACK: bacteria, large food particle, waste -->
+  <!-- bacteria -->
+  <circle cx="150" cy="200" r="11" fill="#C4683A"/>
+  <line x1="166" y1="200" x2="280" y2="200" stroke="#C4683A" stroke-width="3"/>
+  <line x1="280" y1="186" x2="300" y2="214" stroke="#C4683A" stroke-width="4"/>
+  <line x1="280" y1="214" x2="300" y2="186" stroke="#C4683A" stroke-width="4"/>
+  <text x="90" y="205" font-size="13" fill="#C4683A" font-weight="bold">Microbes</text>
+
+  <!-- large food particle -->
+  <rect x="120" y="240" width="22" height="22" rx="4" fill="#C4683A"/>
+  <line x1="146" y1="251" x2="280" y2="251" stroke="#C4683A" stroke-width="3"/>
+  <line x1="280" y1="237" x2="300" y2="265" stroke="#C4683A" stroke-width="4"/>
+  <line x1="280" y1="265" x2="300" y2="237" stroke="#C4683A" stroke-width="4"/>
+  <text x="70" y="290" font-size="13" fill="#C4683A" font-weight="bold">Large food bits</text>
+
+  <!-- waste -->
+  <circle cx="150" cy="360" r="11" fill="#C4683A"/>
+  <line x1="166" y1="360" x2="280" y2="360" stroke="#C4683A" stroke-width="3"/>
+  <line x1="280" y1="346" x2="300" y2="374" stroke="#C4683A" stroke-width="4"/>
+  <line x1="280" y1="374" x2="300" y2="346" stroke="#C4683A" stroke-width="4"/>
+  <text x="120" y="388" font-size="13" fill="#C4683A" font-weight="bold">Waste</text>
+
+  <defs>
+    <marker id="arrowG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#3E9B6B"/>
+    </marker>
+  </defs>
+
+  <!-- legend note -->
+  <text x="360" y="100" text-anchor="middle" font-size="13" fill="#111827"></text>
+</svg>

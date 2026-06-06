@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 320" role="img" aria-label="The five-stage Gut Reset Roadmap shown as one left-to-right sequence: Calm, Feed, Seed, Strengthen, Sustain">
+  <rect x="0" y="0" width="860" height="320" fill="#FFFFFF"/>
+  <text x="30" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#141B5C">The Gut Reset Roadmap</text>
+  <text x="30" y="64" font-family="Arial, sans-serif" font-size="14" fill="#374151">Five stages, worked in order. The first four are the on-ramp; the last is forever.</text>
+
+  <!-- connecting track -->
+  <line x1="80" y1="150" x2="780" y2="150" stroke="#E5E7EB" stroke-width="6"/>
+
+  <!-- Stage 1: Calm -->
+  <circle cx="100" cy="150" r="34" fill="#C4683A"/>
+  <text x="100" y="156" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="100" y="216" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Calm</text>
+  <text x="100" y="238" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="middle">Remove the</text>
+  <text x="100" y="252" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="middle">irritants</text>
+
+  <!-- arrow -->
+  <polygon points="208,150 222,144 222,156" fill="#1E2A8E"/>
+
+  <!-- Stage 2: Feed -->
+  <circle cx="270" cy="150" r="34" fill="#3E9B6B"/>
+  <text x="270" y="156" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="270" y="216" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Feed</text>
+  <text x="270" y="238" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="middle">Fiber and</text>
+  <text x="270" y="252" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="middle">prebiotics</text>
+
+  <polygon points="378,150 392,144 392,156" fill="#1E2A8E"/>
+
+  <!-- Stage 3: Seed -->
+  <circle cx="440" cy="150" r="34" fill="#1E2A8E"/>
+  <text x="440" y="156" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="440" y="216" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Seed</text>
+  <text x="440" y="238" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="middle">Fermented foods</text>
+  <text x="440" y="252" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="middle">and probiotics</text>
+
+  <polygon points="548,150 562,144 562,156" fill="#1E2A8E"/>
+
+  <!-- Stage 4: Strengthen -->
+  <circle cx="610" cy="150" r="34" fill="#D4AF37"/>
+  <text x="610" y="156" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#141B5C" text-anchor="middle">4</text>
+  <text x="610" y="216" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Strengthen</text>
+  <text x="610" y="238" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="middle">Lining, stress,</text>
+  <text x="610" y="252" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="middle">sleep, movement</text>
+
+  <polygon points="718,150 732,144 732,156" fill="#1E2A8E"/>
+
+  <!-- Stage 5: Sustain -->
+  <circle cx="780" cy="150" r="34" fill="#141B5C"/>
+  <text x="780" y="156" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="780" y="216" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Sustain</text>
+  <text x="780" y="238" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="middle">Personalize</text>
+  <text x="780" y="252" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="middle">and maintain</text>
+
+  <!-- on-ramp bracket -->
+  <line x1="66" y1="288" x2="644" y2="288" stroke="#374151" stroke-width="1.5"/>
+  <line x1="66" y1="282" x2="66" y2="288" stroke="#374151" stroke-width="1.5"/>
+  <line x1="644" y1="282" x2="644" y2="288" stroke="#374151" stroke-width="1.5"/>
+  <text x="355" y="305" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">The active reset (weeks, stages overlap)</text>
+  <text x="780" y="288" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#141B5C" text-anchor="middle">Forever</text>
+</svg>

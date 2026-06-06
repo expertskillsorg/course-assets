@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="420" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Reading Your Symptoms as Signals</text>
+  <text x="360" y="58" text-anchor="middle" font-size="13" fill="#374151">Each common complaint points toward everyday drivers you can adjust</text>
+
+  <!-- Symptom column header -->
+  <text x="150" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">SYMPTOM</text>
+  <text x="560" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">LIKELY EVERYDAY DRIVERS</text>
+
+  <!-- Row 1: Bloating & distension -->
+  <rect x="40" y="108" width="220" height="76" rx="10" fill="#1E2A8E"/>
+  <text x="150" y="140" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Bloating &amp;</text>
+  <text x="150" y="162" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">distension</text>
+  <line x1="260" y1="146" x2="430" y2="146" stroke="#D4AF37" stroke-width="3"/>
+  <polygon points="430,146 420,141 420,151" fill="#D4AF37"/>
+  <rect x="436" y="110" width="244" height="72" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="448" y="132" font-size="13" fill="#111827">• Fermentable foods</text>
+  <text x="448" y="153" font-size="13" fill="#111827">• Slow transit</text>
+  <text x="448" y="174" font-size="13" fill="#111827">• Swallowed air, fizzy drinks</text>
+
+  <!-- Row 2: Gas & burping -->
+  <rect x="40" y="200" width="220" height="76" rx="10" fill="#3E9B6B"/>
+  <text x="150" y="232" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Gas &amp;</text>
+  <text x="150" y="254" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">burping</text>
+  <line x1="260" y1="238" x2="430" y2="238" stroke="#D4AF37" stroke-width="3"/>
+  <polygon points="430,238 420,233 420,243" fill="#D4AF37"/>
+  <rect x="436" y="202" width="244" height="72" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="448" y="224" font-size="13" fill="#111827">• Bacteria fermenting fiber</text>
+  <text x="448" y="245" font-size="13" fill="#111827">• Certain sugars and trigger foods</text>
+  <text x="448" y="266" font-size="13" fill="#111827">• Some is normal and healthy</text>
+
+  <!-- Row 3: Irregularity -->
+  <rect x="40" y="292" width="220" height="76" rx="10" fill="#C4683A"/>
+  <text x="150" y="324" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Irregularity</text>
+  <text x="150" y="346" text-anchor="middle" font-size="13" fill="#FFFFFF">(constipation / looseness)</text>
+  <line x1="260" y1="330" x2="430" y2="330" stroke="#D4AF37" stroke-width="3"/>
+  <polygon points="430,330 420,325 420,335" fill="#D4AF37"/>
+  <rect x="436" y="294" width="244" height="72" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="448" y="316" font-size="13" fill="#111827">• Fiber intake</text>
+  <text x="448" y="337" font-size="13" fill="#111827">• Hydration</text>
+  <text x="448" y="358" font-size="13" fill="#111827">• Stress and daily rhythm</text>
+
+  <text x="360" y="400" text-anchor="middle" font-size="12" font-style="italic" fill="#374151">These point to food, habits, and stress, things you can change, not to disease.</text>
+</svg>

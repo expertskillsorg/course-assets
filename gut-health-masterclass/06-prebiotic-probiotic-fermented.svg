@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="360" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Three things people confuse</text>
+  <text x="360" y="56" text-anchor="middle" font-size="13" fill="#374151">Different jobs, often sold as if they were the same</text>
+
+  <!-- Column 1: Prebiotic -->
+  <rect x="24" y="80" width="208" height="248" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <rect x="24" y="80" width="208" height="46" rx="12" fill="#3E9B6B"/>
+  <rect x="24" y="104" width="208" height="22" fill="#3E9B6B"/>
+  <text x="128" y="110" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Prebiotic</text>
+  <circle cx="128" cy="168" r="26" fill="#3E9B6B" opacity="0.18"/>
+  <path d="M128 150 v36 M114 160 l28 16 M142 160 l-28 16" stroke="#3E9B6B" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <text x="128" y="218" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">The food for</text>
+  <text x="128" y="236" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">good bacteria</text>
+  <text x="128" y="266" text-anchor="middle" font-size="11.5" fill="#374151">Special fibers that</text>
+  <text x="128" y="282" text-anchor="middle" font-size="11.5" fill="#374151">feed your microbes</text>
+  <text x="128" y="306" text-anchor="middle" font-size="11" fill="#3E9B6B" font-weight="bold">onions, garlic, oats</text>
+
+  <!-- Column 2: Probiotic -->
+  <rect x="256" y="80" width="208" height="248" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <rect x="256" y="80" width="208" height="46" rx="12" fill="#1E2A8E"/>
+  <rect x="256" y="104" width="208" height="22" fill="#1E2A8E"/>
+  <text x="360" y="110" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Probiotic</text>
+  <circle cx="360" cy="168" r="26" fill="#1E2A8E" opacity="0.15"/>
+  <circle cx="351" cy="163" r="5.5" fill="#1E2A8E"/>
+  <circle cx="368" cy="160" r="4.5" fill="#1E2A8E"/>
+  <circle cx="363" cy="176" r="5" fill="#1E2A8E"/>
+  <circle cx="350" cy="177" r="3.5" fill="#1E2A8E"/>
+  <text x="360" y="218" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">The live bacteria</text>
+  <text x="360" y="236" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">themselves</text>
+  <text x="360" y="266" text-anchor="middle" font-size="11.5" fill="#374151">Specific strains, often</text>
+  <text x="360" y="282" text-anchor="middle" font-size="11.5" fill="#374151">sold as capsules</text>
+  <text x="360" y="306" text-anchor="middle" font-size="11" fill="#1E2A8E" font-weight="bold">supplement bottle</text>
+
+  <!-- Column 3: Fermented food -->
+  <rect x="488" y="80" width="208" height="248" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <rect x="488" y="80" width="208" height="46" rx="12" fill="#C4683A"/>
+  <rect x="488" y="104" width="208" height="22" fill="#C4683A"/>
+  <text x="592" y="110" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Fermented food</text>
+  <circle cx="592" cy="168" r="26" fill="#C4683A" opacity="0.16"/>
+  <rect x="580" y="152" width="24" height="30" rx="4" fill="none" stroke="#C4683A" stroke-width="3"/>
+  <rect x="585" y="146" width="14" height="7" rx="2" fill="#C4683A"/>
+  <circle cx="586" cy="166" r="2.4" fill="#C4683A"/>
+  <circle cx="597" cy="172" r="2.4" fill="#C4683A"/>
+  <circle cx="591" cy="176" r="2.4" fill="#C4683A"/>
+  <text x="592" y="218" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Food that carries</text>
+  <text x="592" y="236" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">live bacteria</text>
+  <text x="592" y="266" text-anchor="middle" font-size="11.5" fill="#374151">A whole-food source</text>
+  <text x="592" y="282" text-anchor="middle" font-size="11.5" fill="#374151">of probiotics</text>
+  <text x="592" y="306" text-anchor="middle" font-size="11" fill="#C4683A" font-weight="bold">kefir, kimchi, kraut</text>
+
+  <text x="360" y="350" text-anchor="middle" font-size="12" fill="#374151" font-style="italic">Prebiotics feed them, probiotics are them, and fermented foods deliver them in your food.</text>
+</svg>
