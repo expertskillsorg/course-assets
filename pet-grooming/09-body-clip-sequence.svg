@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" role="img" aria-label="Dog outline divided into five numbered clipping sections in order: back and sides, chest and shoulders, legs, rear and tail, and underside and sanitary area">
+  <rect x="0" y="0" width="640" height="380" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#141B5C">The Body-Clip Sequence</text>
+  <text x="320" y="56" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#374151">Clip in this order: large flat areas first, sensitive areas last</text>
+
+  <!-- Dog body outline (side view, facing right) -->
+  <path d="M150 250
+           C150 215 160 200 185 195
+           L200 160 C205 150 215 150 220 160 L232 192
+           C260 188 300 185 350 188
+           C380 190 400 178 412 170
+           C416 160 420 156 428 158
+           C438 161 436 172 430 180
+           L448 188 C470 192 482 205 484 230
+           L490 250
+           L478 250 L472 235
+           L455 250 L443 250
+           L450 232 C430 235 400 238 370 238
+           L372 250 L360 250 L356 238
+           C320 240 280 240 244 238
+           L246 250 L234 250 L230 238
+           C205 240 188 245 180 250
+           L168 250 L166 240
+           L160 250 Z"
+        fill="#F3F0E6" stroke="#374151" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Section 1: back and sides -->
+  <ellipse cx="300" cy="210" rx="78" ry="20" fill="#1E2A8E" opacity="0.85"/>
+  <circle cx="300" cy="210" r="14" fill="#FFFFFF"/>
+  <text x="300" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#1E2A8E">1</text>
+
+  <!-- Section 2: chest and shoulders -->
+  <circle cx="430" cy="205" r="15" fill="#3E9B6B"/>
+  <text x="430" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">2</text>
+
+  <!-- Section 3: legs -->
+  <circle cx="245" cy="246" r="13" fill="#D4AF37"/>
+  <text x="245" y="251" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#141B5C">3</text>
+  <circle cx="455" cy="246" r="13" fill="#D4AF37"/>
+  <text x="455" y="251" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#141B5C">3</text>
+
+  <!-- Section 4: rear and tail -->
+  <circle cx="172" cy="222" r="15" fill="#C4683A"/>
+  <text x="172" y="227" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">4</text>
+
+  <!-- Section 5: underside and sanitary -->
+  <circle cx="345" cy="245" r="14" fill="#141B5C"/>
+  <text x="345" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">5</text>
+
+  <!-- Legend -->
+  <g font-family="Arial, sans-serif" font-size="13" fill="#111827">
+    <circle cx="70" cy="300" r="9" fill="#1E2A8E"/>
+    <text x="86" y="305">1. Back and sides (start here)</text>
+    <circle cx="70" cy="324" r="9" fill="#3E9B6B"/>
+    <text x="86" y="329">2. Chest and shoulders</text>
+    <circle cx="70" cy="348" r="9" fill="#D4AF37"/>
+    <text x="86" y="353">3. Legs</text>
+    <circle cx="370" cy="324" r="9" fill="#C4683A"/>
+    <text x="386" y="329">4. Rear and tail</text>
+    <circle cx="370" cy="348" r="9" fill="#141B5C"/>
+    <text x="386" y="353">5. Underside and sanitary (last)</text>
+  </g>
+</svg>

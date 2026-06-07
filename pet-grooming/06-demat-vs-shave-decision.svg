@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="560" fill="#FFFFFF"/>
+  <text x="380" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">De-Mat or Shave? The Decision</text>
+  <text x="380" y="60" text-anchor="middle" font-size="14" fill="#374151">Run every matted coat through these gates in order</text>
+
+  <!-- Start -->
+  <rect x="280" y="84" width="200" height="50" rx="10" fill="#1E2A8E"/>
+  <text x="380" y="115" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Matted dog on the table</text>
+  <line x1="380" y1="134" x2="380" y2="160" stroke="#374151" stroke-width="2"/>
+  <polygon points="380,160 374,150 386,150" fill="#374151"/>
+
+  <!-- Gate 1: pinch test -->
+  <polygon points="380,160 540,210 380,260 220,210" fill="#FCEFD0" stroke="#D4AF37" stroke-width="2.5"/>
+  <text x="380" y="200" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">PINCH TEST</text>
+  <text x="380" y="219" text-anchor="middle" font-size="12.5" fill="#374151">Can you lift the mat</text>
+  <text x="380" y="235" text-anchor="middle" font-size="12.5" fill="#374151">off the skin and slide a</text>
+  <text x="380" y="251" text-anchor="middle" font-size="12.5" fill="#374151">comb tooth under it?</text>
+
+  <!-- Pinch NO -> shave -->
+  <line x1="540" y1="210" x2="640" y2="210" stroke="#C4683A" stroke-width="2"/>
+  <polygon points="640,210 630,205 630,215" fill="#C4683A"/>
+  <text x="585" y="200" text-anchor="middle" font-size="12" font-weight="bold" fill="#C4683A">NO, tight to skin</text>
+
+  <!-- Pinch YES down -->
+  <line x1="380" y1="260" x2="380" y2="292" stroke="#374151" stroke-width="2"/>
+  <polygon points="380,292 374,282 386,282" fill="#374151"/>
+  <text x="430" y="282" text-anchor="middle" font-size="12" font-weight="bold" fill="#3E9B6B">YES, lifts free</text>
+
+  <!-- Gate 2: scope -->
+  <polygon points="380,292 540,342 380,392 220,342" fill="#FCEFD0" stroke="#D4AF37" stroke-width="2.5"/>
+  <text x="380" y="332" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">HOW MUCH?</text>
+  <text x="380" y="351" text-anchor="middle" font-size="12.5" fill="#374151">A few mats, dog calm,</text>
+  <text x="380" y="367" text-anchor="middle" font-size="12.5" fill="#374151">under ~15 min total,</text>
+  <text x="380" y="383" text-anchor="middle" font-size="12.5" fill="#374151">no pain signs?</text>
+
+  <!-- Scope NO -> shave -->
+  <line x1="380" y1="392" x2="380" y2="430" stroke="#C4683A" stroke-width="2"/>
+  <line x1="380" y1="430" x2="640" y2="430" stroke="#C4683A" stroke-width="2"/>
+  <line x1="640" y1="430" x2="640" y2="250" stroke="#C4683A" stroke-width="2"/>
+  <polygon points="640,250 635,260 645,260" fill="#C4683A"/>
+  <text x="510" y="448" text-anchor="middle" font-size="12" font-weight="bold" fill="#C4683A">NO, widespread / dog hurting / too slow</text>
+
+  <!-- Scope YES -> demat (right side) -->
+  <line x1="540" y1="342" x2="600" y2="342" stroke="#3E9B6B" stroke-width="2"/>
+  <line x1="600" y1="342" x2="600" y2="500" stroke="#3E9B6B" stroke-width="2"/>
+  <line x1="600" y1="500" x2="500" y2="500" stroke="#3E9B6B" stroke-width="2"/>
+  <polygon points="500,500 510,495 510,505" fill="#3E9B6B"/>
+  <text x="660" y="346" text-anchor="middle" font-size="12" font-weight="bold" fill="#3E9B6B">YES</text>
+
+  <!-- Outcome: shave -->
+  <rect x="540" y="184" width="200" height="52" rx="10" fill="#C4683A"/>
+  <text x="640" y="208" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">HUMANE SHAVE-DOWN</text>
+  <text x="640" y="227" text-anchor="middle" font-size="11.5" fill="#FFFFFF">Coat grows back; pain does not</text>
+
+  <!-- Outcome: demat -->
+  <rect x="300" y="474" width="200" height="52" rx="10" fill="#3E9B6B"/>
+  <text x="400" y="498" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">DE-MAT BY HAND</text>
+  <text x="400" y="517" text-anchor="middle" font-size="11.5" fill="#FFFFFF">Work edges loose, stop if it hurts</text>
+
+  <!-- key principle band -->
+  <rect x="40" y="474" width="230" height="62" rx="8" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="56" y="497" font-size="12.5" font-weight="bold" fill="#141B5C">When in doubt, shave.</text>
+  <text x="56" y="516" font-size="11.5" fill="#374151">Vanity is the owner's; the pain</text>
+  <text x="56" y="531" font-size="11.5" fill="#374151">is the dog's. Welfare wins.</text>
+</svg>

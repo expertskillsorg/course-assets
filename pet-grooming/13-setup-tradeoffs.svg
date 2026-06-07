@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="440" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Choosing Your Setup: The Trade-Offs</text>
+
+  <!-- column headers -->
+  <text x="170" y="78" text-anchor="middle" font-size="16" font-weight="bold" fill="#1E2A8E">Home studio</text>
+  <text x="350" y="78" text-anchor="middle" font-size="16" font-weight="bold" fill="#C4683A">Mobile</text>
+  <text x="530" y="78" text-anchor="middle" font-size="16" font-weight="bold" fill="#3E9B6B">Salon</text>
+
+  <!-- row labels -->
+  <text x="24" y="148" font-size="14" font-weight="bold" fill="#374151">Startup cost</text>
+  <text x="24" y="248" font-size="14" font-weight="bold" fill="#374151">Freedom</text>
+  <text x="24" y="348" font-size="14" font-weight="bold" fill="#374151">Client demand</text>
+
+  <!-- helper: bars are filled segments out of 3; more filled = more of that trait -->
+  <!-- Startup cost row (home low, mobile high, salon high) -->
+  <g>
+    <rect x="110" y="128" width="120" height="26" fill="#E5E7EB"/>
+    <rect x="110" y="128" width="40" height="26" fill="#1E2A8E"/>
+    <text x="240" y="146" font-size="12" fill="#374151">Low</text>
+
+    <rect x="290" y="128" width="120" height="26" fill="#E5E7EB"/>
+    <rect x="290" y="128" width="120" height="26" fill="#C4683A"/>
+    <text x="420" y="146" font-size="12" fill="#374151">High</text>
+
+    <rect x="470" y="128" width="120" height="26" fill="#E5E7EB"/>
+    <rect x="470" y="128" width="120" height="26" fill="#3E9B6B"/>
+    <text x="600" y="146" font-size="12" fill="#374151" text-anchor="end" dy="32">Highest</text>
+  </g>
+
+  <!-- Freedom row (home high, mobile medium, salon lower) -->
+  <g>
+    <rect x="110" y="228" width="120" height="26" fill="#E5E7EB"/>
+    <rect x="110" y="228" width="120" height="26" fill="#1E2A8E"/>
+    <text x="240" y="246" font-size="12" fill="#374151">High</text>
+
+    <rect x="290" y="228" width="120" height="26" fill="#E5E7EB"/>
+    <rect x="290" y="228" width="80" height="26" fill="#C4683A"/>
+    <text x="420" y="246" font-size="12" fill="#374151">Medium</text>
+
+    <rect x="470" y="228" width="120" height="26" fill="#E5E7EB"/>
+    <rect x="470" y="228" width="50" height="26" fill="#3E9B6B"/>
+    <text x="600" y="246" font-size="12" fill="#374151" text-anchor="end">Lower</text>
+  </g>
+
+  <!-- Client demand / visibility row (home limited, mobile high, salon highest) -->
+  <g>
+    <rect x="110" y="328" width="120" height="26" fill="#E5E7EB"/>
+    <rect x="110" y="328" width="50" height="26" fill="#1E2A8E"/>
+    <text x="240" y="346" font-size="12" fill="#374151">Limited</text>
+
+    <rect x="290" y="328" width="120" height="26" fill="#E5E7EB"/>
+    <rect x="290" y="328" width="105" height="26" fill="#C4683A"/>
+    <text x="420" y="346" font-size="12" fill="#374151">High</text>
+
+    <rect x="470" y="328" width="120" height="26" fill="#E5E7EB"/>
+    <rect x="470" y="328" width="120" height="26" fill="#3E9B6B"/>
+    <text x="600" y="346" font-size="12" fill="#374151" text-anchor="end">Highest</text>
+  </g>
+
+  <text x="320" y="404" text-anchor="middle" font-size="13" fill="#111827">Beginners usually start home (low cost), then grow into mobile or a salon.</text>
+  <text x="320" y="424" text-anchor="middle" font-size="11" fill="#374151">Longer bar = more of that trait. Earnings vary by area, hours, and skill.</text>
+</svg>
