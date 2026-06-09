@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="560" fill="#ffffff"/>
+  <text x="380" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Revenue Stream Ladder</text>
+  <text x="380" y="58" text-anchor="middle" font-size="13" fill="#374151">Add one income stream at a time as your channel grows</text>
+
+  <!-- vertical milestone axis -->
+  <line x1="150" y1="90" x2="150" y2="500" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="70" y="86" font-size="11" font-weight="bold" fill="#374151">Milestone</text>
+
+  <!-- milestone markers (left axis) -->
+  <circle cx="150" cy="470" r="5" fill="#3E9B6B"/>
+  <text x="138" y="474" text-anchor="end" font-size="11" fill="#111827">0 subs</text>
+
+  <circle cx="150" cy="380" r="5" fill="#1E2A8E"/>
+  <text x="138" y="377" text-anchor="end" font-size="11" fill="#111827">1,000 subs</text>
+  <text x="138" y="391" text-anchor="end" font-size="10" fill="#374151">4,000 watch hrs</text>
+
+  <circle cx="150" cy="290" r="5" fill="#1E2A8E"/>
+  <text x="138" y="294" text-anchor="end" font-size="11" fill="#111827">2,000+ subs</text>
+
+  <circle cx="150" cy="200" r="5" fill="#D4AF37"/>
+  <text x="138" y="204" text-anchor="end" font-size="11" fill="#111827">10,000+ subs</text>
+
+  <circle cx="150" cy="120" r="5" fill="#C4683A"/>
+  <text x="138" y="124" text-anchor="end" font-size="11" fill="#111827">25,000-50,000</text>
+
+  <!-- ladder rungs (rectangles), base at bottom = affiliate, top = digital products -->
+  <!-- Rung 1: Affiliate -->
+  <rect x="180" y="452" width="520" height="40" rx="6" fill="#3E9B6B"/>
+  <text x="200" y="470" font-size="14" font-weight="bold" fill="#ffffff">Affiliate marketing</text>
+  <text x="200" y="486" font-size="11" fill="#ffffff">No subscriber minimum. Start on day one.</text>
+
+  <!-- Rung 2: AdSense -->
+  <rect x="180" y="362" width="520" height="40" rx="6" fill="#1E2A8E"/>
+  <text x="200" y="380" font-size="14" font-weight="bold" fill="#ffffff">AdSense (YPP)</text>
+  <text x="200" y="396" font-size="11" fill="#ffffff">Unlocks at 1,000 subs + 4,000 watch hours.</text>
+
+  <!-- Rung 3: Sponsorships -->
+  <rect x="180" y="272" width="520" height="40" rx="6" fill="#141B5C"/>
+  <text x="200" y="290" font-size="14" font-weight="bold" fill="#ffffff">Sponsorships</text>
+  <text x="200" y="306" font-size="11" fill="#ffffff">Begin outreach at 1,000-5,000 engaged subs.</text>
+
+  <!-- Rung 4: Memberships -->
+  <rect x="180" y="182" width="520" height="40" rx="6" fill="#D4AF37"/>
+  <text x="200" y="200" font-size="14" font-weight="bold" fill="#141B5C">Channel memberships</text>
+  <text x="200" y="216" font-size="11" fill="#141B5C">Add once you have a loyal recurring audience.</text>
+
+  <!-- Rung 5: Digital products -->
+  <rect x="180" y="92" width="520" height="40" rx="6" fill="#C4683A"/>
+  <text x="200" y="110" font-size="14" font-weight="bold" fill="#ffffff">Digital products</text>
+  <text x="200" y="126" font-size="11" fill="#ffffff">Highest margin. Add once your expertise is proven.</text>
+
+  <!-- upward arrow on the right -->
+  <line x1="725" y1="490" x2="725" y2="100" stroke="#374151" stroke-width="2"/>
+  <polygon points="725,90 720,102 730,102" fill="#374151"/>
+  <text x="745" y="300" font-size="11" fill="#374151" transform="rotate(90 745 300)">Add as the channel grows</text>
+
+  <text x="380" y="535" text-anchor="middle" font-size="11" fill="#374151">Rule: add one stream at a time. Three done poorly earn less than one done well.</text>
+</svg>

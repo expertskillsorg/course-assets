@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, sans-serif">
+  <rect width="640" height="460" fill="#FFFFFF"/>
+  <text x="32" y="40" font-size="20" font-weight="bold" fill="#141B5C">The 3-element thumbnail formula</text>
+  <text x="32" y="62" font-size="13" fill="#374151">A 1280 x 720 frame built from three zones that each do one job.</text>
+
+  <!-- thumbnail frame (16:9): 480 x 270 -->
+  <g>
+    <!-- contrast background zone -->
+    <rect x="80" y="85" width="480" height="270" rx="6" fill="#1E2A8E"/>
+    <rect x="80" y="85" width="480" height="270" rx="6" fill="none" stroke="#141B5C" stroke-width="3"/>
+
+    <!-- text zone (left) -->
+    <rect x="100" y="120" width="210" height="200" rx="4" fill="#141B5C" fill-opacity="0.45" stroke="#D4AF37" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="118" y="200" font-size="30" font-weight="bold" fill="#D4AF37">BOLD</text>
+    <text x="118" y="238" font-size="30" font-weight="bold" fill="#FFFFFF">3-5</text>
+    <text x="118" y="276" font-size="30" font-weight="bold" fill="#FFFFFF">WORDS</text>
+
+    <!-- face / emotion zone (right) -->
+    <rect x="350" y="120" width="190" height="200" rx="4" fill="none" stroke="#3E9B6B" stroke-width="2" stroke-dasharray="6 4"/>
+    <circle cx="445" cy="200" r="42" fill="#C4683A"/>
+    <circle cx="430" cy="194" r="5" fill="#FFFFFF"/>
+    <circle cx="460" cy="194" r="5" fill="#FFFFFF"/>
+    <path d="M428 216 Q445 232 462 216" stroke="#FFFFFF" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M350 320 Q445 250 540 320 L540 320 Z" fill="#C4683A"/>
+  </g>
+
+  <!-- labels / legend -->
+  <g font-size="14">
+    <rect x="80" y="380" width="16" height="16" rx="3" fill="#1E2A8E"/>
+    <text x="104" y="393" fill="#111827" font-weight="bold">Contrast background</text>
+    <text x="104" y="412" fill="#374151" font-size="12">One or two warm colors that pop against the gray feed.</text>
+
+    <rect x="80" y="425" width="16" height="16" rx="3" fill="#141B5C"/>
+    <text x="104" y="438" fill="#111827" font-weight="bold">Text zone</text>
+    <text x="104" y="455" fill="#374151" font-size="12">3-5 bold words, readable at phone size.</text>
+
+    <rect x="360" y="425" width="16" height="16" rx="3" fill="#3E9B6B"/>
+    <text x="384" y="438" fill="#111827" font-weight="bold">Face / emotion zone</text>
+    <text x="384" y="455" fill="#374151" font-size="12">A clear expression on the opposite side from the text.</text>
+  </g>
+</svg>

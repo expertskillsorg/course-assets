@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="880" height="520" fill="#FFFFFF"/>
+  <text x="40" y="40" font-size="22" font-weight="bold" fill="#141B5C">Keyword Research Workflow</text>
+  <text x="40" y="64" font-size="14" fill="#374151">Five steps from a seed term to a keyword you will actually rank for</text>
+
+  <!-- Step 1 -->
+  <g>
+    <circle cx="70" cy="130" r="20" fill="#1E2A8E"/>
+    <text x="70" y="137" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+    <rect x="110" y="105" width="270" height="86" rx="10" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+    <text x="126" y="130" font-size="15" font-weight="bold" fill="#141B5C">Pick a seed term</text>
+    <text x="126" y="152" font-size="12.5" fill="#374151">A broad phrase from your niche.</text>
+    <text x="126" y="172" font-size="12.5" fill="#3E9B6B" font-style="italic">"beginner investing"</text>
+  </g>
+
+  <!-- Step 2 -->
+  <g>
+    <circle cx="70" cy="240" r="20" fill="#1E2A8E"/>
+    <text x="70" y="247" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+    <rect x="110" y="215" width="270" height="86" rx="10" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+    <text x="126" y="240" font-size="15" font-weight="bold" fill="#141B5C">Harvest autocomplete</text>
+    <text x="126" y="262" font-size="12.5" fill="#374151">Type it in YouTube search, copy</text>
+    <text x="126" y="280" font-size="12.5" fill="#374151">every suggestion that drops down.</text>
+  </g>
+
+  <!-- Step 3 -->
+  <g>
+    <circle cx="70" cy="350" r="20" fill="#1E2A8E"/>
+    <text x="70" y="357" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+    <rect x="110" y="325" width="270" height="86" rx="10" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+    <text x="126" y="350" font-size="15" font-weight="bold" fill="#141B5C">Check with a free tool</text>
+    <text x="126" y="372" font-size="12.5" fill="#374151">TubeBuddy or vidIQ: read the</text>
+    <text x="126" y="390" font-size="12.5" fill="#374151">score, volume, and competition.</text>
+  </g>
+
+  <!-- Step 4 -->
+  <g>
+    <circle cx="70" cy="460" r="20" fill="#D4AF37"/>
+    <text x="70" y="467" font-size="18" font-weight="bold" fill="#141B5C" text-anchor="middle">4</text>
+    <rect x="110" y="435" width="270" height="70" rx="10" fill="#FFFFFF" stroke="#D4AF37" stroke-width="2"/>
+    <text x="126" y="460" font-size="15" font-weight="bold" fill="#141B5C">Select a target</text>
+    <text x="126" y="482" font-size="12.5" fill="#374151">Low to medium competition,</text>
+    <text x="126" y="498" font-size="12.5" fill="#374151">4+ words, real demand.</text>
+  </g>
+
+  <!-- connecting line -->
+  <line x1="70" y1="150" x2="70" y2="220" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="70" y1="260" x2="70" y2="330" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="70" y1="370" x2="70" y2="440" stroke="#E5E7EB" stroke-width="3"/>
+
+  <!-- Example output panel -->
+  <rect x="430" y="105" width="410" height="400" rx="12" fill="#141B5C"/>
+  <text x="455" y="138" font-size="16" font-weight="bold" fill="#FFFFFF">Example output at each stage</text>
+
+  <text x="455" y="175" font-size="12.5" fill="#D4AF37" font-weight="bold">After step 1 (seed)</text>
+  <text x="455" y="196" font-size="12.5" fill="#FFFFFF">beginner investing</text>
+
+  <text x="455" y="232" font-size="12.5" fill="#D4AF37" font-weight="bold">After step 2 (autocomplete)</text>
+  <text x="455" y="253" font-size="12.5" fill="#FFFFFF">beginner investing for college students</text>
+  <text x="455" y="271" font-size="12.5" fill="#FFFFFF">beginner investing apps</text>
+  <text x="455" y="289" font-size="12.5" fill="#FFFFFF">beginner investing mistakes to avoid</text>
+
+  <text x="455" y="325" font-size="12.5" fill="#D4AF37" font-weight="bold">After step 3 (tool check)</text>
+  <text x="455" y="346" font-size="12.5" fill="#FFFFFF">"investing apps" - score D, very high competition</text>
+  <text x="455" y="364" font-size="12.5" fill="#3E9B6B">"investing mistakes to avoid" - score B, medium</text>
+
+  <text x="455" y="400" font-size="12.5" fill="#D4AF37" font-weight="bold">After step 4 (target chosen)</text>
+  <rect x="455" y="415" width="360" height="62" rx="8" fill="#3E9B6B"/>
+  <text x="471" y="440" font-size="13" font-weight="bold" fill="#FFFFFF">beginner investing mistakes to avoid</text>
+  <text x="471" y="462" font-size="12" fill="#FFFFFF">5 words, real searches, beatable competition</text>
+</svg>

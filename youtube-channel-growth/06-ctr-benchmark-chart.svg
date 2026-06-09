@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Arial, sans-serif">
+  <rect width="640" height="420" fill="#FFFFFF"/>
+  <text x="32" y="40" font-size="20" font-weight="bold" fill="#141B5C">Typical CTR ranges by traffic source</text>
+  <text x="32" y="62" font-size="13" fill="#374151">Bars show the common range; new channels often start near the low end.</text>
+
+  <!-- chart geometry: x from 0% (px 150) to 12% (px 600) => 37.5 px per percent -->
+  <!-- gridlines -->
+  <g stroke="#E5E7EB" stroke-width="1">
+    <line x1="150" y1="95" x2="150" y2="305"/>
+    <line x1="262.5" y1="95" x2="262.5" y2="305"/>
+    <line x1="375" y1="95" x2="375" y2="305"/>
+    <line x1="487.5" y1="95" x2="487.5" y2="305"/>
+    <line x1="600" y1="95" x2="600" y2="305"/>
+  </g>
+  <g font-size="12" fill="#374151" text-anchor="middle">
+    <text x="150" y="322">0%</text>
+    <text x="262.5" y="322">3%</text>
+    <text x="375" y="322">6%</text>
+    <text x="487.5" y="322">9%</text>
+    <text x="600" y="322">12%</text>
+  </g>
+
+  <!-- Homepage: 5-10% => x 337.5 to 525, width 187.5 -->
+  <text x="138" y="125" font-size="14" fill="#111827" text-anchor="end" font-weight="bold">Homepage</text>
+  <rect x="337.5" y="108" width="187.5" height="30" rx="4" fill="#1E2A8E"/>
+  <text x="431" y="128" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">5% – 10%</text>
+
+  <!-- Search: 3-7% => x 262.5 to 412.5, width 150 -->
+  <text x="138" y="185" font-size="14" fill="#111827" text-anchor="end" font-weight="bold">Search</text>
+  <rect x="262.5" y="168" width="150" height="30" rx="4" fill="#3E9B6B"/>
+  <text x="337.5" y="188" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3% – 7%</text>
+
+  <!-- Suggested: 5-8% => x 337.5 to 450, width 112.5 -->
+  <text x="138" y="245" font-size="14" fill="#111827" text-anchor="end" font-weight="bold">Suggested</text>
+  <rect x="337.5" y="228" width="112.5" height="30" rx="4" fill="#D4AF37"/>
+  <text x="393.75" y="248" font-size="12" fill="#141B5C" text-anchor="middle" font-weight="bold">5% – 8%</text>
+
+  <!-- niche adjustment note -->
+  <line x1="32" y1="350" x2="608" y2="350" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="32" y="375" font-size="13" font-weight="bold" fill="#141B5C">Niche shifts every range:</text>
+  <circle cx="225" cy="370" r="6" fill="#C4683A"/>
+  <text x="238" y="375" font-size="13" fill="#374151">Gaming &amp; entertainment run higher</text>
+  <circle cx="460" cy="370" r="6" fill="#1E2A8E"/>
+  <text x="473" y="375" font-size="13" fill="#374151">Education &amp; finance run lower</text>
+  <text x="32" y="400" font-size="12" fill="#374151" font-style="italic">Always compare your CTR to the range for that source and your niche before judging it.</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="540" fill="#ffffff"/>
+  <text x="30" y="34" font-size="20" font-weight="bold" fill="#111827">Anatomy of a YouTube Channel Page</text>
+
+  <!-- Banner -->
+  <rect x="30" y="58" width="540" height="150" fill="#1E2A8E"/>
+  <!-- Safe zone -->
+  <rect x="120" y="98" width="360" height="70" fill="none" stroke="#D4AF37" stroke-width="3" stroke-dasharray="8 5"/>
+  <text x="300" y="138" font-size="13" font-weight="bold" fill="#D4AF37" text-anchor="middle">SAFE ZONE</text>
+  <text x="300" y="156" font-size="11" fill="#ffffff" text-anchor="middle">1546 x 423 px (visible on every device)</text>
+  <text x="42" y="78" font-size="11" fill="#E5E7EB">Banner: 2560 x 1440 px total</text>
+
+  <!-- Annotation: banner -->
+  <line x1="570" y1="103" x2="640" y2="103" stroke="#3E9B6B" stroke-width="2"/>
+  <circle cx="570" cy="103" r="3" fill="#3E9B6B"/>
+  <text x="646" y="100" font-size="12" font-weight="bold" fill="#3E9B6B">Channel banner</text>
+  <text x="646" y="116" font-size="11" fill="#374151">Keep key text inside</text>
+  <text x="646" y="130" font-size="11" fill="#374151">the gold safe zone.</text>
+
+  <!-- Profile picture -->
+  <circle cx="90" cy="208" r="40" fill="#D4AF37" stroke="#ffffff" stroke-width="4"/>
+  <text x="90" y="214" font-size="13" font-weight="bold" fill="#141B5C" text-anchor="middle">LOGO</text>
+  <line x1="130" y1="208" x2="200" y2="208" stroke="#3E9B6B" stroke-width="2"/>
+  <circle cx="130" cy="208" r="3" fill="#3E9B6B"/>
+
+  <!-- Channel name + handle -->
+  <text x="150" y="280" font-size="20" font-weight="bold" fill="#111827">Weeknight Kitchen</text>
+  <text x="150" y="302" font-size="14" fill="#374151">@weeknightkitchen  ·  12.4K subscribers</text>
+  <line x1="360" y1="296" x2="430" y2="296" stroke="#3E9B6B" stroke-width="2"/>
+  <circle cx="360" cy="296" r="3" fill="#3E9B6B"/>
+  <text x="436" y="293" font-size="12" font-weight="bold" fill="#3E9B6B">@handle</text>
+  <text x="436" y="309" font-size="11" fill="#374151">Separate from the name.</text>
+
+  <text x="150" y="326" font-size="13" fill="#374151">Easy weeknight dinners in under 30 minutes. New recipes every Tuesday.</text>
+
+  <!-- Search result snippet block -->
+  <text x="30" y="378" font-size="13" font-weight="bold" fill="#111827">How the About snippet looks in YouTube search:</text>
+  <rect x="30" y="392" width="540" height="96" fill="#ffffff" stroke="#E5E7EB" stroke-width="2"/>
+  <circle cx="62" cy="424" r="18" fill="#D4AF37"/>
+  <text x="62" y="429" font-size="9" font-weight="bold" fill="#141B5C" text-anchor="middle">LOGO</text>
+  <text x="92" y="420" font-size="14" font-weight="bold" fill="#1E2A8E">Weeknight Kitchen</text>
+  <text x="92" y="438" font-size="11" fill="#374151">@weeknightkitchen · 12.4K subscribers</text>
+  <text x="44" y="466" font-size="12" fill="#111827">Easy weeknight dinners in under 30 minutes for busy</text>
+  <text x="44" y="482" font-size="12" fill="#111827">families. New recipes every...</text>
+
+  <!-- First 100 chars annotation -->
+  <line x1="570" y1="466" x2="640" y2="466" stroke="#C4683A" stroke-width="2"/>
+  <circle cx="570" cy="466" r="3" fill="#C4683A"/>
+  <text x="646" y="456" font-size="12" font-weight="bold" fill="#C4683A">First 100 characters</text>
+  <text x="646" y="472" font-size="11" fill="#374151">of your About section</text>
+  <text x="646" y="486" font-size="11" fill="#374151">show here. Front-load</text>
+  <text x="646" y="500" font-size="11" fill="#374151">your main keyword.</text>
+
+  <!-- Profile pic label -->
+  <line x1="50" y1="424" x2="20" y2="424" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="30" y="520" font-size="11" fill="#374151">Profile picture: 800 x 800 px minimum, readable when small.</text>
+</svg>

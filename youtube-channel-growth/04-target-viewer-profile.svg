@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="460" fill="#FFFFFF"/>
+  <text x="360" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#1E2A8E">Target Viewer Profile</text>
+  <text x="360" y="64" text-anchor="middle" font-size="14" fill="#374151">One person, defined by their situation, not their age or income</text>
+
+  <!-- Box 1: Their Situation -->
+  <rect x="30" y="90" width="320" height="150" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <rect x="30" y="90" width="320" height="36" rx="10" fill="#1E2A8E"/>
+  <rect x="30" y="108" width="320" height="18" fill="#1E2A8E"/>
+  <text x="48" y="114" font-size="16" font-weight="bold" fill="#FFFFFF">1. Their Situation</text>
+  <text x="48" y="152" font-size="13" fill="#111827">The specific life moment they are in</text>
+  <text x="48" y="176" font-size="13" fill="#374151">Example: just started a first</text>
+  <text x="48" y="194" font-size="13" fill="#374151">full-time job and wants to start</text>
+  <text x="48" y="212" font-size="13" fill="#374151">investing but feels lost</text>
+
+  <!-- Box 2: What They Already Know -->
+  <rect x="370" y="90" width="320" height="150" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <rect x="370" y="90" width="320" height="36" rx="10" fill="#1E2A8E"/>
+  <rect x="370" y="108" width="320" height="18" fill="#1E2A8E"/>
+  <text x="388" y="114" font-size="16" font-weight="bold" fill="#FFFFFF">2. What They Already Know</text>
+  <text x="388" y="152" font-size="13" fill="#111827">Knowledge level sets how you explain</text>
+
+  <!-- knowledge level indicator -->
+  <rect x="388" y="170" width="90" height="28" rx="4" fill="#D4AF37"/>
+  <text x="433" y="189" text-anchor="middle" font-size="12" font-weight="bold" fill="#111827">Beginner</text>
+  <rect x="488" y="170" width="100" height="28" rx="4" fill="#E5E7EB"/>
+  <text x="538" y="189" text-anchor="middle" font-size="12" fill="#374151">Some</text>
+  <rect x="598" y="170" width="80" height="28" rx="4" fill="#E5E7EB"/>
+  <text x="638" y="189" text-anchor="middle" font-size="12" fill="#374151">Experienced</text>
+  <text x="388" y="222" font-size="12" fill="#374151">The gold marker shows where this viewer sits</text>
+
+  <!-- Box 3: Top 5 Questions -->
+  <rect x="30" y="262" width="660" height="170" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <rect x="30" y="262" width="660" height="36" rx="10" fill="#1E2A8E"/>
+  <rect x="30" y="280" width="660" height="18" fill="#1E2A8E"/>
+  <text x="48" y="286" font-size="16" font-weight="bold" fill="#FFFFFF">3. Top 5 Questions They Are Asking Right Now</text>
+
+  <text x="48" y="326" font-size="13" fill="#D4AF37" font-weight="bold">Q1</text>
+  <text x="78" y="326" font-size="13" fill="#111827">What is an index fund and why does everyone recommend one?</text>
+  <text x="48" y="350" font-size="13" fill="#D4AF37" font-weight="bold">Q2</text>
+  <text x="78" y="350" font-size="13" fill="#111827">How much of my paycheck should I actually invest?</text>
+  <text x="48" y="374" font-size="13" fill="#D4AF37" font-weight="bold">Q3</text>
+  <text x="78" y="374" font-size="13" fill="#111827">Roth IRA or 401k first, and what is the difference?</text>
+  <text x="48" y="398" font-size="13" fill="#D4AF37" font-weight="bold">Q4</text>
+  <text x="78" y="398" font-size="13" fill="#111827">Is it too late to start investing in my late twenties?</text>
+  <text x="48" y="422" font-size="13" fill="#D4AF37" font-weight="bold">Q5</text>
+  <text x="78" y="422" font-size="13" fill="#111827">How do I open a brokerage account, step by step?</text>
+</svg>

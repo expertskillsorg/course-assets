@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="540" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Two Different Recommendation Systems</text>
+
+  <!-- Column headers -->
+  <rect x="40" y="58" width="330" height="46" rx="6" fill="#1E2A8E"/>
+  <text x="205" y="87" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">Long-Form</text>
+  <rect x="390" y="58" width="330" height="46" rx="6" fill="#C4683A"/>
+  <text x="555" y="87" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">Shorts</text>
+
+  <!-- Row 1: What it shows -->
+  <text x="40" y="134" font-size="13" font-weight="bold" fill="#374151">FEED PLACEMENT</text>
+  <rect x="40" y="142" width="330" height="62" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="56" y="166" font-size="13" fill="#111827">Homepage, Suggested sidebar,</text>
+  <text x="56" y="186" font-size="13" fill="#111827">and Search results</text>
+  <rect x="390" y="142" width="330" height="62" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="406" y="166" font-size="13" fill="#111827">One vertical feed, swiped one</text>
+  <text x="406" y="186" font-size="13" fill="#111827">video at a time</text>
+
+  <!-- Row 2: Key signal -->
+  <text x="40" y="232" font-size="13" font-weight="bold" fill="#374151">KEY SIGNAL</text>
+  <rect x="40" y="240" width="330" height="62" rx="6" fill="#F4F4FA" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="56" y="264" font-size="13" fill="#111827">Click-through rate, then watch</text>
+  <text x="56" y="284" font-size="13" fill="#111827">time across a longer video</text>
+  <rect x="390" y="240" width="330" height="62" rx="6" fill="#FBEFE9" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="406" y="264" font-size="13" fill="#111827">Swipe-through rate: did they</text>
+  <text x="406" y="284" font-size="13" fill="#111827">watch, loop, or scroll past</text>
+
+  <!-- Row 3: Subscriber behavior -->
+  <text x="40" y="330" font-size="13" font-weight="bold" fill="#374151">SUBSCRIBER BEHAVIOR</text>
+  <rect x="40" y="338" width="330" height="62" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="56" y="362" font-size="13" fill="#111827">Subscribers get a strong push;</text>
+  <text x="56" y="382" font-size="13" fill="#111827">loyal viewers seed the test</text>
+  <rect x="390" y="338" width="330" height="62" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="406" y="362" font-size="13" fill="#111827">Mostly shown to non-subscribers;</text>
+  <text x="406" y="382" font-size="13" fill="#111827">subscriber status matters less</text>
+
+  <!-- Row 4: Cross-promotion reality -->
+  <text x="40" y="428" font-size="13" font-weight="bold" fill="#374151">CROSS-PROMOTION REALITY</text>
+  <rect x="40" y="436" width="330" height="68" rx="6" fill="#F4F4FA" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="56" y="460" font-size="13" fill="#111827">Builds deep watch time and</text>
+  <text x="56" y="480" font-size="13" fill="#111827">earns most ad revenue. This is</text>
+  <text x="56" y="498" font-size="13" fill="#3E9B6B" font-weight="bold">where loyal fans are made.</text>
+  <rect x="390" y="436" width="330" height="68" rx="6" fill="#FBEFE9" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="406" y="460" font-size="13" fill="#111827">Reaches new people fast but</text>
+  <text x="406" y="480" font-size="13" fill="#111827">converts few to subscribers.</text>
+  <text x="406" y="498" font-size="13" fill="#C4683A" font-weight="bold">A top-of-funnel discovery tool.</text>
+</svg>
