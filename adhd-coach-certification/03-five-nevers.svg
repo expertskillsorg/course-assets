@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, sans-serif">
+  <rect width="640" height="460" fill="#ffffff"/>
+  <text x="320" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Five Nevers</text>
+  <text x="320" y="58" text-anchor="middle" font-size="13" fill="#374151">Absolute limits on an ADHD coach's scope of practice</text>
+
+  <!-- Scope boundary -->
+  <rect x="24" y="74" width="592" height="370" rx="14" fill="#f4f6fc" stroke="#1E2A8E" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <rect x="232" y="62" width="176" height="26" rx="13" fill="#141B5C"/>
+  <text x="320" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">SCOPE BOUNDARY</text>
+
+  <!-- Card 1 -->
+  <g>
+    <rect x="48" y="100" width="544" height="56" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="2"/>
+    <rect x="48" y="100" width="6" height="56" rx="3" fill="#141B5C"/>
+    <text x="80" y="124" font-size="15" font-weight="bold" fill="#141B5C">1. Never diagnose</text>
+    <text x="80" y="144" font-size="12" fill="#374151">You don't label a condition, type, or severity. Work with what the client reports.</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g>
+    <rect x="48" y="166" width="544" height="56" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="2"/>
+    <rect x="48" y="166" width="6" height="56" rx="3" fill="#141B5C"/>
+    <text x="80" y="190" font-size="15" font-weight="bold" fill="#141B5C">2. Never treat</text>
+    <text x="80" y="210" font-size="12" fill="#374151">Build skills and systems; you do not deliver therapy or clinical treatment.</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g>
+    <rect x="48" y="232" width="544" height="56" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="2"/>
+    <rect x="48" y="232" width="6" height="56" rx="3" fill="#141B5C"/>
+    <text x="80" y="256" font-size="15" font-weight="bold" fill="#141B5C">3. Never advise on medication</text>
+    <text x="80" y="276" font-size="12" fill="#374151">Not the drug, dose, timing, or whether to start or stop. That's the prescriber's call.</text>
+  </g>
+
+  <!-- Card 4 -->
+  <g>
+    <rect x="48" y="298" width="544" height="56" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="2"/>
+    <rect x="48" y="298" width="6" height="56" rx="3" fill="#141B5C"/>
+    <text x="80" y="322" font-size="15" font-weight="bold" fill="#141B5C">4. Never promise clinical outcomes</text>
+    <text x="80" y="342" font-size="12" fill="#374151">No cures or guaranteed symptom relief. Promise structure, partnership, and your best work.</text>
+  </g>
+
+  <!-- Card 5 -->
+  <g>
+    <rect x="48" y="364" width="544" height="56" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="2"/>
+    <rect x="48" y="364" width="6" height="56" rx="3" fill="#141B5C"/>
+    <text x="80" y="388" font-size="15" font-weight="bold" fill="#141B5C">5. Never position coaching as a replacement</text>
+    <text x="80" y="408" font-size="12" fill="#374151">Coaching sits alongside therapy or medical care, never in place of it.</text>
+  </g>
+</svg>

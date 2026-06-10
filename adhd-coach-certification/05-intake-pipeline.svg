@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="280" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Intake Pipeline</text>
+  <text x="320" y="56" text-anchor="middle" font-size="13" fill="#374151">From first inquiry to a scheduled first session</text>
+
+  <!-- Stage 1: Inquiry -->
+  <rect x="20" y="90" width="120" height="60" rx="8" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="80" y="118" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">Inquiry</text>
+  <text x="80" y="136" text-anchor="middle" font-size="11" fill="#141B5C">First contact</text>
+  <text x="80" y="172" text-anchor="middle" font-size="10" fill="#374151">A fast, warm reply</text>
+
+  <!-- arrow 1 -->
+  <line x1="148" y1="120" x2="176" y2="120" stroke="#1E2A8E" stroke-width="2"/>
+  <polygon points="176,114 188,120 176,126" fill="#1E2A8E"/>
+
+  <!-- Stage 2: Discovery call -->
+  <rect x="190" y="90" width="120" height="60" rx="8" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="250" y="114" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">Discovery call</text>
+  <text x="250" y="132" text-anchor="middle" font-size="11" fill="#141B5C">20&#8211;30 min &#183; free</text>
+  <text x="250" y="172" text-anchor="middle" font-size="10" fill="#374151">Two-way fit check</text>
+
+  <!-- arrow 2 -->
+  <line x1="318" y1="120" x2="346" y2="120" stroke="#1E2A8E" stroke-width="2"/>
+  <polygon points="346,114 358,120 346,126" fill="#1E2A8E"/>
+
+  <!-- Stage 3: Intake form -->
+  <rect x="360" y="90" width="120" height="60" rx="8" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="420" y="114" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">Intake form</text>
+  <text x="420" y="132" text-anchor="middle" font-size="11" fill="#141B5C">Short &#183; one page</text>
+  <text x="420" y="172" text-anchor="middle" font-size="10" fill="#374151">Only what helps you coach</text>
+
+  <!-- arrow 3 -->
+  <line x1="488" y1="120" x2="516" y2="120" stroke="#1E2A8E" stroke-width="2"/>
+  <polygon points="516,114 528,120 516,126" fill="#1E2A8E"/>
+
+  <!-- Stage 4: First session -->
+  <rect x="510" y="90" width="120" height="60" rx="8" fill="#141B5C" stroke="#141B5C" stroke-width="1.5"/>
+  <text x="570" y="114" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">First session</text>
+  <text x="570" y="132" text-anchor="middle" font-size="11" fill="#FFFFFF">Scheduled &#183; paid</text>
+  <text x="570" y="172" text-anchor="middle" font-size="10" fill="#374151">Booked before you hang up</text>
+
+  <text x="320" y="250" text-anchor="middle" font-size="11" fill="#374151" font-style="italic">A repeatable on-ramp: fast reply, fit check, short form, tight logistics.</text>
+</svg>

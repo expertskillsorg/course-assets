@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" font-family="Arial, sans-serif">
+  <rect width="640" height="470" fill="#ffffff"/>
+  <text x="320" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The coaching readiness map</text>
+  <text x="320" y="56" text-anchor="middle" font-size="13" fill="#374151">Rate each area, then check the gate</text>
+
+  <!-- Rating legend -->
+  <rect x="180" y="70" width="14" height="14" rx="3" fill="#3E9B6B"/>
+  <text x="200" y="82" font-size="12" fill="#374151">ready</text>
+  <rect x="265" y="70" width="14" height="14" rx="3" fill="#D4AF37"/>
+  <text x="285" y="82" font-size="12" fill="#374151">needs practice</text>
+  <rect x="390" y="70" width="14" height="14" rx="3" fill="#C4683A"/>
+  <text x="410" y="82" font-size="12" fill="#374151">revisit the module</text>
+
+  <!-- Competency area rows -->
+  <!-- Row 1 -->
+  <rect x="40" y="98" width="560" height="48" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="56" y="120" font-size="14" font-weight="bold" fill="#141B5C">Scope &amp; refer-out fluency</text>
+  <text x="56" y="138" font-size="11" fill="#374151">Know my scope; recognize the refer-out signals.</text>
+  <rect x="498" y="111" width="14" height="14" rx="3" fill="#3E9B6B"/>
+  <rect x="528" y="111" width="14" height="14" rx="3" fill="#D4AF37"/>
+  <rect x="558" y="111" width="14" height="14" rx="3" fill="#C4683A"/>
+
+  <!-- Row 2 -->
+  <rect x="40" y="154" width="560" height="48" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="56" y="176" font-size="14" font-weight="bold" fill="#141B5C">Session arc fluency</text>
+  <text x="56" y="194" font-size="11" fill="#374151">Run the first and weekly arcs; turn a want into a dated action.</text>
+  <rect x="498" y="167" width="14" height="14" rx="3" fill="#3E9B6B"/>
+  <rect x="528" y="167" width="14" height="14" rx="3" fill="#D4AF37"/>
+  <rect x="558" y="167" width="14" height="14" rx="3" fill="#C4683A"/>
+
+  <!-- Row 3 -->
+  <rect x="40" y="210" width="560" height="48" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="56" y="232" font-size="14" font-weight="bold" fill="#141B5C">Toolkit fluency</text>
+  <text x="56" y="250" font-size="11" fill="#374151">Reach for the right tool; adapt it for adult, student, or parent.</text>
+  <rect x="498" y="223" width="14" height="14" rx="3" fill="#3E9B6B"/>
+  <rect x="528" y="223" width="14" height="14" rx="3" fill="#D4AF37"/>
+  <rect x="558" y="223" width="14" height="14" rx="3" fill="#C4683A"/>
+
+  <!-- Row 4 -->
+  <rect x="40" y="266" width="560" height="48" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="56" y="288" font-size="14" font-weight="bold" fill="#141B5C">Practice basics</text>
+  <text x="56" y="306" font-size="11" fill="#374151">A niche, an offer sentence, a price, and a first-clients plan.</text>
+  <rect x="498" y="279" width="14" height="14" rx="3" fill="#3E9B6B"/>
+  <rect x="528" y="279" width="14" height="14" rx="3" fill="#D4AF37"/>
+  <rect x="558" y="279" width="14" height="14" rx="3" fill="#C4683A"/>
+
+  <!-- gate arrow -->
+  <line x1="320" y1="320" x2="320" y2="356" stroke="#374151" stroke-width="2"/>
+  <polygon points="312,352 328,352 320,368" fill="#374151"/>
+
+  <!-- The gate -->
+  <rect x="60" y="376" width="520" height="78" rx="10" fill="#141B5C"/>
+  <text x="320" y="404" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">The exam-ready gate</text>
+  <text x="320" y="426" text-anchor="middle" font-size="13" fill="#ffffff">Every area at "ready"  +  two completed mock sessions</text>
+  <text x="320" y="445" text-anchor="middle" font-size="13" font-weight="bold" fill="#D4AF37">=  exam-ready</text>
+</svg>

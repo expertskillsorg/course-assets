@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Arial, sans-serif">
+  <rect width="640" height="480" fill="#ffffff"/>
+  <text x="320" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Dread Inflation Cycle</text>
+  <text x="320" y="62" text-anchor="middle" font-size="13.5" fill="#374151">Avoidance feels good now, so the loop runs again, bigger each time</text>
+
+  <!-- circular arrows -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1E2A8E"/>
+    </marker>
+  </defs>
+
+  <!-- five nodes around a circle, center 320,270 radius ~150 -->
+  <!-- Node 1: top -->
+  <g>
+    <circle cx="320" cy="130" r="58" fill="#1E2A8E" opacity="0.08" stroke="#1E2A8E" stroke-width="2"/>
+    <text x="320" y="124" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">Glance at</text>
+    <text x="320" y="141" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">the task</text>
+  </g>
+  <!-- Node 2: right -->
+  <g>
+    <circle cx="463" cy="220" r="58" fill="#1E2A8E" opacity="0.08" stroke="#1E2A8E" stroke-width="2"/>
+    <text x="463" y="216" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">Dread</text>
+    <text x="463" y="233" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">spikes</text>
+  </g>
+  <!-- Node 3: bottom right -->
+  <g>
+    <circle cx="408" cy="385" r="58" fill="#1E2A8E" opacity="0.08" stroke="#1E2A8E" stroke-width="2"/>
+    <text x="408" y="381" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">Look</text>
+    <text x="408" y="398" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">away</text>
+  </g>
+  <!-- Node 4: bottom left -->
+  <g>
+    <circle cx="232" cy="385" r="58" fill="#1E2A8E" opacity="0.08" stroke="#1E2A8E" stroke-width="2"/>
+    <text x="232" y="377" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">Relief</text>
+    <text x="232" y="393" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">reinforces</text>
+    <text x="232" y="409" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">avoidance</text>
+  </g>
+  <!-- Node 5: left -->
+  <g>
+    <circle cx="177" cy="220" r="58" fill="#1E2A8E" opacity="0.08" stroke="#1E2A8E" stroke-width="2"/>
+    <text x="177" y="216" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">More dread</text>
+    <text x="177" y="233" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">+ guilt next</text>
+  </g>
+
+  <!-- connecting arcs between node edges -->
+  <path d="M373 153 A150 150 0 0 1 420 173" fill="none" stroke="#1E2A8E" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M483 274 A150 150 0 0 1 451 337" fill="none" stroke="#1E2A8E" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M351 411 A150 150 0 0 1 289 411" fill="none" stroke="#1E2A8E" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M189 337 A150 150 0 0 1 157 274" fill="none" stroke="#1E2A8E" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M220 173 A150 150 0 0 1 267 153" fill="none" stroke="#1E2A8E" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- center note -->
+  <text x="320" y="265" text-anchor="middle" font-size="12.5" fill="#1E2A8E" font-style="italic">The task's real</text>
+  <text x="320" y="282" text-anchor="middle" font-size="12.5" fill="#1E2A8E" font-style="italic">size stays constant</text>
+  <text x="320" y="306" text-anchor="middle" font-size="12.5" fill="#374151">while the dread</text>
+  <text x="320" y="323" text-anchor="middle" font-size="12.5" fill="#374151">keeps growing</text>
+
+  <text x="320" y="468" text-anchor="middle" font-size="12.5" fill="#141B5C" font-weight="bold">Each loop adds dread; the job itself never changed.</text>
+</svg>
