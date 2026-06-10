@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" font-family="Arial, sans-serif">
+  <rect width="760" height="480" fill="#ffffff"/>
+  <text x="380" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Designing the Environment</text>
+  <text x="380" y="64" text-anchor="middle" font-size="14" fill="#374151">Two directions at once: ease the target, block the distraction</text>
+
+  <!-- Friction DOWN column -->
+  <rect x="40" y="92" width="320" height="350" rx="12" fill="#3E9B6B" opacity="0.08" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="200" y="124" text-anchor="middle" font-size="17" font-weight="bold" fill="#3E9B6B">FRICTION DOWN</text>
+  <text x="200" y="146" text-anchor="middle" font-size="13" fill="#374151">make the wanted behavior easy to start</text>
+
+  <!-- down arrow -->
+  <line x1="200" y1="158" x2="200" y2="186" stroke="#3E9B6B" stroke-width="3"/>
+  <path d="M190 178 L200 192 L210 178 Z" fill="#3E9B6B"/>
+
+  <g font-size="13.5" fill="#111827">
+    <circle cx="66" cy="216" r="4" fill="#3E9B6B"/><text x="80" y="221">Work doc left open and pinned</text>
+    <circle cx="66" cy="252" r="4" fill="#3E9B6B"/><text x="80" y="257">Guitar out on its stand</text>
+    <circle cx="66" cy="288" r="4" fill="#3E9B6B"/><text x="80" y="293">Gym bag packed by the door</text>
+    <circle cx="66" cy="324" r="4" fill="#3E9B6B"/><text x="80" y="329">Book open on the pillow</text>
+    <circle cx="66" cy="360" r="4" fill="#3E9B6B"/><text x="80" y="365">Laptop opens straight to the app</text>
+    <circle cx="66" cy="396" r="4" fill="#3E9B6B"/><text x="80" y="401">Water bottle and timer ready</text>
+  </g>
+
+  <!-- Friction UP column -->
+  <rect x="400" y="92" width="320" height="350" rx="12" fill="#C4683A" opacity="0.08" stroke="#C4683A" stroke-width="2"/>
+  <text x="560" y="124" text-anchor="middle" font-size="17" font-weight="bold" fill="#C4683A">FRICTION UP</text>
+  <text x="560" y="146" text-anchor="middle" font-size="13" fill="#374151">make the distraction hard to start</text>
+
+  <!-- up arrow -->
+  <line x1="560" y1="192" x2="560" y2="164" stroke="#C4683A" stroke-width="3"/>
+  <path d="M550 172 L560 158 L570 172 Z" fill="#C4683A"/>
+
+  <g font-size="13.5" fill="#111827">
+    <circle cx="426" cy="216" r="4" fill="#C4683A"/><text x="440" y="221">Phone charging in another room</text>
+    <circle cx="426" cy="252" r="4" fill="#C4683A"/><text x="440" y="257">Social apps logged out</text>
+    <circle cx="426" cy="288" r="4" fill="#C4683A"/><text x="440" y="293">Apps off the home screen</text>
+    <circle cx="426" cy="324" r="4" fill="#C4683A"/><text x="440" y="329">Time-sink project in a closet</text>
+    <circle cx="426" cy="360" r="4" fill="#C4683A"/><text x="440" y="365">Site blocker during work blocks</text>
+    <circle cx="426" cy="396" r="4" fill="#C4683A"/><text x="440" y="401">Snacks out of the line of sight</text>
+  </g>
+
+  <text x="380" y="468" text-anchor="middle" font-size="12.5" fill="#1E2A8E" font-style="italic">Out of sight is out of mind, and that cuts both ways.</text>
+</svg>

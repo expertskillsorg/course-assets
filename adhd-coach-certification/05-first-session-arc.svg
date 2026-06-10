@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="320" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The First-Session Arc</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#374151">A 60-minute session, five parts, rough time boxes</text>
+
+  <!-- baseline timeline -->
+  <line x1="40" y1="250" x2="720" y2="250" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- segments: widths proportional to minutes (5,15,10,20,10) over 60 across 680px -->
+  <!-- start x=40 -->
+  <!-- seg1 5min => ~57px -->
+  <rect x="40" y="220" width="57" height="30" fill="#1E2A8E"/>
+  <!-- seg2 15min => ~170px -->
+  <rect x="97" y="220" width="170" height="30" fill="#3E9B6B"/>
+  <!-- seg3 10min => ~113px -->
+  <rect x="267" y="220" width="113" height="30" fill="#D4AF37"/>
+  <!-- seg4 20min => ~227px -->
+  <rect x="380" y="220" width="227" height="30" fill="#C4683A"/>
+  <!-- seg5 10min => ~113px -->
+  <rect x="607" y="220" width="113" height="30" fill="#141B5C"/>
+
+  <!-- minute ticks -->
+  <text x="40" y="275" text-anchor="middle" font-size="11" fill="#374151">0</text>
+  <text x="267" y="275" text-anchor="middle" font-size="11" fill="#374151">20 min</text>
+  <text x="493" y="275" text-anchor="middle" font-size="11" fill="#374151">40 min</text>
+  <text x="720" y="275" text-anchor="middle" font-size="11" fill="#374151">60 min</text>
+
+  <!-- callout cards above -->
+  <!-- 1 -->
+  <rect x="40" y="90" width="120" height="62" rx="6" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="100" y="110" text-anchor="middle" font-size="12" font-weight="bold" fill="#1E2A8E">1. Welcome</text>
+  <text x="100" y="127" text-anchor="middle" font-size="10" fill="#374151">How this works</text>
+  <text x="100" y="143" text-anchor="middle" font-size="10" fill="#374151">~5 min</text>
+  <line x1="68" y1="152" x2="68" y2="220" stroke="#1E2A8E" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- 2 -->
+  <rect x="172" y="90" width="120" height="62" rx="6" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="1.5"/>
+  <text x="232" y="110" text-anchor="middle" font-size="12" font-weight="bold" fill="#3E9B6B">2. Their story</text>
+  <text x="232" y="127" text-anchor="middle" font-size="10" fill="#374151">Listen, reflect</text>
+  <text x="232" y="143" text-anchor="middle" font-size="10" fill="#374151">~15 min</text>
+  <line x1="182" y1="152" x2="182" y2="220" stroke="#3E9B6B" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- 3 -->
+  <rect x="304" y="90" width="120" height="62" rx="6" fill="#FFFFFF" stroke="#D4AF37" stroke-width="1.5"/>
+  <text x="364" y="110" text-anchor="middle" font-size="12" font-weight="bold" fill="#B8941F">3. Success</text>
+  <text x="364" y="127" text-anchor="middle" font-size="10" fill="#374151">What's different?</text>
+  <text x="364" y="143" text-anchor="middle" font-size="10" fill="#374151">~10 min</text>
+  <line x1="323" y1="152" x2="323" y2="220" stroke="#D4AF37" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- 4 -->
+  <rect x="436" y="90" width="120" height="62" rx="6" fill="#FFFFFF" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="496" y="110" text-anchor="middle" font-size="12" font-weight="bold" fill="#C4683A">4. Funnel goal</text>
+  <text x="496" y="127" text-anchor="middle" font-size="10" fill="#374151">Down to action</text>
+  <text x="496" y="143" text-anchor="middle" font-size="10" fill="#374151">~20 min</text>
+  <line x1="493" y1="152" x2="493" y2="220" stroke="#C4683A" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- 5 -->
+  <rect x="600" y="90" width="120" height="62" rx="6" fill="#FFFFFF" stroke="#141B5C" stroke-width="1.5"/>
+  <text x="660" y="110" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">5. Close</text>
+  <text x="660" y="127" text-anchor="middle" font-size="10" fill="#374151">One next action</text>
+  <text x="660" y="143" text-anchor="middle" font-size="10" fill="#374151">~10 min</text>
+  <line x1="663" y1="152" x2="663" y2="220" stroke="#141B5C" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <text x="380" y="305" text-anchor="middle" font-size="11" fill="#374151" font-style="italic">Predictable open and close, flexible middle.</text>
+</svg>

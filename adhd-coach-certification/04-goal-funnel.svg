@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, sans-serif">
+  <rect width="640" height="460" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Goal Funnel</text>
+  <text x="320" y="56" text-anchor="middle" font-size="13" fill="#374151">From a wide vision down to today's first action</text>
+
+  <!-- Level 1: Vision -->
+  <polygon points="70,80 570,80 500,128 140,128" fill="#1E2A8E"/>
+  <text x="320" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">VISION</text>
+  <text x="320" y="119" text-anchor="middle" font-size="12" fill="#FFFFFF">Why it matters: "Walk in without my chest tightening"</text>
+
+  <!-- Level 2: 90-day outcome -->
+  <polygon points="140,134 500,134 446,182 194,182" fill="#141B5C"/>
+  <text x="320" y="154" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">90-DAY OUTCOME</text>
+  <text x="320" y="172" text-anchor="middle" font-size="11" fill="#FFFFFF">"Desk clear, bills paid on time"</text>
+
+  <!-- Level 3: Monthly milestone -->
+  <polygon points="194,188 446,188 404,236 236,236" fill="#3E9B6B"/>
+  <text x="320" y="208" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">MONTHLY MILESTONE</text>
+  <text x="320" y="226" text-anchor="middle" font-size="11" fill="#FFFFFF">"Clear the desk" (just one)</text>
+
+  <!-- Level 4: Weekly step -->
+  <polygon points="236,242 404,242 366,290 274,290" fill="#D4AF37"/>
+  <text x="320" y="262" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">THIS WEEK'S STEP</text>
+  <text x="320" y="280" text-anchor="middle" font-size="11" fill="#141B5C">"Clear the top surface"</text>
+
+  <!-- Level 5: Today's action -->
+  <polygon points="274,296 366,296 348,344 292,344" fill="#C4683A"/>
+  <text x="320" y="316" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">TODAY</text>
+  <text x="320" y="333" text-anchor="middle" font-size="9.5" fill="#FFFFFF">Mugs in dishwasher</text>
+
+  <!-- drop arrow -->
+  <line x1="320" y1="350" x2="320" y2="388" stroke="#111827" stroke-width="2"/>
+  <polygon points="320,396 313,384 327,384" fill="#111827"/>
+
+  <!-- output -->
+  <rect x="180" y="400" width="280" height="44" rx="8" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+  <text x="320" y="420" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">A small, dated, physical action</text>
+  <text x="320" y="437" text-anchor="middle" font-size="11" fill="#374151">A verb the client's hands can do today</text>
+
+  <!-- side label -->
+  <text x="600" y="110" text-anchor="middle" font-size="11" fill="#374151" transform="rotate(90 600 230)">vague want  narrows to  startable action</text>
+</svg>

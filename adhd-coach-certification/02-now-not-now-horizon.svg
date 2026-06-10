@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" font-family="Arial, sans-serif">
+  <rect width="720" height="430" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Now / Not-Now Time Horizon</text>
+  <text x="360" y="56" text-anchor="middle" font-size="13" fill="#374151">For many ADHD brains, time has two settings. External tools pull the future closer.</text>
+
+  <!-- TOP: without tools -->
+  <text x="40" y="92" font-size="13" font-weight="bold" fill="#374151">Without external tools</text>
+  <!-- Now zone -->
+  <rect x="40" y="104" width="200" height="64" rx="8" fill="#1E2A8E"/>
+  <text x="140" y="132" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">NOW</text>
+  <text x="140" y="152" text-anchor="middle" font-size="11" fill="#D4AF37">vivid, urgent, real</text>
+  <!-- gap -->
+  <line x1="240" y1="136" x2="470" y2="136" stroke="#E5E7EB" stroke-width="2" stroke-dasharray="6 6"/>
+  <!-- Not-now zone, faded -->
+  <rect x="470" y="104" width="210" height="64" rx="8" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="575" y="132" text-anchor="middle" font-size="16" font-weight="bold" fill="#9CA3AF">NOT NOW</text>
+  <text x="575" y="152" text-anchor="middle" font-size="11" fill="#9CA3AF">faint, weightless, unreal</text>
+  <text x="355" y="190" text-anchor="middle" font-size="11.5" fill="#C4683A">The deadline two weeks out feels like it barely exists, until it becomes "now."</text>
+
+  <!-- divider -->
+  <line x1="40" y1="218" x2="680" y2="218" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <!-- BOTTOM: with tools -->
+  <text x="40" y="252" font-size="13" font-weight="bold" fill="#374151">With external tools</text>
+  <!-- Now zone -->
+  <rect x="40" y="264" width="160" height="64" rx="8" fill="#1E2A8E"/>
+  <text x="120" y="292" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">NOW</text>
+  <text x="120" y="312" text-anchor="middle" font-size="11" fill="#D4AF37">vivid, urgent</text>
+  <!-- Bridge of tools -->
+  <rect x="200" y="276" width="280" height="40" rx="6" fill="#3E9B6B"/>
+  <text x="340" y="301" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">visible timers, calendars, alarms, checklists</text>
+  <!-- arrow pulling future in -->
+  <polygon points="480,296 506,282 506,310" fill="#3E9B6B"/>
+  <!-- Not-now now closer / brighter -->
+  <rect x="514" y="264" width="166" height="64" rx="8" fill="#FBF4E3" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="597" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#C4683A">NOT NOW</text>
+  <text x="597" y="312" text-anchor="middle" font-size="11" fill="#374151">brought into view</text>
+  <text x="360" y="358" text-anchor="middle" font-size="11.5" fill="#374151">The tool makes the future visible in the present, so it can pull behavior today.</text>
+
+  <text x="360" y="398" text-anchor="middle" font-size="12" font-style="italic" fill="#141B5C">The coach's job is not to lecture about time. It is to make time something the client can see.</text>
+</svg>

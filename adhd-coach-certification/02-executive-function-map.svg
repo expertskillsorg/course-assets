@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" font-family="Arial, sans-serif">
+  <rect width="720" height="470" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Executive Function Map</text>
+  <text x="360" y="56" text-anchor="middle" font-size="13" fill="#374151">Each management function, paired with the everyday struggle when it misfires</text>
+
+  <!-- Column headers -->
+  <text x="225" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">Executive function</text>
+  <text x="540" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">Everyday struggle</text>
+
+  <!-- Rows -->
+  <!-- Row 1 -->
+  <rect x="40" y="104" width="370" height="52" rx="8" fill="#EEF1FB" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="60" y="128" font-size="14" font-weight="bold" fill="#1E2A8E">Working memory</text>
+  <text x="60" y="146" font-size="12" fill="#374151">Holding info in mind while you use it</text>
+  <line x1="410" y1="130" x2="460" y2="130" stroke="#D4AF37" stroke-width="2.5"/>
+  <polygon points="460,124 472,130 460,136" fill="#D4AF37"/>
+  <rect x="474" y="104" width="206" height="52" rx="8" fill="#FBF4E3" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="490" y="135" font-size="12.5" fill="#111827">Walked in, forgot why</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="166" width="370" height="52" rx="8" fill="#EEF1FB" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="60" y="190" font-size="14" font-weight="bold" fill="#1E2A8E">Planning and sequencing</text>
+  <text x="60" y="208" font-size="12" fill="#374151">Ordering the steps toward a goal</text>
+  <line x1="410" y1="192" x2="460" y2="192" stroke="#D4AF37" stroke-width="2.5"/>
+  <polygon points="460,186 472,192 460,198" fill="#D4AF37"/>
+  <rect x="474" y="166" width="206" height="52" rx="8" fill="#FBF4E3" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="490" y="197" font-size="12.5" fill="#111827">The missed deadline</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="228" width="370" height="52" rx="8" fill="#EEF1FB" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="60" y="252" font-size="14" font-weight="bold" fill="#1E2A8E">Task initiation</text>
+  <text x="60" y="270" font-size="12" fill="#374151">Getting yourself started</text>
+  <line x1="410" y1="254" x2="460" y2="254" stroke="#D4AF37" stroke-width="2.5"/>
+  <polygon points="460,248 472,254 460,260" fill="#D4AF37"/>
+  <rect x="474" y="228" width="206" height="52" rx="8" fill="#FBF4E3" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="490" y="259" font-size="12.5" fill="#111827">The unstarted task</text>
+
+  <!-- Row 4 -->
+  <rect x="40" y="290" width="370" height="52" rx="8" fill="#EEF1FB" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="60" y="314" font-size="14" font-weight="bold" fill="#1E2A8E">Inhibition</text>
+  <text x="60" y="332" font-size="12" fill="#374151">Pausing before you act or speak</text>
+  <line x1="410" y1="316" x2="460" y2="316" stroke="#D4AF37" stroke-width="2.5"/>
+  <polygon points="460,310 472,316 460,322" fill="#D4AF37"/>
+  <rect x="474" y="290" width="206" height="52" rx="8" fill="#FBF4E3" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="490" y="321" font-size="12.5" fill="#111827">Blurting, interrupting</text>
+
+  <!-- Row 5 -->
+  <rect x="40" y="352" width="370" height="52" rx="8" fill="#EEF1FB" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="60" y="376" font-size="14" font-weight="bold" fill="#1E2A8E">Emotional regulation</text>
+  <text x="60" y="394" font-size="12" fill="#374151">Managing the size of a feeling</text>
+  <line x1="410" y1="378" x2="460" y2="378" stroke="#D4AF37" stroke-width="2.5"/>
+  <polygon points="460,372 472,378 460,384" fill="#D4AF37"/>
+  <rect x="474" y="352" width="206" height="52" rx="8" fill="#FBF4E3" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="490" y="383" font-size="12.5" fill="#111827">The shame spiral</text>
+
+  <!-- Row 6 -->
+  <rect x="40" y="414" width="370" height="44" rx="8" fill="#EEF1FB" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="60" y="434" font-size="14" font-weight="bold" fill="#1E2A8E">Self-monitoring</text>
+  <text x="60" y="450" font-size="12" fill="#374151">Tracking how you are doing</text>
+  <line x1="410" y1="436" x2="460" y2="436" stroke="#D4AF37" stroke-width="2.5"/>
+  <polygon points="460,430 472,436 460,442" fill="#D4AF37"/>
+  <rect x="474" y="414" width="206" height="44" rx="8" fill="#FBF4E3" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="490" y="441" font-size="12.5" fill="#111827">Losing the thread mid-task</text>
+</svg>

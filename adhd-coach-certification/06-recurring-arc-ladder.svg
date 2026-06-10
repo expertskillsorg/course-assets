@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" font-family="Arial, sans-serif">
+  <rect width="760" height="460" fill="#FFFFFF"/>
+
+  <!-- 90-day direction marker at top -->
+  <rect x="250" y="20" width="260" height="48" rx="8" fill="#1E2A8E"/>
+  <text x="380" y="42" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">90-Day Direction</text>
+  <text x="380" y="60" text-anchor="middle" font-size="11" fill="#D4AF37">where every weekly loop is climbing toward</text>
+
+  <!-- ladder rails -->
+  <line x1="300" y1="70" x2="300" y2="430" stroke="#E5E7EB" stroke-width="4"/>
+  <line x1="460" y1="70" x2="460" y2="430" stroke="#E5E7EB" stroke-width="4"/>
+
+  <!-- three repeating weekly loops as rungs climbing -->
+  <!-- Week loop, lowest -->
+  <g>
+    <circle cx="380" cy="370" r="46" fill="none" stroke="#3E9B6B" stroke-width="3"/>
+    <text x="380" y="367" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Week 1</text>
+    <text x="380" y="383" text-anchor="middle" font-size="10" fill="#374151">the loop</text>
+    <line x1="334" y1="370" x2="300" y2="350" stroke="#3E9B6B" stroke-width="3"/>
+    <line x1="426" y1="370" x2="460" y2="350" stroke="#3E9B6B" stroke-width="3"/>
+  </g>
+  <g>
+    <circle cx="380" cy="260" r="46" fill="none" stroke="#3E9B6B" stroke-width="3"/>
+    <text x="380" y="257" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Week 2</text>
+    <text x="380" y="273" text-anchor="middle" font-size="10" fill="#374151">same loop</text>
+    <line x1="334" y1="260" x2="300" y2="240" stroke="#3E9B6B" stroke-width="3"/>
+    <line x1="426" y1="260" x2="460" y2="240" stroke="#3E9B6B" stroke-width="3"/>
+  </g>
+  <g>
+    <circle cx="380" cy="150" r="46" fill="none" stroke="#3E9B6B" stroke-width="3"/>
+    <text x="380" y="147" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Week 3</text>
+    <text x="380" y="163" text-anchor="middle" font-size="10" fill="#374151">same loop</text>
+    <line x1="334" y1="150" x2="300" y2="130" stroke="#3E9B6B" stroke-width="3"/>
+    <line x1="426" y1="150" x2="460" y2="130" stroke="#3E9B6B" stroke-width="3"/>
+  </g>
+
+  <!-- upward arrow showing the climb -->
+  <line x1="380" y1="324" x2="380" y2="306" stroke="#C4683A" stroke-width="3"/>
+  <line x1="380" y1="214" x2="380" y2="196" stroke="#C4683A" stroke-width="3"/>
+  <line x1="380" y1="104" x2="380" y2="80" stroke="#C4683A" stroke-width="3"/>
+  <path d="M380 76 l-6 12 h12 z" fill="#C4683A"/>
+
+  <!-- the four beats, callout box on the right detailing the loop -->
+  <rect x="540" y="120" width="200" height="240" rx="10" fill="#141B5C"/>
+  <text x="640" y="148" text-anchor="middle" font-size="14" font-weight="bold" fill="#D4AF37">The Four Beats</text>
+  <text x="560" y="184" font-size="13" fill="#FFFFFF">1. Review (wins first)</text>
+  <text x="560" y="184" font-size="13" fill="#FFFFFF"/>
+  <text x="560" y="226" font-size="13" fill="#FFFFFF">2. Focus (pick one)</text>
+  <text x="560" y="268" font-size="13" fill="#FFFFFF">3. Work (the toolkit)</text>
+  <text x="560" y="310" font-size="13" fill="#FFFFFF">4. Commit (next action)</text>
+  <text x="560" y="344" font-size="11" fill="#D4AF37">same shape, every week</text>
+
+  <!-- label left -->
+  <text x="120" y="250" text-anchor="middle" font-size="12" fill="#374151">Each rung is</text>
+  <text x="120" y="268" text-anchor="middle" font-size="12" fill="#374151">one weekly</text>
+  <text x="120" y="286" text-anchor="middle" font-size="12" fill="#374151">session arc</text>
+</svg>
