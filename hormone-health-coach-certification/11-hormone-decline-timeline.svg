@@ -1,0 +1,54 @@
+<svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="440" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Hormone Decline Through the Transition</text>
+  <text x="380" y="56" text-anchor="middle" font-size="12.5" fill="#374151" font-style="italic">Read left to right across midlife. Timing varies from woman to woman.</text>
+
+  <!-- plot baseline and axis labels -->
+  <line x1="70" y1="250" x2="710" y2="250" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="58" y="120" text-anchor="end" font-size="11" fill="#374151">high</text>
+  <text x="58" y="254" text-anchor="end" font-size="11" fill="#374151">low</text>
+
+  <!-- stage dividers -->
+  <line x1="250" y1="80" x2="250" y2="270" stroke="#E5E7EB" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="540" y1="80" x2="540" y2="270" stroke="#E5E7EB" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- menopause point marker -->
+  <line x1="540" y1="95" x2="540" y2="250" stroke="#C4683A" stroke-width="2"/>
+  <circle cx="540" cy="250" r="5" fill="#C4683A"/>
+  <text x="540" y="90" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#C4683A">Menopause</text>
+  <text x="540" y="106" text-anchor="middle" font-size="10" fill="#C4683A">12 months, no period</text>
+
+  <!-- Estrogen (gold): steady cycling, then wild swings in perimenopause, then low/flat -->
+  <path d="M70 150 C95 130 105 170 130 150 C155 130 165 170 190 150 C215 130 225 170 250 150 C275 100 290 215 320 130 C350 95 370 230 400 150 C430 105 455 235 485 175 C510 205 525 225 540 232 C580 240 650 244 710 245" fill="none" stroke="#D4AF37" stroke-width="3.5"/>
+  <!-- Progesterone (green): steady cycling, falls earlier and more steadily, then low -->
+  <path d="M70 175 C95 160 105 190 130 175 C155 160 165 190 190 175 C215 160 225 190 250 178 C290 196 330 214 380 226 C430 236 490 242 540 244 C600 246 650 247 710 247" fill="none" stroke="#3E9B6B" stroke-width="3.5"/>
+
+  <!-- legend -->
+  <line x1="470" y1="74" x2="498" y2="74" stroke="#D4AF37" stroke-width="3.5"/>
+  <text x="504" y="78" font-size="12" fill="#374151">Estrogen</text>
+  <line x1="580" y1="74" x2="608" y2="74" stroke="#3E9B6B" stroke-width="3.5"/>
+  <text x="614" y="78" font-size="12" fill="#374151">Progesterone</text>
+
+  <!-- stage cards -->
+  <g>
+    <rect x="70" y="286" width="170" height="120" rx="10" fill="#1E2A8E"/>
+    <text x="155" y="312" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Regular Cycling Years</text>
+    <text x="155" y="338" text-anchor="middle" font-size="11.5" fill="#D4AF37">Steady monthly rhythm</text>
+    <text x="155" y="366" text-anchor="middle" font-size="11" fill="#FFFFFF">Both hormones rise and</text>
+    <text x="155" y="382" text-anchor="middle" font-size="11" fill="#FFFFFF">fall on a predictable loop</text>
+  </g>
+  <g>
+    <rect x="250" y="286" width="280" height="120" rx="10" fill="#D4AF37"/>
+    <text x="390" y="312" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Perimenopause</text>
+    <text x="390" y="338" text-anchor="middle" font-size="11.5" fill="#141B5C">The years-long, bumpy ramp down</text>
+    <text x="390" y="366" text-anchor="middle" font-size="11" fill="#141B5C">Estrogen swings high and low; progesterone</text>
+    <text x="390" y="382" text-anchor="middle" font-size="11" fill="#141B5C">falls earlier. Periods turn irregular.</text>
+  </g>
+  <g>
+    <rect x="540" y="286" width="170" height="120" rx="10" fill="#C4683A"/>
+    <text x="625" y="312" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Postmenopause</text>
+    <text x="625" y="338" text-anchor="middle" font-size="11.5" fill="#FFFFFF">Low and steady</text>
+    <text x="625" y="366" text-anchor="middle" font-size="11" fill="#FFFFFF">Hormones settle at a new,</text>
+    <text x="625" y="382" text-anchor="middle" font-size="11" fill="#FFFFFF">lower, calmer baseline</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="440" fill="#FFFFFF"/>
+
+  <text x="380" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Helping Roles and the Clinical Line</text>
+
+  <!-- Clinical care zone -->
+  <rect x="40" y="70" width="680" height="150" rx="12" fill="#F1F3FB" stroke="#1E2A8E" stroke-width="2"/>
+  <text x="60" y="98" font-size="15" font-weight="bold" fill="#1E2A8E">CLINICAL CARE ZONE</text>
+  <text x="60" y="118" font-size="12" fill="#374151">Licensed to diagnose, prescribe, and treat</text>
+
+  <!-- Doctor -->
+  <rect x="65" y="132" width="195" height="72" rx="8" fill="#1E2A8E"/>
+  <text x="162" y="160" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Doctor</text>
+  <text x="162" y="182" text-anchor="middle" font-size="11" fill="#FFFFFF">Diagnoses and treats;</text>
+  <text x="162" y="196" text-anchor="middle" font-size="11" fill="#FFFFFF">the only one who prescribes</text>
+
+  <!-- Dietitian -->
+  <rect x="282" y="132" width="195" height="72" rx="8" fill="#1E2A8E"/>
+  <text x="379" y="160" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Dietitian</text>
+  <text x="379" y="182" text-anchor="middle" font-size="11" fill="#FFFFFF">Medical nutrition therapy</text>
+  <text x="379" y="196" text-anchor="middle" font-size="11" fill="#FFFFFF">for diagnosed conditions</text>
+
+  <!-- Therapist -->
+  <rect x="499" y="132" width="195" height="72" rx="8" fill="#1E2A8E"/>
+  <text x="596" y="160" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Therapist</text>
+  <text x="596" y="182" text-anchor="middle" font-size="11" fill="#FFFFFF">Treats mental health:</text>
+  <text x="596" y="196" text-anchor="middle" font-size="11" fill="#FFFFFF">depression, anxiety, trauma</text>
+
+  <!-- Hard boundary line -->
+  <line x1="40" y1="248" x2="720" y2="248" stroke="#C4683A" stroke-width="4" stroke-dasharray="12 8"/>
+  <text x="380" y="240" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">THE HARD BOUNDARY — a coach does not cross this line</text>
+
+  <!-- Coaching zone -->
+  <rect x="40" y="268" width="680" height="142" rx="12" fill="#F0F8F3" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="60" y="296" font-size="15" font-weight="bold" fill="#3E9B6B">LIFESTYLE AND BEHAVIOR ZONE</text>
+  <text x="60" y="316" font-size="12" fill="#374151">Educates and supports habit change; no diagnosing, no prescribing</text>
+
+  <rect x="65" y="330" width="630" height="64" rx="8" fill="#3E9B6B"/>
+  <text x="380" y="358" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Hormone Health Coach</text>
+  <text x="380" y="380" text-anchor="middle" font-size="12" fill="#FFFFFF">Food, blood sugar, sleep, stress, movement, and accountability between appointments</text>
+
+  <!-- Gold marker connecting coach as complement -->
+  <circle cx="380" cy="248" r="9" fill="#D4AF37"/>
+</svg>

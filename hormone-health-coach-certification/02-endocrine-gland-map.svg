@@ -1,0 +1,53 @@
+<svg viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="440" fill="#ffffff"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Major Endocrine Glands</text>
+  <text x="320" y="56" text-anchor="middle" font-size="13" fill="#374151">Each sender and the main hormone it releases</text>
+
+  <!-- Body outline -->
+  <g stroke="#1E2A8E" stroke-width="2.5" fill="#F4F6FF">
+    <circle cx="250" cy="118" r="34"/>
+    <path d="M250 152 L250 168 M232 176 Q250 168 268 176 L274 300 Q250 312 226 300 Z"/>
+    <path d="M232 182 L196 250 M268 182 L304 250"/>
+    <path d="M236 300 L228 392 M264 300 L272 392"/>
+  </g>
+
+  <!-- Gland dots -->
+  <circle cx="250" cy="108" r="7" fill="#1E2A8E"/>
+  <circle cx="250" cy="124" r="7" fill="#141B5C"/>
+  <circle cx="250" cy="170" r="7" fill="#3E9B6B"/>
+  <circle cx="232" cy="214" r="6.5" fill="#C4683A"/>
+  <circle cx="268" cy="214" r="6.5" fill="#C4683A"/>
+  <circle cx="248" cy="232" r="7" fill="#D4AF37"/>
+  <circle cx="240" cy="282" r="6.5" fill="#1E2A8E"/>
+  <circle cx="260" cy="282" r="6.5" fill="#1E2A8E"/>
+
+  <!-- Connector lines + labels -->
+  <g stroke="#E5E7EB" stroke-width="1.5">
+    <line x1="257" y1="108" x2="400" y2="96"/>
+    <line x1="257" y1="124" x2="400" y2="138"/>
+    <line x1="257" y1="170" x2="400" y2="196"/>
+    <line x1="274" y1="214" x2="400" y2="254"/>
+    <line x1="255" y1="232" x2="400" y2="312"/>
+    <line x1="267" y1="282" x2="400" y2="370"/>
+  </g>
+
+  <g font-size="13.5">
+    <text x="408" y="92" font-weight="bold" fill="#1E2A8E">Hypothalamus</text>
+    <text x="408" y="110" fill="#374151">reads needs, signals the pituitary</text>
+
+    <text x="408" y="138" font-weight="bold" fill="#141B5C">Pituitary (master gland)</text>
+    <text x="408" y="156" fill="#374151">directs the other glands</text>
+
+    <text x="408" y="196" font-weight="bold" fill="#3E9B6B">Thyroid</text>
+    <text x="408" y="214" fill="#374151">thyroid hormone, sets metabolism</text>
+
+    <text x="408" y="254" font-weight="bold" fill="#C4683A">Adrenals</text>
+    <text x="408" y="272" fill="#374151">cortisol, the stress hormone</text>
+
+    <text x="408" y="312" font-weight="bold" fill="#D4AF37">Pancreas</text>
+    <text x="408" y="330" fill="#374151">insulin, manages blood sugar</text>
+
+    <text x="408" y="370" font-weight="bold" fill="#1E2A8E">Ovaries</text>
+    <text x="408" y="388" fill="#374151">estrogen and progesterone</text>
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+<svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="440" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Four Phases of the Menstrual Cycle</text>
+  <text x="380" y="56" text-anchor="middle" font-size="12.5" fill="#374151" font-style="italic">A typical month, read left to right. Lengths vary from woman to woman.</text>
+
+  <!-- Hormone curves region -->
+  <!-- baseline -->
+  <line x1="60" y1="190" x2="700" y2="190" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="48" y="120" text-anchor="end" font-size="11" fill="#374151">high</text>
+  <text x="48" y="194" text-anchor="end" font-size="11" fill="#374151">low</text>
+
+  <!-- Estrogen curve (gold): low, rises to ovulation peak, dips, small luteal bump, falls -->
+  <path d="M60 180 C120 175 150 150 220 110 C260 88 300 78 340 92 C380 105 400 150 440 130 C470 116 500 120 540 135 C590 155 650 178 700 184" fill="none" stroke="#D4AF37" stroke-width="3.5"/>
+  <!-- Progesterone curve (green): flat-low until luteal, rises then falls at end -->
+  <path d="M60 184 C200 184 300 184 400 182 C450 150 500 116 560 112 C610 118 660 165 700 186" fill="none" stroke="#3E9B6B" stroke-width="3.5"/>
+
+  <!-- legend -->
+  <line x1="500" y1="74" x2="528" y2="74" stroke="#D4AF37" stroke-width="3.5"/>
+  <text x="534" y="78" font-size="12" fill="#374151">Estrogen</text>
+  <line x1="610" y1="74" x2="638" y2="74" stroke="#3E9B6B" stroke-width="3.5"/>
+  <text x="644" y="78" font-size="12" fill="#374151">Progesterone</text>
+
+  <!-- Phase dividers -->
+  <line x1="180" y1="78" x2="180" y2="210" stroke="#E5E7EB" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="330" y1="78" x2="330" y2="210" stroke="#E5E7EB" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="400" y1="78" x2="400" y2="210" stroke="#E5E7EB" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- Phase cards -->
+  <g>
+    <rect x="60" y="226" width="120" height="178" rx="10" fill="#1E2A8E"/>
+    <text x="120" y="252" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Menstrual</text>
+    <text x="120" y="284" text-anchor="middle" font-size="11.5" fill="#D4AF37">Hormones</text>
+    <text x="120" y="300" text-anchor="middle" font-size="11.5" fill="#D4AF37">both lowest</text>
+    <text x="120" y="338" text-anchor="middle" font-size="11.5" fill="#FFFFFF">Low, quiet,</text>
+    <text x="120" y="354" text-anchor="middle" font-size="11.5" fill="#FFFFFF">inward energy</text>
+  </g>
+  <g>
+    <rect x="190" y="226" width="130" height="178" rx="10" fill="#3E9B6B"/>
+    <text x="255" y="252" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Follicular</text>
+    <text x="255" y="284" text-anchor="middle" font-size="11.5" fill="#FFFFFF">Estrogen</text>
+    <text x="255" y="300" text-anchor="middle" font-size="11.5" fill="#FFFFFF">rising</text>
+    <text x="255" y="338" text-anchor="middle" font-size="11.5" fill="#FFFFFF">Energy and</text>
+    <text x="255" y="354" text-anchor="middle" font-size="11.5" fill="#FFFFFF">optimism climb</text>
+  </g>
+  <g>
+    <rect x="330" y="226" width="90" height="178" rx="10" fill="#D4AF37"/>
+    <text x="375" y="252" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#141B5C">Ovulatory</text>
+    <text x="375" y="284" text-anchor="middle" font-size="11" fill="#141B5C">Estrogen</text>
+    <text x="375" y="300" text-anchor="middle" font-size="11" fill="#141B5C">peaks</text>
+    <text x="375" y="338" text-anchor="middle" font-size="11" fill="#141B5C">Confident,</text>
+    <text x="375" y="354" text-anchor="middle" font-size="11" fill="#141B5C">social, clear</text>
+  </g>
+  <g>
+    <rect x="430" y="226" width="270" height="178" rx="10" fill="#C4683A"/>
+    <text x="565" y="252" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Luteal</text>
+    <text x="565" y="284" text-anchor="middle" font-size="11.5" fill="#FFFFFF">Progesterone leads, then both fall</text>
+    <text x="565" y="338" text-anchor="middle" font-size="11.5" fill="#FFFFFF">More inward and sensitive; focus softens;</text>
+    <text x="565" y="354" text-anchor="middle" font-size="11.5" fill="#FFFFFF">premenstrual symptoms appear near the end</text>
+  </g>
+</svg>

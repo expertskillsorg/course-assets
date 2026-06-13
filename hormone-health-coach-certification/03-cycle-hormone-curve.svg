@@ -1,0 +1,33 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="700" height="420" fill="#ffffff"/>
+  <text x="350" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Estrogen and Progesterone Across a Typical Cycle</text>
+
+  <!-- plot frame -->
+  <line x1="80" y1="60" x2="80" y2="320" stroke="#374151" stroke-width="2"/>
+  <line x1="80" y1="320" x2="650" y2="320" stroke="#374151" stroke-width="2"/>
+
+  <!-- y axis label -->
+  <text x="36" y="195" text-anchor="middle" font-size="13" fill="#374151" transform="rotate(-90 36 195)">Hormone level</text>
+
+  <!-- ovulation marker -->
+  <line x1="365" y1="60" x2="365" y2="320" stroke="#E5E7EB" stroke-width="2" stroke-dasharray="5 5"/>
+  <text x="365" y="78" text-anchor="middle" font-size="12" fill="#C4683A" font-weight="bold">Ovulation</text>
+
+  <!-- estrogen curve: rises to mid-cycle peak, dips, small second rise, falls -->
+  <path d="M80 300 C 180 290, 270 120, 350 110 C 380 108, 395 170, 430 165 C 480 158, 520 150, 560 215 C 600 270, 630 300, 650 308" fill="none" stroke="#3E9B6B" stroke-width="4"/>
+
+  <!-- progesterone curve: flat low first half, rises after ovulation, peaks, falls -->
+  <path d="M80 312 C 200 310, 320 308, 365 305 C 420 300, 470 150, 520 145 C 560 142, 600 250, 650 308" fill="none" stroke="#1E2A8E" stroke-width="4"/>
+
+  <!-- phase labels on x axis -->
+  <text x="200" y="345" text-anchor="middle" font-size="12" fill="#374151">First half (follicular)</text>
+  <text x="510" y="345" text-anchor="middle" font-size="12" fill="#374151">Second half (luteal)</text>
+  <text x="80" y="345" text-anchor="middle" font-size="12" fill="#374151">Day 1</text>
+  <text x="650" y="345" text-anchor="middle" font-size="12" fill="#374151">Period</text>
+
+  <!-- legend -->
+  <rect x="150" y="378" width="22" height="6" fill="#3E9B6B"/>
+  <text x="180" y="384" font-size="14" fill="#141B5C">Estrogen (builder, brightener)</text>
+  <rect x="420" y="378" width="22" height="6" fill="#1E2A8E"/>
+  <text x="450" y="384" font-size="14" fill="#141B5C">Progesterone (soother)</text>
+</svg>
