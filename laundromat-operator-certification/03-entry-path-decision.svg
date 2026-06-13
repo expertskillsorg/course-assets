@@ -1,0 +1,60 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="470" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="360" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Buy, Build, or Franchise: A Decision Path</text>
+
+  <!-- Start node -->
+  <rect x="270" y="52" width="180" height="46" rx="23" fill="#1E2A8E"/>
+  <text x="360" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Start here</text>
+
+  <!-- connector to Q1 -->
+  <line x1="360" y1="98" x2="360" y2="120" stroke="#374151" stroke-width="2"/>
+  <polygon points="360,126 354,114 366,114" fill="#374151"/>
+
+  <!-- Q1 diamond -->
+  <polygon points="360,128 470,178 360,228 250,178" fill="#D4AF37"/>
+  <text x="360" y="170" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Do you need</text>
+  <text x="360" y="187" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">income soon?</text>
+
+  <!-- Q1 YES branch to BUY -->
+  <line x1="470" y1="178" x2="600" y2="178" stroke="#3E9B6B" stroke-width="2"/>
+  <polygon points="606,178 594,172 594,184" fill="#3E9B6B"/>
+  <text x="535" y="170" text-anchor="middle" font-size="12" font-weight="bold" fill="#3E9B6B">YES</text>
+
+  <!-- BUY outcome -->
+  <rect x="606" y="150" width="104" height="56" rx="8" fill="#3E9B6B"/>
+  <text x="658" y="176" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">BUY</text>
+  <text x="658" y="194" text-anchor="middle" font-size="10" fill="#FFFFFF">fastest income</text>
+
+  <!-- Q1 NO branch down to Q2 -->
+  <line x1="360" y1="228" x2="360" y2="252" stroke="#374151" stroke-width="2"/>
+  <polygon points="360,258 354,246 366,246" fill="#374151"/>
+  <text x="378" y="246" text-anchor="middle" font-size="12" font-weight="bold" fill="#374151">NO</text>
+
+  <!-- Q2 diamond -->
+  <polygon points="360,260 470,310 360,360 250,310" fill="#D4AF37"/>
+  <text x="360" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Want full</text>
+  <text x="360" y="317" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">control, and is</text>
+  <text x="360" y="334" text-anchor="middle" font-size="12" fill="#141B5C">the market under-served?</text>
+
+  <!-- Q2 YES branch to BUILD -->
+  <line x1="470" y1="310" x2="600" y2="310" stroke="#1E2A8E" stroke-width="2"/>
+  <polygon points="606,310 594,304 594,316" fill="#1E2A8E"/>
+  <text x="535" y="302" text-anchor="middle" font-size="12" font-weight="bold" fill="#1E2A8E">YES</text>
+
+  <!-- BUILD outcome -->
+  <rect x="606" y="282" width="104" height="56" rx="8" fill="#1E2A8E"/>
+  <text x="658" y="308" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">BUILD</text>
+  <text x="658" y="326" text-anchor="middle" font-size="10" fill="#FFFFFF">full control</text>
+
+  <!-- Q2 NO branch down to FRANCHISE -->
+  <line x1="360" y1="360" x2="360" y2="392" stroke="#374151" stroke-width="2"/>
+  <polygon points="360,398 354,386 366,386" fill="#374151"/>
+  <text x="378" y="384" text-anchor="middle" font-size="12" font-weight="bold" fill="#374151">NO</text>
+
+  <!-- FRANCHISE outcome -->
+  <rect x="280" y="400" width="160" height="56" rx="8" fill="#C4683A"/>
+  <text x="360" y="426" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">FRANCHISE</text>
+  <text x="360" y="444" text-anchor="middle" font-size="10" fill="#FFFFFF">proven system and support</text>
+</svg>

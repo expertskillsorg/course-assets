@@ -1,0 +1,62 @@
+<svg viewBox="0 0 720 440" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="440" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Staffing Trade-Off</text>
+  <text x="360" y="56" text-anchor="middle" font-size="13" fill="#374151">More staff buys service, sales, and presence at the cost of wages</text>
+
+  <!-- spectrum bar -->
+  <defs>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3E9B6B"/>
+      <stop offset="0.5" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#C4683A"/>
+    </linearGradient>
+  </defs>
+  <rect x="60" y="80" width="600" height="14" rx="7" fill="url(#band)"/>
+  <text x="60" y="112" text-anchor="start" font-size="12" fill="#374151">Lower cost, less control</text>
+  <text x="660" y="112" text-anchor="end" font-size="12" fill="#374151">Higher cost, more control</text>
+
+  <!-- three columns -->
+  <!-- Unattended -->
+  <rect x="60" y="132" width="180" height="262" rx="10" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2"/>
+  <rect x="60" y="132" width="180" height="40" rx="10" fill="#3E9B6B"/>
+  <rect x="60" y="158" width="180" height="14" fill="#3E9B6B"/>
+  <text x="150" y="158" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Unattended</text>
+  <text x="150" y="196" text-anchor="middle" font-size="11" fill="#111827" font-weight="bold">No staff on the floor</text>
+  <text x="78" y="224" font-size="12" fill="#374151">+ Lowest labor cost</text>
+  <text x="78" y="248" font-size="12" fill="#374151">+ Leaner to run</text>
+  <text x="78" y="278" font-size="12" fill="#C4683A">- No on-site sales</text>
+  <text x="78" y="302" font-size="12" fill="#C4683A">- Slower problem-fixing</text>
+  <text x="78" y="326" font-size="12" fill="#C4683A">- More mess and tampering</text>
+  <text x="150" y="372" text-anchor="middle" font-size="11" fill="#374151" font-style="italic">Still needs cleaning,</text>
+  <text x="150" y="387" text-anchor="middle" font-size="11" fill="#374151" font-style="italic">collections, upkeep</text>
+
+  <!-- Hybrid -->
+  <rect x="270" y="132" width="180" height="262" rx="10" fill="#FFFFFF" stroke="#D4AF37" stroke-width="2"/>
+  <rect x="270" y="132" width="180" height="40" rx="10" fill="#D4AF37"/>
+  <rect x="270" y="158" width="180" height="14" fill="#D4AF37"/>
+  <text x="360" y="158" text-anchor="middle" font-size="16" font-weight="bold" fill="#141B5C">Hybrid</text>
+  <text x="360" y="196" text-anchor="middle" font-size="11" fill="#111827" font-weight="bold">Staff the busy hours only</text>
+  <text x="288" y="224" font-size="12" fill="#374151">+ Captures peak sales</text>
+  <text x="288" y="248" font-size="12" fill="#374151">+ Presence when it counts</text>
+  <text x="288" y="272" font-size="12" fill="#374151">+ Wages stay controlled</text>
+  <text x="360" y="318" text-anchor="middle" font-size="11" fill="#374151" font-style="italic">Often the best</text>
+  <text x="360" y="334" text-anchor="middle" font-size="11" fill="#374151" font-style="italic">first move for a</text>
+  <text x="360" y="350" text-anchor="middle" font-size="11" fill="#374151" font-style="italic">new owner</text>
+
+  <!-- Attended -->
+  <rect x="480" y="132" width="180" height="262" rx="10" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+  <rect x="480" y="132" width="180" height="40" rx="10" fill="#C4683A"/>
+  <rect x="480" y="158" width="180" height="14" fill="#C4683A"/>
+  <text x="570" y="158" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Attended</text>
+  <text x="570" y="196" text-anchor="middle" font-size="11" fill="#111827" font-weight="bold">Staff during open hours</text>
+  <text x="498" y="224" font-size="12" fill="#3E9B6B">+ Live customer service</text>
+  <text x="498" y="248" font-size="12" fill="#3E9B6B">+ Wash-dry-fold sales</text>
+  <text x="498" y="272" font-size="12" fill="#3E9B6B">+ Real-time cleaning</text>
+  <text x="498" y="296" font-size="12" fill="#3E9B6B">+ Watchful presence</text>
+  <text x="498" y="326" font-size="12" fill="#C4683A">- Highest labor cost</text>
+  <text x="570" y="372" text-anchor="middle" font-size="11" fill="#374151" font-style="italic">A good attendant can</text>
+  <text x="570" y="387" text-anchor="middle" font-size="11" fill="#374151" font-style="italic">pay for themselves</text>
+
+  <!-- bottom note -->
+  <text x="360" y="424" text-anchor="middle" font-size="12" fill="#1E2A8E" font-weight="bold">Match the model to your store's size, hours, services, and location risk.</text>
+</svg>

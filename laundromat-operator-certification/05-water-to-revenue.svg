@@ -1,0 +1,58 @@
+<svg viewBox="0 0 680 430" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="680" height="430" fill="#FFFFFF"/>
+  <text x="340" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Water Bill Tells the Truth</text>
+  <text x="340" y="54" text-anchor="middle" font-size="13" fill="#374151">Metered water, converted into an independent revenue estimate</text>
+
+  <!-- Step 1: water used -->
+  <rect x="40" y="92" width="200" height="74" rx="10" fill="#1E2A8E"/>
+  <text x="140" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">90,000 gallons</text>
+  <text x="140" y="140" text-anchor="middle" font-size="11" fill="#FFFFFF">metered water per month</text>
+  <text x="140" y="156" text-anchor="middle" font-size="11" fill="#FFFFFF">(after unit conversion)</text>
+
+  <!-- arrow down 1 -->
+  <line x1="140" y1="166" x2="140" y2="192" stroke="#374151" stroke-width="2"/>
+  <polygon points="133,192 140,204 147,192" fill="#374151"/>
+  <text x="150" y="184" font-size="10" fill="#374151">minus 10% non-wash use</text>
+
+  <!-- Step 2: wash gallons -->
+  <rect x="40" y="206" width="200" height="64" rx="10" fill="#3E9B6B"/>
+  <text x="140" y="232" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">81,000 wash gallons</text>
+  <text x="140" y="252" text-anchor="middle" font-size="11" fill="#FFFFFF">credited to vended washers</text>
+
+  <!-- arrow down 2 -->
+  <line x1="140" y1="270" x2="140" y2="296" stroke="#374151" stroke-width="2"/>
+  <polygon points="133,296 140,308 147,296" fill="#374151"/>
+  <text x="150" y="288" font-size="10" fill="#374151">divide by ~27 gal/load</text>
+
+  <!-- Step 3: loads -->
+  <rect x="40" y="310" width="200" height="64" rx="10" fill="#D4AF37"/>
+  <text x="140" y="336" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">~3,000 washer loads</text>
+  <text x="140" y="356" text-anchor="middle" font-size="11" fill="#141B5C">run per month</text>
+
+  <!-- arrow right to revenue -->
+  <line x1="240" y1="342" x2="340" y2="342" stroke="#374151" stroke-width="2.5"/>
+  <polygon points="340,335 354,342 340,349" fill="#374151"/>
+  <text x="297" y="334" text-anchor="middle" font-size="10" fill="#374151">x $3.25 wash</text>
+  <text x="297" y="358" text-anchor="middle" font-size="10" fill="#374151">+ dryers, vending</text>
+
+  <!-- estimate vs claim panel -->
+  <rect x="372" y="110" width="272" height="264" rx="12" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="508" y="138" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Estimate vs Seller's Claim</text>
+
+  <!-- estimate bar -->
+  <text x="392" y="178" font-size="12" fill="#374151">Water-based estimate</text>
+  <rect x="392" y="188" width="160" height="34" rx="5" fill="#3E9B6B"/>
+  <text x="408" y="210" font-size="13" font-weight="bold" fill="#FFFFFF">~$13,200</text>
+
+  <!-- claim bar -->
+  <text x="392" y="252" font-size="12" fill="#374151">Seller's claim</text>
+  <rect x="392" y="262" width="232" height="34" rx="5" fill="#C4683A"/>
+  <text x="408" y="284" font-size="13" font-weight="bold" fill="#FFFFFF">$18,000</text>
+
+  <!-- gap callout -->
+  <text x="508" y="330" text-anchor="middle" font-size="12" font-weight="bold" fill="#C4683A">Gap of ~$4,800 / month</text>
+  <text x="508" y="350" text-anchor="middle" font-size="11" fill="#374151">claim likely inflated:</text>
+  <text x="508" y="366" text-anchor="middle" font-size="11" fill="#374151">renegotiate or walk</text>
+
+  <text x="340" y="412" text-anchor="middle" font-size="10" fill="#374151">All figures are planning estimates; tighten gallons-per-load once you know the real machine mix.</text>
+</svg>

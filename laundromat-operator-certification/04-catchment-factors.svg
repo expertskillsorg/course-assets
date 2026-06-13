@@ -1,0 +1,42 @@
+<svg viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="440" fill="#FFFFFF"/>
+  <text x="320" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">What Makes a Strong Catchment Area</text>
+  <text x="320" y="54" text-anchor="middle" font-size="13" fill="#374151">Five factors feed demand into the store at the center</text>
+
+  <!-- connecting lines -->
+  <line x1="320" y1="240" x2="150" y2="140" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="320" y1="240" x2="490" y2="140" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="320" y1="240" x2="110" y2="270" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="320" y1="240" x2="530" y2="270" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="320" y1="240" x2="320" y2="380" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- center node -->
+  <circle cx="320" cy="240" r="58" fill="#1E2A8E"/>
+  <text x="320" y="234" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Your</text>
+  <text x="320" y="252" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Laundromat</text>
+
+  <!-- factor 1: density (top left) -->
+  <rect x="40" y="108" width="170" height="58" rx="8" fill="#3E9B6B"/>
+  <text x="125" y="132" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">High density</text>
+  <text x="125" y="151" text-anchor="middle" font-size="12" fill="#FFFFFF">many households nearby</text>
+
+  <!-- factor 2: renters (top right) -->
+  <rect x="430" y="108" width="170" height="58" rx="8" fill="#3E9B6B"/>
+  <text x="515" y="132" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">High renter share</text>
+  <text x="515" y="151" text-anchor="middle" font-size="12" fill="#FFFFFF">over half rent</text>
+
+  <!-- factor 3: low in-unit laundry (mid left) -->
+  <rect x="20" y="244" width="180" height="58" rx="8" fill="#D4AF37"/>
+  <text x="110" y="268" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Low in-unit laundry</text>
+  <text x="110" y="287" text-anchor="middle" font-size="12" fill="#141B5C">the real demand engine</text>
+
+  <!-- factor 4: visibility + parking (mid right) -->
+  <rect x="440" y="244" width="180" height="58" rx="8" fill="#C4683A"/>
+  <text x="530" y="268" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Visibility + parking</text>
+  <text x="530" y="287" text-anchor="middle" font-size="12" fill="#FFFFFF">easy to find and use</text>
+
+  <!-- factor 5: neighbors (bottom) -->
+  <rect x="235" y="384" width="170" height="48" rx="8" fill="#C4683A"/>
+  <text x="320" y="404" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Good neighbors</text>
+  <text x="320" y="422" text-anchor="middle" font-size="12" fill="#FFFFFF">grocery, pharmacy, foot traffic</text>
+</svg>

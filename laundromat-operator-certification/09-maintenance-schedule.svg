@@ -1,0 +1,69 @@
+<svg viewBox="0 0 680 470" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="680" height="470" fill="#ffffff"/>
+  <text x="340" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Maintenance Schedule: Daily, Weekly, Monthly</text>
+
+  <!-- DAILY column -->
+  <rect x="30" y="60" width="200" height="380" fill="#ffffff" stroke="#E5E7EB" stroke-width="2" rx="8"/>
+  <rect x="30" y="60" width="200" height="44" fill="#3E9B6B" rx="8"/>
+  <rect x="30" y="92" width="200" height="12" fill="#3E9B6B"/>
+  <text x="130" y="89" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">DAILY</text>
+
+  <g font-size="12.5" fill="#111827">
+    <text x="46" y="134">&#8226; Clean dryer lint traps</text>
+    <text x="62" y="151" font-size="10.5" fill="#C4683A" font-weight="bold">(fire safety)</text>
+    <text x="46" y="178">&#8226; Wipe machine tops</text>
+    <text x="62" y="194" font-size="11.5">and panels</text>
+    <text x="46" y="221">&#8226; Sweep and mop floors</text>
+    <text x="46" y="248">&#8226; Empty trash, replace</text>
+    <text x="62" y="264" font-size="11.5">liners</text>
+    <text x="46" y="291">&#8226; Clean folding tables,</text>
+    <text x="62" y="307" font-size="11.5">restock supplies</text>
+    <text x="46" y="334">&#8226; Check restrooms</text>
+    <text x="46" y="361">&#8226; Spot-check for leaks</text>
+    <text x="62" y="377" font-size="11.5">and out-of-order units</text>
+  </g>
+
+  <!-- WEEKLY column -->
+  <rect x="240" y="60" width="200" height="380" fill="#ffffff" stroke="#E5E7EB" stroke-width="2" rx="8"/>
+  <rect x="240" y="60" width="200" height="44" fill="#1E2A8E" rx="8"/>
+  <rect x="240" y="92" width="200" height="12" fill="#1E2A8E"/>
+  <text x="340" y="89" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">WEEKLY</text>
+
+  <g font-size="12.5" fill="#111827">
+    <text x="256" y="134">&#8226; Clean windows and</text>
+    <text x="272" y="150" font-size="11.5">glass doors</text>
+    <text x="256" y="181">&#8226; Clean washer drawers</text>
+    <text x="272" y="197" font-size="11.5">and door gaskets</text>
+    <text x="256" y="228">&#8226; Wipe soap and vending</text>
+    <text x="272" y="244" font-size="11.5">fronts, seating</text>
+    <text x="256" y="275">&#8226; Run collections and</text>
+    <text x="272" y="291" font-size="11.5">reconcile counters</text>
+    <text x="256" y="322">&#8226; Clear inlet screens</text>
+    <text x="272" y="338" font-size="11.5">and slow drains</text>
+    <text x="256" y="369">&#8226; Restock change and</text>
+    <text x="272" y="385" font-size="11.5">supplies</text>
+  </g>
+
+  <!-- MONTHLY column -->
+  <rect x="450" y="60" width="200" height="380" fill="#ffffff" stroke="#E5E7EB" stroke-width="2" rx="8"/>
+  <rect x="450" y="60" width="200" height="44" fill="#D4AF37" rx="8"/>
+  <rect x="450" y="92" width="200" height="12" fill="#D4AF37"/>
+  <text x="550" y="89" text-anchor="middle" font-size="17" font-weight="bold" fill="#141B5C">MONTHLY</text>
+
+  <g font-size="12.5" fill="#111827">
+    <text x="466" y="134">&#8226; Inspect and clean</text>
+    <text x="482" y="150" font-size="11.5" fill="#C4683A" font-weight="bold">dryer exhaust ducting</text>
+    <text x="466" y="181">&#8226; Inspect belts and</text>
+    <text x="482" y="197" font-size="11.5">hoses for wear</text>
+    <text x="466" y="228">&#8226; Test each machine</text>
+    <text x="482" y="244" font-size="11.5">through a full cycle</text>
+    <text x="466" y="275">&#8226; Replace worn gaskets</text>
+    <text x="482" y="291" font-size="11.5">and coin slides</text>
+    <text x="466" y="322">&#8226; Walk store as a</text>
+    <text x="482" y="338" font-size="11.5">customer would</text>
+    <text x="466" y="369">&#8226; Review camera and</text>
+    <text x="482" y="385" font-size="11.5">lighting condition</text>
+  </g>
+
+  <text x="340" y="460" text-anchor="middle" font-size="11.5" fill="#374151" font-style="italic">Post the schedule where you and any attendant can see it, so no task depends on memory.</text>
+</svg>

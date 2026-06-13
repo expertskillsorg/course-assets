@@ -1,0 +1,59 @@
+<svg viewBox="0 0 720 430" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="430" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">From One Store to a Small Chain</text>
+  <text x="360" y="56" text-anchor="middle" font-size="12" fill="#374151">Each stage earns the right to the next, funded mostly by reinvested cash flow</text>
+
+  <!-- Stage 1: Stabilize -->
+  <rect x="30" y="120" width="150" height="120" rx="10" fill="#1E2A8E"/>
+  <text x="105" y="150" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Stage 1</text>
+  <text x="105" y="172" text-anchor="middle" font-size="14" font-weight="bold" fill="#D4AF37">Stabilize</text>
+  <text x="105" y="196" text-anchor="middle" font-size="10.5" fill="#FFFFFF">Steady cash flow,</text>
+  <text x="105" y="211" text-anchor="middle" font-size="10.5" fill="#FFFFFF">runs without you</text>
+  <text x="105" y="226" text-anchor="middle" font-size="10.5" fill="#FFFFFF">for weeks</text>
+
+  <!-- Arrow 1 -->
+  <line x1="180" y1="180" x2="208" y2="180" stroke="#374151" stroke-width="2.5"/>
+  <polygon points="216,180 204,174 204,186" fill="#374151"/>
+
+  <!-- Stage 2: Systematize -->
+  <rect x="218" y="120" width="150" height="120" rx="10" fill="#3E9B6B"/>
+  <text x="293" y="150" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Stage 2</text>
+  <text x="293" y="172" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Systematize</text>
+  <text x="293" y="196" text-anchor="middle" font-size="10.5" fill="#FFFFFF">Write the routines,</text>
+  <text x="293" y="211" text-anchor="middle" font-size="10.5" fill="#FFFFFF">hire a manager who</text>
+  <text x="293" y="226" text-anchor="middle" font-size="10.5" fill="#FFFFFF">runs the floor</text>
+
+  <!-- Arrow 2 -->
+  <line x1="368" y1="180" x2="396" y2="180" stroke="#374151" stroke-width="2.5"/>
+  <polygon points="404,180 392,174 392,186" fill="#374151"/>
+
+  <!-- Stage 3: Open store two -->
+  <rect x="406" y="120" width="150" height="120" rx="10" fill="#D4AF37"/>
+  <text x="481" y="150" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Stage 3</text>
+  <text x="481" y="172" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Open Store Two</text>
+  <text x="481" y="196" text-anchor="middle" font-size="10.5" fill="#141B5C">Reuse the system,</text>
+  <text x="481" y="211" text-anchor="middle" font-size="10.5" fill="#141B5C">fund it from profits</text>
+  <text x="481" y="226" text-anchor="middle" font-size="10.5" fill="#141B5C">plus a proven-record loan</text>
+
+  <!-- Arrow 3 -->
+  <line x1="556" y1="180" x2="584" y2="180" stroke="#374151" stroke-width="2.5"/>
+  <polygon points="592,180 580,174 580,186" fill="#374151"/>
+
+  <!-- Stage 4: Repeat -->
+  <rect x="594" y="120" width="110" height="120" rx="10" fill="#C4683A"/>
+  <text x="649" y="150" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Stage 4</text>
+  <text x="649" y="172" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Repeat</text>
+  <text x="649" y="196" text-anchor="middle" font-size="10.5" fill="#FFFFFF">A small chain</text>
+  <text x="649" y="211" text-anchor="middle" font-size="10.5" fill="#FFFFFF">of 3 to 4,</text>
+  <text x="649" y="226" text-anchor="middle" font-size="10.5" fill="#FFFFFF">shared costs</text>
+
+  <!-- Reinvest cash-flow band -->
+  <rect x="30" y="284" width="674" height="44" rx="8" fill="#FFFFFF" stroke="#D4AF37" stroke-width="2"/>
+  <text x="360" y="305" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#141B5C">Reinvested cash flow carries you stage to stage</text>
+  <text x="360" y="321" text-anchor="middle" font-size="10.5" fill="#374151">Never drain store one's reserve to grow; each new store costs more and ramps slower than expected</text>
+
+  <!-- Warning note -->
+  <text x="360" y="368" text-anchor="middle" font-size="11.5" fill="#374151">You are cloning a documented system and a capable manager, not just a building full of machines.</text>
+</svg>
