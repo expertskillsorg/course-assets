@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="540" fill="#FFFFFF"/>
+  <text x="30" y="40" font-size="22" font-weight="bold" fill="#141B5C">Anatomy of an Excel Table</text>
+  <text x="30" y="64" font-size="14" fill="#374151">What each part does for you automatically</text>
+
+  <!-- Name label -->
+  <rect x="30" y="92" width="150" height="26" rx="4" fill="#1E2A8E"/>
+  <text x="105" y="110" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Name: Members</text>
+
+  <!-- Table -->
+  <!-- Header row -->
+  <rect x="30" y="130" width="440" height="34" fill="#1E2A8E"/>
+  <line x1="140" y1="130" x2="140" y2="424" stroke="#FFFFFF" stroke-width="1"/>
+  <line x1="300" y1="130" x2="300" y2="424" stroke="#FFFFFF" stroke-width="1"/>
+  <line x1="380" y1="130" x2="380" y2="424" stroke="#FFFFFF" stroke-width="1"/>
+
+  <text x="45" y="152" font-size="13" fill="#FFFFFF" font-weight="bold">Member #</text>
+  <text x="152" y="152" font-size="13" fill="#FFFFFF" font-weight="bold">Name</text>
+  <text x="312" y="152" font-size="13" fill="#FFFFFF" font-weight="bold">Plan</text>
+  <text x="392" y="152" font-size="13" fill="#FFFFFF" font-weight="bold">Dues</text>
+
+  <!-- filter buttons -->
+  <g fill="#D4AF37">
+    <rect x="118" y="141" width="14" height="14" rx="2"/>
+    <rect x="278" y="141" width="14" height="14" rx="2"/>
+    <rect x="358" y="141" width="14" height="14" rx="2"/>
+    <rect x="448" y="141" width="14" height="14" rx="2"/>
+  </g>
+  <g stroke="#141B5C" stroke-width="1.5" fill="none">
+    <path d="M121 145 l4 4 l4 -4"/>
+    <path d="M281 145 l4 4 l4 -4"/>
+    <path d="M361 145 l4 4 l4 -4"/>
+    <path d="M451 145 l4 4 l4 -4"/>
+  </g>
+
+  <!-- Data rows, banded -->
+  <g font-size="13" fill="#111827">
+    <rect x="30" y="164" width="440" height="30" fill="#EEF1FA"/>
+    <text x="45" y="184">1</text><text x="152" y="184">Ana Reyes</text><text x="312" y="184">Standard</text><text x="392" y="184">$45</text>
+    <rect x="30" y="194" width="440" height="30" fill="#FFFFFF"/>
+    <text x="45" y="214">2</text><text x="152" y="214">Ben Cole</text><text x="312" y="214">Premium</text><text x="392" y="214">$70</text>
+    <rect x="30" y="224" width="440" height="30" fill="#EEF1FA"/>
+    <text x="45" y="244">3</text><text x="152" y="244">Cara Diaz</text><text x="312" y="244">Standard</text><text x="392" y="244">$45</text>
+    <rect x="30" y="254" width="440" height="30" fill="#FFFFFF"/>
+    <text x="45" y="274">4</text><text x="152" y="274">Dev Shah</text><text x="312" y="274">Standard</text><text x="392" y="274">$45</text>
+  </g>
+
+  <!-- auto-expand row -->
+  <rect x="30" y="286" width="440" height="30" fill="#F4FBF7" stroke="#3E9B6B" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="45" y="306" font-size="13" fill="#3E9B6B" font-style="italic">5</text>
+  <text x="152" y="306" font-size="13" fill="#3E9B6B" font-style="italic">type here and the Table grows</text>
+
+  <!-- total row -->
+  <rect x="30" y="322" width="440" height="30" fill="#141B5C"/>
+  <text x="45" y="342" font-size="13" fill="#FFFFFF" font-weight="bold">Total</text>
+  <text x="392" y="342" font-size="13" fill="#D4AF37" font-weight="bold">$205</text>
+
+  <rect x="30" y="130" width="440" height="222" fill="none" stroke="#141B5C" stroke-width="2"/>
+
+  <!-- Callouts -->
+  <g font-size="12.5" fill="#374151">
+    <!-- name -->
+    <path d="M180 105 H250 V128" stroke="#C4683A" stroke-width="1.5" fill="none"/>
+    <text x="500" y="112" fill="#C4683A" font-weight="bold">One name for the whole dataset</text>
+    <text x="500" y="128">formulas point at it and never break</text>
+
+    <!-- filter buttons -->
+    <path d="M462 148 H520" stroke="#C4683A" stroke-width="1.5" fill="none"/>
+    <text x="524" y="145" fill="#C4683A" font-weight="bold">Filter buttons</text>
+    <text x="524" y="161">sort and filter every column instantly</text>
+
+    <!-- banded rows -->
+    <path d="M470 224 H540" stroke="#C4683A" stroke-width="1.5" fill="none"/>
+    <text x="544" y="215" fill="#C4683A" font-weight="bold">Banded rows</text>
+    <text x="544" y="231">shading you read across easily</text>
+
+    <!-- auto expand -->
+    <path d="M470 301 H540" stroke="#3E9B6B" stroke-width="1.5" fill="none"/>
+    <text x="544" y="292" fill="#3E9B6B" font-weight="bold">Auto-expand</text>
+    <text x="544" y="308">new rows join automatically</text>
+
+    <!-- total -->
+    <path d="M470 337 H540" stroke="#C4683A" stroke-width="1.5" fill="none"/>
+    <text x="544" y="337" fill="#C4683A" font-weight="bold">Optional total row</text>
+  </g>
+
+  <!-- structured reference banner -->
+  <rect x="30" y="392" width="700" height="118" rx="8" fill="#F7F8FC" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="50" y="420" font-size="14" font-weight="bold" fill="#141B5C">Structured references read like English</text>
+  <rect x="50" y="434" width="300" height="34" rx="4" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="66" y="456" font-size="15" font-family="monospace" fill="#1E2A8E">=SUM(Members[Dues])</text>
+  <text x="368" y="448" font-size="12.5" fill="#374151">points at the whole Dues column by name,</text>
+  <text x="368" y="466" font-size="12.5" fill="#374151">and keeps working as rows are added or removed.</text>
+  <text x="50" y="494" font-size="12.5" fill="#374151">A formula written in one Table cell fills down the entire column by itself.</text>
+</svg>

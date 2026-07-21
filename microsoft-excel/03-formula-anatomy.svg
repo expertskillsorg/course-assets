@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="360" fill="#FFFFFF"/>
+  <text x="360" y="38" text-anchor="middle" font-size="19" font-weight="bold" fill="#141B5C">The anatomy of a formula</text>
+  <text x="360" y="62" text-anchor="middle" font-size="13" fill="#374151">What you type in the cell, part by part</text>
+
+  <!-- Formula bar -->
+  <rect x="70" y="96" width="580" height="58" rx="6" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+  <text x="92" y="133" font-size="26" font-family="monospace" fill="#111827">= B2 * C2</text>
+
+  <!-- equals sign callout -->
+  <line x1="100" y1="154" x2="100" y2="196" stroke="#D4AF37" stroke-width="2"/>
+  <rect x="40" y="196" width="150" height="58" rx="6" fill="#D4AF37"/>
+  <text x="115" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Equals sign</text>
+  <text x="115" y="240" text-anchor="middle" font-size="11" fill="#141B5C">"Calculate this"</text>
+
+  <!-- B2 callout -->
+  <line x1="150" y1="154" x2="270" y2="196" stroke="#3E9B6B" stroke-width="2"/>
+  <rect x="205" y="196" width="150" height="58" rx="6" fill="#3E9B6B"/>
+  <text x="280" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Cell reference</text>
+  <text x="280" y="240" text-anchor="middle" font-size="11" fill="#FFFFFF">Points at a value</text>
+
+  <!-- operator callout -->
+  <line x1="205" y1="154" x2="435" y2="196" stroke="#C4683A" stroke-width="2"/>
+  <rect x="370" y="196" width="150" height="58" rx="6" fill="#C4683A"/>
+  <text x="445" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Operator</text>
+  <text x="445" y="240" text-anchor="middle" font-size="11" fill="#FFFFFF">* means multiply</text>
+
+  <!-- second reference callout -->
+  <line x1="250" y1="154" x2="600" y2="196" stroke="#3E9B6B" stroke-width="2"/>
+  <rect x="535" y="196" width="150" height="58" rx="6" fill="#3E9B6B"/>
+  <text x="610" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Cell reference</text>
+  <text x="610" y="240" text-anchor="middle" font-size="11" fill="#FFFFFF">The other value</text>
+
+  <!-- result arrow -->
+  <text x="360" y="292" text-anchor="middle" font-size="13" fill="#374151">Excel reads the parts and shows only the answer:</text>
+  <rect x="300" y="306" width="120" height="40" rx="6" fill="#141B5C"/>
+  <text x="360" y="332" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">18.00</text>
+</svg>

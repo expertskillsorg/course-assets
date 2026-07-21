@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" font-family="Arial, sans-serif">
+  <rect width="720" height="440" fill="#FFFFFF"/>
+  <text x="30" y="34" font-size="18" font-weight="bold" fill="#141B5C">From raw rows to grouped totals</text>
+
+  <!-- Source rows -->
+  <text x="30" y="70" font-size="13" font-weight="bold" fill="#374151">Source rows (NorthwindSales)</text>
+  <g font-size="11" fill="#111827">
+    <rect x="30" y="80" width="180" height="26" fill="#F3F4F6" stroke="#E5E7EB"/>
+    <text x="40" y="97">Tents · Summit 2 · $560</text>
+    <rect x="30" y="108" width="180" height="26" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="40" y="125">Packs · Trailhead 45 · $290</text>
+    <rect x="30" y="136" width="180" height="26" fill="#F3F4F6" stroke="#E5E7EB"/>
+    <text x="40" y="153">Stoves · Ember Micro · $80</text>
+    <rect x="30" y="164" width="180" height="26" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="40" y="181">Tents · Basecamp 4 · $740</text>
+    <rect x="30" y="192" width="180" height="26" fill="#F3F4F6" stroke="#E5E7EB"/>
+    <text x="40" y="209">Sleep · Cloud 20 · $180</text>
+    <rect x="30" y="220" width="180" height="26" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="40" y="237">Packs · Trailhead 45 · $290</text>
+  </g>
+  <text x="30" y="270" font-size="11" fill="#374151" font-style="italic">…120 rows in all</text>
+
+  <!-- Arrow -->
+  <g stroke="#1E2A8E" stroke-width="2" fill="none">
+    <path d="M220 165 L285 165"/>
+  </g>
+  <polygon points="285,159 297,165 285,171" fill="#1E2A8E"/>
+  <text x="228" y="155" font-size="10" fill="#1E2A8E" font-weight="bold">group</text>
+
+  <!-- Buckets -->
+  <text x="310" y="70" font-size="13" font-weight="bold" fill="#374151">Grouped into buckets, each totaled</text>
+  <g font-size="12">
+    <rect x="310" y="80" width="240" height="40" fill="#1E2A8E"/>
+    <text x="324" y="105" fill="#FFFFFF" font-weight="bold">Tents</text>
+    <text x="470" y="105" fill="#FFFFFF" font-weight="bold" text-anchor="end">$61,200</text>
+
+    <rect x="310" y="124" width="240" height="40" fill="#3E9B6B"/>
+    <text x="324" y="149" fill="#FFFFFF" font-weight="bold">Packs</text>
+    <text x="470" y="149" fill="#FFFFFF" font-weight="bold" text-anchor="end">$34,800</text>
+
+    <rect x="310" y="168" width="240" height="40" fill="#C4683A"/>
+    <text x="324" y="193" fill="#FFFFFF" font-weight="bold">Sleep</text>
+    <text x="470" y="193" fill="#FFFFFF" font-weight="bold" text-anchor="end">$32,400</text>
+
+    <rect x="310" y="212" width="240" height="40" fill="#D4AF37"/>
+    <text x="324" y="237" fill="#141B5C" font-weight="bold">Stoves</text>
+    <text x="470" y="237" fill="#141B5C" font-weight="bold" text-anchor="end">$19,600</text>
+  </g>
+
+  <!-- Arrow to grand total -->
+  <g stroke="#1E2A8E" stroke-width="2" fill="none">
+    <path d="M560 165 L620 165"/>
+  </g>
+  <polygon points="620,159 632,165 620,171" fill="#1E2A8E"/>
+  <text x="566" y="155" font-size="10" fill="#1E2A8E" font-weight="bold">total</text>
+
+  <!-- Grand total -->
+  <rect x="600" y="130" width="100" height="70" fill="#141B5C"/>
+  <text x="650" y="158" font-size="11" fill="#FFFFFF" text-anchor="middle">Grand total</text>
+  <text x="650" y="182" font-size="16" fill="#D4AF37" text-anchor="middle" font-weight="bold">$148,000</text>
+
+  <text x="30" y="300" font-size="12" fill="#374151">Every row lands in exactly one bucket; each bucket adds its sales; the buckets add up to the grand total.</text>
+
+  <!-- connector lines from rows to buckets (subtle) -->
+  <g stroke="#E5E7EB" stroke-width="1" fill="none">
+    <path d="M210 93 L310 100"/>
+    <path d="M210 177 L310 100"/>
+    <path d="M210 121 L310 144"/>
+    <path d="M210 233 L310 144"/>
+    <path d="M210 149 L310 232"/>
+    <path d="M210 205 L310 188"/>
+  </g>
+</svg>

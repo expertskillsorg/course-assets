@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="420" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#141B5C">What happens when you copy a formula down</text>
+
+  <!-- LEFT: relative -->
+  <text x="185" y="70" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">Relative reference</text>
+  <text x="185" y="90" text-anchor="middle" font-size="12" fill="#374151">Shifts with the formula</text>
+
+  <!-- relative cells -->
+  <g font-family="monospace" font-size="14">
+    <rect x="70" y="106" width="230" height="34" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="82" y="128" fill="#111827">C2  = B2 * D2</text>
+    <rect x="70" y="140" width="230" height="34" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="82" y="162" fill="#111827">C3  = B3 * D3</text>
+    <rect x="70" y="174" width="230" height="34" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="82" y="196" fill="#111827">C4  = B4 * D4</text>
+  </g>
+  <text x="185" y="234" text-anchor="middle" font-size="12" fill="#3E9B6B" font-weight="bold">Row numbers move: 2 to 3 to 4</text>
+
+  <!-- RIGHT: absolute -->
+  <text x="535" y="70" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">Absolute reference</text>
+  <text x="535" y="90" text-anchor="middle" font-size="12" fill="#374151">Pinned with dollar signs</text>
+
+  <g font-family="monospace" font-size="14">
+    <rect x="420" y="106" width="230" height="34" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="432" y="128" fill="#111827">C2  = B2 * </text>
+    <text x="551" y="128" fill="#C4683A" font-weight="bold">$F$1</text>
+    <rect x="420" y="140" width="230" height="34" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="432" y="162" fill="#111827">C3  = B3 * </text>
+    <text x="551" y="162" fill="#C4683A" font-weight="bold">$F$1</text>
+    <rect x="420" y="174" width="230" height="34" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="432" y="196" fill="#111827">C4  = B4 * </text>
+    <text x="551" y="196" fill="#C4683A" font-weight="bold">$F$1</text>
+  </g>
+  <text x="535" y="234" text-anchor="middle" font-size="12" fill="#C4683A" font-weight="bold">$F$1 stays locked every row</text>
+
+  <!-- The pinned cell -->
+  <text x="360" y="286" text-anchor="middle" font-size="13" fill="#374151">F1 holds the one shared value (the tax rate)</text>
+  <rect x="300" y="300" width="120" height="40" rx="6" fill="#D4AF37"/>
+  <text x="360" y="320" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">F1</text>
+  <text x="360" y="335" text-anchor="middle" font-size="12" fill="#141B5C">0.08</text>
+
+  <!-- takeaway -->
+  <rect x="70" y="362" width="580" height="42" rx="6" fill="#141B5C"/>
+  <text x="360" y="388" text-anchor="middle" font-size="13" fill="#FFFFFF">Ask: when I copy this, what should move and what should stay put?</text>
+</svg>

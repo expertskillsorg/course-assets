@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+  <rect width="760" height="420" fill="#FFFFFF"/>
+
+  <text x="380" y="42" text-anchor="middle" font-size="19" font-weight="bold" fill="#141B5C">The anatomy of an XLOOKUP</text>
+
+  <!-- The formula, monospace, with colored argument chips -->
+  <text x="40" y="115" font-family="monospace" font-size="22" fill="#111827">=XLOOKUP(</text>
+  <rect x="188" y="93" width="86" height="30" rx="5" fill="#FFF6DA" stroke="#D4AF37" stroke-width="2"/>
+  <text x="231" y="115" text-anchor="middle" font-family="monospace" font-size="17" fill="#111827">A2</text>
+  <text x="278" y="115" font-family="monospace" font-size="22" fill="#111827">,</text>
+
+  <rect x="296" y="93" width="150" height="30" rx="5" fill="#E8F3EC" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="371" y="115" text-anchor="middle" font-family="monospace" font-size="17" fill="#111827">Prices[Plant]</text>
+  <text x="450" y="115" font-family="monospace" font-size="22" fill="#111827">,</text>
+
+  <rect x="468" y="93" width="150" height="30" rx="5" fill="#FDECE3" stroke="#C4683A" stroke-width="2"/>
+  <text x="543" y="115" text-anchor="middle" font-family="monospace" font-size="17" fill="#111827">Prices[Price]</text>
+  <text x="622" y="115" font-family="monospace" font-size="22" fill="#111827">)</text>
+
+  <!-- Connector lines to labels -->
+  <line x1="231" y1="123" x2="231" y2="180" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="371" y1="123" x2="371" y2="180" stroke="#3E9B6B" stroke-width="2"/>
+  <line x1="543" y1="123" x2="543" y2="180" stroke="#C4683A" stroke-width="2"/>
+
+  <!-- Label 1 -->
+  <rect x="90" y="180" width="220" height="86" rx="8" fill="#FFF6DA"/>
+  <text x="200" y="205" text-anchor="middle" font-size="15" font-weight="bold" fill="#141B5C">1. What to find</text>
+  <text x="200" y="228" text-anchor="middle" font-size="13" fill="#374151">The value you are looking</text>
+  <text x="200" y="246" text-anchor="middle" font-size="13" fill="#374151">up: the plant name in this</text>
+  <text x="200" y="264" text-anchor="middle" font-size="13" fill="#374151">order row.</text>
+
+  <!-- Label 2 -->
+  <rect x="322" y="180" width="220" height="86" rx="8" fill="#E8F3EC"/>
+  <text x="432" y="205" text-anchor="middle" font-size="15" font-weight="bold" fill="#141B5C">2. Where to look</text>
+  <text x="432" y="228" text-anchor="middle" font-size="13" fill="#374151">The column to search for</text>
+  <text x="432" y="246" text-anchor="middle" font-size="13" fill="#374151">that value: the Plant</text>
+  <text x="432" y="264" text-anchor="middle" font-size="13" fill="#374151">column in the price list.</text>
+
+  <!-- Label 3 -->
+  <rect x="554" y="180" width="200" height="86" rx="8" fill="#FDECE3"/>
+  <text x="654" y="205" text-anchor="middle" font-size="15" font-weight="bold" fill="#141B5C">3. What to return</text>
+  <text x="654" y="228" text-anchor="middle" font-size="13" fill="#374151">The column to pull the</text>
+  <text x="654" y="246" text-anchor="middle" font-size="13" fill="#374151">answer from: the Price</text>
+  <text x="654" y="264" text-anchor="middle" font-size="13" fill="#374151">column.</text>
+
+  <!-- Read-aloud sentence -->
+  <rect x="90" y="300" width="580" height="70" rx="8" fill="#1E2A8E"/>
+  <text x="380" y="330" text-anchor="middle" font-size="14" fill="#FFFFFF">Read it as a sentence:</text>
+  <text x="380" y="354" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">"Find A2 in the Plant column, and return its Price."</text>
+</svg>

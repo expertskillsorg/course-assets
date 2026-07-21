@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Arial, sans-serif">
+  <rect width="720" height="420" fill="#FFFFFF"/>
+
+  <!-- Left table: Orders -->
+  <text x="150" y="40" text-anchor="middle" font-size="18" font-weight="bold" fill="#141B5C">Orders sheet</text>
+  <g>
+    <rect x="30" y="55" width="130" height="30" fill="#1E2A8E"/>
+    <rect x="160" y="55" width="80" height="30" fill="#1E2A8E"/>
+    <text x="95" y="75" text-anchor="middle" font-size="13" fill="#FFFFFF">Plant</text>
+    <text x="200" y="75" text-anchor="middle" font-size="13" fill="#FFFFFF">Price</text>
+
+    <rect x="30" y="85" width="130" height="34" fill="#E5E7EB"/>
+    <rect x="160" y="85" width="80" height="34" fill="#FFF6DA" stroke="#D4AF37" stroke-width="2"/>
+    <text x="95" y="107" text-anchor="middle" font-size="13" fill="#111827">Fern</text>
+    <text x="200" y="107" text-anchor="middle" font-size="13" fill="#374151">?</text>
+
+    <rect x="30" y="119" width="130" height="34" fill="#F3F4F6"/>
+    <rect x="160" y="119" width="80" height="34" fill="#F3F4F6"/>
+    <text x="95" y="141" text-anchor="middle" font-size="13" fill="#111827">Basil</text>
+    <text x="200" y="141" text-anchor="middle" font-size="13" fill="#374151">?</text>
+
+    <rect x="30" y="153" width="130" height="34" fill="#F3F4F6"/>
+    <rect x="160" y="153" width="80" height="34" fill="#F3F4F6"/>
+    <text x="95" y="175" text-anchor="middle" font-size="13" fill="#111827">Rose</text>
+    <text x="200" y="175" text-anchor="middle" font-size="13" fill="#374151">?</text>
+  </g>
+
+  <!-- Right table: Price list -->
+  <text x="570" y="40" text-anchor="middle" font-size="18" font-weight="bold" fill="#141B5C">Price list</text>
+  <g>
+    <rect x="480" y="55" width="130" height="30" fill="#3E9B6B"/>
+    <rect x="610" y="55" width="80" height="30" fill="#3E9B6B"/>
+    <text x="545" y="75" text-anchor="middle" font-size="13" fill="#FFFFFF">Plant</text>
+    <text x="650" y="75" text-anchor="middle" font-size="13" fill="#FFFFFF">Price</text>
+
+    <rect x="480" y="85" width="130" height="34" fill="#E8F3EC" stroke="#3E9B6B" stroke-width="2"/>
+    <rect x="610" y="85" width="80" height="34" fill="#FFF6DA" stroke="#D4AF37" stroke-width="2"/>
+    <text x="545" y="107" text-anchor="middle" font-size="13" fill="#111827">Fern</text>
+    <text x="650" y="107" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">$8</text>
+
+    <rect x="480" y="119" width="130" height="34" fill="#F3F4F6"/>
+    <rect x="610" y="119" width="80" height="34" fill="#F3F4F6"/>
+    <text x="545" y="141" text-anchor="middle" font-size="13" fill="#111827">Basil</text>
+    <text x="650" y="141" text-anchor="middle" font-size="13" fill="#111827">$4</text>
+
+    <rect x="480" y="153" width="130" height="34" fill="#F3F4F6"/>
+    <rect x="610" y="153" width="80" height="34" fill="#F3F4F6"/>
+    <text x="545" y="175" text-anchor="middle" font-size="13" fill="#111827">Rose</text>
+    <text x="650" y="175" text-anchor="middle" font-size="13" fill="#111827">$12</text>
+  </g>
+
+  <!-- Bridge arc from price list "Fern $8" back to Orders "?" -->
+  <path d="M 610 102 C 420 250, 320 250, 240 102" fill="none" stroke="#C4683A" stroke-width="3" stroke-dasharray="2,0"/>
+  <polygon points="240,102 250,112 254,98" fill="#C4683A"/>
+  <circle cx="610" cy="102" r="5" fill="#C4683A"/>
+
+  <!-- Bridge label -->
+  <rect x="300" y="250" width="120" height="34" rx="6" fill="#141B5C"/>
+  <text x="360" y="272" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">the lookup</text>
+
+  <!-- Caption of the three steps -->
+  <text x="360" y="330" text-anchor="middle" font-size="14" fill="#374151">1. Take the plant name from the Orders sheet</text>
+  <text x="360" y="354" text-anchor="middle" font-size="14" fill="#374151">2. Find that same name in the Price list</text>
+  <text x="360" y="378" text-anchor="middle" font-size="14" fill="#374151">3. Bring its price back across the bridge</text>
+</svg>

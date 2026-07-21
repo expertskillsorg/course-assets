@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="960" height="340" fill="#FFFFFF"/>
+
+  <!-- Raw export -->
+  <g>
+    <rect x="24" y="90" width="150" height="160" rx="8" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+    <rect x="24" y="90" width="150" height="30" rx="8" fill="#C4683A"/>
+    <rect x="24" y="106" width="150" height="14" fill="#C4683A"/>
+    <text x="99" y="110" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Raw Export</text>
+    <!-- messy rows -->
+    <line x1="40" y1="136" x2="120" y2="136" stroke="#C4683A" stroke-width="6"/>
+    <line x1="40" y1="152" x2="158" y2="152" stroke="#E5E7EB" stroke-width="6"/>
+    <line x1="40" y1="168" x2="120" y2="168" stroke="#C4683A" stroke-width="6" opacity="0.5"/>
+    <line x1="40" y1="184" x2="140" y2="184" stroke="#E5E7EB" stroke-width="6"/>
+    <line x1="40" y1="200" x2="100" y2="200" stroke="#C4683A" stroke-width="6"/>
+    <line x1="40" y1="216" x2="150" y2="216" stroke="#E5E7EB" stroke-width="6"/>
+    <text x="99" y="240" text-anchor="middle" fill="#374151" font-size="12" font-weight="bold">126 rows, messy</text>
+  </g>
+
+  <!-- arrow -->
+  <path d="M182 170 h28" stroke="#141B5C" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+
+  <!-- Stages -->
+  <g>
+    <rect x="224" y="130" width="128" height="80" rx="8" fill="#1E2A8E"/>
+    <text x="288" y="162" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Structure</text>
+    <text x="288" y="184" text-anchor="middle" fill="#D4AF37" font-size="11">drop blank rows</text>
+  </g>
+  <path d="M356 170 h20" stroke="#141B5C" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+
+  <g>
+    <rect x="380" y="130" width="128" height="80" rx="8" fill="#1E2A8E"/>
+    <text x="444" y="162" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">De-duplicate</text>
+    <text x="444" y="184" text-anchor="middle" fill="#D4AF37" font-size="11">remove copies</text>
+  </g>
+  <path d="M512 170 h20" stroke="#141B5C" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+
+  <g>
+    <rect x="536" y="130" width="128" height="80" rx="8" fill="#1E2A8E"/>
+    <text x="600" y="158" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Repair</text>
+    <text x="600" y="178" text-anchor="middle" fill="#D4AF37" font-size="11">text and types</text>
+  </g>
+  <path d="M668 170 h20" stroke="#141B5C" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+
+  <g>
+    <rect x="692" y="130" width="128" height="80" rx="8" fill="#1E2A8E"/>
+    <text x="756" y="162" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Validate</text>
+    <text x="756" y="184" text-anchor="middle" fill="#D4AF37" font-size="11">lock it clean</text>
+  </g>
+  <path d="M824 170 h14" stroke="#141B5C" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+
+  <!-- Clean table -->
+  <g>
+    <rect x="842" y="90" width="94" height="160" rx="8" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2"/>
+    <rect x="842" y="90" width="94" height="30" rx="8" fill="#3E9B6B"/>
+    <rect x="842" y="106" width="94" height="14" fill="#3E9B6B"/>
+    <text x="889" y="110" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold">Clean Table</text>
+    <line x1="856" y1="136" x2="922" y2="136" stroke="#3E9B6B" stroke-width="6"/>
+    <line x1="856" y1="152" x2="922" y2="152" stroke="#3E9B6B" stroke-width="6"/>
+    <line x1="856" y1="168" x2="922" y2="168" stroke="#3E9B6B" stroke-width="6"/>
+    <line x1="856" y1="184" x2="922" y2="184" stroke="#3E9B6B" stroke-width="6"/>
+    <line x1="856" y1="200" x2="922" y2="200" stroke="#3E9B6B" stroke-width="6"/>
+    <line x1="856" y1="216" x2="922" y2="216" stroke="#3E9B6B" stroke-width="6"/>
+    <text x="889" y="240" text-anchor="middle" fill="#374151" font-size="12" font-weight="bold">120 rows</text>
+  </g>
+
+  <text x="480" y="48" text-anchor="middle" fill="#111827" font-size="18" font-weight="bold">From raw export to analysis-ready table</text>
+  <text x="480" y="300" text-anchor="middle" fill="#374151" font-size="13">Copy the sheet first, then work left to right: structure, de-duplicate, repair, validate.</text>
+
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#141B5C"/>
+    </marker>
+  </defs>
+</svg>

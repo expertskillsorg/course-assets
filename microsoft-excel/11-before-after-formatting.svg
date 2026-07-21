@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Arial, sans-serif">
+  <rect width="760" height="440" fill="#FFFFFF"/>
+
+  <!-- BEFORE panel -->
+  <text x="30" y="34" font-size="18" font-weight="bold" fill="#C4683A">BEFORE</text>
+  <text x="30" y="54" font-size="12" fill="#374151">Cluttered, hard to trust</text>
+
+  <!-- before sheet frame -->
+  <rect x="30" y="66" width="320" height="300" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <!-- messy header: mixed fonts, no bold uniformity -->
+  <rect x="30" y="66" width="320" height="28" fill="#FDF3D6"/>
+  <text x="42" y="85" font-size="13" fill="#111827" font-family="Georgia">Campaign</text>
+  <text x="150" y="85" font-size="11" fill="#111827">spend</text>
+  <text x="230" y="85" font-size="14" fill="#111827" font-family="monospace">Clicks</text>
+
+  <!-- random highlight rows, misaligned numbers -->
+  <rect x="30" y="94" width="320" height="26" fill="#FBE1A6"/>
+  <text x="42" y="112" font-size="12" fill="#111827">Spring Sale</text>
+  <text x="150" y="112" font-size="12" fill="#111827">1200</text>
+  <text x="238" y="112" font-size="12" fill="#111827">45000</text>
+
+  <text x="42" y="138" font-size="12" fill="#111827">summer</text>
+  <text x="158" y="138" font-size="12" fill="#111827">$980.5</text>
+  <text x="232" y="138" font-size="12" fill="#111827">31200</text>
+
+  <rect x="30" y="146" width="320" height="26" fill="#FBE1A6"/>
+  <text x="42" y="164" font-size="12" fill="#111827">Fall Promo</text>
+  <text x="146" y="164" font-size="12" fill="#111827">2,000.00</text>
+  <text x="244" y="164" font-size="12" fill="#111827">8700</text>
+
+  <text x="42" y="190" font-size="12" fill="#111827">holidays</text>
+  <text x="152" y="190" font-size="12" fill="#111827">1500</text>
+  <text x="236" y="190" font-size="12" fill="#111827">52,000</text>
+
+  <!-- messy tab -->
+  <rect x="40" y="338" width="70" height="22" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+  <text x="52" y="353" font-size="11" fill="#374151">Sheet1</text>
+  <rect x="112" y="338" width="70" height="22" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1"/>
+  <text x="124" y="353" font-size="11" fill="#374151">Sheet3</text>
+
+  <!-- problems callouts -->
+  <text x="30" y="392" font-size="10.5" fill="#C4683A">Mixed fonts, random highlights,</text>
+  <text x="30" y="408" font-size="10.5" fill="#C4683A">numbers not aligned, unnamed tabs</text>
+
+  <!-- arrow -->
+  <path d="M368 216 h24" stroke="#374151" stroke-width="2.5" fill="none"/>
+  <path d="M392 216 l-8 -6 v12 z" fill="#374151"/>
+
+  <!-- AFTER panel -->
+  <text x="410" y="34" font-size="18" font-weight="bold" fill="#3E9B6B">AFTER</text>
+  <text x="410" y="54" font-size="12" fill="#374151">Clean, reads in seconds</text>
+
+  <rect x="410" y="66" width="320" height="300" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <!-- bold header row, one accent -->
+  <rect x="410" y="66" width="320" height="28" fill="#1E2A8E"/>
+  <text x="422" y="85" font-size="12" font-weight="bold" fill="#FFFFFF">Campaign</text>
+  <text x="600" y="85" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="end">Spend</text>
+  <text x="700" y="85" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="end">Clicks</text>
+
+  <!-- clean rows, right-aligned, consistent decimals -->
+  <text x="422" y="112" font-size="12" fill="#111827">Spring Sale</text>
+  <text x="600" y="112" font-size="12" fill="#111827" text-anchor="end">$1,200.00</text>
+  <text x="700" y="112" font-size="12" fill="#111827" text-anchor="end">45,000</text>
+
+  <rect x="410" y="120" width="320" height="26" fill="#F3F4F6"/>
+  <text x="422" y="138" font-size="12" fill="#111827">Summer</text>
+  <text x="600" y="138" font-size="12" fill="#111827" text-anchor="end">$980.50</text>
+  <text x="700" y="138" font-size="12" fill="#111827" text-anchor="end">31,200</text>
+
+  <text x="422" y="164" font-size="12" fill="#111827">Fall Promo</text>
+  <text x="600" y="164" font-size="12" fill="#111827" text-anchor="end">$2,000.00</text>
+  <text x="700" y="164" font-size="12" fill="#111827" text-anchor="end">8,700</text>
+
+  <rect x="410" y="172" width="320" height="26" fill="#F3F4F6"/>
+  <text x="422" y="190" font-size="12" fill="#111827">Holidays</text>
+  <text x="600" y="190" font-size="12" fill="#111827" text-anchor="end">$1,500.00</text>
+  <text x="700" y="190" font-size="12" fill="#111827" text-anchor="end">52,000</text>
+
+  <!-- named tab -->
+  <rect x="420" y="338" width="120" height="22" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="432" y="353" font-size="11" font-weight="bold" fill="#1E2A8E">Q3 Campaigns</text>
+
+  <text x="410" y="392" font-size="10.5" fill="#3E9B6B">One font, bold header, currency</text>
+  <text x="410" y="408" font-size="10.5" fill="#3E9B6B">aligned with matching decimals, named tab</text>
+</svg>
