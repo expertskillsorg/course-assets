@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Arial, sans-serif">
+  <rect width="640" height="420" fill="#ffffff"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Five Buckets and How Money Moves</text>
+
+  <!-- Central ASSETS bucket -->
+  <rect x="245" y="170" width="150" height="90" rx="10" fill="#1E2A8E"/>
+  <text x="320" y="205" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">ASSETS</text>
+  <text x="320" y="228" text-anchor="middle" font-size="12" fill="#ffffff">what you have</text>
+  <text x="320" y="246" text-anchor="middle" font-size="12" fill="#ffffff">cash, gear, A/R</text>
+
+  <!-- INCOME top-left, arrow into assets -->
+  <rect x="40" y="70" width="150" height="80" rx="10" fill="#3E9B6B"/>
+  <text x="115" y="102" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">INCOME</text>
+  <text x="115" y="123" text-anchor="middle" font-size="12" fill="#ffffff">what you earn</text>
+  <text x="115" y="140" text-anchor="middle" font-size="12" fill="#ffffff">client payments</text>
+
+  <!-- EXPENSES top-right, arrow out of assets -->
+  <rect x="450" y="70" width="150" height="80" rx="10" fill="#C4683A"/>
+  <text x="525" y="102" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">EXPENSES</text>
+  <text x="525" y="123" text-anchor="middle" font-size="12" fill="#ffffff">what you spend</text>
+  <text x="525" y="140" text-anchor="middle" font-size="12" fill="#ffffff">software, rent</text>
+
+  <!-- LIABILITIES bottom-left, funds assets -->
+  <rect x="40" y="300" width="150" height="80" rx="10" fill="#D4AF37"/>
+  <text x="115" y="332" text-anchor="middle" font-size="16" font-weight="bold" fill="#141B5C">LIABILITIES</text>
+  <text x="115" y="353" text-anchor="middle" font-size="12" fill="#141B5C">what you owe</text>
+  <text x="115" y="370" text-anchor="middle" font-size="12" fill="#141B5C">cards, loans</text>
+
+  <!-- EQUITY bottom-right, funds assets -->
+  <rect x="450" y="300" width="150" height="80" rx="10" fill="#374151"/>
+  <text x="525" y="332" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">EQUITY</text>
+  <text x="525" y="353" text-anchor="middle" font-size="12" fill="#ffffff">what is yours</text>
+  <text x="525" y="370" text-anchor="middle" font-size="12" fill="#ffffff">your money in/out</text>
+
+  <defs>
+    <marker id="arrGreen" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L8 3 L0 6 z" fill="#3E9B6B"/></marker>
+    <marker id="arrTerra" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L8 3 L0 6 z" fill="#C4683A"/></marker>
+    <marker id="arrGold" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L8 3 L0 6 z" fill="#D4AF37"/></marker>
+    <marker id="arrGray" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L8 3 L0 6 z" fill="#374151"/></marker>
+  </defs>
+
+  <!-- income raises assets -->
+  <path d="M190 118 C 230 150, 240 175, 258 190" fill="none" stroke="#3E9B6B" stroke-width="3" marker-end="url(#arrGreen)"/>
+  <text x="212" y="165" font-size="11" fill="#3E9B6B" font-weight="bold">raises</text>
+
+  <!-- assets drained by expenses -->
+  <path d="M382 190 C 405 175, 420 150, 450 118" fill="none" stroke="#C4683A" stroke-width="3" marker-end="url(#arrTerra)"/>
+  <text x="404" y="165" font-size="11" fill="#C4683A" font-weight="bold">drains</text>
+
+  <!-- liabilities fund assets -->
+  <path d="M190 320 C 230 290, 240 270, 258 245" fill="none" stroke="#D4AF37" stroke-width="3" marker-end="url(#arrGold)"/>
+  <text x="200" y="292" font-size="11" fill="#B4901D" font-weight="bold">funds</text>
+
+  <!-- equity funds assets -->
+  <path d="M450 320 C 410 290, 400 270, 382 245" fill="none" stroke="#374151" stroke-width="3" marker-end="url(#arrGray)"/>
+  <text x="400" y="292" font-size="11" fill="#374151" font-weight="bold">funds</text>
+
+  <text x="320" y="405" text-anchor="middle" font-size="12" fill="#374151">Income and borrowing and your own money flow in; expenses flow out.</text>
+</svg>

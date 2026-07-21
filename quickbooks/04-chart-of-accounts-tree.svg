@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 520" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="860" height="520" fill="#ffffff"/>
+  <text x="430" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Chart of Accounts</text>
+  <text x="430" y="56" text-anchor="middle" font-size="13" fill="#374151">Five account types, named accounts beneath, sub-accounts only where they earn their place</text>
+
+  <!-- Root -->
+  <rect x="360" y="74" width="140" height="38" rx="6" fill="#141B5C"/>
+  <text x="430" y="98" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">Your Business</text>
+
+  <!-- connectors from root to five types -->
+  <path d="M430 112 L430 128 M110 128 L750 128 M110 128 L110 150 M270 128 L270 150 M430 128 L430 150 M590 128 L590 150 M750 128 L750 150" stroke="#D4AF37" stroke-width="2" fill="none"/>
+
+  <!-- Five type headers -->
+  <g font-size="12.5" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    <rect x="52" y="150" width="116" height="34" rx="5" fill="#1E2A8E"/><text x="110" y="172">Assets</text>
+    <rect x="212" y="150" width="116" height="34" rx="5" fill="#3E9B6B"/><text x="270" y="172">Liabilities</text>
+    <rect x="372" y="150" width="116" height="34" rx="5" fill="#C4683A"/><text x="430" y="172">Equity</text>
+    <rect x="532" y="150" width="116" height="34" rx="5" fill="#1E2A8E"/><text x="590" y="172">Income</text>
+    <rect x="692" y="150" width="116" height="34" rx="5" fill="#C4683A"/><text x="750" y="172">Expenses</text>
+  </g>
+
+  <!-- account rows helper style -->
+  <g font-size="11" fill="#111827" text-anchor="middle">
+    <!-- Assets accounts -->
+    <rect x="56" y="200" width="108" height="26" rx="4" fill="#EEF1FB" stroke="#E5E7EB"/><text x="110" y="217">Checking</text>
+    <rect x="56" y="232" width="108" height="26" rx="4" fill="#EEF1FB" stroke="#E5E7EB"/><text x="110" y="249">Inventory</text>
+    <rect x="56" y="264" width="108" height="26" rx="4" fill="#EEF1FB" stroke="#E5E7EB"/><text x="110" y="281">Equipment</text>
+
+    <!-- Liabilities accounts -->
+    <rect x="216" y="200" width="108" height="26" rx="4" fill="#EAF5EE" stroke="#E5E7EB"/><text x="270" y="217">Credit Card</text>
+    <rect x="216" y="232" width="108" height="26" rx="4" fill="#EAF5EE" stroke="#E5E7EB"/><text x="270" y="249">Sales Tax Payable</text>
+    <rect x="216" y="264" width="108" height="26" rx="4" fill="#EAF5EE" stroke="#E5E7EB"/><text x="270" y="281">Loan Payable</text>
+
+    <!-- Equity accounts -->
+    <rect x="376" y="200" width="108" height="26" rx="4" fill="#F7ECE4" stroke="#E5E7EB"/><text x="430" y="217">Owner Equity</text>
+    <rect x="376" y="232" width="108" height="26" rx="4" fill="#F7ECE4" stroke="#E5E7EB"/><text x="430" y="249">Owner Draws</text>
+
+    <!-- Income accounts -->
+    <rect x="536" y="200" width="108" height="26" rx="4" fill="#EEF1FB" stroke="#E5E7EB"/><text x="590" y="217">Product Sales</text>
+    <rect x="536" y="232" width="108" height="26" rx="4" fill="#EEF1FB" stroke="#E5E7EB"/><text x="590" y="249">Shipping Income</text>
+
+    <!-- Expenses accounts -->
+    <rect x="696" y="200" width="108" height="26" rx="4" fill="#F7ECE4" stroke="#E5E7EB"/><text x="750" y="217">Materials</text>
+    <rect x="696" y="232" width="108" height="26" rx="4" fill="#F7ECE4" stroke="#E5E7EB"/><text x="750" y="249">Advertising</text>
+    <rect x="696" y="264" width="108" height="26" rx="4" fill="#D4AF37" stroke="#E5E7EB"/><text x="750" y="281" font-weight="bold">Selling Fees</text>
+  </g>
+
+  <!-- connector lines type -> accounts (short stubs) -->
+  <g stroke="#E5E7EB" stroke-width="1.5">
+    <path d="M110 184 L110 200"/><path d="M270 184 L270 200"/><path d="M430 184 L430 200"/><path d="M590 184 L590 200"/><path d="M750 184 L750 200"/>
+  </g>
+
+  <!-- Sub-accounts under Selling Fees -->
+  <path d="M750 290 L750 320 M700 320 L800 320 M700 320 L700 340 M800 320 L800 340" stroke="#D4AF37" stroke-width="2" fill="none"/>
+  <g font-size="10.5" fill="#111827" text-anchor="middle">
+    <rect x="648" y="340" width="104" height="26" rx="4" fill="#FBF3DC" stroke="#D4AF37"/><text x="700" y="357">Etsy Fees</text>
+    <rect x="756" y="340" width="104" height="26" rx="4" fill="#FBF3DC" stroke="#D4AF37"/><text x="808" y="357">Shopify Fees</text>
+  </g>
+  <text x="754" y="392" text-anchor="middle" font-size="11" font-style="italic" fill="#374151">Sub-accounts: one parent total,</text>
+  <text x="754" y="408" text-anchor="middle" font-size="11" font-style="italic" fill="#374151">detail underneath when you expand</text>
+
+  <!-- legend -->
+  <rect x="52" y="440" width="620" height="56" rx="6" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <text x="68" y="462" font-size="12" font-weight="bold" fill="#141B5C">Read it top to bottom:</text>
+  <text x="68" y="482" font-size="12" fill="#374151">Business → five account types → a lean set of named accounts → a few sub-accounts only where a breakdown helps.</text>
+</svg>

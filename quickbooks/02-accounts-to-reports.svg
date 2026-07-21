@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 440" font-family="Arial, sans-serif">
+  <rect width="660" height="440" fill="#ffffff"/>
+  <text x="330" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">How the Five Types Feed the Three Reports</text>
+
+  <text x="120" y="66" text-anchor="middle" font-size="13" font-weight="bold" fill="#374151">FIVE ACCOUNT TYPES</text>
+  <text x="530" y="66" text-anchor="middle" font-size="13" font-weight="bold" fill="#374151">THREE CORE REPORTS</text>
+
+  <!-- Five types (left) -->
+  <g>
+    <rect x="40" y="86" width="160" height="46" rx="8" fill="#3E9B6B"/><text x="120" y="114" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">Income</text>
+    <rect x="40" y="142" width="160" height="46" rx="8" fill="#C4683A"/><text x="120" y="170" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">Expenses</text>
+    <rect x="40" y="198" width="160" height="46" rx="8" fill="#1E2A8E"/><text x="120" y="226" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">Assets</text>
+    <rect x="40" y="254" width="160" height="46" rx="8" fill="#D4AF37"/><text x="120" y="282" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Liabilities</text>
+    <rect x="40" y="310" width="160" height="46" rx="8" fill="#374151"/><text x="120" y="338" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">Equity</text>
+  </g>
+
+  <!-- Three reports (right) -->
+  <g>
+    <rect x="440" y="90" width="180" height="70" rx="10" fill="#ffffff" stroke="#1E2A8E" stroke-width="2.5"/>
+    <text x="530" y="120" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">Profit &amp; Loss</text>
+    <text x="530" y="142" text-anchor="middle" font-size="11" fill="#374151">did I make money?</text>
+
+    <rect x="440" y="185" width="180" height="70" rx="10" fill="#ffffff" stroke="#1E2A8E" stroke-width="2.5"/>
+    <text x="530" y="215" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">Balance Sheet</text>
+    <text x="530" y="237" text-anchor="middle" font-size="11" fill="#374151">what is my position?</text>
+
+    <rect x="440" y="280" width="180" height="70" rx="10" fill="#ffffff" stroke="#3E9B6B" stroke-width="2.5"/>
+    <text x="530" y="310" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E9B6B">Cash Flow</text>
+    <text x="530" y="332" text-anchor="middle" font-size="11" fill="#374151">where did cash go?</text>
+  </g>
+
+  <defs>
+    <marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6 z" fill="#9CA3AF"/></marker>
+  </defs>
+
+  <!-- income & expenses -> P&L -->
+  <path d="M200 109 C 320 109, 340 120, 440 122" fill="none" stroke="#9CA3AF" stroke-width="2.5" marker-end="url(#a)"/>
+  <path d="M200 165 C 320 150, 340 130, 440 128" fill="none" stroke="#9CA3AF" stroke-width="2.5" marker-end="url(#a)"/>
+
+  <!-- assets, liabilities, equity -> Balance Sheet -->
+  <path d="M200 221 C 320 221, 340 218, 440 216" fill="none" stroke="#9CA3AF" stroke-width="2.5" marker-end="url(#a)"/>
+  <path d="M200 277 C 320 260, 340 235, 440 222" fill="none" stroke="#9CA3AF" stroke-width="2.5" marker-end="url(#a)"/>
+  <path d="M200 333 C 320 300, 340 250, 440 228" fill="none" stroke="#9CA3AF" stroke-width="2.5" marker-end="url(#a)"/>
+
+  <!-- assets movement -> Cash Flow -->
+  <path d="M200 233 C 330 320, 360 315, 440 312" fill="none" stroke="#3E9B6B" stroke-width="2.5" stroke-dasharray="5 4" marker-end="url(#a)"/>
+  <text x="300" y="360" text-anchor="middle" font-size="11" fill="#3E9B6B">cash movement pulls from all buckets</text>
+
+  <text x="330" y="410" text-anchor="middle" font-size="12" fill="#374151">Every report is the same five buckets, rearranged for a different question.</text>
+</svg>

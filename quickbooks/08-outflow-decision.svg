@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Arial, sans-serif">
+  <rect width="640" height="360" fill="#ffffff"/>
+  <text x="320" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#141B5C">Which outflow type fits the situation?</text>
+
+  <!-- Start node -->
+  <rect x="220" y="54" width="200" height="46" rx="10" fill="#1E2A8E"/>
+  <text x="320" y="76" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Money going out</text>
+  <text x="320" y="92" text-anchor="middle" font-size="12" fill="#ffffff">to a vendor</text>
+
+  <!-- Question diamond -->
+  <polygon points="320,120 448,168 320,216 192,168" fill="#D4AF37"/>
+  <text x="320" y="164" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Has the money</text>
+  <text x="320" y="180" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">already left?</text>
+
+  <!-- connector start to diamond -->
+  <line x1="320" y1="100" x2="320" y2="120" stroke="#374151" stroke-width="2"/>
+
+  <!-- YES branch left -->
+  <line x1="192" y1="168" x2="120" y2="168" stroke="#3E9B6B" stroke-width="2"/>
+  <line x1="120" y1="168" x2="120" y2="250" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="150" y="160" text-anchor="middle" font-size="12" font-weight="bold" fill="#3E9B6B">YES, paid now</text>
+
+  <!-- NO branch right -->
+  <line x1="448" y1="168" x2="520" y2="168" stroke="#C4683A" stroke-width="2"/>
+  <line x1="520" y1="168" x2="520" y2="250" stroke="#C4683A" stroke-width="2"/>
+  <text x="490" y="160" text-anchor="middle" font-size="12" font-weight="bold" fill="#C4683A">NO, owe it</text>
+
+  <!-- Expense box -->
+  <rect x="30" y="250" width="170" height="80" rx="8" fill="#ffffff" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="115" y="274" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Expense</text>
+  <text x="115" y="294" text-anchor="middle" font-size="11" fill="#374151">Paid by card or bank.</text>
+  <text x="115" y="310" text-anchor="middle" font-size="11" fill="#374151">Rosa's market eggs.</text>
+  <text x="115" y="324" text-anchor="middle" font-size="11" fill="#374151">Most feed items.</text>
+
+  <!-- Check box -->
+  <rect x="215" y="250" width="170" height="80" rx="8" fill="#ffffff" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="300" y="274" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Check</text>
+  <text x="300" y="294" text-anchor="middle" font-size="11" fill="#374151">Paid by paper check.</text>
+  <text x="300" y="310" text-anchor="middle" font-size="11" fill="#374151">Tracks the check</text>
+  <text x="300" y="324" text-anchor="middle" font-size="11" fill="#374151">number until it clears.</text>
+
+  <!-- connector from YES vertical to both boxes -->
+  <line x1="120" y1="250" x2="120" y2="240" stroke="#3E9B6B" stroke-width="2"/>
+  <line x1="115" y1="240" x2="300" y2="240" stroke="#3E9B6B" stroke-width="2"/>
+  <line x1="115" y1="240" x2="115" y2="250" stroke="#3E9B6B" stroke-width="2"/>
+  <line x1="300" y1="240" x2="300" y2="250" stroke="#3E9B6B" stroke-width="2"/>
+
+  <!-- Bill box -->
+  <rect x="435" y="250" width="170" height="80" rx="8" fill="#ffffff" stroke="#C4683A" stroke-width="2"/>
+  <text x="520" y="274" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Bill</text>
+  <text x="520" y="294" text-anchor="middle" font-size="11" fill="#374151">Owe now, pay later.</text>
+  <text x="520" y="310" text-anchor="middle" font-size="11" fill="#374151">Rosa's flour, Net 30.</text>
+  <text x="520" y="324" text-anchor="middle" font-size="11" fill="#374151">No cash moves yet.</text>
+  <line x1="520" y1="250" x2="520" y2="250" stroke="#C4683A" stroke-width="2"/>
+</svg>

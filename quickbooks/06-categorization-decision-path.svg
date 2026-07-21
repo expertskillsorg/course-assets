@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+  <rect width="720" height="560" fill="#ffffff"/>
+
+  <!-- Start -->
+  <rect x="250" y="24" width="220" height="52" rx="8" fill="#141B5C"/>
+  <text x="360" y="55" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="bold">Money left the account</text>
+
+  <!-- Q1 diamond -->
+  <polygon points="360,104 486,158 360,212 234,158" fill="#1E2A8E"/>
+  <text x="360" y="153" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="bold">Was it a</text>
+  <text x="360" y="172" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="bold">business cost?</text>
+
+  <!-- Q1 No branch -->
+  <line x1="486" y1="158" x2="600" y2="158" stroke="#374151" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="543" y="149" text-anchor="middle" fill="#374151" font-size="13" font-weight="bold">No</text>
+  <rect x="558" y="132" width="150" height="52" rx="8" fill="#C4683A"/>
+  <text x="633" y="156" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="bold">Personal /</text>
+  <text x="633" y="173" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="bold">owner draw</text>
+
+  <!-- Q1 Yes to Q2 -->
+  <line x1="360" y1="212" x2="360" y2="248" stroke="#374151" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="376" y="234" text-anchor="middle" fill="#374151" font-size="13" font-weight="bold">Yes</text>
+
+  <!-- Q2 diamond -->
+  <polygon points="360,248 496,306 360,364 224,306" fill="#1E2A8E"/>
+  <text x="360" y="301" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="bold">Is it an expense</text>
+  <text x="360" y="320" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="bold">at all?</text>
+
+  <!-- Q2 No branch -->
+  <line x1="496" y1="306" x2="600" y2="306" stroke="#374151" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="548" y="297" text-anchor="middle" fill="#374151" font-size="13" font-weight="bold">No</text>
+  <rect x="558" y="272" width="152" height="68" rx="8" fill="#D4AF37"/>
+  <text x="634" y="298" text-anchor="middle" fill="#141B5C" font-size="13" font-weight="bold">Transfer, asset,</text>
+  <text x="634" y="315" text-anchor="middle" fill="#141B5C" font-size="13" font-weight="bold">or loan</text>
+  <text x="634" y="332" text-anchor="middle" fill="#141B5C" font-size="13" font-weight="bold">principal</text>
+
+  <!-- Q2 Yes down -->
+  <line x1="360" y1="364" x2="360" y2="400" stroke="#374151" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="376" y="386" text-anchor="middle" fill="#374151" font-size="13" font-weight="bold">Yes</text>
+
+  <!-- Q3 -->
+  <rect x="250" y="400" width="220" height="52" rx="8" fill="#374151"/>
+  <text x="360" y="431" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="bold">What was it FOR?</text>
+
+  <line x1="360" y1="452" x2="360" y2="488" stroke="#374151" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- End -->
+  <rect x="230" y="488" width="260" height="52" rx="8" fill="#3E9B6B"/>
+  <text x="360" y="519" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="bold">Choose the matching category</text>
+</svg>
