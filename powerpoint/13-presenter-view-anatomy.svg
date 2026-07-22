@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="480" fill="#141B5C"/>
+  <text x="24" y="34" fill="#FFFFFF" font-size="20" font-weight="bold">Presenter View (only you see this)</text>
+
+  <!-- Timer / clock bar -->
+  <rect x="24" y="54" width="712" height="40" rx="4" fill="#1E2A8E"/>
+  <text x="44" y="80" fill="#D4AF37" font-size="18" font-weight="bold">00:04:12</text>
+  <text x="150" y="80" fill="#E5E7EB" font-size="13">Elapsed timer</text>
+  <text x="660" y="80" fill="#FFFFFF" font-size="15">3:47 PM</text>
+  <text x="560" y="80" fill="#E5E7EB" font-size="13">Clock</text>
+
+  <!-- Current slide (large) -->
+  <rect x="24" y="108" width="410" height="250" rx="4" fill="#FFFFFF"/>
+  <text x="44" y="150" fill="#111827" font-size="17" font-weight="bold">Q3 revenue beat plan by 12%</text>
+  <rect x="44" y="170" width="300" height="10" rx="3" fill="#3E9B6B"/>
+  <rect x="44" y="190" width="230" height="10" rx="3" fill="#E5E7EB"/>
+  <rect x="44" y="210" width="260" height="10" rx="3" fill="#E5E7EB"/>
+  <rect x="300" y="250" width="110" height="90" rx="4" fill="#1E2A8E"/>
+  <text x="24" y="380" fill="#D4AF37" font-size="13" font-weight="bold">Current slide (what the audience sees)</text>
+
+  <!-- Next slide preview -->
+  <rect x="454" y="108" width="282" height="120" rx="4" fill="#FFFFFF"/>
+  <text x="470" y="134" fill="#111827" font-size="12" font-weight="bold">Next: Costs held flat</text>
+  <rect x="470" y="146" width="180" height="7" rx="2" fill="#C4683A"/>
+  <rect x="470" y="160" width="140" height="7" rx="2" fill="#E5E7EB"/>
+  <rect x="470" y="174" width="200" height="7" rx="2" fill="#E5E7EB"/>
+  <text x="454" y="248" fill="#D4AF37" font-size="13" font-weight="bold">Next slide preview</text>
+
+  <!-- Notes pane -->
+  <rect x="454" y="268" width="282" height="140" rx="4" fill="#374151"/>
+  <text x="470" y="292" fill="#FFFFFF" font-size="12" font-weight="bold">Speaker notes</text>
+  <rect x="470" y="304" width="250" height="6" rx="2" fill="#9CA3AF"/>
+  <rect x="470" y="318" width="250" height="6" rx="2" fill="#9CA3AF"/>
+  <rect x="470" y="332" width="210" height="6" rx="2" fill="#9CA3AF"/>
+  <rect x="470" y="346" width="240" height="6" rx="2" fill="#9CA3AF"/>
+  <text x="454" y="428" fill="#D4AF37" font-size="13" font-weight="bold">Your notes (invisible to them)</text>
+
+  <!-- Toolbar -->
+  <rect x="24" y="442" width="712" height="30" rx="4" fill="#1E2A8E"/>
+  <circle cx="60" cy="457" r="9" fill="#D4AF37"/>
+  <circle cx="110" cy="457" r="9" fill="#3E9B6B"/>
+  <circle cx="160" cy="457" r="9" fill="#C4683A"/>
+  <circle cx="210" cy="457" r="9" fill="#E5E7EB"/>
+  <text x="240" y="462" fill="#E5E7EB" font-size="12">Pen / laser / See All Slides / Zoom / Black screen controls</text>
+</svg>

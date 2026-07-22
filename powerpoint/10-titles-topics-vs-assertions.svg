@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 500" font-family="Arial, sans-serif">
+  <rect width="860" height="500" fill="#FFFFFF"/>
+  <text x="430" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#141B5C">The Same Deck, Two Ways to Title It</text>
+
+  <!-- LEFT column: topics -->
+  <text x="215" y="76" text-anchor="middle" font-size="15" font-weight="bold" fill="#C4683A">Topic titles</text>
+  <text x="215" y="95" text-anchor="middle" font-size="12" fill="#6B7280">read them down: no argument</text>
+
+  <g font-size="14" fill="#374151">
+    <rect x="40" y="110" width="350" height="46" rx="4" fill="#FBEEE7" stroke="#E5E7EB"/>
+    <text x="60" y="138" fill="#374151">Q3 Results</text>
+    <rect x="40" y="166" width="350" height="46" rx="4" fill="#FBEEE7" stroke="#E5E7EB"/>
+    <text x="60" y="194" fill="#374151">Cash Position</text>
+    <rect x="40" y="222" width="350" height="46" rx="4" fill="#FBEEE7" stroke="#E5E7EB"/>
+    <text x="60" y="250" fill="#374151">Market Overview</text>
+    <rect x="40" y="278" width="350" height="46" rx="4" fill="#FBEEE7" stroke="#E5E7EB"/>
+    <text x="60" y="306" fill="#374151">Expansion</text>
+    <rect x="40" y="334" width="350" height="46" rx="4" fill="#FBEEE7" stroke="#E5E7EB"/>
+    <text x="60" y="362" fill="#374151">Recommendation</text>
+  </g>
+  <text x="215" y="410" text-anchor="middle" font-size="13" font-style="italic" fill="#C4683A">A skimmer learns nothing.</text>
+
+  <!-- divider -->
+  <line x1="430" y1="105" x2="430" y2="400" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- RIGHT column: assertions -->
+  <text x="645" y="76" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E9B6B">Assertion titles</text>
+  <text x="645" y="95" text-anchor="middle" font-size="12" fill="#6B7280">read them down: the storyline</text>
+
+  <g font-size="13.5" fill="#141B5C">
+    <rect x="470" y="110" width="350" height="46" rx="4" fill="#F0F7F3" stroke="#3E9B6B"/>
+    <text x="490" y="138" font-weight="bold" fill="#141B5C">Q3 revenue beat plan by 12%</text>
+    <rect x="470" y="166" width="350" height="46" rx="4" fill="#F0F7F3" stroke="#3E9B6B"/>
+    <text x="490" y="194" font-weight="bold" fill="#141B5C">Cash is the strongest in five years</text>
+    <rect x="470" y="222" width="350" height="46" rx="4" fill="#F0F7F3" stroke="#3E9B6B"/>
+    <text x="490" y="250" font-weight="bold" fill="#141B5C">Demand is growing in the West</text>
+    <rect x="470" y="278" width="350" height="46" rx="4" fill="#F0F7F3" stroke="#3E9B6B"/>
+    <text x="490" y="306" font-weight="bold" fill="#141B5C">Denver pays back in 18 months</text>
+    <rect x="470" y="334" width="350" height="46" rx="4" fill="#F0F7F3" stroke="#3E9B6B"/>
+    <text x="490" y="362" font-weight="bold" fill="#141B5C">Approve the expansion budget now</text>
+  </g>
+
+  <!-- storyline arrow down the right -->
+  <path d="M452 118 L452 372" stroke="#D4AF37" stroke-width="3" marker-end="url(#down)"/>
+  <text x="645" y="410" text-anchor="middle" font-size="13" font-style="italic" fill="#3E9B6B">The argument tells itself.</text>
+
+  <text x="430" y="452" text-anchor="middle" font-size="14" fill="#374151">Flip-through test: read only the titles in Slide Sorter.</text>
+  <text x="430" y="474" text-anchor="middle" font-size="14" fill="#374151">If they sound like a case being made, the structure is sound.</text>
+
+  <defs>
+    <marker id="down" markerWidth="10" markerHeight="10" refX="5" refY="8" orient="auto"><path d="M0 0 L10 0 L5 9 z" fill="#D4AF37"/></marker>
+  </defs>
+</svg>

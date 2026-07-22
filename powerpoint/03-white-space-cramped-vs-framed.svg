@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Arial, sans-serif">
+  <rect width="720" height="340" fill="#FFFFFF"/>
+
+  <!-- CRAMPED -->
+  <text x="175" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">CRAMPED: fills every inch</text>
+  <rect x="30" y="45" width="290" height="245" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="40" y="72" font-size="15" font-weight="bold" fill="#111827">One partner. Every market.</text>
+  <text x="40" y="96" font-size="12" fill="#374151">We handle logistics end to end so your</text>
+  <text x="40" y="114" font-size="12" fill="#374151">team never touches a shipping label,</text>
+  <text x="40" y="132" font-size="12" fill="#374151">a customs form, or a carrier invoice.</text>
+  <rect x="40" y="146" width="120" height="60" fill="#141B5C"/>
+  <rect x="168" y="146" width="120" height="60" fill="#1E2A8E"/>
+  <rect x="40" y="214" width="248" height="26" fill="#D4AF37"/>
+  <rect x="40" y="248" width="120" height="34" fill="#3E9B6B"/>
+  <rect x="168" y="248" width="120" height="34" fill="#C4683A"/>
+
+  <!-- FRAMED -->
+  <text x="545" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">FRAMED: space carries the point</text>
+  <rect x="400" y="45" width="290" height="245" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="545" y="160" text-anchor="middle" font-size="26" font-weight="bold" fill="#1E2A8E">One partner.</text>
+  <text x="545" y="196" text-anchor="middle" font-size="26" font-weight="bold" fill="#111827">Every market.</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" font-family="Arial, sans-serif">
+  <rect width="760" height="380" fill="#FFFFFF"/>
+  <text x="380" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Design once, reuse forever</text>
+
+  <!-- Step 1: set up -->
+  <rect x="30" y="120" width="180" height="140" rx="8" fill="#1E2A8E"/>
+  <text x="120" y="152" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">1. Set up</text>
+  <text x="120" y="182" text-anchor="middle" font-size="13" fill="#D4AF37">theme colors</text>
+  <text x="120" y="204" text-anchor="middle" font-size="13" fill="#D4AF37">font pair</text>
+  <text x="120" y="226" text-anchor="middle" font-size="13" fill="#D4AF37">Slide Master</text>
+  <text x="120" y="248" text-anchor="middle" font-size="13" fill="#D4AF37">+ logo</text>
+
+  <!-- arrow -->
+  <path d="M218 190 L282 190" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#a)"/>
+
+  <!-- Step 2: save as template -->
+  <rect x="290" y="120" width="180" height="140" rx="8" fill="#3E9B6B"/>
+  <text x="380" y="150" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">2. Save as</text>
+  <text x="380" y="172" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">template</text>
+  <rect x="330" y="188" width="100" height="52" rx="4" fill="#FFFFFF"/>
+  <text x="380" y="212" text-anchor="middle" font-size="15" font-weight="bold" fill="#141B5C">.potx</text>
+  <text x="380" y="230" text-anchor="middle" font-size="11" fill="#374151">stored design</text>
+
+  <!-- arrow -->
+  <path d="M478 190 L542 190" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#a)"/>
+
+  <!-- Step 3: new decks -->
+  <text x="650" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#141B5C">3. New decks, already branded</text>
+  <g>
+    <rect x="556" y="128" width="120" height="72" rx="6" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+    <rect x="566" y="138" width="60" height="10" rx="2" fill="#1E2A8E"/>
+    <circle cx="662" cy="190" r="5" fill="#D4AF37"/>
+    <rect x="576" y="180" width="120" height="72" rx="6" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+    <rect x="586" y="190" width="60" height="10" rx="2" fill="#1E2A8E"/>
+    <circle cx="682" cy="242" r="5" fill="#D4AF37"/>
+    <rect x="596" y="232" width="120" height="72" rx="6" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+    <rect x="606" y="242" width="60" height="10" rx="2" fill="#1E2A8E"/>
+    <circle cx="702" cy="294" r="5" fill="#D4AF37"/>
+  </g>
+
+  <text x="380" y="336" text-anchor="middle" font-size="13" fill="#374151">Every new presentation inherits the theme, master, and layouts. You never start from grey again.</text>
+
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+</svg>

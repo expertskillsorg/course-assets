@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" font-family="Arial, sans-serif">
+  <rect width="720" height="440" fill="#FFFFFF"/>
+  <!-- the slide -->
+  <rect x="60" y="40" width="520" height="330" rx="6" fill="#FFFFFF" stroke="#141B5C" stroke-width="2"/>
+
+  <!-- title -->
+  <text x="90" y="90" fill="#141B5C" font-size="22" font-weight="bold">West region carried the quarter</text>
+  <line x1="90" y1="104" x2="470" y2="104" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- chart: bars -->
+  <rect x="120" y="270" width="55" height="60" fill="#9CA3AF"/>
+  <rect x="195" y="245" width="55" height="85" fill="#9CA3AF"/>
+  <rect x="270" y="180" width="55" height="150" fill="#D4AF37"/>
+  <rect x="345" y="255" width="55" height="75" fill="#9CA3AF"/>
+  <line x1="110" y1="330" x2="410" y2="330" stroke="#374151" stroke-width="1.5"/>
+  <text x="147" y="348" text-anchor="middle" fill="#374151" font-size="11">North</text>
+  <text x="222" y="348" text-anchor="middle" fill="#374151" font-size="11">East</text>
+  <text x="297" y="348" text-anchor="middle" fill="#111827" font-size="11" font-weight="bold">West</text>
+  <text x="372" y="348" text-anchor="middle" fill="#374151" font-size="11">South</text>
+
+  <!-- annotation callout -->
+  <rect x="420" y="175" width="140" height="52" rx="6" fill="#141B5C"/>
+  <text x="490" y="198" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">38% of total</text>
+  <text x="490" y="216" text-anchor="middle" fill="#D4AF37" font-size="12">up from 24%</text>
+  <path d="M420 205 L403 205" stroke="#141B5C" stroke-width="2"/>
+  <path d="M403 205 l10 -5 v10 z" fill="#141B5C"/>
+
+  <!-- labels/legend on the right -->
+  <!-- 1 title -->
+  <circle cx="632" cy="82" r="12" fill="#1E2A8E"/>
+  <text x="632" y="87" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold">1</text>
+  <text x="612" y="120" text-anchor="middle" fill="#111827" font-size="11" font-weight="bold">Assertion</text>
+  <text x="612" y="134" text-anchor="middle" fill="#111827" font-size="11" font-weight="bold">title</text>
+  <text x="612" y="150" text-anchor="middle" fill="#374151" font-size="10">the conclusion</text>
+  <line x1="600" y1="82" x2="470" y2="82" stroke="#1E2A8E" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- 2 chart -->
+  <circle cx="632" cy="250" r="12" fill="#3E9B6B"/>
+  <text x="632" y="255" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold">2</text>
+  <text x="632" y="288" text-anchor="middle" fill="#111827" font-size="11" font-weight="bold">Clean chart</text>
+  <text x="632" y="303" text-anchor="middle" fill="#374151" font-size="10">the evidence,</text>
+  <text x="632" y="316" text-anchor="middle" fill="#374151" font-size="10">accent on key bar</text>
+  <line x1="620" y1="250" x2="330" y2="250" stroke="#3E9B6B" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- 3 annotation -->
+  <circle cx="632" cy="400" r="12" fill="#C4683A"/>
+  <text x="632" y="405" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold">3</text>
+  <text x="360" y="398" text-anchor="middle" fill="#111827" font-size="11" font-weight="bold">Annotation — the "so what"</text>
+  <text x="360" y="414" text-anchor="middle" fill="#374151" font-size="10">one short note beside the element that matters</text>
+  <line x1="620" y1="400" x2="490" y2="230" stroke="#C4683A" stroke-width="1" stroke-dasharray="4 3"/>
+</svg>

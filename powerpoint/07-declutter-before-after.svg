@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Arial, sans-serif">
+  <rect width="720" height="380" fill="#FFFFFF"/>
+
+  <!-- BEFORE -->
+  <text x="180" y="28" text-anchor="middle" fill="#C4683A" font-size="15" font-weight="bold">BEFORE — 11 elements</text>
+  <!-- chart border + background -->
+  <rect x="40" y="45" width="280" height="250" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1.5"/>
+  <text x="180" y="66" text-anchor="middle" fill="#374151" font-size="12">Revenue 2023–2026</text>
+  <!-- gridlines -->
+  <line x1="70" y1="90" x2="300" y2="90" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="70" y1="130" x2="300" y2="130" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="70" y1="170" x2="300" y2="170" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="70" y1="210" x2="300" y2="210" stroke="#D1D5DB" stroke-width="1"/>
+  <!-- value axis -->
+  <line x1="70" y1="85" x2="70" y2="250" stroke="#374151" stroke-width="1"/>
+  <text x="63" y="93" text-anchor="end" fill="#6B7280" font-size="9">40</text>
+  <text x="63" y="133" text-anchor="end" fill="#6B7280" font-size="9">30</text>
+  <text x="63" y="173" text-anchor="end" fill="#6B7280" font-size="9">20</text>
+  <text x="63" y="213" text-anchor="end" fill="#6B7280" font-size="9">10</text>
+  <!-- all-blue bars -->
+  <rect x="90" y="200" width="35" height="50" fill="#1E2A8E"/>
+  <rect x="140" y="175" width="35" height="75" fill="#1E2A8E"/>
+  <rect x="190" y="150" width="35" height="100" fill="#1E2A8E"/>
+  <rect x="240" y="120" width="35" height="130" fill="#1E2A8E"/>
+  <line x1="70" y1="250" x2="300" y2="250" stroke="#374151" stroke-width="1"/>
+  <text x="107" y="264" text-anchor="middle" fill="#6B7280" font-size="9">Q1</text>
+  <text x="157" y="264" text-anchor="middle" fill="#6B7280" font-size="9">Q2</text>
+  <text x="207" y="264" text-anchor="middle" fill="#6B7280" font-size="9">Q3</text>
+  <text x="257" y="264" text-anchor="middle" fill="#6B7280" font-size="9">Q4</text>
+  <!-- legend -->
+  <rect x="90" y="278" width="10" height="10" fill="#1E2A8E"/>
+  <text x="105" y="287" fill="#6B7280" font-size="9">Revenue</text>
+
+  <!-- arrow -->
+  <path d="M340 170 H380" stroke="#141B5C" stroke-width="3" fill="none"/>
+  <path d="M380 170 l-10 -6 v12 z" fill="#141B5C"/>
+
+  <!-- AFTER -->
+  <text x="540" y="28" text-anchor="middle" fill="#3E9B6B" font-size="15" font-weight="bold">AFTER — 5 elements</text>
+  <text x="540" y="62" text-anchor="middle" fill="#141B5C" font-size="14" font-weight="bold">Revenue doubled in three years</text>
+  <!-- bars: gray + gold, direct labels -->
+  <rect x="430" y="200" width="45" height="50" fill="#9CA3AF"/>
+  <rect x="490" y="175" width="45" height="75" fill="#9CA3AF"/>
+  <rect x="550" y="150" width="45" height="100" fill="#9CA3AF"/>
+  <rect x="610" y="120" width="45" height="130" fill="#D4AF37"/>
+  <text x="452" y="193" text-anchor="middle" fill="#374151" font-size="11" font-weight="bold">$18</text>
+  <text x="512" y="168" text-anchor="middle" fill="#374151" font-size="11" font-weight="bold">$26</text>
+  <text x="572" y="143" text-anchor="middle" fill="#374151" font-size="11" font-weight="bold">$31</text>
+  <text x="632" y="113" text-anchor="middle" fill="#111827" font-size="11" font-weight="bold">$38</text>
+  <text x="452" y="266" text-anchor="middle" fill="#374151" font-size="11">Q1</text>
+  <text x="512" y="266" text-anchor="middle" fill="#374151" font-size="11">Q2</text>
+  <text x="572" y="266" text-anchor="middle" fill="#374151" font-size="11">Q3</text>
+  <text x="632" y="266" text-anchor="middle" fill="#111827" font-size="11" font-weight="bold">Q4</text>
+
+  <text x="360" y="330" text-anchor="middle" fill="#374151" font-size="12">Gridlines, border, background, value axis, and legend removed. One accent bar carries the point.</text>
+</svg>

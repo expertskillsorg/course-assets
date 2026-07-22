@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Arial, sans-serif">
+  <rect width="640" height="400" fill="#FFFFFF"/>
+  <text x="320" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">The invisible structure under a clean slide</text>
+
+  <!-- slide frame -->
+  <rect x="40" y="45" width="560" height="320" fill="#FFFFFF" stroke="#111827" stroke-width="2"/>
+
+  <!-- margin band (shaded) -->
+  <path d="M40 45 h560 v320 h-560 z M80 85 v240 h480 v-240 z" fill="#E5E7EB" fill-rule="evenodd" opacity="0.55"/>
+  <rect x="80" y="85" width="480" height="240" fill="none" stroke="#C4683A" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="88" y="102" font-size="11" fill="#C4683A">margin: no object crosses this line</text>
+
+  <!-- guide lines -->
+  <line x1="320" y1="85" x2="320" y2="325" stroke="#3E9B6B" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <line x1="80" y1="150" x2="560" y2="150" stroke="#3E9B6B" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <line x1="80" y1="255" x2="560" y2="255" stroke="#3E9B6B" stroke-width="1.5" stroke-dasharray="6 5"/>
+
+  <!-- objects snapped to guides -->
+  <rect x="100" y="118" width="180" height="26" fill="#1E2A8E"/>
+  <rect x="360" y="118" width="180" height="26" fill="#1E2A8E"/>
+
+  <rect x="100" y="170" width="120" height="70" fill="#141B5C"/>
+  <rect x="260" y="170" width="120" height="70" fill="#141B5C"/>
+  <rect x="420" y="170" width="120" height="70" fill="#141B5C"/>
+
+  <rect x="100" y="272" width="440" height="22" fill="#D4AF37"/>
+
+  <!-- guide label -->
+  <text x="326" y="345" font-size="11" fill="#3E9B6B">shared guides: objects align to these</text>
+</svg>

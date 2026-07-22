@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#FFFFFF"/>
+  <text x="24" y="30" font-size="17" font-weight="bold" fill="#141B5C">Anatomy of a "Title and Content" layout</text>
+
+  <!-- Slide frame -->
+  <rect x="24" y="50" width="404" height="300" rx="4" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- Title placeholder -->
+  <rect x="44" y="70" width="364" height="52" rx="3" fill="#F3F4F6" stroke="#1E2A8E" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="60" y="102" font-size="20" font-weight="bold" fill="#1E2A8E">Title placeholder</text>
+
+  <!-- Content placeholder -->
+  <rect x="44" y="134" width="364" height="164" rx="3" fill="#F3F4F6" stroke="#1E2A8E" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="60" y="158" font-size="13" fill="#374151">Content placeholder</text>
+  <circle cx="66" cy="184" r="3" fill="#3E9B6B"/>
+  <rect x="78" y="181" width="230" height="7" rx="3" fill="#D1D5DB"/>
+  <circle cx="66" cy="208" r="3" fill="#3E9B6B"/>
+  <rect x="78" y="205" width="270" height="7" rx="3" fill="#D1D5DB"/>
+  <circle cx="90" cy="232" r="2.5" fill="#D4AF37"/>
+  <rect x="102" y="229" width="180" height="6" rx="3" fill="#E5E7EB"/>
+  <circle cx="66" cy="256" r="3" fill="#3E9B6B"/>
+  <rect x="78" y="253" width="210" height="7" rx="3" fill="#D1D5DB"/>
+
+  <!-- Footer placeholders -->
+  <rect x="44" y="312" width="96" height="22" rx="3" fill="#F3F4F6" stroke="#C4683A" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="92" y="327" font-size="10" fill="#C4683A" text-anchor="middle">Date</text>
+  <rect x="176" y="312" width="100" height="22" rx="3" fill="#F3F4F6" stroke="#C4683A" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="226" y="327" font-size="10" fill="#C4683A" text-anchor="middle">Footer</text>
+  <rect x="312" y="312" width="96" height="22" rx="3" fill="#F3F4F6" stroke="#C4683A" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="360" y="327" font-size="10" fill="#C4683A" text-anchor="middle">Slide number</text>
+
+  <!-- Leader lines to labels -->
+  <line x1="408" y1="96" x2="470" y2="96" stroke="#D4AF37" stroke-width="1.5"/>
+  <circle cx="470" cy="96" r="3" fill="#D4AF37"/>
+  <text x="482" y="92" font-size="12" font-weight="bold" fill="#111827">Holds the slide's one idea</text>
+  <text x="482" y="108" font-size="11" fill="#374151">Sized and placed by the layout</text>
+
+  <line x1="408" y1="210" x2="470" y2="210" stroke="#D4AF37" stroke-width="1.5"/>
+  <circle cx="470" cy="210" r="3" fill="#D4AF37"/>
+  <text x="482" y="206" font-size="12" font-weight="bold" fill="#111827">Bulleted body text</text>
+  <text x="482" y="222" font-size="11" fill="#374151">Indent tiers set the list levels</text>
+
+  <line x1="408" y1="323" x2="470" y2="323" stroke="#D4AF37" stroke-width="1.5"/>
+  <circle cx="470" cy="323" r="3" fill="#D4AF37"/>
+  <text x="482" y="319" font-size="12" font-weight="bold" fill="#111827">Footer placeholders</text>
+  <text x="482" y="335" font-size="11" fill="#374151">Repeat on every slide</text>
+
+  <!-- Note -->
+  <text x="482" y="270" font-size="11" fill="#374151">Every dotted box is a</text>
+  <text x="482" y="285" font-size="11" fill="#374151">placeholder. Change the theme</text>
+  <text x="482" y="300" font-size="11" fill="#374151">and all of them restyle at once.</text>
+</svg>

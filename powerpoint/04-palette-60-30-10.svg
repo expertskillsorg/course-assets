@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Arial, sans-serif">
+  <rect width="720" height="400" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="360" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#374151">The 60-30-10 split</text>
+
+  <!-- Proportional swatch bar -->
+  <rect x="40" y="50" width="384" height="60" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="424" y="50" width="192" height="60" fill="#141B5C"/>
+  <rect x="616" y="50" width="64" height="60" fill="#D4AF37"/>
+  <text x="232" y="86" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">60% neutral base</text>
+  <text x="520" y="86" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">30% support</text>
+  <text x="648" y="132" text-anchor="middle" font-size="13" font-weight="bold" fill="#D4AF37">10%</text>
+  <text x="648" y="148" text-anchor="middle" font-size="12" fill="#374151">accent</text>
+
+  <!-- Applied-to-slide mockup -->
+  <text x="360" y="190" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">Applied to an all-hands slide</text>
+
+  <!-- slide frame = 60% neutral background -->
+  <rect x="180" y="205" width="360" height="180" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="2"/>
+  <!-- 30% support: header + footer bars -->
+  <rect x="180" y="205" width="360" height="34" fill="#141B5C"/>
+  <rect x="180" y="367" width="360" height="18" fill="#141B5C"/>
+  <text x="196" y="228" font-size="14" font-weight="bold" fill="#FFFFFF">Headcount growth</text>
+  <!-- 10% accent: headline number -->
+  <text x="205" y="320" font-size="52" font-weight="bold" fill="#D4AF37">+18%</text>
+  <text x="360" y="308" font-size="14" fill="#374151">year over year,</text>
+  <text x="360" y="328" font-size="14" fill="#374151">across all teams</text>
+
+  <!-- labels with leader lines -->
+  <text x="150" y="150" text-anchor="end" font-size="12" fill="#6B7280">background = 60% neutral</text>
+  <line x1="152" y1="146" x2="210" y2="270" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <text x="600" y="230" font-size="12" fill="#6B7280">bars = 30% support</text>
+  <line x1="598" y1="226" x2="530" y2="222" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <text x="600" y="315" font-size="12" fill="#6B7280">number = 10% accent</text>
+  <line x1="598" y1="311" x2="290" y2="305" stroke="#E5E7EB" stroke-width="1.5"/>
+</svg>

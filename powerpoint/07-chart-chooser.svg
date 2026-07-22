@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" font-family="Arial, sans-serif">
+  <rect width="720" height="440" fill="#FFFFFF"/>
+  <!-- Start box -->
+  <rect x="230" y="24" width="260" height="58" rx="8" fill="#1E2A8E"/>
+  <text x="360" y="49" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold">Say your point in one sentence</text>
+  <text x="360" y="70" text-anchor="middle" fill="#D4AF37" font-size="12">What relationship are you showing?</text>
+  <!-- connectors -->
+  <path d="M360 82 V108" stroke="#374151" stroke-width="2" fill="none"/>
+  <path d="M110 108 H610" stroke="#374151" stroke-width="2" fill="none"/>
+  <path d="M110 108 V140 M290 108 V140 M470 108 V140 M610 108 V140" stroke="#374151" stroke-width="2" fill="none"/>
+
+  <!-- Branch 1: Line -->
+  <rect x="30" y="140" width="160" height="52" rx="6" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <text x="110" y="163" text-anchor="middle" fill="#111827" font-size="12" font-weight="bold">Change over time</text>
+  <text x="110" y="181" text-anchor="middle" fill="#374151" font-size="11">"Revenue grew each Q"</text>
+  <rect x="40" y="208" width="140" height="120" rx="6" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="110" y="228" text-anchor="middle" fill="#1E2A8E" font-size="14" font-weight="bold">LINE</text>
+  <polyline points="55,315 85,300 115,285 145,255 165,245" fill="none" stroke="#3E9B6B" stroke-width="3"/>
+  <line x1="52" y1="245" x2="52" y2="320" stroke="#374151" stroke-width="1.5"/>
+  <line x1="52" y1="320" x2="168" y2="320" stroke="#374151" stroke-width="1.5"/>
+
+  <!-- Branch 2: Column/Bar -->
+  <rect x="210" y="140" width="160" height="52" rx="6" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <text x="290" y="163" text-anchor="middle" fill="#111827" font-size="12" font-weight="bold">Compare items</text>
+  <text x="290" y="181" text-anchor="middle" fill="#374151" font-size="11">"West beat East"</text>
+  <rect x="220" y="208" width="140" height="120" rx="6" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="290" y="228" text-anchor="middle" fill="#1E2A8E" font-size="14" font-weight="bold">COLUMN / BAR</text>
+  <rect x="240" y="285" width="20" height="35" fill="#9CA3AF"/>
+  <rect x="270" y="265" width="20" height="55" fill="#9CA3AF"/>
+  <rect x="300" y="248" width="20" height="72" fill="#D4AF37"/>
+  <rect x="330" y="278" width="20" height="42" fill="#9CA3AF"/>
+  <line x1="235" y1="320" x2="355" y2="320" stroke="#374151" stroke-width="1.5"/>
+
+  <!-- Branch 3: Pie -->
+  <rect x="390" y="140" width="160" height="52" rx="6" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <text x="470" y="163" text-anchor="middle" fill="#111827" font-size="12" font-weight="bold">Parts of a whole</text>
+  <text x="470" y="181" text-anchor="middle" fill="#374151" font-size="11">2 or 3 slices only</text>
+  <rect x="400" y="208" width="140" height="120" rx="6" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="470" y="228" text-anchor="middle" fill="#1E2A8E" font-size="14" font-weight="bold">PIE</text>
+  <circle cx="470" cy="285" r="38" fill="#9CA3AF"/>
+  <path d="M470 285 L470 247 A38 38 0 0 1 503 304 Z" fill="#D4AF37"/>
+
+  <!-- Branch 4: Big number -->
+  <rect x="570" y="140" width="120" height="52" rx="6" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <text x="630" y="163" text-anchor="middle" fill="#111827" font-size="12" font-weight="bold">One figure</text>
+  <text x="630" y="181" text-anchor="middle" fill="#374151" font-size="11">"Up 18%"</text>
+  <rect x="580" y="208" width="110" height="120" rx="6" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="635" y="226" text-anchor="middle" fill="#1E2A8E" font-size="13" font-weight="bold">BIG NUMBER</text>
+  <text x="635" y="290" text-anchor="middle" fill="#C4683A" font-size="34" font-weight="bold">18%</text>
+  <text x="635" y="312" text-anchor="middle" fill="#374151" font-size="11">not a one-bar chart</text>
+
+  <text x="360" y="360" text-anchor="middle" fill="#141B5C" font-size="13" font-weight="bold">Skip 3D, radar, doughnut, and exploded pies. They trade clarity for decoration.</text>
+  <line x1="360" y1="140" x2="360" y2="140" stroke="none"/>
+  <path d="M110 128 V140 M290 128 V140 M470 128 V140 M630 128 V140" stroke="#374151" stroke-width="2" fill="none"/>
+</svg>

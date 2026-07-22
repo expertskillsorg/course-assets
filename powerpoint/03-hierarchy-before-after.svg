@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Arial, sans-serif">
+  <rect width="720" height="340" fill="#FFFFFF"/>
+
+  <!-- BEFORE slide -->
+  <text x="175" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">BEFORE: flat, no focal point</text>
+  <rect x="30" y="45" width="290" height="245" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="50" y="90" font-size="16" fill="#111827">We cut your shipping</text>
+  <text x="50" y="118" font-size="16" fill="#111827">costs by 40% across</text>
+  <text x="50" y="146" font-size="16" fill="#111827">every region you</text>
+  <text x="50" y="174" font-size="16" fill="#111827">operate in today.</text>
+  <text x="50" y="216" font-size="16" fill="#111827">Rollout takes 40%</text>
+  <text x="50" y="244" font-size="16" fill="#111827">less time as well.</text>
+
+  <!-- AFTER slide -->
+  <text x="545" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">AFTER: one clear focal point</text>
+  <rect x="400" y="45" width="290" height="245" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="420" y="90" font-size="15" fill="#374151">We cut your shipping costs by</text>
+  <text x="428" y="205" font-size="118" font-weight="bold" fill="#1E2A8E">40%</text>
+  <text x="420" y="255" font-size="15" fill="#374151">across every region, from day one.</text>
+</svg>

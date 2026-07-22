@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Arial, sans-serif">
+  <rect width="720" height="360" fill="#FFFFFF"/>
+
+  <!-- AMATEUR slide -->
+  <text x="175" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#C4683A">AMATEUR: breaks the rules</text>
+  <rect x="30" y="45" width="290" height="275" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <!-- decorative mismatched title -->
+  <text x="50" y="95" font-size="30" font-weight="bold" fill="#C4683A" font-family="Georgia, serif" font-style="italic">Our Q3 All-Hands</text>
+  <!-- tiny all-caps subtitle in a third font -->
+  <text x="50" y="120" font-size="11" fill="#3E9B6B" font-family="monospace">WELCOME EVERYONE TO THE QUARTERLY UPDATE</text>
+  <!-- crammed all caps body, tiny -->
+  <text x="50" y="160" font-size="12" fill="#111827">WE GREW HEADCOUNT THIS QUARTER AND</text>
+  <text x="50" y="180" font-size="12" fill="#111827">OPENED TWO OFFICES AND LAUNCHED THREE</text>
+  <text x="50" y="200" font-size="12" fill="#111827">PRODUCTS AND HIT EVERY SINGLE TARGET WE</text>
+  <text x="50" y="220" font-size="12" fill="#111827">SET FOR OURSELVES AT THE START OF THE YEAR</text>
+  <text x="50" y="258" font-size="22" fill="#1E2A8E" font-family="Georgia, serif">3 fonts, 3 colors, 12pt caps</text>
+  <text x="50" y="292" font-size="14" fill="#C4683A" font-family="monospace" font-style="italic">unreadable from row three</text>
+
+  <!-- PROFESSIONAL slide -->
+  <text x="545" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E9B6B">PROFESSIONAL: follows the rules</text>
+  <rect x="400" y="45" width="290" height="275" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <!-- one clean sans title, sentence case, 40pt scaled -->
+  <text x="420" y="105" font-size="27" font-weight="bold" fill="#141B5C">Our Q3 all-hands</text>
+  <!-- 24pt sentence-case subtitle -->
+  <text x="420" y="140" font-size="17" fill="#374151">A quick look at the quarter</text>
+  <line x1="420" y1="160" x2="670" y2="160" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="420" y="200" font-size="16" fill="#111827">Headcount up, two offices open,</text>
+  <text x="420" y="224" font-size="16" fill="#111827">every target met.</text>
+  <!-- one accent hit -->
+  <text x="420" y="285" font-size="46" font-weight="bold" fill="#D4AF37">100%</text>
+  <text x="565" y="285" font-size="15" fill="#374151">of targets</text>
+  <text x="565" y="303" font-size="15" fill="#374151">hit</text>
+</svg>
