@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 440" font-family="Arial, sans-serif">
+  <rect width="680" height="440" fill="#FFFFFF"/>
+
+  <!-- ===== DATA SOURCE (left) ===== -->
+  <text x="110" y="34" text-anchor="middle" fill="#141B5C" font-size="13" font-weight="bold">DATA SOURCE</text>
+  <text x="110" y="50" text-anchor="middle" fill="#374151" font-size="10" font-style="italic">one row per patient</text>
+  <g>
+    <!-- table frame -->
+    <rect x="24" y="60" width="172" height="128" rx="4" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+    <!-- header row -->
+    <rect x="24" y="60" width="172" height="22" fill="#1E2A8E"/>
+    <text x="40" y="75" fill="#FFFFFF" font-size="9" font-weight="bold">FirstName</text>
+    <text x="112" y="75" fill="#FFFFFF" font-size="9" font-weight="bold">DueDate</text>
+    <!-- rows -->
+    <line x1="108" y1="60" x2="108" y2="188" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="24" y1="82" x2="196" y2="82" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="24" y1="108" x2="196" y2="108" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="24" y1="134" x2="196" y2="134" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="40" y="99" fill="#111827" font-size="10">Amara</text>
+    <text x="112" y="99" fill="#111827" font-size="10">Aug 12</text>
+    <text x="40" y="125" fill="#111827" font-size="10">David</text>
+    <text x="112" y="125" fill="#111827" font-size="10">Aug 14</text>
+    <text x="40" y="151" fill="#111827" font-size="10">Priya</text>
+    <text x="112" y="151" fill="#111827" font-size="10">Aug 19</text>
+    <text x="40" y="177" fill="#374151" font-size="10">...</text>
+    <text x="112" y="177" fill="#374151" font-size="10">...</text>
+  </g>
+
+  <!-- plus sign -->
+  <text x="228" y="130" text-anchor="middle" fill="#3E9B6B" font-size="30" font-weight="bold">+</text>
+
+  <!-- ===== MAIN DOCUMENT with fields (middle) ===== -->
+  <text x="330" y="34" text-anchor="middle" fill="#141B5C" font-size="13" font-weight="bold">MAIN DOCUMENT</text>
+  <text x="330" y="50" text-anchor="middle" fill="#374151" font-size="10" font-style="italic">written once, with field slots</text>
+  <g>
+    <rect x="262" y="60" width="136" height="176" rx="4" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+    <!-- greeting with field -->
+    <text x="276" y="86" fill="#111827" font-size="10">Dear</text>
+    <rect x="306" y="76" width="72" height="15" rx="3" fill="#D4AF37"/>
+    <text x="342" y="87" text-anchor="middle" fill="#141B5C" font-size="9" font-weight="bold">«FirstName»</text>
+    <!-- constant lines -->
+    <rect x="276" y="102" width="106" height="5" rx="2.5" fill="#E5E7EB"/>
+    <rect x="276" y="114" width="106" height="5" rx="2.5" fill="#E5E7EB"/>
+    <!-- line with field -->
+    <text x="276" y="140" fill="#111827" font-size="10">due</text>
+    <rect x="300" y="130" width="64" height="15" rx="3" fill="#D4AF37"/>
+    <text x="332" y="141" text-anchor="middle" fill="#141B5C" font-size="9" font-weight="bold">«DueDate»</text>
+    <!-- more constant lines -->
+    <rect x="276" y="156" width="106" height="5" rx="2.5" fill="#E5E7EB"/>
+    <rect x="276" y="168" width="80" height="5" rx="2.5" fill="#E5E7EB"/>
+    <rect x="276" y="196" width="60" height="5" rx="2.5" fill="#E5E7EB"/>
+    <rect x="276" y="208" width="44" height="5" rx="2.5" fill="#3E9B6B"/>
+  </g>
+
+  <!-- arrow to output -->
+  <g stroke="#141B5C" stroke-width="2.5" fill="none">
+    <path d="M410 148 L 452 148"/>
+  </g>
+  <polygon points="452,142 464,148 452,154" fill="#141B5C"/>
+  <text x="437" y="138" text-anchor="middle" fill="#374151" font-size="10" font-weight="bold">merge</text>
+
+  <!-- ===== PERSONALIZED SET (right) ===== -->
+  <text x="576" y="34" text-anchor="middle" fill="#141B5C" font-size="13" font-weight="bold">PERSONALIZED SET</text>
+  <text x="576" y="50" text-anchor="middle" fill="#374151" font-size="10" font-style="italic">one letter per row</text>
+  <!-- back letter -->
+  <rect x="514" y="78" width="120" height="150" rx="4" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <!-- middle letter -->
+  <rect x="500" y="66" width="120" height="150" rx="4" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <!-- front letter -->
+  <g>
+    <rect x="486" y="54" width="120" height="150" rx="4" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+    <text x="500" y="80" fill="#111827" font-size="10">Dear</text>
+    <text x="530" y="80" fill="#C4683A" font-size="10" font-weight="bold">Amara,</text>
+    <rect x="500" y="92" width="92" height="5" rx="2.5" fill="#E5E7EB"/>
+    <rect x="500" y="104" width="92" height="5" rx="2.5" fill="#E5E7EB"/>
+    <text x="500" y="128" fill="#111827" font-size="10">due</text>
+    <text x="524" y="128" fill="#C4683A" font-size="10" font-weight="bold">Aug 12</text>
+    <rect x="500" y="140" width="92" height="5" rx="2.5" fill="#E5E7EB"/>
+    <rect x="500" y="152" width="70" height="5" rx="2.5" fill="#E5E7EB"/>
+    <rect x="500" y="178" width="50" height="5" rx="2.5" fill="#3E9B6B"/>
+  </g>
+
+  <!-- legend -->
+  <rect x="180" y="404" width="14" height="12" rx="2" fill="#D4AF37"/>
+  <text x="200" y="414" fill="#374151" font-size="11">merge field (fills from a column)</text>
+  <rect x="430" y="404" width="14" height="12" rx="2" fill="#C4683A"/>
+  <text x="450" y="414" fill="#374151" font-size="11">personalized value</text>
+</svg>

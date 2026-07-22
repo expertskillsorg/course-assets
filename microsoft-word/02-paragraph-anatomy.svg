@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="400" fill="#FFFFFF"/>
+
+  <!-- Left margin guide -->
+  <line x1="90" y1="40" x2="90" y2="360" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="90" y="30" fill="#374151" font-size="11" text-anchor="middle">Left margin</text>
+  <!-- Right margin guide -->
+  <line x1="550" y1="40" x2="550" y2="360" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="550" y="30" fill="#374151" font-size="11" text-anchor="middle">Right margin</text>
+
+  <!-- Paragraph block (indented from both margins) -->
+  <rect x="140" y="70" width="360" height="200" fill="#F7F8FC" stroke="#1E2A8E" stroke-width="1.5"/>
+
+  <!-- Text lines: first line indented further -->
+  <line x1="185" y1="100" x2="480" y2="100" stroke="#374151" stroke-width="6" stroke-linecap="round"/>
+  <line x1="160" y1="132" x2="480" y2="132" stroke="#374151" stroke-width="6" stroke-linecap="round"/>
+  <line x1="160" y1="164" x2="480" y2="164" stroke="#374151" stroke-width="6" stroke-linecap="round"/>
+  <line x1="160" y1="196" x2="480" y2="196" stroke="#374151" stroke-width="6" stroke-linecap="round"/>
+  <!-- last line shorter + paragraph mark -->
+  <line x1="160" y1="228" x2="360" y2="228" stroke="#374151" stroke-width="6" stroke-linecap="round"/>
+  <text x="378" y="234" fill="#C4683A" font-size="22" font-weight="bold">&#182;</text>
+
+  <!-- Left indent label -->
+  <line x1="90" y1="320" x2="140" y2="320" stroke="#3E9B6B" stroke-width="2"/>
+  <line x1="90" y1="315" x2="90" y2="325" stroke="#3E9B6B" stroke-width="2"/>
+  <line x1="140" y1="315" x2="140" y2="325" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="115" y="342" fill="#3E9B6B" font-size="11" text-anchor="middle">Left indent</text>
+
+  <!-- Right indent label -->
+  <line x1="500" y1="320" x2="550" y2="320" stroke="#3E9B6B" stroke-width="2"/>
+  <line x1="500" y1="315" x2="500" y2="325" stroke="#3E9B6B" stroke-width="2"/>
+  <line x1="550" y1="315" x2="550" y2="325" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="525" y="342" fill="#3E9B6B" font-size="11" text-anchor="middle">Right indent</text>
+
+  <!-- First-line indent label -->
+  <text x="185" y="90" fill="#D4AF37" font-size="11" text-anchor="middle">First-line indent</text>
+  <line x1="160" y1="94" x2="185" y2="94" stroke="#D4AF37" stroke-width="2"/>
+
+  <!-- Line spacing label -->
+  <line x1="518" y1="132" x2="518" y2="164" stroke="#1E2A8E" stroke-width="2"/>
+  <line x1="513" y1="132" x2="523" y2="132" stroke="#1E2A8E" stroke-width="2"/>
+  <line x1="513" y1="164" x2="523" y2="164" stroke="#1E2A8E" stroke-width="2"/>
+  <text x="532" y="152" fill="#1E2A8E" font-size="11">Line spacing</text>
+
+  <!-- Space after label -->
+  <line x1="250" y1="270" x2="250" y2="300" stroke="#C4683A" stroke-width="2"/>
+  <line x1="245" y1="270" x2="255" y2="270" stroke="#C4683A" stroke-width="2"/>
+  <line x1="245" y1="300" x2="255" y2="300" stroke="#C4683A" stroke-width="2"/>
+  <text x="262" y="289" fill="#C4683A" font-size="11">Space after (the gap below, not a blank line)</text>
+
+  <!-- Paragraph mark label -->
+  <text x="392" y="234" fill="#C4683A" font-size="11">&#8592; paragraph mark stores every setting above</text>
+
+  <!-- Title -->
+  <text x="320" y="384" fill="#141B5C" font-size="13" font-weight="bold" text-anchor="middle">The anatomy of one formatted paragraph</text>
+</svg>

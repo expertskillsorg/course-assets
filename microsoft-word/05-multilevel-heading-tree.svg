@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Arial, sans-serif">
+  <rect width="640" height="400" fill="#FFFFFF"/>
+  <text x="24" y="34" font-size="17" font-weight="bold" fill="#141B5C">Numbers come from the heading level</text>
+  <text x="24" y="56" font-size="12" fill="#374151">Apply the heading style; Word draws and maintains the number.</text>
+
+  <!-- connective lines -->
+  <g stroke="#D4AF37" stroke-width="2" fill="none">
+    <path d="M52 96 V300 H92"/>
+    <path d="M132 148 V204 H172"/>
+    <path d="M52 96 V336 H92" opacity="0"/>
+    <path d="M52 300 V360 H92"/>
+  </g>
+
+  <!-- Level 1: heading 1 - item 1 -->
+  <g>
+    <rect x="52" y="76" width="470" height="40" rx="5" fill="#1E2A8E"/>
+    <text x="72" y="101" font-size="15" font-weight="bold" fill="#FFFFFF">1</text>
+    <text x="104" y="101" font-size="14" fill="#FFFFFF">Safety Overview  (Heading 1)</text>
+  </g>
+
+  <!-- Level 2: 1.1 -->
+  <g>
+    <rect x="92" y="128" width="430" height="36" rx="5" fill="#3E9B6B"/>
+    <text x="112" y="151" font-size="13" font-weight="bold" fill="#FFFFFF">1.1</text>
+    <text x="152" y="151" font-size="13" fill="#FFFFFF">Personal Equipment  (Heading 2)</text>
+  </g>
+
+  <!-- Level 3: 1.1.1 -->
+  <g>
+    <rect x="132" y="176" width="390" height="34" rx="5" fill="#C4683A"/>
+    <text x="152" y="198" font-size="12" font-weight="bold" fill="#FFFFFF">1.1.1</text>
+    <text x="200" y="198" font-size="12" fill="#FFFFFF">Eye protection  (Heading 3)</text>
+  </g>
+
+  <!-- Level 2: 1.2 -->
+  <g>
+    <rect x="92" y="222" width="430" height="36" rx="5" fill="#3E9B6B"/>
+    <text x="112" y="245" font-size="13" font-weight="bold" fill="#FFFFFF">1.2</text>
+    <text x="152" y="245" font-size="13" fill="#FFFFFF">Lockout Steps  (Heading 2)</text>
+  </g>
+
+  <!-- Level 1: item 2 -->
+  <g>
+    <rect x="52" y="316" width="470" height="40" rx="5" fill="#1E2A8E"/>
+    <text x="72" y="341" font-size="15" font-weight="bold" fill="#FFFFFF">2</text>
+    <text x="104" y="341" font-size="14" fill="#FFFFFF">Startup Procedure  (Heading 1)</text>
+  </g>
+  <!-- 2.1 -->
+  <g>
+    <path d="M92 336 V386 H132" stroke="#D4AF37" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- legend -->
+  <g>
+    <rect x="548" y="76" width="16" height="16" rx="3" fill="#1E2A8E"/>
+    <text x="570" y="89" font-size="11" fill="#374151">Level 1</text>
+    <rect x="548" y="100" width="16" height="16" rx="3" fill="#3E9B6B"/>
+    <text x="570" y="113" font-size="11" fill="#374151">Level 2</text>
+    <rect x="548" y="124" width="16" height="16" rx="3" fill="#C4683A"/>
+    <text x="570" y="137" font-size="11" fill="#374151">Level 3</text>
+  </g>
+
+  <!-- 2.1 box -->
+  <g>
+    <rect x="132" y="372" width="390" height="20" rx="4" fill="#E5E7EB"/>
+    <text x="150" y="386" font-size="11" font-weight="bold" fill="#141B5C">2.1</text>
+    <text x="184" y="386" font-size="11" fill="#374151">Power check  (Heading 2) restarts its count under section 2</text>
+  </g>
+</svg>

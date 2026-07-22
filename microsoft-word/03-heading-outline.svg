@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#FFFFFF"/>
+
+  <text x="320" y="30" fill="#141B5C" font-size="14" font-weight="bold" text-anchor="middle">Heading styles form the document outline</text>
+
+  <!-- Title -->
+  <rect x="60" y="50" width="300" height="34" rx="4" fill="#141B5C"/>
+  <text x="76" y="72" fill="#FFFFFF" font-size="14" font-weight="bold">October Minutes</text>
+  <text x="372" y="72" fill="#374151" font-size="11">Title</text>
+
+  <!-- Heading 1: Budget Review -->
+  <rect x="80" y="98" width="260" height="28" rx="4" fill="#1E2A8E"/>
+  <text x="94" y="117" fill="#FFFFFF" font-size="13" font-weight="bold">Budget Review</text>
+  <text x="352" y="117" fill="#374151" font-size="11">Heading 1</text>
+
+  <!-- Heading 2 under Budget -->
+  <rect x="120" y="132" width="220" height="24" rx="4" fill="#3E9B6B"/>
+  <text x="134" y="149" fill="#FFFFFF" font-size="12">Current balance</text>
+  <text x="352" y="149" fill="#374151" font-size="11">Heading 2</text>
+
+  <!-- Heading 1: Spring Event -->
+  <rect x="80" y="168" width="260" height="28" rx="4" fill="#1E2A8E"/>
+  <text x="94" y="187" fill="#FFFFFF" font-size="13" font-weight="bold">Spring Event</text>
+  <text x="352" y="187" fill="#374151" font-size="11">Heading 1</text>
+
+  <!-- Heading 2 under Spring Event -->
+  <rect x="120" y="202" width="220" height="24" rx="4" fill="#3E9B6B"/>
+  <text x="134" y="219" fill="#FFFFFF" font-size="12">Venue options</text>
+  <text x="352" y="219" fill="#374151" font-size="11">Heading 2</text>
+  <!-- Heading 3 under Venue -->
+  <rect x="160" y="230" width="180" height="22" rx="4" fill="#D4AF37"/>
+  <text x="174" y="246" fill="#141B5C" font-size="11">Community hall</text>
+  <text x="352" y="246" fill="#374151" font-size="11">Heading 3</text>
+
+  <!-- Heading 1: Membership -->
+  <rect x="80" y="258" width="260" height="28" rx="4" fill="#1E2A8E"/>
+  <text x="94" y="277" fill="#FFFFFF" font-size="13" font-weight="bold">Membership</text>
+  <text x="352" y="277" fill="#374151" font-size="11">Heading 1</text>
+
+  <!-- indentation guide line -->
+  <line x1="70" y1="98" x2="70" y2="286" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Navigation pane echo -->
+  <rect x="430" y="98" width="170" height="200" rx="6" fill="#F7F8FC" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="515" y="120" fill="#141B5C" font-size="12" font-weight="bold" text-anchor="middle">Navigation pane</text>
+  <line x1="444" y1="130" x2="586" y2="130" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="450" y="150" fill="#1E2A8E" font-size="12" font-weight="bold">Budget Review</text>
+  <text x="466" y="170" fill="#374151" font-size="11">Current balance</text>
+  <text x="450" y="192" fill="#1E2A8E" font-size="12" font-weight="bold">Spring Event</text>
+  <text x="466" y="212" fill="#374151" font-size="11">Venue options</text>
+  <text x="482" y="230" fill="#6B7280" font-size="10">Community hall</text>
+  <text x="450" y="252" fill="#1E2A8E" font-size="12" font-weight="bold">Membership</text>
+  <text x="515" y="286" fill="#374151" font-size="10" font-style="italic" text-anchor="middle">click to jump, drag to reorder</text>
+
+  <!-- arrow linking document to pane -->
+  <path d="M345 175 L425 165" stroke="#C4683A" stroke-width="2" fill="none"/>
+  <polygon points="425,165 415,160 417,171" fill="#C4683A"/>
+
+  <text x="320" y="330" fill="#374151" font-size="12" text-anchor="middle">The same tree Word builds automatically from your heading styles.</text>
+</svg>

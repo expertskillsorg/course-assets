@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" font-family="Arial, sans-serif">
+  <rect width="760" height="380" fill="#FFFFFF"/>
+  <text x="30" y="40" font-size="18" font-weight="bold" fill="#141B5C">Borders ON: a grid you can see</text>
+  <text x="430" y="40" font-size="18" font-weight="bold" fill="#141B5C">Borders OFF: polished layout</text>
+
+  <!-- Left: visible-border table -->
+  <g stroke="#374151" stroke-width="1.5" fill="none">
+    <rect x="30" y="70" width="360" height="250"/>
+    <line x1="200" y1="70" x2="200" y2="320"/>
+    <line x1="30" y1="130" x2="390" y2="130"/>
+    <line x1="30" y1="190" x2="390" y2="190"/>
+    <line x1="30" y1="250" x2="390" y2="250"/>
+  </g>
+  <text x="45" y="105" font-size="14" font-weight="bold" fill="#1E2A8E">Hours</text>
+  <text x="215" y="105" font-size="14" font-weight="bold" fill="#1E2A8E">Welcome</text>
+  <text x="45" y="160" font-size="13" fill="#374151">Mon to Fri</text>
+  <text x="45" y="178" font-size="13" fill="#374151">7am to 6pm</text>
+  <text x="215" y="160" font-size="13" fill="#374151">Fresh coffee,</text>
+  <text x="215" y="178" font-size="13" fill="#374151">warm bread,</text>
+  <text x="45" y="220" font-size="13" fill="#374151">Weekends</text>
+  <text x="45" y="238" font-size="13" fill="#374151">8am to 3pm</text>
+  <text x="215" y="220" font-size="13" fill="#374151">a quiet corner</text>
+  <text x="215" y="238" font-size="13" fill="#374151">for you.</text>
+  <text x="45" y="288" font-size="13" fill="#374151">Holidays</text>
+  <text x="215" y="288" font-size="13" fill="#374151">See our door.</text>
+
+  <!-- arrow -->
+  <line x1="400" y1="195" x2="425" y2="195" stroke="#D4AF37" stroke-width="3"/>
+  <polygon points="425,188 440,195 425,202" fill="#D4AF37"/>
+
+  <!-- Right: same content, dotted screen guides only -->
+  <g stroke="#E5E7EB" stroke-width="1" stroke-dasharray="3 3" fill="none">
+    <rect x="450" y="70" width="280" height="250"/>
+    <line x1="590" y1="70" x2="590" y2="320"/>
+    <line x1="450" y1="130" x2="730" y2="130"/>
+    <line x1="450" y1="190" x2="730" y2="190"/>
+    <line x1="450" y1="250" x2="730" y2="250"/>
+  </g>
+  <text x="462" y="105" font-size="14" font-weight="bold" fill="#3E9B6B">Hours</text>
+  <text x="600" y="105" font-size="14" font-weight="bold" fill="#3E9B6B">Welcome</text>
+  <text x="462" y="160" font-size="13" fill="#374151">Mon to Fri</text>
+  <text x="462" y="178" font-size="13" fill="#374151">7am to 6pm</text>
+  <text x="600" y="160" font-size="13" fill="#374151">Fresh coffee,</text>
+  <text x="600" y="178" font-size="13" fill="#374151">warm bread,</text>
+  <text x="462" y="220" font-size="13" fill="#374151">Weekends</text>
+  <text x="462" y="238" font-size="13" fill="#374151">8am to 3pm</text>
+  <text x="600" y="220" font-size="13" fill="#374151">a quiet corner</text>
+  <text x="600" y="238" font-size="13" fill="#374151">for you.</text>
+  <text x="462" y="288" font-size="13" fill="#374151">Holidays</text>
+  <text x="600" y="288" font-size="13" fill="#374151">See our door.</text>
+
+  <text x="450" y="352" font-size="12" font-style="italic" fill="#C4683A">Dotted guides show on screen only and never print.</text>
+</svg>

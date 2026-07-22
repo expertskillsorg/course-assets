@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+  <rect width="760" height="420" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The diagnostic path</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#374151">from symptom to cause to fix</text>
+
+  <!-- Column headers -->
+  <text x="130" y="92" text-anchor="middle" font-size="15" font-weight="bold" fill="#C4683A">Symptom</text>
+  <text x="380" y="92" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">Cause</text>
+  <text x="630" y="92" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E9B6B">Fix</text>
+
+  <!-- Row template: 4 rows -->
+  <!-- Row 1 -->
+  <rect x="20" y="108" width="220" height="56" rx="6" fill="#FBEEE6" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="130" y="132" text-anchor="middle" font-size="12" fill="#111827">Blank pages between</text>
+  <text x="130" y="149" text-anchor="middle" font-size="12" fill="#111827">sections</text>
+  <rect x="270" y="108" width="220" height="56" rx="6" fill="#E7E9F5" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="380" y="140" text-anchor="middle" font-size="12" fill="#111827">Empty paragraphs as spacing</text>
+  <rect x="520" y="108" width="220" height="56" rx="6" fill="#E6F2EC" stroke="#3E9B6B" stroke-width="1.5"/>
+  <text x="630" y="140" text-anchor="middle" font-size="12" fill="#111827">Delete marks, set spacing</text>
+  <line x1="240" y1="136" x2="268" y2="136" stroke="#374151" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="490" y1="136" x2="518" y2="136" stroke="#374151" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Row 2 -->
+  <rect x="20" y="176" width="220" height="56" rx="6" fill="#FBEEE6" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="130" y="208" text-anchor="middle" font-size="12" fill="#111827">Numbering restarts at 1</text>
+  <rect x="270" y="176" width="220" height="56" rx="6" fill="#E7E9F5" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="380" y="208" text-anchor="middle" font-size="12" fill="#111827">Manual or unlinked numbering</text>
+  <rect x="520" y="176" width="220" height="56" rx="6" fill="#E6F2EC" stroke="#3E9B6B" stroke-width="1.5"/>
+  <text x="630" y="208" text-anchor="middle" font-size="12" fill="#111827">Relink the list to its style</text>
+  <line x1="240" y1="204" x2="268" y2="204" stroke="#374151" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="490" y1="204" x2="518" y2="204" stroke="#374151" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Row 3 -->
+  <rect x="20" y="244" width="220" height="56" rx="6" fill="#FBEEE6" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="130" y="276" text-anchor="middle" font-size="12" fill="#111827">Sudden layout shift</text>
+  <rect x="270" y="244" width="220" height="56" rx="6" fill="#E7E9F5" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="380" y="276" text-anchor="middle" font-size="12" fill="#111827">Stray section break</text>
+  <rect x="520" y="244" width="220" height="56" rx="6" fill="#E6F2EC" stroke="#3E9B6B" stroke-width="1.5"/>
+  <text x="630" y="276" text-anchor="middle" font-size="12" fill="#111827">Audit and remove breaks</text>
+  <line x1="240" y1="272" x2="268" y2="272" stroke="#374151" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="490" y1="272" x2="518" y2="272" stroke="#374151" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Row 4 -->
+  <rect x="20" y="312" width="220" height="56" rx="6" fill="#FBEEE6" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="130" y="344" text-anchor="middle" font-size="12" fill="#111827">Text floats over everything</text>
+  <rect x="270" y="312" width="220" height="56" rx="6" fill="#E7E9F5" stroke="#1E2A8E" stroke-width="1.5"/>
+  <text x="380" y="344" text-anchor="middle" font-size="12" fill="#111827">Wrong image or box anchor</text>
+  <rect x="520" y="312" width="220" height="56" rx="6" fill="#E6F2EC" stroke="#3E9B6B" stroke-width="1.5"/>
+  <text x="630" y="344" text-anchor="middle" font-size="12" fill="#111827">Reset wrapping and anchor</text>
+  <line x1="240" y1="340" x2="268" y2="340" stroke="#374151" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="490" y1="340" x2="518" y2="340" stroke="#374151" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <text x="380" y="398" text-anchor="middle" font-size="12" font-style="italic" fill="#374151">Match the symptom to the cure you already own.</text>
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+</svg>

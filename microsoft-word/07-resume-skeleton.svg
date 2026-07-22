@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="500" fill="#FFFFFF"/>
+  <text x="30" y="34" font-size="19" font-weight="bold" fill="#141B5C">The stable resume skeleton</text>
+  <text x="30" y="55" font-size="13" fill="#374151">Every zone is a style. Only one tab stop does any positioning.</text>
+
+  <!-- Page -->
+  <rect x="30" y="78" width="380" height="392" rx="4" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+
+  <!-- Name (Title style) -->
+  <rect x="58" y="100" width="200" height="22" rx="2" fill="#1E2A8E"/>
+  <text x="66" y="116" font-size="13" font-weight="bold" fill="#FFFFFF">JORDAN PATEL</text>
+
+  <!-- Contact block: borderless table (two cells) -->
+  <rect x="58" y="130" width="150" height="16" fill="#E5E7EB"/>
+  <rect x="212" y="130" width="140" height="16" fill="#E5E7EB"/>
+  <line x1="210" y1="130" x2="210" y2="146" stroke="#C4683A" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Section heading (Heading 1) -->
+  <rect x="58" y="164" width="120" height="14" fill="#D4AF37"/>
+  <line x1="58" y1="182" x2="352" y2="182" stroke="#D4AF37" stroke-width="1.5"/>
+
+  <!-- Entry: role bold + right-aligned date via one tab stop -->
+  <rect x="58" y="192" width="110" height="11" fill="#374151"/>
+  <rect x="300" y="192" width="52" height="11" fill="#3E9B6B"/>
+  <!-- tab arrow between role and date -->
+  <line x1="172" y1="198" x2="296" y2="198" stroke="#C4683A" stroke-width="1" stroke-dasharray="2 3"/>
+  <path d="M296 198 l-6 -3 v6 z" fill="#C4683A"/>
+
+  <!-- bullets -->
+  <circle cx="66" cy="214" r="2" fill="#111827"/><rect x="74" y="211" width="240" height="6" fill="#E5E7EB"/>
+  <circle cx="66" cy="226" r="2" fill="#111827"/><rect x="74" y="223" width="220" height="6" fill="#E5E7EB"/>
+  <circle cx="66" cy="238" r="2" fill="#111827"/><rect x="74" y="235" width="250" height="6" fill="#E5E7EB"/>
+
+  <!-- second section heading -->
+  <rect x="58" y="264" width="120" height="14" fill="#D4AF37"/>
+  <line x1="58" y1="282" x2="352" y2="282" stroke="#D4AF37" stroke-width="1.5"/>
+  <rect x="58" y="292" width="110" height="11" fill="#374151"/>
+  <rect x="300" y="292" width="52" height="11" fill="#3E9B6B"/>
+  <line x1="172" y1="298" x2="296" y2="298" stroke="#C4683A" stroke-width="1" stroke-dasharray="2 3"/>
+  <path d="M296 298 l-6 -3 v6 z" fill="#C4683A"/>
+  <circle cx="66" cy="314" r="2" fill="#111827"/><rect x="74" y="311" width="230" height="6" fill="#E5E7EB"/>
+  <circle cx="66" cy="326" r="2" fill="#111827"/><rect x="74" y="323" width="200" height="6" fill="#E5E7EB"/>
+
+  <!-- single-column note -->
+  <text x="220" y="448" font-size="11" fill="#374151" font-style="italic">One column,</text>
+  <text x="220" y="462" font-size="11" fill="#374151" font-style="italic">top to bottom.</text>
+
+  <!-- Legend / labels on the right -->
+  <g font-size="12.5">
+    <rect x="440" y="100" width="16" height="16" fill="#1E2A8E"/>
+    <text x="464" y="112" fill="#111827"><tspan font-weight="bold">Title style</tspan> — your name</text>
+
+    <rect x="440" y="130" width="16" height="16" fill="#E5E7EB" stroke="#C4683A" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="464" y="142" fill="#111827"><tspan font-weight="bold">Borderless table</tspan> — contact row</text>
+
+    <rect x="440" y="164" width="16" height="16" fill="#D4AF37"/>
+    <text x="464" y="176" fill="#111827"><tspan font-weight="bold">Heading 1</tspan> — section titles</text>
+
+    <rect x="440" y="192" width="16" height="16" fill="#374151"/>
+    <text x="464" y="204" fill="#111827"><tspan font-weight="bold">Bold</tspan> — job title / role</text>
+
+    <rect x="440" y="222" width="16" height="16" fill="#3E9B6B"/>
+    <text x="464" y="234" fill="#111827"><tspan font-weight="bold">Right tab stop</tspan> — the date</text>
+
+    <line x1="440" y1="256" x2="456" y2="256" stroke="#C4683A" stroke-width="2" stroke-dasharray="2 3"/>
+    <path d="M456 256 l-6 -3 v6 z" fill="#C4683A"/>
+    <text x="464" y="260" fill="#111827">One Tab, never spaces</text>
+
+    <circle cx="448" cy="286" r="3" fill="#111827"/>
+    <text x="464" y="290" fill="#111827"><tspan font-weight="bold">List style</tspan> — accomplishments</text>
+  </g>
+
+  <text x="440" y="330" font-size="12" fill="#374151" width="250">Change a style once and every</text>
+  <text x="440" y="346" font-size="12" fill="#374151">matching line updates. Nothing</text>
+  <text x="440" y="362" font-size="12" fill="#374151">is positioned by hand except</text>
+  <text x="440" y="378" font-size="12" fill="#374151">that single right tab stop.</text>
+
+  <rect x="440" y="400" width="250" height="60" rx="4" fill="#141B5C"/>
+  <text x="456" y="424" font-size="12.5" fill="#FFFFFF" font-weight="bold">No text boxes. No side columns.</text>
+  <text x="456" y="444" font-size="12.5" fill="#FFFFFF">A machine reads it top to bottom.</text>
+</svg>

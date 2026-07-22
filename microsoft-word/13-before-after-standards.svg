@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="Arial, sans-serif">
+  <rect width="720" height="460" fill="#FFFFFF"/>
+
+  <!-- Titles -->
+  <text x="180" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#C4683A">BEFORE</text>
+  <text x="540" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#3E9B6B">AFTER</text>
+
+  <!-- ===== BEFORE PAGE ===== -->
+  <rect x="40" y="52" width="280" height="372" rx="4" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- cluttered heading in odd color, different font feel -->
+  <text x="60" y="92" font-size="17" font-weight="bold" font-family="Georgia, serif" fill="#C4683A">MEMO</text>
+  <!-- mixed date formats -->
+  <text x="60" y="114" font-size="10" fill="#374151">Date: 3/7/26</text>
+  <text x="180" y="114" font-size="10" font-family="Georgia, serif" fill="#374151">Re: July 07, 2026</text>
+
+  <!-- subheading in a different color -->
+  <text x="60" y="146" font-size="13" font-weight="bold" fill="#1E2A8E" font-family="Georgia, serif">Summary</text>
+  <line x1="60" y1="160" x2="300" y2="160" stroke="#9CA3AF" stroke-width="4"/>
+  <line x1="60" y1="172" x2="290" y2="172" stroke="#9CA3AF" stroke-width="4"/>
+  <!-- big blank gap -->
+  <line x1="60" y1="198" x2="270" y2="198" stroke="#9CA3AF" stroke-width="4"/>
+
+  <!-- another subheading, yet another color -->
+  <text x="60" y="234" font-size="13" font-weight="bold" fill="#3E9B6B">Action Items</text>
+  <line x1="60" y1="248" x2="300" y2="248" stroke="#9CA3AF" stroke-width="4"/>
+  <!-- inconsistent bullets -->
+  <circle cx="66" cy="270" r="3" fill="#374151"/>
+  <line x1="78" y1="270" x2="290" y2="270" stroke="#9CA3AF" stroke-width="4"/>
+  <rect x="63" y="286" width="6" height="6" fill="#C4683A"/>
+  <line x1="78" y1="290" x2="280" y2="290" stroke="#9CA3AF" stroke-width="4"/>
+  <text x="63" y="314" font-size="10" fill="#374151">-</text>
+  <line x1="78" y1="310" x2="285" y2="310" stroke="#9CA3AF" stroke-width="4"/>
+  <!-- big uneven blank gap -->
+  <line x1="60" y1="356" x2="270" y2="356" stroke="#9CA3AF" stroke-width="4"/>
+  <line x1="60" y1="368" x2="250" y2="368" stroke="#9CA3AF" stroke-width="4"/>
+
+  <!-- annotation flags for BEFORE -->
+  <text x="330" y="150" font-size="9" fill="#C4683A">mixed fonts</text>
+  <text x="330" y="240" font-size="9" fill="#C4683A">3 heading colors</text>
+  <text x="330" y="330" font-size="9" fill="#C4683A">uneven gaps,</text>
+  <text x="330" y="342" font-size="9" fill="#C4683A">mixed bullets</text>
+
+  <!-- arrow -->
+  <line x1="332" y1="238" x2="388" y2="238" stroke="#141B5C" stroke-width="3"/>
+  <path d="M388 238 l-10 -6 v12 z" fill="#141B5C"/>
+
+  <!-- ===== AFTER PAGE ===== -->
+  <rect x="400" y="52" width="280" height="372" rx="4" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- clean heading, single accent -->
+  <text x="422" y="92" font-size="17" font-weight="bold" fill="#1E2A8E">MEMO</text>
+  <text x="422" y="112" font-size="10" fill="#374151">Date: July 7, 2026</text>
+  <line x1="422" y1="124" x2="658" y2="124" stroke="#D4AF37" stroke-width="2"/>
+
+  <!-- subheading, one accent color -->
+  <text x="422" y="152" font-size="13" font-weight="bold" fill="#1E2A8E">Summary</text>
+  <line x1="422" y1="168" x2="658" y2="168" stroke="#9CA3AF" stroke-width="4"/>
+  <line x1="422" y1="182" x2="644" y2="182" stroke="#9CA3AF" stroke-width="4"/>
+
+  <!-- consistent spacing -->
+  <text x="422" y="222" font-size="13" font-weight="bold" fill="#1E2A8E">Action Items</text>
+  <line x1="422" y1="238" x2="658" y2="238" stroke="#9CA3AF" stroke-width="4"/>
+  <!-- consistent bullets -->
+  <circle cx="428" cy="262" r="3" fill="#1E2A8E"/>
+  <line x1="440" y1="262" x2="650" y2="262" stroke="#9CA3AF" stroke-width="4"/>
+  <circle cx="428" cy="282" r="3" fill="#1E2A8E"/>
+  <line x1="440" y1="282" x2="640" y2="282" stroke="#9CA3AF" stroke-width="4"/>
+  <circle cx="428" cy="302" r="3" fill="#1E2A8E"/>
+  <line x1="440" y1="302" x2="645" y2="302" stroke="#9CA3AF" stroke-width="4"/>
+
+  <!-- even body -->
+  <line x1="422" y1="342" x2="650" y2="342" stroke="#9CA3AF" stroke-width="4"/>
+  <line x1="422" y1="356" x2="630" y2="356" stroke="#9CA3AF" stroke-width="4"/>
+
+  <!-- annotation flags for AFTER -->
+  <text x="422" y="392" font-size="9" fill="#3E9B6B">one heading font, one navy accent, even space-after</text>
+</svg>
