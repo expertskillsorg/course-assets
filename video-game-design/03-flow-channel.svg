@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="460" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Flow Channel</text>
+  <text x="320" y="56" text-anchor="middle" font-size="13" fill="#374151">Challenge stays just ahead of skill, and players stay absorbed</text>
+
+  <!-- Plot area: x from 90 to 590, y from 90 to 400 -->
+  <!-- Axes -->
+  <line x1="90" y1="400" x2="590" y2="400" stroke="#111827" stroke-width="2"/>
+  <line x1="90" y1="400" x2="90" y2="90" stroke="#111827" stroke-width="2"/>
+
+  <!-- Anxiety zone (upper-left, above channel) -->
+  <polygon points="90,90 490,90 90,400" fill="#C4683A" fill-opacity="0.16"/>
+  <!-- Boredom zone (lower-right, below channel) -->
+  <polygon points="190,400 590,400 590,90" fill="#D4AF37" fill-opacity="0.18"/>
+  <!-- Flow channel band (diagonal) -->
+  <polygon points="90,90 190,400 590,400 490,90" fill="#3E9B6B" fill-opacity="0.28"/>
+
+  <!-- Channel border lines -->
+  <line x1="90" y1="90" x2="590" y2="400" stroke="#3E9B6B" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="90" y1="90" x2="590" y2="400" stroke="#3E9B6B" stroke-width="0"/>
+
+  <!-- Zone labels -->
+  <text x="205" y="165" text-anchor="middle" font-size="16" font-weight="bold" fill="#C4683A">Anxiety</text>
+  <text x="205" y="186" text-anchor="middle" font-size="11" fill="#8a4526">too hard, players quit</text>
+
+  <text x="470" y="330" text-anchor="middle" font-size="16" font-weight="bold" fill="#9c7d1e">Boredom</text>
+  <text x="470" y="350" text-anchor="middle" font-size="11" fill="#9c7d1e">too easy, players drift off</text>
+
+  <text x="360" y="252" text-anchor="middle" font-size="17" font-weight="bold" fill="#1E2A8E" transform="rotate(31 360 252)">FLOW</text>
+  <text x="360" y="272" text-anchor="middle" font-size="11" fill="#1E2A8E" transform="rotate(31 360 252)">total absorption</text>
+
+  <!-- Player journey dots stepping up the channel -->
+  <circle cx="175" cy="330" r="6" fill="#141B5C"/>
+  <circle cx="300" cy="255" r="6" fill="#141B5C"/>
+  <circle cx="430" cy="180" r="6" fill="#141B5C"/>
+  <text x="452" y="176" font-size="11" fill="#374151">skill and challenge rise together</text>
+
+  <!-- Axis titles -->
+  <text x="340" y="438" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Player skill  &#8594;</text>
+  <text x="30" y="245" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827" transform="rotate(-90 30 245)">Challenge  &#8594;</text>
+</svg>

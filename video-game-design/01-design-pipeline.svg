@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="340" fill="#ffffff"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Six-Stage Design Process</text>
+  <text x="360" y="56" text-anchor="middle" font-size="13" fill="#374151">A loop, not a line: playtesting sends you back upstream</text>
+
+  <!-- arrows between stages -->
+  <g stroke="#D4AF37" stroke-width="3">
+    <line x1="122" y1="130" x2="150" y2="130"/>
+    <line x1="252" y1="130" x2="280" y2="130"/>
+    <line x1="382" y1="130" x2="410" y2="130"/>
+    <line x1="512" y1="130" x2="540" y2="130"/>
+    <line x1="642" y1="130" x2="600" y2="130" transform="translate(30,0)"/>
+  </g>
+  <!-- arrowheads -->
+  <g fill="#D4AF37">
+    <polygon points="150,130 140,124 140,136"/>
+    <polygon points="280,130 270,124 270,136"/>
+    <polygon points="410,130 400,124 400,136"/>
+    <polygon points="540,130 530,124 530,136"/>
+    <polygon points="662,130 652,124 652,136"/>
+  </g>
+
+  <!-- stage boxes -->
+  <g>
+    <rect x="20" y="100" width="102" height="60" rx="8" fill="#1E2A8E"/>
+    <text x="71" y="126" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">1 Idea</text>
+    <text x="71" y="146" text-anchor="middle" font-size="9" fill="#D4AF37">Module 4</text>
+  </g>
+  <g>
+    <rect x="150" y="100" width="102" height="60" rx="8" fill="#1E2A8E"/>
+    <text x="201" y="122" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">2 Core</text>
+    <text x="201" y="138" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">loop</text>
+    <text x="201" y="153" text-anchor="middle" font-size="9" fill="#D4AF37">Module 2</text>
+  </g>
+  <g>
+    <rect x="280" y="100" width="102" height="60" rx="8" fill="#1E2A8E"/>
+    <text x="331" y="126" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">3 Mechanics</text>
+    <text x="331" y="146" text-anchor="middle" font-size="9" fill="#D4AF37">Module 5</text>
+  </g>
+  <g>
+    <rect x="410" y="100" width="102" height="60" rx="8" fill="#1E2A8E"/>
+    <text x="461" y="126" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">4 Levels</text>
+    <text x="461" y="146" text-anchor="middle" font-size="9" fill="#D4AF37">Module 6</text>
+  </g>
+  <g>
+    <rect x="540" y="100" width="102" height="60" rx="8" fill="#1E2A8E"/>
+    <text x="591" y="126" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">5 Balance</text>
+    <text x="591" y="146" text-anchor="middle" font-size="9" fill="#D4AF37">Module 7</text>
+  </g>
+  <g>
+    <rect x="618" y="200" width="84" height="60" rx="8" fill="#3E9B6B"/>
+    <text x="660" y="226" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">6 Play-</text>
+    <text x="660" y="242" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">test</text>
+    <text x="660" y="256" text-anchor="middle" font-size="9" fill="#141B5C">Module 10</text>
+  </g>
+
+  <!-- arrow from balance down to playtest -->
+  <line x1="591" y1="160" x2="640" y2="200" stroke="#D4AF37" stroke-width="3"/>
+  <polygon points="640,200 628,197 634,187" fill="#D4AF37"/>
+
+  <!-- iteration loop back arrow: from playtest sweeping back to earlier stages -->
+  <path d="M 618 230 C 360 300, 200 300, 71 165" fill="none" stroke="#C4683A" stroke-width="3" stroke-dasharray="8 5"/>
+  <polygon points="71,165 66,178 79,174" fill="#C4683A"/>
+  <text x="345" y="292" text-anchor="middle" font-size="12" font-weight="bold" fill="#C4683A">iterate: feed findings back upstream</text>
+</svg>

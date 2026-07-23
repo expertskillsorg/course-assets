@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="Arial, sans-serif">
+  <rect width="720" height="460" fill="#FFFFFF"/>
+  <text x="360" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Reading a HUD by Priority Zone</text>
+
+  <!-- game screen -->
+  <rect x="40" y="55" width="640" height="360" rx="8" fill="#F3F4F6" stroke="#374151" stroke-width="2"/>
+  <!-- horizon suggestion of a game world -->
+  <rect x="40" y="55" width="640" height="200" fill="#1E2A8E" opacity="0.06"/>
+  <text x="360" y="240" text-anchor="middle" font-size="13" fill="#374151" opacity="0.55">game world (center: where the eye lives during action)</text>
+
+  <!-- reticle -->
+  <circle cx="360" cy="235" r="12" fill="none" stroke="#374151" stroke-width="2"/>
+  <line x1="360" y1="218" x2="360" y2="228" stroke="#374151" stroke-width="2"/>
+  <line x1="360" y1="242" x2="360" y2="252" stroke="#374151" stroke-width="2"/>
+
+  <!-- immediate goal top-center (tier 1) -->
+  <rect x="270" y="68" width="180" height="30" rx="6" fill="#D4AF37"/>
+  <text x="360" y="88" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">GOAL: reach the gate</text>
+
+  <!-- minimap top-right (tier 1) -->
+  <rect x="588" y="68" width="80" height="80" rx="6" fill="#3E9B6B"/>
+  <circle cx="628" cy="108" r="5" fill="#FFFFFF"/>
+  <text x="628" y="162" text-anchor="middle" font-size="10" fill="#374151">minimap</text>
+
+  <!-- ammo near reticle (tier 1) -->
+  <rect x="404" y="252" width="70" height="26" rx="5" fill="#C4683A"/>
+  <text x="439" y="270" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">24 / 90</text>
+
+  <!-- health bar low-left (tier 1) -->
+  <rect x="60" y="360" width="200" height="20" rx="4" fill="#E5E7EB"/>
+  <rect x="60" y="360" width="132" height="20" rx="4" fill="#C4683A"/>
+  <text x="60" y="350" font-size="11" font-weight="bold" fill="#141B5C">HEALTH</text>
+
+  <!-- on-demand inventory hint bottom-right (tier 2) -->
+  <rect x="560" y="356" width="108" height="30" rx="6" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="614" y="375" text-anchor="middle" font-size="11" fill="#1E2A8E">[TAB] inventory</text>
+
+  <!-- Legend -->
+  <g>
+    <rect x="40" y="425" width="16" height="16" rx="3" fill="#D4AF37"/>
+    <text x="62" y="438" font-size="12" fill="#374151">Tier 1: always visible</text>
+    <rect x="235" y="425" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <text x="257" y="438" font-size="12" fill="#374151">Tier 2: on demand (one button away)</text>
+    <text x="545" y="438" font-size="12" fill="#374151" opacity="0.7">Tier 3: ambient or cut</text>
+  </g>
+</svg>

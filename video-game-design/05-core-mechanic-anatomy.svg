@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="440" fill="#ffffff"/>
+  <text x="380" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#141B5C">Anatomy of a Core Mechanic: the Platformer Jump</text>
+  <text x="380" y="62" text-anchor="middle" font-size="13" fill="#374151">One action, dissected into the four parts every core mechanic needs</text>
+
+  <!-- Verb -->
+  <rect x="30" y="100" width="160" height="120" rx="10" fill="#1E2A8E"/>
+  <text x="110" y="128" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">1. VERB</text>
+  <text x="110" y="152" text-anchor="middle" font-size="12" fill="#ffffff">The action you take</text>
+  <text x="110" y="182" text-anchor="middle" font-size="13" font-weight="bold" fill="#D4AF37">Press to jump</text>
+  <text x="110" y="202" text-anchor="middle" font-size="11" fill="#E5E7EB">up and over a gap</text>
+
+  <!-- Constraint -->
+  <rect x="215" y="100" width="160" height="120" rx="10" fill="#3E9B6B"/>
+  <text x="295" y="128" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">2. CONSTRAINT</text>
+  <text x="295" y="152" text-anchor="middle" font-size="12" fill="#ffffff">The limit that</text>
+  <text x="295" y="168" text-anchor="middle" font-size="12" fill="#ffffff">makes it a choice</text>
+  <text x="295" y="196" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Fixed height,</text>
+  <text x="295" y="212" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">no mid-air turn</text>
+
+  <!-- Feedback -->
+  <rect x="400" y="100" width="160" height="120" rx="10" fill="#C4683A"/>
+  <text x="480" y="128" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">3. FEEDBACK</text>
+  <text x="480" y="152" text-anchor="middle" font-size="12" fill="#ffffff">What tells you</text>
+  <text x="480" y="168" text-anchor="middle" font-size="12" fill="#ffffff">it worked</text>
+  <text x="480" y="196" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Arc, sound,</text>
+  <text x="480" y="212" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">landing thud</text>
+
+  <!-- Fun -->
+  <rect x="585" y="100" width="160" height="120" rx="10" fill="#D4AF37"/>
+  <text x="665" y="128" text-anchor="middle" font-size="15" font-weight="bold" fill="#141B5C">4. THE FUN</text>
+  <text x="665" y="152" text-anchor="middle" font-size="12" fill="#141B5C">The feeling it</text>
+  <text x="665" y="168" text-anchor="middle" font-size="12" fill="#141B5C">produces</text>
+  <text x="665" y="196" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Timing mastery,</text>
+  <text x="665" y="212" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">"I nailed it"</text>
+
+  <!-- arrows -->
+  <g stroke="#374151" stroke-width="2.5" fill="#374151">
+    <line x1="190" y1="160" x2="212" y2="160"/>
+    <polygon points="212,160 204,155 204,165"/>
+    <line x1="375" y1="160" x2="397" y2="160"/>
+    <polygon points="397,160 389,155 389,165"/>
+    <line x1="560" y1="160" x2="582" y2="160"/>
+    <polygon points="582,160 574,155 574,165"/>
+  </g>
+
+  <!-- bottom band -->
+  <rect x="30" y="280" width="715" height="120" rx="10" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="55" y="312" font-size="14" font-weight="bold" fill="#141B5C">Why this is the CORE mechanic</text>
+  <text x="55" y="338" font-size="12.5" fill="#374151">You perform it hundreds of times a session. It is the engine of the core loop, so it must</text>
+  <text x="55" y="358" font-size="12.5" fill="#374151">stay fun on the five-hundredth try, not just the first. Change the constraint (add a double</text>
+  <text x="55" y="378" font-size="12.5" fill="#374151">jump) and the fun changes with it. Everything else in the game is built to serve this verb.</text>
+</svg>

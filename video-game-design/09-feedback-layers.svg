@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" font-family="Arial, sans-serif">
+  <rect width="720" height="480" fill="#FFFFFF"/>
+  <text x="360" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">One Action, Four Feedback Layers</text>
+
+  <!-- the single action -->
+  <rect x="270" y="52" width="180" height="40" rx="20" fill="#141B5C"/>
+  <text x="360" y="77" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">INPUT: sword swing</text>
+
+  <!-- fan-out lines -->
+  <line x1="360" y1="92" x2="130" y2="150" stroke="#374151" stroke-width="1.5"/>
+  <line x1="360" y1="92" x2="285" y2="150" stroke="#374151" stroke-width="1.5"/>
+  <line x1="360" y1="92" x2="435" y2="150" stroke="#374151" stroke-width="1.5"/>
+  <line x1="360" y1="92" x2="590" y2="150" stroke="#374151" stroke-width="1.5"/>
+
+  <text x="360" y="118" text-anchor="middle" font-size="12" fill="#374151" font-style="italic">the same instant, answered on every channel</text>
+
+  <!-- Visual layer -->
+  <rect x="40" y="150" width="150" height="150" rx="8" fill="#1E2A8E"/>
+  <text x="115" y="176" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">VISUAL</text>
+  <!-- spark -->
+  <g stroke="#D4AF37" stroke-width="3" stroke-linecap="round">
+    <line x1="115" y1="215" x2="115" y2="235"/>
+    <line x1="115" y1="255" x2="115" y2="275"/>
+    <line x1="90" y1="245" x2="110" y2="245"/>
+    <line x1="120" y1="245" x2="140" y2="245"/>
+    <line x1="98" y1="228" x2="108" y2="238"/>
+    <line x1="122" y1="252" x2="132" y2="262"/>
+  </g>
+  <text x="115" y="292" text-anchor="middle" font-size="11" fill="#FFFFFF">hit spark + flash</text>
+
+  <!-- Audio layer -->
+  <rect x="200" y="150" width="150" height="150" rx="8" fill="#3E9B6B"/>
+  <text x="275" y="176" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">AUDIO</text>
+  <g fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round">
+    <path d="M250 245 q12 -22 24 0 q12 22 24 0 q12 -22 24 0"/>
+  </g>
+  <text x="275" y="292" text-anchor="middle" font-size="11" fill="#FFFFFF">impact crunch</text>
+
+  <!-- Motion layer -->
+  <rect x="360" y="150" width="150" height="150" rx="8" fill="#C4683A"/>
+  <text x="435" y="176" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">MOTION</text>
+  <g stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M400 245 l14 -14 M400 245 l14 14"/>
+    <path d="M470 245 l-14 -14 M470 245 l-14 14"/>
+    <rect x="418" y="228" width="34" height="34" rx="4" fill="#FFFFFF" opacity="0.25" stroke="none"/>
+  </g>
+  <text x="435" y="292" text-anchor="middle" font-size="11" fill="#FFFFFF">screen shake + hit-pause</text>
+
+  <!-- Interface layer -->
+  <rect x="520" y="150" width="160" height="150" rx="8" fill="#D4AF37"/>
+  <text x="600" y="176" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">INTERFACE</text>
+  <rect x="540" y="215" width="120" height="16" rx="3" fill="#141B5C" opacity="0.2"/>
+  <rect x="540" y="215" width="70" height="16" rx="3" fill="#141B5C"/>
+  <text x="600" y="258" text-anchor="middle" font-size="11" fill="#141B5C">enemy health drops,</text>
+  <text x="600" y="273" text-anchor="middle" font-size="11" fill="#141B5C">combo counter ticks</text>
+
+  <!-- result bar -->
+  <rect x="120" y="335" width="480" height="60" rx="8" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <text x="360" y="360" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Result: the swing feels like it landed</text>
+  <text x="360" y="381" text-anchor="middle" font-size="12" fill="#374151">layers stacked = "juice". Immediate, visible, and proportional to the hit.</text>
+
+  <text x="360" y="430" text-anchor="middle" font-size="12" fill="#374151" font-style="italic">Strip these layers away and the same rule feels flat and broken.</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Arial, sans-serif">
+  <rect width="640" height="440" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Paper Prototype Kit</text>
+  <text x="320" y="56" text-anchor="middle" font-size="13" fill="#374151">Five parts you assemble from work you already did</text>
+
+  <!-- Map / board -->
+  <g>
+    <rect x="40" y="80" width="230" height="180" rx="6" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2.5"/>
+    <!-- grid -->
+    <line x1="78" y1="80" x2="78" y2="260" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="116" y1="80" x2="116" y2="260" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="154" y1="80" x2="154" y2="260" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="192" y1="80" x2="192" y2="260" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="230" y1="80" x2="230" y2="260" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="40" y1="118" x2="270" y2="118" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="40" y1="156" x2="270" y2="156" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="40" y1="194" x2="270" y2="194" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="40" y1="222" x2="270" y2="222" stroke="#E5E7EB" stroke-width="1"/>
+    <!-- path -->
+    <path d="M60 240 L98 240 L98 138 L174 138 L174 100" fill="none" stroke="#C4683A" stroke-width="3" stroke-dasharray="6 5"/>
+    <circle cx="60" cy="240" r="7" fill="#3E9B6B"/>
+    <rect x="167" y="93" width="14" height="14" fill="#D4AF37"/>
+    <text x="155" y="252" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">MAP (from your level map)</text>
+  </g>
+
+  <!-- Cards -->
+  <g>
+    <rect x="300" y="82" width="70" height="96" rx="6" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+    <rect x="312" y="74" width="70" height="96" rx="6" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+    <rect x="324" y="66" width="70" height="96" rx="6" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2.5"/>
+    <text x="359" y="92" text-anchor="middle" font-size="10" font-weight="bold" fill="#141B5C">ACTION</text>
+    <line x1="334" y1="100" x2="384" y2="100" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="359" y="120" text-anchor="middle" font-size="9" fill="#374151">Move 2</text>
+    <text x="359" y="136" text-anchor="middle" font-size="9" fill="#374151">Draw 1</text>
+    <text x="335" y="182" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">CARDS</text>
+  </g>
+
+  <!-- Tokens -->
+  <g>
+    <circle cx="440" cy="96" r="16" fill="#D4AF37"/>
+    <circle cx="476" cy="96" r="16" fill="#3E9B6B"/>
+    <circle cx="512" cy="96" r="16" fill="#C4683A"/>
+    <circle cx="458" cy="126" r="16" fill="#1E2A8E"/>
+    <circle cx="494" cy="126" r="16" fill="#D4AF37"/>
+    <text x="476" y="162" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">TOKENS</text>
+    <text x="476" y="178" text-anchor="middle" font-size="10" fill="#374151">gold, units, health</text>
+  </g>
+
+  <!-- Legend card -->
+  <g>
+    <rect x="300" y="210" width="150" height="130" rx="6" fill="#FFFFFF" stroke="#141B5C" stroke-width="2.5"/>
+    <rect x="300" y="210" width="150" height="26" rx="6" fill="#141B5C"/>
+    <text x="375" y="228" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">LEGEND</text>
+    <circle cx="318" cy="254" r="7" fill="#D4AF37"/><text x="334" y="258" font-size="11" fill="#374151">= 1 gold</text>
+    <circle cx="318" cy="278" r="7" fill="#3E9B6B"/><text x="334" y="282" font-size="11" fill="#374151">= your unit</text>
+    <rect x="311" y="295" width="14" height="14" fill="#D4AF37"/><text x="334" y="306" font-size="11" fill="#374151">= exit / goal</text>
+    <text x="311" y="330" font-size="11" fill="#C4683A">- - - = critical path</text>
+  </g>
+
+  <!-- Facilitator script -->
+  <g>
+    <rect x="470" y="210" width="130" height="130" rx="6" fill="#FFFFFF" stroke="#C4683A" stroke-width="2.5"/>
+    <rect x="470" y="210" width="130" height="26" rx="6" fill="#C4683A"/>
+    <text x="535" y="228" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">SCRIPT</text>
+    <text x="482" y="254" font-size="10" fill="#374151">Each turn:</text>
+    <text x="482" y="272" font-size="10" fill="#141B5C">1. Deal 1 card</text>
+    <text x="482" y="290" font-size="10" fill="#141B5C">2. Player acts</text>
+    <text x="482" y="308" font-size="10" fill="#141B5C">3. Resolve dice</text>
+    <text x="482" y="326" font-size="10" fill="#141B5C">4. Refill, score</text>
+  </g>
+
+  <text x="155" y="292" text-anchor="middle" font-size="11" font-style="italic" fill="#374151">Handwritten, cut rough, labeled plainly. You run the rules by hand.</text>
+  <line x1="40" y1="310" x2="270" y2="310" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="155" y="332" text-anchor="middle" font-size="11" fill="#374151">Board + cards + tokens + legend + script</text>
+  <text x="155" y="352" text-anchor="middle" font-size="11" font-weight="bold" fill="#3E9B6B">= a game you can hand to a person</text>
+
+  <text x="320" y="400" text-anchor="middle" font-size="12" fill="#374151">Cost: paper, a marker, and about twenty minutes.</text>
+  <text x="320" y="422" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Ugly is the point. Polish comes after the design works.</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="480" fill="#ffffff"/>
+  <text x="380" y="32" text-anchor="middle" font-size="21" font-weight="bold" fill="#141B5C">An Annotated Paper Level Map</text>
+  <text x="380" y="55" text-anchor="middle" font-size="13" fill="#374151">Grid, legend, a marked critical path, and a pacing strip along the bottom</text>
+
+  <!-- grid paper -->
+  <rect x="30" y="75" width="540" height="300" fill="#FCFBF7" stroke="#374151" stroke-width="2"/>
+  <g stroke="#E5E7EB" stroke-width="1">
+    <line x1="90" y1="75" x2="90" y2="375"/><line x1="150" y1="75" x2="150" y2="375"/>
+    <line x1="210" y1="75" x2="210" y2="375"/><line x1="270" y1="75" x2="270" y2="375"/>
+    <line x1="330" y1="75" x2="330" y2="375"/><line x1="390" y1="75" x2="390" y2="375"/>
+    <line x1="450" y1="75" x2="450" y2="375"/><line x1="510" y1="75" x2="510" y2="375"/>
+    <line x1="30" y1="135" x2="570" y2="135"/><line x1="30" y1="195" x2="570" y2="195"/>
+    <line x1="30" y1="255" x2="570" y2="255"/><line x1="30" y1="315" x2="570" y2="315"/>
+  </g>
+
+  <!-- critical path (gold dashed) -->
+  <polyline points="70,340 160,340 160,230 300,230 300,150 430,150 430,255 520,255 520,110"
+            fill="none" stroke="#D4AF37" stroke-width="4" stroke-dasharray="2 0"/>
+
+  <!-- start -->
+  <circle cx="70" cy="340" r="12" fill="#3E9B6B"/>
+  <text x="70" y="345" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">S</text>
+  <!-- teach beat -->
+  <rect x="140" y="215" width="40" height="30" rx="4" fill="#1E2A8E"/>
+  <text x="160" y="235" text-anchor="middle" font-size="11" fill="#ffffff">teach</text>
+  <!-- threat -->
+  <polygon points="300,138 310,158 290,158" fill="#C4683A"/>
+  <text x="300" y="128" text-anchor="middle" font-size="10" fill="#C4683A">threat</text>
+  <!-- reward (optional branch) -->
+  <line x1="300" y1="230" x2="230" y2="300" stroke="#374151" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="225" cy="305" r="9" fill="#D4AF37"/>
+  <text x="225" y="309" text-anchor="middle" font-size="10" font-weight="bold" fill="#141B5C">R</text>
+  <text x="225" y="332" text-anchor="middle" font-size="9.5" fill="#374151">secret</text>
+  <!-- gate -->
+  <rect x="424" y="200" width="12" height="30" fill="#C4683A"/>
+  <text x="455" y="195" text-anchor="middle" font-size="10" fill="#374151">locked gate</text>
+  <!-- finale + goal -->
+  <polygon points="520,95 532,120 508,120" fill="#C4683A"/>
+  <text x="520" y="88" text-anchor="middle" font-size="10" font-weight="bold" fill="#C4683A">FINALE</text>
+  <circle cx="520" cy="255" r="6" fill="#374151"/>
+
+  <!-- legend panel -->
+  <rect x="585" y="75" width="150" height="300" rx="8" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="600" y="98" font-size="13" font-weight="bold" fill="#141B5C">Legend</text>
+  <circle cx="608" cy="120" r="7" fill="#3E9B6B"/><text x="622" y="124" font-size="11" fill="#374151">S = start</text>
+  <rect x="601" y="140" width="14" height="14" rx="3" fill="#1E2A8E"/><text x="622" y="151" font-size="11" fill="#374151">teach beat</text>
+  <polygon points="608,166 615,180 601,180" fill="#C4683A"/><text x="622" y="177" font-size="11" fill="#374151">threat</text>
+  <circle cx="608" cy="198" r="7" fill="#D4AF37"/><text x="622" y="202" font-size="11" fill="#374151">R = reward</text>
+  <rect x="603" y="218" width="10" height="16" fill="#C4683A"/><text x="622" y="230" font-size="11" fill="#374151">gate</text>
+  <line x1="601" y1="252" x2="617" y2="252" stroke="#D4AF37" stroke-width="4"/><text x="622" y="256" font-size="11" fill="#374151">critical path</text>
+  <line x1="601" y1="274" x2="617" y2="274" stroke="#374151" stroke-width="1.5" stroke-dasharray="5 4"/><text x="622" y="278" font-size="11" fill="#374151">optional</text>
+  <circle cx="608" cy="298" r="6" fill="#374151"/><text x="622" y="302" font-size="11" fill="#374151">exit / goal</text>
+  <text x="600" y="330" font-size="10" fill="#374151">Every symbol also</text>
+  <text x="600" y="345" font-size="10" fill="#374151">notes its job:</text>
+  <text x="600" y="360" font-size="10" fill="#374151">teach, pace,</text>
+  <text x="600" y="375" font-size="10" fill="#374151">challenge, reward.</text>
+
+  <!-- pacing strip -->
+  <text x="30" y="405" font-size="12" font-weight="bold" fill="#141B5C">Pacing strip (read left to right, matching the path)</text>
+  <rect x="30" y="415" width="540" height="40" rx="4" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <polyline points="30,448 130,438 230,420 300,440 400,425 490,418 520,432 570,428"
+            fill="none" stroke="#1E2A8E" stroke-width="2.5"/>
+  <text x="80" y="470" text-anchor="middle" font-size="10" fill="#3E9B6B">build</text>
+  <text x="230" y="470" text-anchor="middle" font-size="10" fill="#C4683A">peak</text>
+  <text x="330" y="470" text-anchor="middle" font-size="10" fill="#B8901F">rest</text>
+  <text x="500" y="470" text-anchor="middle" font-size="10" fill="#C4683A">finale</text>
+</svg>

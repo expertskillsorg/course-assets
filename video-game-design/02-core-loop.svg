@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, sans-serif">
+  <rect width="640" height="460" fill="#ffffff"/>
+
+  <!-- Meta loop outer ring -->
+  <circle cx="320" cy="240" r="185" fill="none" stroke="#D4AF37" stroke-width="2" stroke-dasharray="8 7"/>
+  <rect x="232" y="38" width="176" height="30" rx="15" fill="#D4AF37"/>
+  <text x="320" y="58" text-anchor="middle" font-size="15" font-weight="bold" fill="#141B5C">META LOOP (a whole session)</text>
+
+  <!-- meta loop labels around the ring -->
+  <text x="320" y="98" text-anchor="middle" font-size="12" fill="#374151">unlock the next goal, progress, come back</text>
+
+  <!-- Inner core loop nodes -->
+  <!-- ACT (top) -->
+  <circle cx="320" cy="175" r="52" fill="#1E2A8E"/>
+  <text x="320" y="171" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">ACT</text>
+  <text x="320" y="190" text-anchor="middle" font-size="11" fill="#E5E7EB">take an action</text>
+
+  <!-- REWARD (bottom right) -->
+  <circle cx="405" cy="300" r="52" fill="#3E9B6B"/>
+  <text x="405" y="296" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">REWARD</text>
+  <text x="405" y="315" text-anchor="middle" font-size="11" fill="#ffffff">get a result</text>
+
+  <!-- UPGRADE (bottom left) -->
+  <circle cx="235" cy="300" r="52" fill="#C4683A"/>
+  <text x="235" y="296" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">UPGRADE</text>
+  <text x="235" y="315" text-anchor="middle" font-size="11" fill="#ffffff">improve, advance</text>
+
+  <!-- Arrows between inner nodes (clockwise) -->
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#141B5C"/>
+    </marker>
+  </defs>
+  <!-- ACT -> REWARD -->
+  <path d="M363 205 A 90 90 0 0 1 388 253" fill="none" stroke="#141B5C" stroke-width="3" marker-end="url(#ah)"/>
+  <!-- REWARD -> UPGRADE -->
+  <path d="M353 322 A 90 90 0 0 1 287 322" fill="none" stroke="#141B5C" stroke-width="3" marker-end="url(#ah)"/>
+  <!-- UPGRADE -> ACT -->
+  <path d="M252 253 A 90 90 0 0 1 277 205" fill="none" stroke="#141B5C" stroke-width="3" marker-end="url(#ah)"/>
+
+  <!-- caption strip -->
+  <text x="320" y="440" text-anchor="middle" font-size="13" fill="#111827">The 30-second inner loop repeats many times inside one slower meta loop.</text>
+</svg>
