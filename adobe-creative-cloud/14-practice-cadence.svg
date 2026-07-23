@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="320" fill="#FFFFFF"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Practice Cadence</text>
+  <text x="360" y="60" text-anchor="middle" font-size="13" fill="#374151">Small every week, a full project every month, proof at 90 days</text>
+
+  <!-- Weekly card -->
+  <rect x="40" y="90" width="180" height="170" rx="10" fill="#F4F6FB" stroke="#1E2A8E" stroke-width="2"/>
+  <circle cx="130" cy="130" r="22" fill="#3E9B6B"/>
+  <text x="130" y="137" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">7d</text>
+  <text x="130" y="180" text-anchor="middle" font-size="16" font-weight="bold" fill="#1E2A8E">Weekly</text>
+  <text x="130" y="205" text-anchor="middle" font-size="12" fill="#374151">One small real piece</text>
+  <text x="130" y="223" text-anchor="middle" font-size="12" fill="#374151">in any of the 3 apps</text>
+  <text x="130" y="241" text-anchor="middle" font-size="12" fill="#374151">30 to 60 minutes</text>
+
+  <!-- arrow -->
+  <path d="M228 175 h34" stroke="#D4AF37" stroke-width="3" fill="none" marker-end="url(#a)"/>
+
+  <!-- Monthly card -->
+  <rect x="270" y="90" width="180" height="170" rx="10" fill="#F4F6FB" stroke="#1E2A8E" stroke-width="2"/>
+  <circle cx="360" cy="130" r="22" fill="#C4683A"/>
+  <text x="360" y="137" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">30d</text>
+  <text x="360" y="180" text-anchor="middle" font-size="16" font-weight="bold" fill="#1E2A8E">Monthly</text>
+  <text x="360" y="205" text-anchor="middle" font-size="12" fill="#374151">One full mini-project</text>
+  <text x="360" y="223" text-anchor="middle" font-size="12" fill="#374151">brief to delivery,</text>
+  <text x="360" y="241" text-anchor="middle" font-size="12" fill="#374151">rotating the apps</text>
+
+  <!-- arrow -->
+  <path d="M458 175 h34" stroke="#D4AF37" stroke-width="3" fill="none" marker-end="url(#a)"/>
+
+  <!-- 90-day card -->
+  <rect x="500" y="90" width="180" height="170" rx="10" fill="#141B5C"/>
+  <circle cx="590" cy="130" r="22" fill="#D4AF37"/>
+  <text x="590" y="137" text-anchor="middle" font-size="15" font-weight="bold" fill="#141B5C">90d</text>
+  <text x="590" y="180" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Checkpoint</text>
+  <text x="590" y="205" text-anchor="middle" font-size="12" fill="#E5E7EB">Redo a Wildflower</text>
+  <text x="590" y="223" text-anchor="middle" font-size="12" fill="#E5E7EB">project and compare;</text>
+  <text x="590" y="241" text-anchor="middle" font-size="12" fill="#E5E7EB">the jump is your proof</text>
+
+  <text x="360" y="298" text-anchor="middle" font-size="12" font-style="italic" fill="#374151">Fallback rule: never two weeks without opening an app.</text>
+
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 z" fill="#D4AF37"/>
+    </marker>
+  </defs>
+</svg>

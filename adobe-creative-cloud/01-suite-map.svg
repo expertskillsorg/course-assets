@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="Arial, sans-serif">
+  <rect width="720" height="460" fill="#FFFFFF"/>
+  <text x="360" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Creative Cloud: Three Jobs, Three Anchor Apps</text>
+
+  <!-- Job headers -->
+  <text x="150" y="86" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">EDIT PIXELS</text>
+  <text x="360" y="86" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">DRAW SHAPES</text>
+  <text x="570" y="86" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">ARRANGE PAGES</text>
+
+  <!-- Anchor cards -->
+  <rect x="70" y="104" width="160" height="92" rx="10" fill="#1E2A8E"/>
+  <text x="150" y="146" text-anchor="middle" font-size="19" font-weight="bold" fill="#FFFFFF">Photoshop</text>
+  <text x="150" y="172" text-anchor="middle" font-size="13" fill="#D4AF37">photos</text>
+
+  <rect x="280" y="104" width="160" height="92" rx="10" fill="#3E9B6B"/>
+  <text x="360" y="146" text-anchor="middle" font-size="19" font-weight="bold" fill="#FFFFFF">Illustrator</text>
+  <text x="360" y="172" text-anchor="middle" font-size="13" fill="#141B5C">logos, graphics</text>
+
+  <rect x="490" y="104" width="160" height="92" rx="10" fill="#C4683A"/>
+  <text x="570" y="146" text-anchor="middle" font-size="19" font-weight="bold" fill="#FFFFFF">InDesign</text>
+  <text x="570" y="172" text-anchor="middle" font-size="13" fill="#FFFFFF">laid-out pages</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="236" x2="660" y2="236" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="360" y="266" text-anchor="middle" font-size="13" font-style="italic" fill="#374151">the satellites: useful, but not where you start</text>
+
+  <!-- Satellites -->
+  <circle cx="140" cy="330" r="42" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+  <text x="140" y="328" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Lightroom</text>
+  <text x="140" y="346" text-anchor="middle" font-size="10" fill="#374151">photo libraries</text>
+
+  <circle cx="286" cy="330" r="42" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="286" y="328" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Express</text>
+  <text x="286" y="346" text-anchor="middle" font-size="10" fill="#374151">quick social</text>
+
+  <circle cx="432" cy="330" r="42" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+  <text x="432" y="328" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Premiere</text>
+  <text x="432" y="346" text-anchor="middle" font-size="10" fill="#374151">video</text>
+
+  <circle cx="578" cy="330" r="42" fill="#FFFFFF" stroke="#D4AF37" stroke-width="2"/>
+  <text x="578" y="328" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Acrobat</text>
+  <text x="578" y="346" text-anchor="middle" font-size="10" fill="#374151">PDFs</text>
+
+  <!-- orbit hint lines -->
+  <line x1="150" y1="196" x2="140" y2="288" stroke="#E5E7EB" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="360" y1="196" x2="286" y2="288" stroke="#E5E7EB" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="570" y1="196" x2="578" y2="288" stroke="#E5E7EB" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <text x="360" y="424" text-anchor="middle" font-size="13" fill="#374151">Name the job first, and the app is obvious.</text>
+</svg>

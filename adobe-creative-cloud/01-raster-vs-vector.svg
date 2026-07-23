@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Arial, sans-serif">
+  <rect width="720" height="420" fill="#FFFFFF"/>
+  <text x="360" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Zoom Test</text>
+
+  <!-- RASTER side -->
+  <text x="185" y="78" text-anchor="middle" font-size="16" font-weight="bold" fill="#C4683A">RASTER  (pixels)</text>
+
+  <!-- small clean raster circle -->
+  <circle cx="110" cy="150" r="34" fill="#1E2A8E"/>
+  <text x="110" y="210" text-anchor="middle" font-size="12" fill="#374151">normal size</text>
+
+  <!-- arrow -->
+  <path d="M158 150 H210" stroke="#374151" stroke-width="2.5" marker-end="url(#a)"/>
+
+  <!-- zoomed blocky version: grid of squares approximating a circle -->
+  <g>
+    <rect x="248" y="118" width="16" height="16" fill="#1E2A8E"/>
+    <rect x="264" y="118" width="16" height="16" fill="#1E2A8E"/>
+    <rect x="232" y="134" width="16" height="16" fill="#1E2A8E"/>
+    <rect x="248" y="134" width="16" height="16" fill="#1E2A8E"/>
+    <rect x="264" y="134" width="16" height="16" fill="#1E2A8E"/>
+    <rect x="280" y="134" width="16" height="16" fill="#1E2A8E"/>
+    <rect x="232" y="150" width="16" height="16" fill="#1E2A8E"/>
+    <rect x="248" y="150" width="16" height="16" fill="#1E2A8E"/>
+    <rect x="264" y="150" width="16" height="16" fill="#1E2A8E"/>
+    <rect x="280" y="150" width="16" height="16" fill="#1E2A8E"/>
+    <rect x="248" y="166" width="16" height="16" fill="#1E2A8E"/>
+    <rect x="264" y="166" width="16" height="16" fill="#1E2A8E"/>
+  </g>
+  <text x="272" y="210" text-anchor="middle" font-size="12" fill="#C4683A">zoomed in: blocky</text>
+
+  <!-- divider -->
+  <line x1="360" y1="70" x2="360" y2="330" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- VECTOR side -->
+  <text x="535" y="78" text-anchor="middle" font-size="16" font-weight="bold" fill="#3E9B6B">VECTOR  (paths)</text>
+
+  <circle cx="460" cy="150" r="34" fill="#3E9B6B"/>
+  <text x="460" y="210" text-anchor="middle" font-size="12" fill="#374151">normal size</text>
+
+  <path d="M508 150 H560" stroke="#374151" stroke-width="2.5" marker-end="url(#a)"/>
+
+  <circle cx="620" cy="150" r="48" fill="#3E9B6B"/>
+  <text x="620" y="215" text-anchor="middle" font-size="12" fill="#3E9B6B">zoomed in: still crisp</text>
+
+  <!-- bottom takeaway -->
+  <rect x="90" y="262" width="540" height="58" rx="10" fill="#141B5C"/>
+  <text x="360" y="288" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Raster crumbles under zoom.  Vector stays crisp at any size.</text>
+  <text x="360" y="308" text-anchor="middle" font-size="12" fill="#D4AF37">Choose by asking: what will this file become?</text>
+
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+</svg>

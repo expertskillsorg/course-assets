@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" font-family="Arial, sans-serif">
+  <rect width="760" height="380" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Black conceals, white reveals</text>
+
+  <!-- LAYER -->
+  <text x="120" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">The layer</text>
+  <rect x="30" y="92" width="180" height="180" rx="6" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="2"/>
+  <!-- cluttered background pixels -->
+  <rect x="30" y="92" width="180" height="180" rx="6" fill="#C4683A" opacity="0.25"/>
+  <!-- jacket shape -->
+  <path d="M120 130 l38 16 l6 92 l-88 0 l6 -92 z" fill="#1E2A8E"/>
+  <rect x="104" y="150" width="32" height="70" fill="#141B5C"/>
+  <text x="120" y="292" text-anchor="middle" font-size="12" fill="#374151">jacket + messy table</text>
+
+  <!-- plus -->
+  <text x="248" y="196" text-anchor="middle" font-size="34" fill="#9CA3AF">+</text>
+
+  <!-- MASK -->
+  <text x="376" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">The mask</text>
+  <rect x="286" y="92" width="180" height="180" rx="6" fill="#111827" stroke="#E5E7EB" stroke-width="2"/>
+  <!-- white jacket shape on mask -->
+  <path d="M376 130 l38 16 l6 92 l-88 0 l6 -92 z" fill="#FFFFFF"/>
+  <rect x="360" y="150" width="32" height="70" fill="#FFFFFF"/>
+  <text x="330" y="120" font-size="12" fill="#FFFFFF">white = reveal</text>
+  <text x="376" y="262" text-anchor="middle" font-size="12" fill="#D1D5DB">black = conceal</text>
+
+  <!-- equals -->
+  <text x="504" y="196" text-anchor="middle" font-size="34" fill="#9CA3AF">=</text>
+
+  <!-- RESULT -->
+  <text x="632" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">The result</text>
+  <rect x="542" y="92" width="180" height="180" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <!-- subtle checker to imply transparency corners -->
+  <rect x="542" y="92" width="16" height="16" fill="#F3F4F6"/>
+  <rect x="706" y="256" width="16" height="16" fill="#F3F4F6"/>
+  <path d="M632 130 l38 16 l6 92 l-88 0 l6 -92 z" fill="#1E2A8E"/>
+  <rect x="616" y="150" width="32" height="70" fill="#141B5C"/>
+  <text x="632" y="292" text-anchor="middle" font-size="12" fill="#374151">jacket on clean white</text>
+
+  <text x="380" y="342" text-anchor="middle" font-size="13" fill="#3E9B6B" font-weight="bold">No pixels deleted. Paint the mask white again and the background returns.</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 360" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="860" height="360" fill="#FFFFFF"/>
+  <text x="430" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The correction workflow: flat original to corrected final</text>
+
+  <!-- Panel 1: Flat original -->
+  <g>
+    <rect x="30" y="70" width="180" height="130" rx="6" fill="#6E6A63" stroke="#374151" stroke-width="1.5"/>
+    <ellipse cx="120" cy="140" rx="46" ry="34" fill="#7C766D"/>
+    <ellipse cx="120" cy="120" rx="30" ry="12" fill="#8A857B"/>
+    <text x="120" y="222" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">1. Flat original</text>
+    <text x="120" y="240" text-anchor="middle" font-size="11" fill="#374151">dull, dark, gray cast</text>
+    <!-- histogram: bunched in middle -->
+    <rect x="60" y="252" width="120" height="34" fill="#F3F4F6" stroke="#E5E7EB"/>
+    <rect x="108" y="262" width="8" height="20" fill="#374151"/>
+    <rect x="116" y="256" width="8" height="26" fill="#374151"/>
+    <rect x="124" y="266" width="8" height="16" fill="#374151"/>
+  </g>
+
+  <path d="M218 135 L252 135" stroke="#1E2A8E" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+
+  <!-- Panel 2: Exposure fixed -->
+  <g>
+    <rect x="260" y="70" width="180" height="130" rx="6" fill="#B7A98F" stroke="#374151" stroke-width="1.5"/>
+    <ellipse cx="350" cy="140" rx="46" ry="34" fill="#C9B393"/>
+    <ellipse cx="350" cy="120" rx="30" ry="12" fill="#D8C8A8"/>
+    <text x="350" y="222" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">2. Exposure set</text>
+    <text x="350" y="240" text-anchor="middle" font-size="11" fill="#374151">levels open the range</text>
+    <!-- histogram: spread edge to edge -->
+    <rect x="290" y="252" width="120" height="34" fill="#F3F4F6" stroke="#E5E7EB"/>
+    <rect x="296" y="270" width="7" height="12" fill="#374151"/>
+    <rect x="316" y="260" width="7" height="22" fill="#374151"/>
+    <rect x="336" y="256" width="7" height="26" fill="#374151"/>
+    <rect x="356" y="262" width="7" height="20" fill="#374151"/>
+    <rect x="386" y="268" width="7" height="14" fill="#374151"/>
+  </g>
+
+  <path d="M448 135 L482 135" stroke="#1E2A8E" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+
+  <!-- Panel 3: Corrected final -->
+  <g>
+    <rect x="490" y="70" width="180" height="130" rx="6" fill="#C4683A" stroke="#374151" stroke-width="1.5"/>
+    <ellipse cx="580" cy="140" rx="46" ry="34" fill="#8A4B2A"/>
+    <ellipse cx="580" cy="120" rx="30" ry="12" fill="#D4AF37"/>
+    <text x="580" y="222" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">3. Color balanced</text>
+    <text x="580" y="240" text-anchor="middle" font-size="11" fill="#374151">warm, true, clean whites</text>
+    <rect x="520" y="252" width="120" height="34" fill="#F3F4F6" stroke="#E5E7EB"/>
+    <rect x="526" y="266" width="7" height="16" fill="#3E9B6B"/>
+    <rect x="546" y="258" width="7" height="24" fill="#3E9B6B"/>
+    <rect x="566" y="256" width="7" height="26" fill="#3E9B6B"/>
+    <rect x="586" y="260" width="7" height="22" fill="#3E9B6B"/>
+    <rect x="616" y="266" width="7" height="16" fill="#3E9B6B"/>
+  </g>
+
+  <!-- Final result card -->
+  <g>
+    <rect x="700" y="70" width="132" height="216" rx="6" fill="#141B5C"/>
+    <text x="766" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Corrected</text>
+    <text x="766" y="118" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">final</text>
+    <ellipse cx="766" cy="176" rx="42" ry="32" fill="#C4683A"/>
+    <ellipse cx="766" cy="158" rx="27" ry="11" fill="#D4AF37"/>
+    <text x="766" y="248" text-anchor="middle" font-size="10" fill="#D4AF37">every fix on its own</text>
+    <text x="766" y="264" text-anchor="middle" font-size="10" fill="#D4AF37">adjustment layer</text>
+  </g>
+
+  <text x="430" y="330" text-anchor="middle" font-size="12" fill="#374151">Order the work: exposure first, then color, then any local fixes. Nothing here is baked into the pixels.</text>
+
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1E2A8E"/>
+    </marker>
+  </defs>
+</svg>

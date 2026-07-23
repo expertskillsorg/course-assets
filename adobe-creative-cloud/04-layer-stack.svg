@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#F8F9FB"/>
+
+  <text x="150" y="34" fill="#111827" font-size="15" font-weight="bold" text-anchor="middle">Seen from the side</text>
+  <text x="500" y="34" fill="#111827" font-size="15" font-weight="bold" text-anchor="middle">Seen from above</text>
+
+  <!-- Side view: three stacked parallelogram sheets -->
+  <!-- Logo layer (top) -->
+  <polygon points="70,110 230,110 190,150 30,150" fill="#3E9B6B" fill-opacity="0.85" stroke="#141B5C" stroke-width="1.5"/>
+  <circle cx="120" cy="130" r="10" fill="#D4AF37"/>
+  <text x="250" y="132" fill="#374151" font-size="12">logo layer</text>
+
+  <!-- Text layer (middle) -->
+  <polygon points="70,190 230,190 190,230 30,230" fill="#D4AF37" fill-opacity="0.85" stroke="#141B5C" stroke-width="1.5"/>
+  <rect x="70" y="205" width="90" height="8" rx="2" fill="#141B5C"/>
+  <text x="250" y="212" fill="#374151" font-size="12">text layer</text>
+
+  <!-- Background photo (bottom) -->
+  <polygon points="70,270 230,270 190,310 30,310" fill="#C4683A" fill-opacity="0.9" stroke="#141B5C" stroke-width="1.5"/>
+  <circle cx="150" cy="288" r="12" fill="#141B5C" fill-opacity="0.6"/>
+  <text x="250" y="292" fill="#374151" font-size="12">background photo</text>
+
+  <!-- Arrow -->
+  <path d="M320 210 L390 210" stroke="#1E2A8E" stroke-width="3" fill="none"/>
+  <polygon points="390,204 404,210 390,216" fill="#1E2A8E"/>
+  <text x="360" y="198" fill="#1E2A8E" font-size="12" font-weight="bold" text-anchor="middle">flatten view</text>
+
+  <!-- Top view: composited flat image -->
+  <rect x="430" y="120" width="180" height="180" rx="6" fill="#FFFFFF" stroke="#141B5C" stroke-width="2"/>
+  <!-- photo content -->
+  <ellipse cx="520" cy="235" rx="55" ry="40" fill="#C4683A"/>
+  <circle cx="565" cy="205" r="28" fill="#C4683A"/>
+  <circle cx="558" cy="205" r="4" fill="#141B5C"/>
+  <circle cx="573" cy="205" r="4" fill="#141B5C"/>
+  <!-- text -->
+  <rect x="448" y="140" width="86" height="9" rx="2" fill="#141B5C"/>
+  <!-- logo -->
+  <circle cx="585" cy="145" r="12" fill="#D4AF37"/>
+  <text x="520" y="318" fill="#374151" font-size="12" font-weight="bold" text-anchor="middle">one flat image</text>
+</svg>

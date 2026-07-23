@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Arial, sans-serif">
+  <rect width="640" height="400" fill="#FFFFFF"/>
+  <text x="320" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#141B5C">Palette schemes and the 60-30-10 split</text>
+
+  <!-- COLOR WHEEL -->
+  <g>
+    <!-- 12 segments approximated by colored wedges around center 150,180 r=90 -->
+    <circle cx="150" cy="185" r="92" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+    <!-- wedges -->
+    <g stroke="#FFFFFF" stroke-width="1">
+      <path d="M150 185 L150 93 A92 92 0 0 1 196 105 Z" fill="#C4683A"/>
+      <path d="M150 185 L196 105 A92 92 0 0 1 229 138 Z" fill="#D4AF37"/>
+      <path d="M150 185 L229 138 A92 92 0 0 1 242 185 Z" fill="#E3C766"/>
+      <path d="M150 185 L242 185 A92 92 0 0 1 229 232 Z" fill="#8FBF8A"/>
+      <path d="M150 185 L229 232 A92 92 0 0 1 196 265 Z" fill="#3E9B6B"/>
+      <path d="M150 185 L196 265 A92 92 0 0 1 150 277 Z" fill="#2E7F86"/>
+      <path d="M150 185 L150 277 A92 92 0 0 1 104 265 Z" fill="#1E2A8E"/>
+      <path d="M150 185 L104 265 A92 92 0 0 1 71 232 Z" fill="#141B5C"/>
+      <path d="M150 185 L71 232 A92 92 0 0 1 58 185 Z" fill="#5B4A8A"/>
+      <path d="M150 185 L58 185 A92 92 0 0 1 71 138 Z" fill="#8A4A6E"/>
+      <path d="M150 185 L71 138 A92 92 0 0 1 104 105 Z" fill="#B5473F"/>
+      <path d="M150 185 L104 105 A92 92 0 0 1 150 93 Z" fill="#C4683A"/>
+    </g>
+    <circle cx="150" cy="185" r="40" fill="#FFFFFF"/>
+
+    <!-- complementary line (orange top to blue bottom) -->
+    <line x1="150" y1="105" x2="150" y2="265" stroke="#111827" stroke-width="2"/>
+    <circle cx="150" cy="105" r="6" fill="#C4683A" stroke="#111827"/>
+    <circle cx="150" cy="265" r="6" fill="#1E2A8E" stroke="#111827"/>
+  </g>
+  <text x="150" y="300" text-anchor="middle" font-size="12" font-weight="bold" fill="#374151">The wheel</text>
+
+  <!-- three scheme swatch rows -->
+  <g font-size="11" fill="#374151">
+    <text x="330" y="90" font-weight="bold" fill="#141B5C">Complementary</text>
+    <rect x="330" y="98" width="34" height="24" fill="#C4683A"/>
+    <rect x="366" y="98" width="34" height="24" fill="#1E2A8E"/>
+    <text x="410" y="115">opposite, high contrast</text>
+
+    <text x="330" y="160" font-weight="bold" fill="#141B5C">Analogous</text>
+    <rect x="330" y="168" width="34" height="24" fill="#3E9B6B"/>
+    <rect x="366" y="168" width="34" height="24" fill="#8FBF8A"/>
+    <rect x="402" y="168" width="34" height="24" fill="#E3C766"/>
+    <text x="446" y="185">neighbors, calm</text>
+
+    <text x="330" y="230" font-weight="bold" fill="#141B5C">Neutral + accent</text>
+    <rect x="330" y="238" width="34" height="24" fill="#E9E1D2"/>
+    <rect x="366" y="238" width="34" height="24" fill="#374151"/>
+    <rect x="402" y="238" width="34" height="24" fill="#C4683A"/>
+    <text x="446" y="255">safe default</text>
+  </g>
+
+  <!-- 60-30-10 bar -->
+  <text x="330" y="308" font-size="12" font-weight="bold" fill="#141B5C">The 60-30-10 balance</text>
+  <rect x="330" y="318" width="180" height="34" fill="#E9E1D2"/>
+  <rect x="510" y="318" width="90" height="34" fill="#C4683A"/>
+  <rect x="600" y="318" width="0" height="34"/>
+  <rect x="510" y="318" width="66" height="34" fill="#3E9B6B"/>
+  <rect x="576" y="318" width="24" height="34" fill="#C4683A"/>
+  <text x="420" y="340" text-anchor="middle" font-size="12" font-weight="bold" fill="#374151">60% base</text>
+  <text x="543" y="340" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">30%</text>
+  <text x="588" y="340" text-anchor="middle" font-size="9" font-weight="bold" fill="#FFFFFF">10%</text>
+  <text x="330" y="372" font-size="10" fill="#374151">dominant</text>
+  <text x="543" y="372" text-anchor="middle" font-size="10" fill="#374151">secondary</text>
+  <text x="588" y="372" text-anchor="middle" font-size="10" fill="#374151">accent</text>
+</svg>

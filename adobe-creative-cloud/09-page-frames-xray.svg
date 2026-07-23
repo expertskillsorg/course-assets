@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="440" fill="#FFFFFF"/>
+  <text x="20" y="30" font-size="17" font-weight="bold" fill="#141B5C">A program page, x-rayed into its frames</text>
+
+  <!-- The page -->
+  <rect x="40" y="55" width="260" height="350" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <!-- margin guide -->
+  <rect x="62" y="77" width="216" height="306" fill="none" stroke="#D4AF37" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- image frame (top) -->
+  <rect x="62" y="77" width="216" height="110" fill="#1E2A8E" opacity="0.12" stroke="#1E2A8E" stroke-width="2"/>
+  <line x1="62" y1="77" x2="278" y2="187" stroke="#1E2A8E" stroke-width="1"/>
+  <line x1="278" y1="77" x2="62" y2="187" stroke="#1E2A8E" stroke-width="1"/>
+  <text x="170" y="135" font-size="11" fill="#1E2A8E" text-anchor="middle" font-weight="bold">image frame</text>
+
+  <!-- title text frame -->
+  <rect x="62" y="200" width="216" height="34" fill="#3E9B6B" opacity="0.14" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="170" y="222" font-size="11" fill="#3E9B6B" text-anchor="middle" font-weight="bold">text frame (title)</text>
+
+  <!-- body text frame -->
+  <rect x="62" y="246" width="216" height="137" fill="#C4683A" opacity="0.12" stroke="#C4683A" stroke-width="2"/>
+  <text x="170" y="318" font-size="11" fill="#C4683A" text-anchor="middle" font-weight="bold">text frame (body)</text>
+
+  <!-- The X-ray key on the right -->
+  <text x="340" y="80" font-size="13" font-weight="bold" fill="#141B5C">What each box is</text>
+
+  <rect x="340" y="100" width="24" height="18" fill="#1E2A8E" opacity="0.12" stroke="#1E2A8E" stroke-width="2"/>
+  <text x="375" y="114" font-size="12" fill="#374151">Image frame holds a placed photo</text>
+
+  <rect x="340" y="140" width="24" height="18" fill="#3E9B6B" opacity="0.14" stroke="#3E9B6B" stroke-width="2"/>
+  <text x="375" y="154" font-size="12" fill="#374151">Text frame holds the show title</text>
+
+  <rect x="340" y="180" width="24" height="18" fill="#C4683A" opacity="0.12" stroke="#C4683A" stroke-width="2"/>
+  <text x="375" y="194" font-size="12" fill="#374151">Text frame holds the cast list</text>
+
+  <rect x="340" y="220" width="24" height="18" fill="none" stroke="#D4AF37" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="375" y="234" font-size="12" fill="#374151">Margin guide, the safe area for text</text>
+
+  <text x="340" y="285" font-size="12" fill="#374151">Nothing lands on the page loose.</text>
+  <text x="340" y="305" font-size="12" fill="#374151">Every element sits inside a frame,</text>
+  <text x="340" y="325" font-size="12" fill="#374151">a container you draw first and</text>
+  <text x="340" y="345" font-size="12" fill="#374151">fill second.</text>
+</svg>

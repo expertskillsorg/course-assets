@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Arial, sans-serif">
+  <rect width="640" height="420" fill="#FFFFFF"/>
+
+  <!-- BEFORE poster -->
+  <text x="150" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#374151">BEFORE</text>
+  <rect x="40" y="46" width="220" height="320" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <!-- scattered, misaligned, many colors -->
+  <text x="120" y="95" text-anchor="middle" font-size="20" font-weight="bold" fill="#3E9B6B" font-family="Georgia">Open Mic</text>
+  <text x="180" y="140" text-anchor="middle" font-size="13" fill="#C4683A">Saturday 8pm</text>
+  <rect x="70" y="160" width="70" height="52" fill="#E5E7EB" stroke="#374151"/>
+  <text x="105" y="190" text-anchor="middle" font-size="9" fill="#374151">photo</text>
+  <text x="205" y="200" text-anchor="middle" font-size="11" fill="#1E2A8E" font-family="monospace">Specials!</text>
+  <text x="90" y="250" text-anchor="middle" font-size="10" fill="#D4AF37">Live Music</text>
+  <text x="175" y="285" text-anchor="middle" font-size="9" fill="#141B5C">12 Kettle Lane</text>
+  <text x="80" y="325" text-anchor="middle" font-size="12" fill="#C4683A" font-weight="bold">Blue Kettle</text>
+  <!-- chaos marks -->
+  <line x1="150" y1="110" x2="230" y2="118" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- AFTER poster -->
+  <text x="490" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1E2A8E">AFTER</text>
+  <rect x="380" y="46" width="220" height="320" fill="#FBF7EF" stroke="#D4AF37" stroke-width="2"/>
+  <!-- aligned left edge at x=402 -->
+  <line x1="402" y1="70" x2="402" y2="342" stroke="#D4AF37" stroke-width="1" stroke-dasharray="3 4" opacity="0.6"/>
+  <text x="402" y="98" font-size="26" font-weight="bold" fill="#141B5C" font-family="Georgia">OPEN</text>
+  <text x="402" y="126" font-size="26" font-weight="bold" fill="#141B5C" font-family="Georgia">MIC</text>
+  <text x="402" y="150" font-size="14" font-weight="bold" fill="#C4683A" font-family="Georgia">NIGHT</text>
+  <rect x="402" y="166" width="176" height="96" fill="#E9E1D2" stroke="#D4AF37" stroke-width="1"/>
+  <text x="490" y="218" text-anchor="middle" font-size="10" fill="#374151">photo</text>
+  <!-- grouped details (proximity) -->
+  <text x="402" y="288" font-size="13" font-weight="bold" fill="#141B5C">Saturday 8:00 pm</text>
+  <text x="402" y="306" font-size="11" fill="#374151">Live music and drink specials</text>
+  <text x="402" y="322" font-size="11" fill="#374151">12 Kettle Lane</text>
+  <text x="402" y="352" font-size="12" font-weight="bold" fill="#C4683A">Blue Kettle Coffee</text>
+
+  <!-- principle labels between -->
+  <text x="320" y="140" text-anchor="middle" font-size="11" font-weight="bold" fill="#1E2A8E">Alignment</text>
+  <text x="320" y="180" text-anchor="middle" font-size="11" font-weight="bold" fill="#1E2A8E">Contrast</text>
+  <text x="320" y="220" text-anchor="middle" font-size="11" font-weight="bold" fill="#1E2A8E">Proximity</text>
+  <text x="320" y="260" text-anchor="middle" font-size="11" font-weight="bold" fill="#1E2A8E">Repetition</text>
+  <path d="M285 135 L355 135" stroke="#D4AF37" stroke-width="1.5" marker-end="url(#ar)"/>
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 z" fill="#D4AF37"/></marker>
+  </defs>
+</svg>
