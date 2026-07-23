@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="300" fill="#FFFFFF"/>
+  <text x="320" y="42" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">One Bar = Four Beats</text>
+  <text x="320" y="68" text-anchor="middle" font-size="15" fill="#374151">Count out loud, one downstrum on each number</text>
+
+  <!-- grid frame -->
+  <rect x="60" y="95" width="520" height="130" fill="none" stroke="#1E2A8E" stroke-width="2.5"/>
+  <line x1="190" y1="95" x2="190" y2="225" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="320" y1="95" x2="320" y2="225" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="450" y1="95" x2="450" y2="225" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- counts -->
+  <text x="125" y="130" text-anchor="middle" font-size="30" font-weight="bold" fill="#141B5C">1</text>
+  <text x="255" y="130" text-anchor="middle" font-size="30" font-weight="bold" fill="#141B5C">2</text>
+  <text x="385" y="130" text-anchor="middle" font-size="30" font-weight="bold" fill="#141B5C">3</text>
+  <text x="515" y="130" text-anchor="middle" font-size="30" font-weight="bold" fill="#141B5C">4</text>
+
+  <!-- downstrum arrows (pointing down) -->
+  <g stroke="#C4683A" stroke-width="5" stroke-linecap="round">
+    <line x1="125" y1="150" x2="125" y2="200"/>
+    <line x1="255" y1="150" x2="255" y2="200"/>
+    <line x1="385" y1="150" x2="385" y2="200"/>
+    <line x1="515" y1="150" x2="515" y2="200"/>
+  </g>
+  <g fill="#C4683A">
+    <path d="M125 210 l-9 -14 h18 z"/>
+    <path d="M255 210 l-9 -14 h18 z"/>
+    <path d="M385 210 l-9 -14 h18 z"/>
+    <path d="M515 210 l-9 -14 h18 z"/>
+  </g>
+
+  <text x="320" y="268" text-anchor="middle" font-size="15" fill="#3E9B6B" font-weight="bold">down &#8595;&#160;&#160;down &#8595;&#160;&#160;down &#8595;&#160;&#160;down &#8595;</text>
+</svg>

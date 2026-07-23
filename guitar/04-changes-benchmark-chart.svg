@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 320" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="460" height="320" fill="#FFFFFF"/>
+  <text x="230" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#141B5C">Changes per minute: what each score unlocks</text>
+
+  <!-- Scale bar from 0 to 65 mapped x 50..410 -->
+  <!-- Segments -->
+  <!-- 0-15 starting (terracotta light) -->
+  <rect x="50" y="90" width="132" height="34" fill="#C4683A" opacity="0.85"/>
+  <!-- 15-30 building (gold) -->
+  <rect x="182" y="90" width="88" height="34" fill="#D4AF37"/>
+  <!-- 30-60 song-ready to smooth (green gradient feel: two greens) -->
+  <rect x="270" y="90" width="88" height="34" fill="#3E9B6B" opacity="0.75"/>
+  <rect x="358" y="90" width="52" height="34" fill="#3E9B6B"/>
+
+  <!-- Axis line -->
+  <line x1="50" y1="134" x2="410" y2="134" stroke="#374151" stroke-width="2"/>
+
+  <!-- Ticks and numbers -->
+  <line x1="50"  y1="134" x2="50"  y2="142" stroke="#374151" stroke-width="2"/>
+  <text x="50"  y="158" text-anchor="middle" font-size="12" fill="#374151">0</text>
+  <line x1="138" y1="134" x2="138" y2="142" stroke="#374151" stroke-width="2"/>
+  <text x="138" y="158" text-anchor="middle" font-size="12" fill="#374151">15</text>
+  <line x1="226" y1="134" x2="226" y2="142" stroke="#374151" stroke-width="2"/>
+  <text x="226" y="158" text-anchor="middle" font-size="12" fill="#374151">30</text>
+  <line x1="410" y1="134" x2="410" y2="142" stroke="#374151" stroke-width="2"/>
+  <text x="410" y="158" text-anchor="middle" font-size="12" fill="#374151">60</text>
+
+  <!-- Milestone markers with callouts -->
+  <!-- 10-15 starting -->
+  <circle cx="116" cy="107" r="6" fill="#141B5C"/>
+  <line x1="116" y1="90" x2="116" y2="200" stroke="#141B5C" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="116" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">10-15</text>
+  <text x="116" y="238" text-anchor="middle" font-size="11" fill="#374151">Normal in</text>
+  <text x="116" y="252" text-anchor="middle" font-size="11" fill="#374151">week one</text>
+
+  <!-- 30 song-ready -->
+  <circle cx="226" cy="107" r="6" fill="#141B5C"/>
+  <line x1="226" y1="124" x2="226" y2="200" stroke="#141B5C" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="226" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">~30</text>
+  <text x="226" y="238" text-anchor="middle" font-size="11" fill="#374151">Song-ready:</text>
+  <text x="226" y="252" text-anchor="middle" font-size="11" fill="#374151">use it in music</text>
+
+  <!-- 60 smooth -->
+  <circle cx="410" cy="107" r="6" fill="#141B5C"/>
+  <line x1="410" y1="124" x2="410" y2="200" stroke="#141B5C" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="410" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">60</text>
+  <text x="410" y="238" text-anchor="middle" font-size="11" fill="#374151">Smooth,</text>
+  <text x="410" y="252" text-anchor="middle" font-size="11" fill="#374151">automatic</text>
+
+  <!-- Footer note -->
+  <text x="230" y="292" text-anchor="middle" font-size="12" font-style="italic" fill="#374151">Floors, not deadlines. Compare your score only to your own.</text>
+</svg>

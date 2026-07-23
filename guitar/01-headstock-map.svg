@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 470" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="700" height="470" fill="#FFFFFF"/>
+  <text x="350" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Which Peg Tunes Which String</text>
+  <text x="350" y="58" text-anchor="middle" font-size="13" fill="#374151">Front view. Each peg controls one string. Turn as the arrow shows to raise pitch.</text>
+
+  <!-- Headstock shape -->
+  <path d="M270 90 L430 90 L438 300 Q438 340 398 344 L302 344 Q262 340 262 300 Z" fill="#1E2A8E"/>
+  <!-- Nut at bottom -->
+  <rect x="290" y="344" width="120" height="12" fill="#D4AF37"/>
+  <!-- strings running down to nut -->
+  <g stroke="#111827">
+    <line x1="300" y1="130" x2="330" y2="344" stroke-width="1.4"/>
+    <line x1="300" y1="200" x2="342" y2="344" stroke-width="2"/>
+    <line x1="300" y1="270" x2="354" y2="344" stroke-width="2.8"/>
+    <line x1="400" y1="130" x2="370" y2="344" stroke-width="1.4"/>
+    <line x1="400" y1="200" x2="358" y2="344" stroke-width="1.8"/>
+    <line x1="400" y1="270" x2="346" y2="344" stroke-width="1.5"/>
+  </g>
+
+  <!-- Left pegs (thick strings: 6 E, 5 A, 4 D) -->
+  <g>
+    <circle cx="300" cy="130" r="18" fill="#D4AF37" stroke="#141B5C" stroke-width="2"/>
+    <circle cx="300" cy="200" r="18" fill="#D4AF37" stroke="#141B5C" stroke-width="2"/>
+    <circle cx="300" cy="270" r="18" fill="#D4AF37" stroke="#141B5C" stroke-width="2"/>
+  </g>
+  <!-- Right pegs (thin strings: 3 G, 2 B, 1 E) -->
+  <g>
+    <circle cx="400" cy="130" r="18" fill="#D4AF37" stroke="#141B5C" stroke-width="2"/>
+    <circle cx="400" cy="200" r="18" fill="#D4AF37" stroke="#141B5C" stroke-width="2"/>
+    <circle cx="400" cy="270" r="18" fill="#D4AF37" stroke="#141B5C" stroke-width="2"/>
+  </g>
+
+  <!-- Left labels -->
+  <g font-size="15" fill="#111827" text-anchor="end">
+    <text x="250" y="126" font-weight="bold">6th string  E</text>
+    <text x="250" y="196" font-weight="bold">5th string  A</text>
+    <text x="250" y="266" font-weight="bold">4th string  D</text>
+  </g>
+  <!-- Right labels -->
+  <g font-size="15" fill="#111827">
+    <text x="450" y="126" font-weight="bold">G  3rd string</text>
+    <text x="450" y="196" font-weight="bold">B  2nd string</text>
+    <text x="450" y="266" font-weight="bold">E  1st string</text>
+  </g>
+
+  <!-- Turn-direction arrows -->
+  <g fill="none" stroke="#3E9B6B" stroke-width="3">
+    <path d="M182 118 A26 26 0 1 0 184 142" marker-end="url(#arrL)"/>
+    <path d="M518 118 A26 26 0 1 1 516 142" marker-end="url(#arrR)"/>
+  </g>
+  <defs>
+    <marker id="arrL" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M0 0 L8 5 L0 10 Z" fill="#3E9B6B"/></marker>
+    <marker id="arrR" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M8 0 L0 5 L8 10 Z" fill="#3E9B6B"/></marker>
+  </defs>
+  <text x="176" y="176" text-anchor="middle" font-size="12" fill="#3E9B6B">tighten =</text>
+  <text x="176" y="192" text-anchor="middle" font-size="12" fill="#3E9B6B">higher</text>
+  <text x="524" y="176" text-anchor="middle" font-size="12" fill="#3E9B6B">tighten =</text>
+  <text x="524" y="192" text-anchor="middle" font-size="12" fill="#3E9B6B">higher</text>
+
+  <text x="350" y="392" text-anchor="middle" font-size="13" fill="#374151">Trace each string from the nut up to its own peg before you turn anything.</text>
+</svg>

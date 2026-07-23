@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Arial, sans-serif">
+  <rect width="640" height="400" fill="#ffffff"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">C Major and the C-Am Anchor</text>
+
+  <!-- ================= C major ================= -->
+  <text x="160" y="66" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">C major</text>
+
+  <!-- x on low E, then A D G B e -->
+  <text x="60"  y="88" text-anchor="middle" font-size="13" fill="#C4683A">X</text>
+  <text x="100" y="88" text-anchor="middle" font-size="13" fill="#374151">3</text>
+  <text x="140" y="88" text-anchor="middle" font-size="13" fill="#374151">2</text>
+  <text x="180" y="88" text-anchor="middle" font-size="13" fill="#3E9B6B">O</text>
+  <text x="220" y="88" text-anchor="middle" font-size="13" fill="#374151">1</text>
+  <text x="260" y="88" text-anchor="middle" font-size="13" fill="#3E9B6B">O</text>
+
+  <rect x="60" y="96" width="200" height="6" fill="#141B5C"/>
+  <line x1="60" y1="142" x2="260" y2="142" stroke="#374151" stroke-width="1.5"/>
+  <line x1="60" y1="188" x2="260" y2="188" stroke="#374151" stroke-width="1.5"/>
+  <line x1="60" y1="234" x2="260" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="60"  y1="96" x2="60"  y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="100" y1="96" x2="100" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="140" y1="96" x2="140" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="180" y1="96" x2="180" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="220" y1="96" x2="220" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="260" y1="96" x2="260" y2="234" stroke="#374151" stroke-width="1.5"/>
+
+  <!-- ring(3) A 3rd fret; middle(2) D 2nd fret; index(1) B 1st fret -->
+  <circle cx="100" cy="211" r="13" fill="#1E2A8E"/><text x="100" y="216" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">3</text>
+  <circle cx="140" cy="165" r="13" fill="#1E2A8E"/><text x="140" y="170" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">2</text>
+  <circle cx="220" cy="119" r="13" fill="#1E2A8E"/><text x="220" y="124" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">1</text>
+
+  <text x="60"  y="256" text-anchor="middle" font-size="11" fill="#374151">E</text>
+  <text x="100" y="256" text-anchor="middle" font-size="11" fill="#374151">A</text>
+  <text x="140" y="256" text-anchor="middle" font-size="11" fill="#374151">D</text>
+  <text x="180" y="256" text-anchor="middle" font-size="11" fill="#374151">G</text>
+  <text x="220" y="256" text-anchor="middle" font-size="11" fill="#374151">B</text>
+  <text x="260" y="256" text-anchor="middle" font-size="11" fill="#374151">e</text>
+
+  <!-- ================= A minor ================= -->
+  <text x="480" y="66" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">A minor</text>
+
+  <text x="380" y="88" text-anchor="middle" font-size="13" fill="#C4683A">X</text>
+  <text x="420" y="88" text-anchor="middle" font-size="13" fill="#3E9B6B">O</text>
+  <text x="460" y="88" text-anchor="middle" font-size="13" fill="#374151">2</text>
+  <text x="500" y="88" text-anchor="middle" font-size="13" fill="#374151">3</text>
+  <text x="540" y="88" text-anchor="middle" font-size="13" fill="#374151">1</text>
+  <text x="580" y="88" text-anchor="middle" font-size="13" fill="#3E9B6B">O</text>
+
+  <rect x="380" y="96" width="200" height="6" fill="#141B5C"/>
+  <line x1="380" y1="142" x2="580" y2="142" stroke="#374151" stroke-width="1.5"/>
+  <line x1="380" y1="188" x2="580" y2="188" stroke="#374151" stroke-width="1.5"/>
+  <line x1="380" y1="234" x2="580" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="380" y1="96" x2="380" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="420" y1="96" x2="420" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="460" y1="96" x2="460" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="500" y1="96" x2="500" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="540" y1="96" x2="540" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="580" y1="96" x2="580" y2="234" stroke="#374151" stroke-width="1.5"/>
+
+  <!-- Am: index(1) B 1st fret; middle(2) D 2nd fret; ring(3) G 2nd fret -->
+  <circle cx="460" cy="165" r="13" fill="#1E2A8E"/><text x="460" y="170" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">2</text>
+  <circle cx="500" cy="165" r="13" fill="#1E2A8E"/><text x="500" y="170" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">3</text>
+  <circle cx="540" cy="119" r="13" fill="#1E2A8E"/><text x="540" y="124" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">1</text>
+
+  <text x="380" y="256" text-anchor="middle" font-size="11" fill="#374151">E</text>
+  <text x="420" y="256" text-anchor="middle" font-size="11" fill="#374151">A</text>
+  <text x="460" y="256" text-anchor="middle" font-size="11" fill="#374151">D</text>
+  <text x="500" y="256" text-anchor="middle" font-size="11" fill="#374151">G</text>
+  <text x="540" y="256" text-anchor="middle" font-size="11" fill="#374151">B</text>
+  <text x="580" y="256" text-anchor="middle" font-size="11" fill="#374151">e</text>
+
+  <!-- anchor note -->
+  <rect x="60" y="290" width="520" height="86" rx="8" fill="#EAF4EE" stroke="#3E9B6B" stroke-width="1.5"/>
+  <text x="76" y="314" font-size="13" font-weight="bold" fill="#141B5C">The shared anchor</text>
+  <text x="76" y="336" font-size="12.5" fill="#374151">Finger 1 sits on the B string, 1st fret for BOTH chords. Leave it planted. To go from C</text>
+  <text x="76" y="354" font-size="12.5" fill="#374151">to Am, only fingers 2 and 3 move: they slide down one string set from the A/D strings</text>
+  <text x="76" y="372" font-size="12.5" fill="#374151">to the D/G strings. One anchor, two movers, and the change is nearly automatic.</text>
+</svg>

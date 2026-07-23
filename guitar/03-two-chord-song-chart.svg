@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="700" height="360" fill="#FFFFFF"/>
+  <text x="350" y="42" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The chord-per-bar chart</text>
+  <text x="350" y="68" text-anchor="middle" font-size="14" fill="#374151">One chord per box. Four counted beats each. Loop back at the end.</text>
+
+  <!-- four bars: x = 60,210,360,510 ; width 130 ; y 110 h 90 -->
+  <!-- Bar 1 Em -->
+  <rect x="60" y="110" width="130" height="90" rx="6" fill="#EEF0FA" stroke="#1E2A8E" stroke-width="2"/>
+  <text x="125" y="100" text-anchor="middle" font-size="20" font-weight="bold" fill="#1E2A8E">Em</text>
+  <text x="125" y="165" text-anchor="middle" font-size="15" fill="#111827">1  2  3  4</text>
+  <!-- Bar 2 Em -->
+  <rect x="205" y="110" width="130" height="90" rx="6" fill="#EEF0FA" stroke="#1E2A8E" stroke-width="2"/>
+  <text x="270" y="100" text-anchor="middle" font-size="20" font-weight="bold" fill="#1E2A8E">Em</text>
+  <text x="270" y="165" text-anchor="middle" font-size="15" fill="#111827">1  2  3  4</text>
+  <!-- Bar 3 Am -->
+  <rect x="350" y="110" width="130" height="90" rx="6" fill="#FBF3E0" stroke="#D4AF37" stroke-width="2"/>
+  <text x="415" y="100" text-anchor="middle" font-size="20" font-weight="bold" fill="#B8912B">Am</text>
+  <text x="415" y="165" text-anchor="middle" font-size="15" fill="#111827">1  2  3  4</text>
+  <!-- Bar 4 Am -->
+  <rect x="495" y="110" width="130" height="90" rx="6" fill="#FBF3E0" stroke="#D4AF37" stroke-width="2"/>
+  <text x="560" y="100" text-anchor="middle" font-size="20" font-weight="bold" fill="#B8912B">Am</text>
+  <text x="560" y="165" text-anchor="middle" font-size="15" fill="#111827">1  2  3  4</text>
+
+  <!-- beat brackets label under bar 1 -->
+  <text x="125" y="192" text-anchor="middle" font-size="10" fill="#374151">four downstrums</text>
+
+  <!-- repeat / loop arrow from end back to start -->
+  <path d="M 625 210 L 625 260 L 60 260 L 60 210" fill="none" stroke="#3E9B6B" stroke-width="2.5"/>
+  <polygon points="60,210 54,224 66,224" fill="#3E9B6B"/>
+  <text x="342" y="280" text-anchor="middle" font-size="14" font-weight="bold" fill="#3E9B6B">repeat: loop back to the start</text>
+
+  <!-- footnote -->
+  <text x="350" y="322" text-anchor="middle" font-size="13" font-style="italic" fill="#374151">This is a real two-chord song. Count aloud and keep strumming, even when the change lands late.</text>
+</svg>

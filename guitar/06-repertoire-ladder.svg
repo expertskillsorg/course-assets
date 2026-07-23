@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 560" font-family="Arial, sans-serif">
+  <rect width="680" height="560" fill="#ffffff"/>
+  <text x="340" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Ten-Song Repertoire Ladder</text>
+  <text x="340" y="56" text-anchor="middle" font-size="12.5" fill="#374151">Each rung adds a chord or a skill. Climb one rung at a time.</text>
+
+  <!-- rungs from bottom (rung 1) to top (rung 10). Row height 44, start y=520 down to 84 -->
+  <!-- helper: bars widen slightly / color deepens as you climb -->
+
+  <!-- Rung rows: define as repeated blocks -->
+  <!-- Rung 1 -->
+  <rect x="60" y="500" width="560" height="40" rx="6" fill="#EAF4EE" stroke="#3E9B6B" stroke-width="1.3"/>
+  <circle cx="88" cy="520" r="14" fill="#3E9B6B"/><text x="88" y="525" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">1</text>
+  <text x="116" y="516" font-size="13" font-weight="bold" fill="#141B5C">Two-chord loop</text>
+  <text x="116" y="533" font-size="11.5" fill="#374151">Em, Asus2  ·  four downstrums each</text>
+  <text x="610" y="525" text-anchor="end" font-size="11" fill="#3E9B6B">Modules 1-5</text>
+
+  <!-- Rung 2 -->
+  <rect x="60" y="454" width="560" height="40" rx="6" fill="#EAF4EE" stroke="#3E9B6B" stroke-width="1.3"/>
+  <circle cx="88" cy="474" r="14" fill="#3E9B6B"/><text x="88" y="479" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">2</text>
+  <text x="116" y="470" font-size="13" font-weight="bold" fill="#141B5C">Two workhorse chords</text>
+  <text x="116" y="487" font-size="11.5" fill="#374151">Em, Am  or  Em, D  ·  downstrums, in time</text>
+  <text x="610" y="479" text-anchor="end" font-size="11" fill="#3E9B6B">Modules 1-5</text>
+
+  <!-- Rung 3 -->
+  <rect x="60" y="408" width="560" height="40" rx="6" fill="#EAF4EE" stroke="#3E9B6B" stroke-width="1.3"/>
+  <circle cx="88" cy="428" r="14" fill="#3E9B6B"/><text x="88" y="433" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">3</text>
+  <text x="116" y="424" font-size="13" font-weight="bold" fill="#141B5C">Three chords, one section</text>
+  <text x="116" y="441" font-size="11.5" fill="#374151">Em, Am, D  ·  verse loop</text>
+  <text x="610" y="433" text-anchor="end" font-size="11" fill="#3E9B6B">Modules 1-5</text>
+
+  <!-- Rung 4 -->
+  <rect x="60" y="362" width="560" height="40" rx="6" fill="#EAF4EE" stroke="#3E9B6B" stroke-width="1.3"/>
+  <circle cx="88" cy="382" r="14" fill="#3E9B6B"/><text x="88" y="387" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">4</text>
+  <text x="116" y="378" font-size="13" font-weight="bold" fill="#141B5C">Three chords + universal strum</text>
+  <text x="116" y="395" font-size="11.5" fill="#374151">Em, Am, D  ·  D-DU-UDU pattern</text>
+  <text x="610" y="387" text-anchor="end" font-size="11" fill="#3E9B6B">Modules 1-5</text>
+
+  <!-- Rung 5 -->
+  <rect x="60" y="316" width="560" height="40" rx="6" fill="#F5F3E7" stroke="#D4AF37" stroke-width="1.3"/>
+  <circle cx="88" cy="336" r="14" fill="#D4AF37"/><text x="88" y="341" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">5</text>
+  <text x="116" y="332" font-size="13" font-weight="bold" fill="#141B5C">Add G</text>
+  <text x="116" y="349" font-size="11.5" fill="#374151">G, Em, C, D (partial)  ·  G-Em chorus loop</text>
+  <text x="610" y="341" text-anchor="end" font-size="11" fill="#C4683A">This module</text>
+
+  <!-- Rung 6 -->
+  <rect x="60" y="270" width="560" height="40" rx="6" fill="#F5F3E7" stroke="#D4AF37" stroke-width="1.3"/>
+  <circle cx="88" cy="290" r="14" fill="#D4AF37"/><text x="88" y="295" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">6</text>
+  <text x="116" y="286" font-size="13" font-weight="bold" fill="#141B5C">Add C — the full five</text>
+  <text x="116" y="303" font-size="11.5" fill="#374151">G, C, D  ·  the three-chord anthem set</text>
+  <text x="610" y="295" text-anchor="end" font-size="11" fill="#C4683A">This module</text>
+
+  <!-- Rung 7 -->
+  <rect x="60" y="224" width="560" height="40" rx="6" fill="#F5F3E7" stroke="#D4AF37" stroke-width="1.3"/>
+  <circle cx="88" cy="244" r="14" fill="#D4AF37"/><text x="88" y="249" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">7</text>
+  <text x="116" y="240" font-size="13" font-weight="bold" fill="#141B5C">Four-chord pop anthem</text>
+  <text x="116" y="257" font-size="11.5" fill="#374151">G, D, Em, C  ·  one loop, whole song</text>
+  <text x="610" y="249" text-anchor="end" font-size="11" fill="#C4683A">This module</text>
+
+  <!-- Rung 8 -->
+  <rect x="60" y="178" width="560" height="40" rx="6" fill="#E8EAF6" stroke="#1E2A8E" stroke-width="1.3"/>
+  <circle cx="88" cy="198" r="14" fill="#1E2A8E"/><text x="88" y="203" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">8</text>
+  <text x="116" y="194" font-size="13" font-weight="bold" fill="#141B5C">Verse + chorus, different sets</text>
+  <text x="116" y="211" font-size="11.5" fill="#374151">All five  ·  section changes mid-song</text>
+  <text x="610" y="203" text-anchor="end" font-size="11" fill="#1E2A8E">Modules 6-7</text>
+
+  <!-- Rung 9 -->
+  <rect x="60" y="132" width="560" height="40" rx="6" fill="#E8EAF6" stroke="#1E2A8E" stroke-width="1.3"/>
+  <circle cx="88" cy="152" r="14" fill="#1E2A8E"/><text x="88" y="157" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">9</text>
+  <text x="116" y="148" font-size="13" font-weight="bold" fill="#141B5C">Five chords + dynamics</text>
+  <text x="116" y="165" font-size="11.5" fill="#374151">All five  ·  soft verse, loud chorus, from memory</text>
+  <text x="610" y="157" text-anchor="end" font-size="11" fill="#1E2A8E">Modules 6-7</text>
+
+  <!-- Rung 10 -->
+  <rect x="60" y="86" width="560" height="40" rx="6" fill="#141B5C" stroke="#141B5C" stroke-width="1.3"/>
+  <circle cx="88" cy="106" r="14" fill="#D4AF37"/><text x="88" y="111" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">10</text>
+  <text x="116" y="102" font-size="13" font-weight="bold" fill="#ffffff">Set-ready song</text>
+  <text x="116" y="119" font-size="11.5" fill="#E5E7EB">All five  ·  full pattern, from memory, for a listener</text>
+  <text x="610" y="111" text-anchor="end" font-size="11" fill="#D4AF37">Module 8</text>
+</svg>

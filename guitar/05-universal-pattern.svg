@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="320" fill="#FFFFFF"/>
+  <text x="360" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Universal Strum Pattern</text>
+  <text x="360" y="66" text-anchor="middle" font-size="15" fill="#374151">Down, Down-Up, Up-Down-Up  (hand keeps pumping the whole bar)</text>
+
+  <!-- count row baseline -->
+  <line x1="50" y1="100" x2="670" y2="100" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- columns for the six positions: 1, and, 2, and, 3, and, 4, and -->
+  <!-- We show 8 eighth-note slots -->
+  <!-- slots at x: 80,150,220,290,360,430,500,570 -->
+
+  <!-- count labels -->
+  <g font-size="20" text-anchor="middle" fill="#141B5C" font-weight="bold">
+    <text x="80" y="92">1</text>
+    <text x="150" y="92" fill="#374151" font-weight="normal">&amp;</text>
+    <text x="220" y="92">2</text>
+    <text x="290" y="92" fill="#374151" font-weight="normal">&amp;</text>
+    <text x="360" y="92">3</text>
+    <text x="430" y="92" fill="#374151" font-weight="normal">&amp;</text>
+    <text x="500" y="92">4</text>
+    <text x="570" y="92" fill="#374151" font-weight="normal">&amp;</text>
+  </g>
+
+  <!-- Arrows. Down = pointing down (navy), Up = pointing up (green). Ghost = faded. -->
+  <!-- Pattern: 1 down, &(2) rest, 2 down, &(2) up, 3 GHOST down, &(3) up, 4 down, &(4) up -->
+
+  <!-- helper: down arrow drawn from y=120 to y=180 -->
+  <!-- slot 1: DOWN -->
+  <g stroke="#1E2A8E" stroke-width="5" stroke-linecap="round" fill="#1E2A8E">
+    <line x1="80" y1="120" x2="80" y2="175"/>
+    <path d="M80 185 l-9 -14 h18 z"/>
+  </g>
+  <!-- slot 2 (and): no strum, blank -->
+  <!-- slot 3 (2): DOWN -->
+  <g stroke="#1E2A8E" stroke-width="5" stroke-linecap="round" fill="#1E2A8E">
+    <line x1="220" y1="120" x2="220" y2="175"/>
+    <path d="M220 185 l-9 -14 h18 z"/>
+  </g>
+  <!-- slot 4 (and): UP -->
+  <g stroke="#3E9B6B" stroke-width="5" stroke-linecap="round" fill="#3E9B6B">
+    <line x1="290" y1="185" x2="290" y2="130"/>
+    <path d="M290 120 l-9 14 h18 z"/>
+  </g>
+  <!-- slot 5 (3): GHOST down (faded) -->
+  <g stroke="#9CA3AF" stroke-width="4" stroke-linecap="round" fill="#9CA3AF" stroke-dasharray="5 6" opacity="0.7">
+    <line x1="360" y1="120" x2="360" y2="175"/>
+    <path d="M360 185 l-8 -13 h16 z"/>
+  </g>
+  <!-- slot 6 (and): UP -->
+  <g stroke="#3E9B6B" stroke-width="5" stroke-linecap="round" fill="#3E9B6B">
+    <line x1="430" y1="185" x2="430" y2="130"/>
+    <path d="M430 120 l-9 14 h18 z"/>
+  </g>
+  <!-- slot 7 (4): DOWN -->
+  <g stroke="#1E2A8E" stroke-width="5" stroke-linecap="round" fill="#1E2A8E">
+    <line x1="500" y1="120" x2="500" y2="175"/>
+    <path d="M500 185 l-9 -14 h18 z"/>
+  </g>
+  <!-- slot 8 (and): UP -->
+  <g stroke="#3E9B6B" stroke-width="5" stroke-linecap="round" fill="#3E9B6B">
+    <line x1="570" y1="185" x2="570" y2="130"/>
+    <path d="M570 120 l-9 14 h18 z"/>
+  </g>
+
+  <!-- stroke labels under arrows -->
+  <g font-size="15" text-anchor="middle" font-weight="bold">
+    <text x="80" y="215" fill="#1E2A8E">D</text>
+    <text x="220" y="215" fill="#1E2A8E">D</text>
+    <text x="290" y="215" fill="#3E9B6B">U</text>
+    <text x="360" y="215" fill="#9CA3AF">(ghost)</text>
+    <text x="430" y="215" fill="#3E9B6B">U</text>
+    <text x="500" y="215" fill="#1E2A8E">D</text>
+    <text x="570" y="215" fill="#3E9B6B">U</text>
+  </g>
+
+  <!-- legend -->
+  <g font-size="14" fill="#374151">
+    <rect x="120" y="255" width="26" height="10" fill="#1E2A8E"/>
+    <text x="154" y="265" >Downstrum</text>
+    <rect x="290" y="255" width="26" height="10" fill="#3E9B6B"/>
+    <text x="324" y="265">Upstrum (light, high strings)</text>
+    <rect x="560" y="255" width="26" height="10" fill="#9CA3AF" opacity="0.7"/>
+    <text x="594" y="265">Ghost</text>
+  </g>
+  <text x="360" y="298" text-anchor="middle" font-size="14" fill="#C4683A" font-weight="bold">On the ghost stroke the hand still swings down, it just misses the strings.</text>
+</svg>

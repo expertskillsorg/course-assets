@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Arial, sans-serif">
+  <rect width="640" height="400" fill="#ffffff"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">G Major — Two Fingerings</text>
+
+  <!-- ================= Option A: 3-finger ================= -->
+  <text x="160" y="66" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">Option A: three-finger G</text>
+
+  <!-- string labels top: low E A D G B e -->
+  <!-- grid: 6 strings, 4 frets. x from 60 to 260 (5 gaps of 40) -->
+  <!-- open/mute row -->
+  <text x="60"  y="88" text-anchor="middle" font-size="13" fill="#374151">3</text>
+  <text x="100" y="88" text-anchor="middle" font-size="13" fill="#374151">2</text>
+  <text x="140" y="88" text-anchor="middle" font-size="13" fill="#3E9B6B">O</text>
+  <text x="180" y="88" text-anchor="middle" font-size="13" fill="#3E9B6B">O</text>
+  <text x="220" y="88" text-anchor="middle" font-size="13" fill="#3E9B6B">O</text>
+  <text x="260" y="88" text-anchor="middle" font-size="13" fill="#374151">3</text>
+
+  <!-- nut -->
+  <rect x="60" y="96" width="200" height="6" fill="#141B5C"/>
+  <!-- frets -->
+  <line x1="60" y1="142" x2="260" y2="142" stroke="#374151" stroke-width="1.5"/>
+  <line x1="60" y1="188" x2="260" y2="188" stroke="#374151" stroke-width="1.5"/>
+  <line x1="60" y1="234" x2="260" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <!-- strings -->
+  <line x1="60"  y1="96" x2="60"  y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="100" y1="96" x2="100" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="140" y1="96" x2="140" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="180" y1="96" x2="180" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="220" y1="96" x2="220" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="260" y1="96" x2="260" y2="234" stroke="#374151" stroke-width="1.5"/>
+
+  <!-- dots: middle(2) low E 3rd fret; index(1) A 2nd fret; ring(3) high e 3rd fret -->
+  <circle cx="60"  cy="211" r="13" fill="#1E2A8E"/><text x="60"  y="216" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">2</text>
+  <circle cx="100" cy="165" r="13" fill="#1E2A8E"/><text x="100" y="170" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">1</text>
+  <circle cx="260" cy="211" r="13" fill="#1E2A8E"/><text x="260" y="216" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">3</text>
+
+  <!-- string names bottom -->
+  <text x="60"  y="256" text-anchor="middle" font-size="11" fill="#374151">E</text>
+  <text x="100" y="256" text-anchor="middle" font-size="11" fill="#374151">A</text>
+  <text x="140" y="256" text-anchor="middle" font-size="11" fill="#374151">D</text>
+  <text x="180" y="256" text-anchor="middle" font-size="11" fill="#374151">G</text>
+  <text x="220" y="256" text-anchor="middle" font-size="11" fill="#374151">B</text>
+  <text x="260" y="256" text-anchor="middle" font-size="11" fill="#374151">e</text>
+
+  <!-- ================= Option B: 4-finger ================= -->
+  <text x="480" y="66" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">Option B: four-finger G</text>
+
+  <text x="380" y="88" text-anchor="middle" font-size="13" fill="#374151">3</text>
+  <text x="420" y="88" text-anchor="middle" font-size="13" fill="#374151">2</text>
+  <text x="460" y="88" text-anchor="middle" font-size="13" fill="#3E9B6B">O</text>
+  <text x="500" y="88" text-anchor="middle" font-size="13" fill="#3E9B6B">O</text>
+  <text x="540" y="88" text-anchor="middle" font-size="13" fill="#374151">3</text>
+  <text x="580" y="88" text-anchor="middle" font-size="13" fill="#374151">3</text>
+
+  <rect x="380" y="96" width="200" height="6" fill="#141B5C"/>
+  <line x1="380" y1="142" x2="580" y2="142" stroke="#374151" stroke-width="1.5"/>
+  <line x1="380" y1="188" x2="580" y2="188" stroke="#374151" stroke-width="1.5"/>
+  <line x1="380" y1="234" x2="580" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="380" y1="96" x2="380" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="420" y1="96" x2="420" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="460" y1="96" x2="460" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="500" y1="96" x2="500" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="540" y1="96" x2="540" y2="234" stroke="#374151" stroke-width="1.5"/>
+  <line x1="580" y1="96" x2="580" y2="234" stroke="#374151" stroke-width="1.5"/>
+
+  <!-- dots: middle(2) low E 3rd; index(1) A 2nd; ring(3) B 3rd; pinky(4) high e 3rd -->
+  <circle cx="380" cy="211" r="13" fill="#D4AF37"/><text x="380" y="216" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">2</text>
+  <circle cx="420" cy="165" r="13" fill="#D4AF37"/><text x="420" y="170" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">1</text>
+  <circle cx="540" cy="211" r="13" fill="#D4AF37"/><text x="540" y="216" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">3</text>
+  <circle cx="580" cy="211" r="13" fill="#D4AF37"/><text x="580" y="216" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">4</text>
+
+  <text x="380" y="256" text-anchor="middle" font-size="11" fill="#374151">E</text>
+  <text x="420" y="256" text-anchor="middle" font-size="11" fill="#374151">A</text>
+  <text x="460" y="256" text-anchor="middle" font-size="11" fill="#374151">D</text>
+  <text x="500" y="256" text-anchor="middle" font-size="11" fill="#374151">G</text>
+  <text x="540" y="256" text-anchor="middle" font-size="11" fill="#374151">B</text>
+  <text x="580" y="256" text-anchor="middle" font-size="11" fill="#374151">e</text>
+
+  <!-- stretch guidance -->
+  <rect x="60" y="290" width="520" height="86" rx="8" fill="#F5F3E7" stroke="#D4AF37" stroke-width="1.5"/>
+  <text x="76" y="314" font-size="13" font-weight="bold" fill="#141B5C">Stretch guidance</text>
+  <text x="76" y="336" font-size="12.5" fill="#374151">Drop your thumb to the middle of the neck's back so the hand opens wide. Reach the</text>
+  <text x="76" y="354" font-size="12.5" fill="#374151">low-E finger first, then set the others. Option B keeps ring and pinky parked near the</text>
+  <text x="76" y="372" font-size="12.5" fill="#374151">C shape, so the G-to-C change gets easier later. Both are the same chord.</text>
+</svg>
