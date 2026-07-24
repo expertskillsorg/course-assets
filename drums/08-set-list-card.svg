@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="460" fill="#FFFFFF"/>
+  <!-- card outer -->
+  <rect x="30" y="24" width="580" height="412" rx="14" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="3"/>
+  <!-- header -->
+  <rect x="30" y="24" width="580" height="58" rx="14" fill="#141B5C"/>
+  <rect x="30" y="60" width="580" height="22" fill="#141B5C"/>
+  <text x="320" y="61" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="bold">MY MINI SET</text>
+  <text x="320" y="76" text-anchor="middle" fill="#D4AF37" font-size="12">three songs, easiest to strongest</text>
+
+  <!-- column headers -->
+  <text x="52" y="108" fill="#374151" font-size="12" font-weight="bold">#</text>
+  <text x="92" y="108" fill="#374151" font-size="12" font-weight="bold">SONG (generic)</text>
+  <text x="300" y="108" fill="#374151" font-size="12" font-weight="bold">GROOVE</text>
+  <text x="430" y="108" fill="#374151" font-size="12" font-weight="bold">TEMPO FEEL</text>
+  <text x="540" y="108" fill="#374151" font-size="12" font-weight="bold">FILL SPOTS</text>
+  <line x1="46" y1="116" x2="594" y2="116" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- Row 1 -->
+  <circle cx="56" cy="150" r="14" fill="#3E9B6B"/>
+  <text x="56" y="155" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold">1</text>
+  <text x="92" y="148" fill="#111827" font-size="14" font-weight="bold">Easy rock tune</text>
+  <text x="92" y="166" fill="#374151" font-size="11">most automatic</text>
+  <text x="300" y="152" fill="#111827" font-size="13">Money beat</text>
+  <text x="430" y="152" fill="#111827" font-size="13">steady, ~90</text>
+  <text x="540" y="148" fill="#111827" font-size="12">end of</text>
+  <text x="540" y="163" fill="#111827" font-size="12">chorus</text>
+  <line x1="46" y1="182" x2="594" y2="182" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Row 2 -->
+  <circle cx="56" cy="222" r="14" fill="#C4683A"/>
+  <text x="56" y="227" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold">2</text>
+  <text x="92" y="220" fill="#111827" font-size="14" font-weight="bold">Dance-pop track</text>
+  <text x="92" y="238" fill="#374151" font-size="11">hardest, hidden</text>
+  <text x="300" y="224" fill="#111827" font-size="13">Four-on-floor</text>
+  <text x="430" y="224" fill="#111827" font-size="13">driving, ~118</text>
+  <text x="540" y="220" fill="#111827" font-size="12">into each</text>
+  <text x="540" y="235" fill="#111827" font-size="12">chorus</text>
+  <line x1="46" y1="254" x2="594" y2="254" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Row 3 -->
+  <circle cx="56" cy="294" r="14" fill="#1E2A8E"/>
+  <text x="56" y="299" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold">3</text>
+  <text x="92" y="292" fill="#111827" font-size="14" font-weight="bold">Big-groove anthem</text>
+  <text x="92" y="310" fill="#374151" font-size="11">crowd-pleaser last</text>
+  <text x="300" y="296" fill="#111827" font-size="13">Half-time feel</text>
+  <text x="430" y="296" fill="#111827" font-size="13">heavy, ~80</text>
+  <text x="540" y="292" fill="#111827" font-size="12">last bar,</text>
+  <text x="540" y="307" fill="#111827" font-size="12">crash on 1</text>
+  <line x1="46" y1="326" x2="594" y2="326" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- footer reminder -->
+  <rect x="46" y="344" width="548" height="72" rx="10" fill="#F3F4F6" stroke="#D4AF37" stroke-width="2"/>
+  <text x="62" y="370" fill="#141B5C" font-size="13" font-weight="bold">Remember:</text>
+  <text x="62" y="392" fill="#374151" font-size="12.5">Only songs you have already won. If you need more than this card holds,</text>
+  <text x="62" y="409" fill="#374151" font-size="12.5">the song is not ready. Simplify to the groove and keep time, never stop.</text>
+</svg>

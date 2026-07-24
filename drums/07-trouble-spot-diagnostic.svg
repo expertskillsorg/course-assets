@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 470" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="780" height="470" fill="#FFFFFF"/>
+  <text x="390" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#141B5C">Trouble-Spot Diagnostic: Symptom to Fix</text>
+
+  <!-- column headers -->
+  <text x="180" y="62" text-anchor="middle" font-size="12" font-weight="bold" fill="#374151">THE SYMPTOM YOU FEEL</text>
+  <text x="600" y="62" text-anchor="middle" font-size="12" font-weight="bold" fill="#374151">THE STANDARD FIX</text>
+
+  <!-- Row 1: Rushing fills -->
+  <g>
+    <rect x="40" y="78" width="280" height="66" rx="8" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+    <text x="180" y="104" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">Rushing fills</text>
+    <text x="180" y="126" text-anchor="middle" font-size="11" fill="#374151">Fills speed up, you crash early</text>
+  </g>
+  <path d="M320 111 L460 111" stroke="#D4AF37" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="460" y="78" width="280" height="66" rx="8" fill="#1E2A8E"/>
+    <text x="600" y="104" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">Count out loud through it</text>
+    <text x="600" y="126" text-anchor="middle" font-size="11" fill="#D4AF37">The fill lives inside the time</text>
+  </g>
+
+  <!-- Row 2: Dragging kicks -->
+  <g>
+    <rect x="40" y="160" width="280" height="66" rx="8" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+    <text x="180" y="186" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">Dragging kicks</text>
+    <text x="180" y="208" text-anchor="middle" font-size="11" fill="#374151">Foot lands late, groove sags</text>
+  </g>
+  <path d="M320 193 L460 193" stroke="#D4AF37" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="460" y="160" width="280" height="66" rx="8" fill="#1E2A8E"/>
+    <text x="600" y="186" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">Slow the ladder rung</text>
+    <text x="600" y="208" text-anchor="middle" font-size="11" fill="#D4AF37">Get it dead-on, then rebuild speed</text>
+  </g>
+
+  <!-- Row 3: Tension creep -->
+  <g>
+    <rect x="40" y="242" width="280" height="66" rx="8" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+    <text x="180" y="268" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">Tension creep</text>
+    <text x="180" y="290" text-anchor="middle" font-size="11" fill="#374151">Forearms burn, grip becomes a fist</text>
+  </g>
+  <path d="M320 275 L460 275" stroke="#D4AF37" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="460" y="242" width="280" height="66" rx="8" fill="#1E2A8E"/>
+    <text x="600" y="268" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">Shake out, loosen grip</text>
+    <text x="600" y="290" text-anchor="middle" font-size="11" fill="#D4AF37">Let the stick rattle a little</text>
+  </g>
+
+  <!-- Row 4: Uneven hands -->
+  <g>
+    <rect x="40" y="324" width="280" height="66" rx="8" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+    <text x="180" y="350" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">Uneven hands</text>
+    <text x="180" y="372" text-anchor="middle" font-size="11" fill="#374151">One hand loud, the other mushy</text>
+  </g>
+  <path d="M320 357 L460 357" stroke="#D4AF37" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="460" y="324" width="280" height="66" rx="8" fill="#1E2A8E"/>
+    <text x="600" y="350" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">Weak hand, extra reps</text>
+    <text x="600" y="372" text-anchor="middle" font-size="11" fill="#D4AF37">Alone and slow, until even</text>
+  </g>
+
+  <!-- footer -->
+  <line x1="40" y1="416" x2="740" y2="416" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="390" y="442" text-anchor="middle" font-size="11.5" fill="#374151">Test cold at the start of a session and record yourself; playback catches what your ears smooth over.</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#D4AF37"/>
+    </marker>
+  </defs>
+</svg>

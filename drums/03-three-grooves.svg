@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 600" font-family="Arial, sans-serif">
+  <rect width="640" height="600" fill="#ffffff"/>
+  <text x="320" y="32" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Three grooves: only one voice changes each time</text>
+
+  <!-- shared legend -->
+  <g font-size="12" fill="#374151">
+    <line x1="230" y1="52" x2="242" y2="64" stroke="#1E2A8E" stroke-width="3"/><line x1="242" y1="52" x2="230" y2="64" stroke="#1E2A8E" stroke-width="3"/>
+    <text x="250" y="63">hi-hat</text>
+    <ellipse cx="330" cy="58" rx="8" ry="6" fill="#C4683A"/><text x="344" y="63">snare</text>
+    <ellipse cx="415" cy="58" rx="8" ry="6" fill="#3E9B6B"/><text x="429" y="63">kick</text>
+  </g>
+
+  <!-- ============ GROOVE 1 ============ -->
+  <text x="40" y="100" font-size="15" font-weight="bold" fill="#141B5C">Groove 1: money beat + extra kick on the "and" of 3</text>
+  <!-- count header -->
+  <g text-anchor="middle" font-size="14">
+    <g font-weight="bold" fill="#141B5C"><text x="200" y="122">1</text><text x="300" y="122">2</text><text x="400" y="122">3</text><text x="500" y="122">4</text></g>
+    <g fill="#374151"><text x="250" y="122">&amp;</text><text x="350" y="122">&amp;</text><text x="450" y="122">&amp;</text><text x="550" y="122">&amp;</text></g>
+  </g>
+  <g font-size="11" fill="#374151" font-weight="bold" text-anchor="end">
+    <text x="150" y="150">HH</text><text x="150" y="176">Snare</text><text x="150" y="202">Kick</text>
+  </g>
+  <!-- HH x8 at y146 -->
+  <g stroke="#1E2A8E" stroke-width="3" stroke-linecap="round">
+    <line x1="194" y1="140" x2="206" y2="152"/><line x1="206" y1="140" x2="194" y2="152"/>
+    <line x1="244" y1="140" x2="256" y2="152"/><line x1="256" y1="140" x2="244" y2="152"/>
+    <line x1="294" y1="140" x2="306" y2="152"/><line x1="306" y1="140" x2="294" y2="152"/>
+    <line x1="344" y1="140" x2="356" y2="152"/><line x1="356" y1="140" x2="344" y2="152"/>
+    <line x1="394" y1="140" x2="406" y2="152"/><line x1="406" y1="140" x2="394" y2="152"/>
+    <line x1="444" y1="140" x2="456" y2="152"/><line x1="456" y1="140" x2="444" y2="152"/>
+    <line x1="494" y1="140" x2="506" y2="152"/><line x1="506" y1="140" x2="494" y2="152"/>
+    <line x1="544" y1="140" x2="556" y2="152"/><line x1="556" y1="140" x2="544" y2="152"/>
+  </g>
+  <!-- snare on 2,4 y172 -->
+  <g fill="#C4683A"><ellipse cx="300" cy="172" rx="9" ry="6.5"/><ellipse cx="500" cy="172" rx="9" ry="6.5"/></g>
+  <!-- kick on 1,3,and-of-3 y198 -->
+  <g fill="#3E9B6B"><ellipse cx="200" cy="198" rx="9" ry="6.5"/><ellipse cx="400" cy="198" rx="9" ry="6.5"/><ellipse cx="450" cy="198" rx="9" ry="6.5"/></g>
+  <text x="450" y="222" text-anchor="middle" font-size="10" fill="#C4683A" font-weight="bold">added</text>
+
+  <!-- ============ GROOVE 2 ============ -->
+  <text x="40" y="278" font-size="15" font-weight="bold" fill="#141B5C">Groove 2: four-on-the-floor (kick on every beat)</text>
+  <g text-anchor="middle" font-size="14">
+    <g font-weight="bold" fill="#141B5C"><text x="200" y="300">1</text><text x="300" y="300">2</text><text x="400" y="300">3</text><text x="500" y="300">4</text></g>
+    <g fill="#374151"><text x="250" y="300">&amp;</text><text x="350" y="300">&amp;</text><text x="450" y="300">&amp;</text><text x="550" y="300">&amp;</text></g>
+  </g>
+  <g font-size="11" fill="#374151" font-weight="bold" text-anchor="end">
+    <text x="150" y="328">HH</text><text x="150" y="354">Snare</text><text x="150" y="380">Kick</text>
+  </g>
+  <g stroke="#1E2A8E" stroke-width="3" stroke-linecap="round">
+    <line x1="194" y1="318" x2="206" y2="330"/><line x1="206" y1="318" x2="194" y2="330"/>
+    <line x1="244" y1="318" x2="256" y2="330"/><line x1="256" y1="318" x2="244" y2="330"/>
+    <line x1="294" y1="318" x2="306" y2="330"/><line x1="306" y1="318" x2="294" y2="330"/>
+    <line x1="344" y1="318" x2="356" y2="330"/><line x1="356" y1="318" x2="344" y2="330"/>
+    <line x1="394" y1="318" x2="406" y2="330"/><line x1="406" y1="318" x2="394" y2="330"/>
+    <line x1="444" y1="318" x2="456" y2="330"/><line x1="456" y1="318" x2="444" y2="330"/>
+    <line x1="494" y1="318" x2="506" y2="330"/><line x1="506" y1="318" x2="494" y2="330"/>
+    <line x1="544" y1="318" x2="556" y2="330"/><line x1="556" y1="318" x2="544" y2="330"/>
+  </g>
+  <g fill="#C4683A"><ellipse cx="300" cy="350" rx="9" ry="6.5"/><ellipse cx="500" cy="350" rx="9" ry="6.5"/></g>
+  <g fill="#3E9B6B"><ellipse cx="200" cy="376" rx="9" ry="6.5"/><ellipse cx="300" cy="376" rx="9" ry="6.5"/><ellipse cx="400" cy="376" rx="9" ry="6.5"/><ellipse cx="500" cy="376" rx="9" ry="6.5"/></g>
+
+  <!-- ============ GROOVE 3 ============ -->
+  <text x="40" y="456" font-size="15" font-weight="bold" fill="#141B5C">Groove 3: half-time feel (snare on beat 3 only)</text>
+  <g text-anchor="middle" font-size="14">
+    <g font-weight="bold" fill="#141B5C"><text x="200" y="478">1</text><text x="300" y="478">2</text><text x="400" y="478">3</text><text x="500" y="478">4</text></g>
+    <g fill="#374151"><text x="250" y="478">&amp;</text><text x="350" y="478">&amp;</text><text x="450" y="478">&amp;</text><text x="550" y="478">&amp;</text></g>
+  </g>
+  <g font-size="11" fill="#374151" font-weight="bold" text-anchor="end">
+    <text x="150" y="506">HH</text><text x="150" y="532">Snare</text><text x="150" y="558">Kick</text>
+  </g>
+  <g stroke="#1E2A8E" stroke-width="3" stroke-linecap="round">
+    <line x1="194" y1="496" x2="206" y2="508"/><line x1="206" y1="496" x2="194" y2="508"/>
+    <line x1="244" y1="496" x2="256" y2="508"/><line x1="256" y1="496" x2="244" y2="508"/>
+    <line x1="294" y1="496" x2="306" y2="508"/><line x1="306" y1="496" x2="294" y2="508"/>
+    <line x1="344" y1="496" x2="356" y2="508"/><line x1="356" y1="496" x2="344" y2="508"/>
+    <line x1="394" y1="496" x2="406" y2="508"/><line x1="406" y1="496" x2="394" y2="508"/>
+    <line x1="444" y1="496" x2="456" y2="508"/><line x1="456" y1="496" x2="444" y2="508"/>
+    <line x1="494" y1="496" x2="506" y2="508"/><line x1="506" y1="496" x2="494" y2="508"/>
+    <line x1="544" y1="496" x2="556" y2="508"/><line x1="556" y1="496" x2="544" y2="508"/>
+  </g>
+  <g fill="#C4683A"><ellipse cx="400" cy="528" rx="9" ry="6.5"/></g>
+  <text x="400" y="514" text-anchor="middle" font-size="10" fill="#C4683A" font-weight="bold">only</text>
+  <g fill="#3E9B6B"><ellipse cx="200" cy="554" rx="9" ry="6.5"/></g>
+</svg>

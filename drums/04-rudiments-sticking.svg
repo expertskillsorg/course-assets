@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Arial, sans-serif">
+  <rect width="720" height="400" fill="#ffffff"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The First Three Rudiments</text>
+  <text x="360" y="56" text-anchor="middle" font-size="12" fill="#374151">played as eighth notes, one letter per note (R = right hand, L = left hand)</text>
+
+  <!-- count header -->
+  <text x="150" y="92" font-size="13" font-weight="bold" fill="#374151">Count</text>
+  <g font-size="15" font-weight="bold" fill="#1E2A8E" text-anchor="middle">
+    <text x="250" y="92">1</text>
+    <text x="300" y="92">&amp;</text>
+    <text x="350" y="92">2</text>
+    <text x="400" y="92">&amp;</text>
+    <text x="450" y="92">3</text>
+    <text x="500" y="92">&amp;</text>
+    <text x="550" y="92">4</text>
+    <text x="600" y="92">&amp;</text>
+  </g>
+  <line x1="230" y1="100" x2="620" y2="100" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <!-- Row 1: Single stroke roll -->
+  <g>
+    <text x="40" y="150" font-size="15" font-weight="bold" fill="#141B5C">Single</text>
+    <text x="40" y="168" font-size="12" fill="#374151">stroke roll</text>
+    <g font-size="18" font-weight="bold" text-anchor="middle">
+      <text x="250" y="160" fill="#1E2A8E">R</text>
+      <text x="300" y="160" fill="#C4683A">L</text>
+      <text x="350" y="160" fill="#1E2A8E">R</text>
+      <text x="400" y="160" fill="#C4683A">L</text>
+      <text x="450" y="160" fill="#1E2A8E">R</text>
+      <text x="500" y="160" fill="#C4683A">L</text>
+      <text x="550" y="160" fill="#1E2A8E">R</text>
+      <text x="600" y="160" fill="#C4683A">L</text>
+    </g>
+  </g>
+  <line x1="40" y1="188" x2="620" y2="188" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Row 2: Double stroke roll -->
+  <g>
+    <text x="40" y="238" font-size="15" font-weight="bold" fill="#141B5C">Double</text>
+    <text x="40" y="256" font-size="12" fill="#374151">stroke roll</text>
+    <g font-size="18" font-weight="bold" text-anchor="middle">
+      <text x="250" y="248" fill="#1E2A8E">R</text>
+      <text x="300" y="248" fill="#1E2A8E">R</text>
+      <text x="350" y="248" fill="#C4683A">L</text>
+      <text x="400" y="248" fill="#C4683A">L</text>
+      <text x="450" y="248" fill="#1E2A8E">R</text>
+      <text x="500" y="248" fill="#1E2A8E">R</text>
+      <text x="550" y="248" fill="#C4683A">L</text>
+      <text x="600" y="248" fill="#C4683A">L</text>
+    </g>
+    <!-- bounce brackets -->
+    <path d="M240 258 q10 10 20 0" fill="none" stroke="#3E9B6B" stroke-width="2"/>
+    <path d="M340 258 q10 10 20 0" fill="none" stroke="#3E9B6B" stroke-width="2"/>
+    <path d="M440 258 q10 10 20 0" fill="none" stroke="#3E9B6B" stroke-width="2"/>
+    <path d="M540 258 q10 10 20 0" fill="none" stroke="#3E9B6B" stroke-width="2"/>
+    <text x="620" y="272" font-size="10" fill="#3E9B6B">= let it bounce</text>
+  </g>
+  <line x1="40" y1="288" x2="620" y2="288" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Row 3: Single paradiddle -->
+  <g>
+    <text x="40" y="338" font-size="15" font-weight="bold" fill="#141B5C">Single</text>
+    <text x="40" y="356" font-size="12" fill="#374151">paradiddle</text>
+    <g font-size="18" font-weight="bold" text-anchor="middle">
+      <text x="250" y="348" fill="#1E2A8E">R</text>
+      <text x="300" y="348" fill="#C4683A">L</text>
+      <text x="350" y="348" fill="#1E2A8E">R</text>
+      <text x="400" y="348" fill="#1E2A8E">R</text>
+      <text x="450" y="348" fill="#C4683A">L</text>
+      <text x="500" y="348" fill="#1E2A8E">R</text>
+      <text x="550" y="348" fill="#C4683A">L</text>
+      <text x="600" y="348" fill="#C4683A">L</text>
+    </g>
+    <text x="325" y="372" text-anchor="middle" font-size="10" fill="#374151">"pa-ra-did-dle"</text>
+    <text x="525" y="372" text-anchor="middle" font-size="10" fill="#374151">flips lead hand</text>
+  </g>
+
+  <!-- legend -->
+  <g font-size="11">
+    <text x="250" y="394" text-anchor="middle" fill="#1E2A8E" font-weight="bold">R = right</text>
+    <text x="360" y="394" text-anchor="middle" fill="#C4683A" font-weight="bold">L = left</text>
+    <path d="M430 388 q10 10 20 0" fill="none" stroke="#3E9B6B" stroke-width="2"/>
+    <text x="470" y="394" fill="#3E9B6B">rebound pair</text>
+  </g>
+</svg>

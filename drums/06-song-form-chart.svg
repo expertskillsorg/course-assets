@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="820" height="380" fill="#FFFFFF"/>
+  <text x="410" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#141B5C">A Song Form Chart for Drummers</text>
+
+  <!-- section blocks -->
+  <g>
+    <rect x="20" y="100" width="60" height="90" rx="4" fill="#3E9B6B"/>
+    <rect x="80" y="100" width="120" height="90" rx="4" fill="#1E2A8E"/>
+    <rect x="200" y="100" width="120" height="90" rx="4" fill="#D4AF37"/>
+    <rect x="320" y="100" width="120" height="90" rx="4" fill="#1E2A8E"/>
+    <rect x="440" y="100" width="120" height="90" rx="4" fill="#D4AF37"/>
+    <rect x="560" y="100" width="60" height="90" rx="4" fill="#C4683A"/>
+    <rect x="620" y="100" width="120" height="90" rx="4" fill="#D4AF37"/>
+    <rect x="740" y="100" width="60" height="90" rx="4" fill="#3E9B6B"/>
+  </g>
+
+  <!-- block labels -->
+  <g text-anchor="middle" fill="#FFFFFF">
+    <text x="50" y="132" font-size="11" font-weight="bold">Intro</text>
+    <text x="50" y="150" font-size="10">4 bars</text>
+    <text x="50" y="168" font-size="9">money beat</text>
+
+    <text x="140" y="132" font-size="12" font-weight="bold">Verse 1</text>
+    <text x="140" y="150" font-size="10">8 bars</text>
+    <text x="140" y="168" font-size="10">money beat, soft</text>
+
+    <text x="260" y="132" font-size="12" font-weight="bold" fill="#141B5C">Chorus</text>
+    <text x="260" y="150" font-size="10" fill="#141B5C">8 bars</text>
+    <text x="260" y="168" font-size="10" fill="#141B5C">ride version, big</text>
+
+    <text x="380" y="132" font-size="12" font-weight="bold">Verse 2</text>
+    <text x="380" y="150" font-size="10">8 bars</text>
+    <text x="380" y="168" font-size="10">money beat, soft</text>
+
+    <text x="500" y="132" font-size="12" font-weight="bold" fill="#141B5C">Chorus</text>
+    <text x="500" y="150" font-size="10" fill="#141B5C">8 bars</text>
+    <text x="500" y="168" font-size="10" fill="#141B5C">ride version, big</text>
+
+    <text x="590" y="132" font-size="11" font-weight="bold">Bridge</text>
+    <text x="590" y="150" font-size="10">4 bars</text>
+    <text x="590" y="168" font-size="9">half-time</text>
+
+    <text x="680" y="132" font-size="12" font-weight="bold" fill="#141B5C">Chorus</text>
+    <text x="680" y="150" font-size="10" fill="#141B5C">8 bars</text>
+    <text x="680" y="168" font-size="10" fill="#141B5C">ride, biggest</text>
+
+    <text x="770" y="132" font-size="11" font-weight="bold">Outro</text>
+    <text x="770" y="150" font-size="10">4 bars</text>
+    <text x="770" y="168" font-size="9">money, fade</text>
+  </g>
+
+  <!-- fill flags and crash markers at seams -->
+  <g>
+    <!-- boundaries: 80 200 320 440 560 620 740 -->
+    <g fill="#374151" font-size="9" text-anchor="middle">
+      <text x="70" y="60">fill</text><text x="190" y="60">fill</text><text x="310" y="60">fill</text><text x="430" y="60">fill</text><text x="550" y="60">fill</text><text x="610" y="60">fill</text><text x="730" y="60">fill</text>
+    </g>
+    <g fill="#3E9B6B">
+      <path d="M64 66 h12 l-6 10 z"/><path d="M184 66 h12 l-6 10 z"/><path d="M304 66 h12 l-6 10 z"/><path d="M424 66 h12 l-6 10 z"/><path d="M544 66 h12 l-6 10 z"/><path d="M604 66 h12 l-6 10 z"/><path d="M724 66 h12 l-6 10 z"/>
+    </g>
+    <!-- crash on the new section's 1 -->
+    <g fill="none" stroke="#D4AF37" stroke-width="2">
+      <circle cx="90" cy="88" r="6"/><circle cx="210" cy="88" r="6"/><circle cx="330" cy="88" r="6"/><circle cx="450" cy="88" r="6"/><circle cx="570" cy="88" r="6"/><circle cx="630" cy="88" r="6"/><circle cx="750" cy="88" r="6"/>
+    </g>
+    <g stroke="#D4AF37" stroke-width="2">
+      <line x1="86" y1="84" x2="94" y2="92"/><line x1="94" y1="84" x2="86" y2="92"/>
+      <line x1="206" y1="84" x2="214" y2="92"/><line x1="214" y1="84" x2="206" y2="92"/>
+      <line x1="326" y1="84" x2="334" y2="92"/><line x1="334" y1="84" x2="326" y2="92"/>
+      <line x1="446" y1="84" x2="454" y2="92"/><line x1="454" y1="84" x2="446" y2="92"/>
+      <line x1="566" y1="84" x2="574" y2="92"/><line x1="574" y1="84" x2="566" y2="92"/>
+      <line x1="626" y1="84" x2="634" y2="92"/><line x1="634" y1="84" x2="626" y2="92"/>
+      <line x1="746" y1="84" x2="754" y2="92"/><line x1="754" y1="84" x2="746" y2="92"/>
+    </g>
+  </g>
+
+  <!-- timeline arrow -->
+  <line x1="20" y1="215" x2="800" y2="215" stroke="#374151" stroke-width="1.5"/>
+  <path d="M800 215 l-8 -4 v8 z" fill="#374151"/>
+  <text x="20" y="235" font-size="10" fill="#374151">start</text>
+  <text x="780" y="235" font-size="10" fill="#374151" text-anchor="end">time</text>
+
+  <!-- legend -->
+  <g font-size="11" fill="#374151">
+    <path d="M24 300 h12 l-6 10 z" fill="#3E9B6B"/>
+    <text x="44" y="309">Fill in the section's last bar</text>
+    <circle cx="290" cy="304" r="6" fill="none" stroke="#D4AF37" stroke-width="2"/>
+    <line x1="286" y1="300" x2="294" y2="308" stroke="#D4AF37" stroke-width="2"/><line x1="294" y1="300" x2="286" y2="308" stroke="#D4AF37" stroke-width="2"/>
+    <text x="302" y="309">Crash on the new section's beat 1</text>
+  </g>
+  <text x="24" y="338" font-size="11" fill="#374151">Verses stay small, choruses open up on the ride, the bridge breaks the pattern in half-time.</text>
+</svg>

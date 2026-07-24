@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Arial, sans-serif">
+  <rect width="720" height="380" fill="#ffffff"/>
+  <text x="360" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Money Beat: which limb plays on each count</text>
+
+  <!-- column x positions for 1 &amp; 2 &amp; 3 &amp; 4 &amp; -->
+  <!-- 130 200 270 340 410 480 550 620 -->
+
+  <!-- Count header -->
+  <g font-weight="bold" text-anchor="middle">
+    <text x="130" y="82" font-size="24" fill="#141B5C">1</text>
+    <text x="200" y="82" font-size="16" fill="#374151">&amp;</text>
+    <text x="270" y="82" font-size="24" fill="#141B5C">2</text>
+    <text x="340" y="82" font-size="16" fill="#374151">&amp;</text>
+    <text x="410" y="82" font-size="24" fill="#141B5C">3</text>
+    <text x="480" y="82" font-size="16" fill="#374151">&amp;</text>
+    <text x="550" y="82" font-size="24" fill="#141B5C">4</text>
+    <text x="620" y="82" font-size="16" fill="#374151">&amp;</text>
+  </g>
+
+  <!-- vertical guides -->
+  <g stroke="#E5E7EB" stroke-width="1">
+    <line x1="130" y1="95" x2="130" y2="330"/>
+    <line x1="270" y1="95" x2="270" y2="330"/>
+    <line x1="410" y1="95" x2="410" y2="330"/>
+    <line x1="550" y1="95" x2="550" y2="330"/>
+  </g>
+
+  <!-- Row labels -->
+  <g font-size="15" font-weight="bold">
+    <text x="20" y="140" fill="#1E2A8E">Hi-hat hand</text>
+    <text x="20" y="220" fill="#C4683A">Snare hand</text>
+    <text x="20" y="300" fill="#3E9B6B">Kick foot</text>
+  </g>
+  <g font-size="12" fill="#374151">
+    <text x="20" y="158">steady eighths</text>
+    <text x="20" y="238">beats 2 and 4</text>
+    <text x="20" y="318">beats 1 and 3</text>
+  </g>
+
+  <!-- Hi-hat row: every slot -->
+  <g fill="#1E2A8E">
+    <path d="M124 128 l12 0 l-6 14 z"/>
+    <path d="M194 128 l12 0 l-6 14 z"/>
+    <path d="M264 128 l12 0 l-6 14 z"/>
+    <path d="M334 128 l12 0 l-6 14 z"/>
+    <path d="M404 128 l12 0 l-6 14 z"/>
+    <path d="M474 128 l12 0 l-6 14 z"/>
+    <path d="M544 128 l12 0 l-6 14 z"/>
+    <path d="M614 128 l12 0 l-6 14 z"/>
+  </g>
+
+  <!-- Snare row: beats 2 and 4 -->
+  <g fill="#C4683A">
+    <circle cx="270" cy="212" r="14"/>
+    <circle cx="550" cy="212" r="14"/>
+  </g>
+  <g fill="#E5E7EB">
+    <circle cx="130" cy="212" r="7"/>
+    <circle cx="410" cy="212" r="7"/>
+  </g>
+
+  <!-- Kick row: beats 1 and 3 -->
+  <g fill="#3E9B6B">
+    <circle cx="130" cy="292" r="14"/>
+    <circle cx="410" cy="292" r="14"/>
+  </g>
+  <g fill="#E5E7EB">
+    <circle cx="270" cy="292" r="7"/>
+    <circle cx="550" cy="292" r="7"/>
+  </g>
+
+  <!-- Overlap callouts -->
+  <rect x="96" y="336" width="220" height="30" rx="4" fill="#141B5C"/>
+  <text x="206" y="356" text-anchor="middle" font-size="13" fill="#ffffff">Beats 1 &amp; 3: hi-hat + kick together</text>
+  <rect x="404" y="336" width="230" height="30" rx="4" fill="#141B5C"/>
+  <text x="519" y="356" text-anchor="middle" font-size="13" fill="#ffffff">Beats 2 &amp; 4: hi-hat + snare together</text>
+</svg>
