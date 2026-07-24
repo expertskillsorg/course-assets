@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 380" font-family="Arial, sans-serif">
+  <rect width="860" height="380" fill="#ffffff"/>
+  <text x="30" y="40" font-size="22" font-weight="bold" fill="#141B5C">The Kneading Rhythm and the Windowpane Finish Line</text>
+  <text x="30" y="64" font-size="14" fill="#374151">Push, fold, turn until a stretched piece is thin enough to see light through</text>
+
+  <!-- Left block: the rhythm -->
+  <text x="40" y="108" font-size="15" font-weight="bold" fill="#1E2A8E">The push-fold-turn rhythm</text>
+
+  <!-- Beat 1: Push -->
+  <g>
+    <ellipse cx="110" cy="185" rx="46" ry="30" fill="#D4AF37" opacity="0.35"/>
+    <ellipse cx="110" cy="185" rx="46" ry="30" fill="none" stroke="#C4683A" stroke-width="2.5"/>
+    <path d="M150 185 h44" fill="none" stroke="#1E2A8E" stroke-width="4" stroke-linecap="round"/>
+    <path d="M186 175 l12 10 l-12 10" fill="none" stroke="#1E2A8E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="110" y="245" font-size="14" font-weight="bold" fill="#141B5C" text-anchor="middle">1. Push</text>
+    <text x="110" y="264" font-size="11" fill="#374151" text-anchor="middle">heel of hand away</text>
+  </g>
+
+  <!-- Beat 2: Fold -->
+  <g>
+    <ellipse cx="260" cy="185" rx="46" ry="30" fill="#D4AF37" opacity="0.35"/>
+    <ellipse cx="260" cy="185" rx="46" ry="30" fill="none" stroke="#C4683A" stroke-width="2.5"/>
+    <path d="M260 150 q34 20 0 40" fill="none" stroke="#1E2A8E" stroke-width="4" stroke-linecap="round"/>
+    <path d="M260 190 l-11 -6 l3 13" fill="none" stroke="#1E2A8E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="260" y="245" font-size="14" font-weight="bold" fill="#141B5C" text-anchor="middle">2. Fold</text>
+    <text x="260" y="264" font-size="11" fill="#374151" text-anchor="middle">back over itself</text>
+  </g>
+
+  <!-- Beat 3: Turn -->
+  <g>
+    <ellipse cx="410" cy="185" rx="46" ry="30" fill="#D4AF37" opacity="0.35"/>
+    <ellipse cx="410" cy="185" rx="46" ry="30" fill="none" stroke="#C4683A" stroke-width="2.5"/>
+    <path d="M410 155 a30 30 0 1 1 -21 9" fill="none" stroke="#1E2A8E" stroke-width="4" stroke-linecap="round"/>
+    <path d="M389 164 l-2 14 l14 -3" fill="none" stroke="#1E2A8E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="410" y="245" font-size="14" font-weight="bold" fill="#141B5C" text-anchor="middle">3. Turn</text>
+    <text x="410" y="264" font-size="11" fill="#374151" text-anchor="middle">a quarter, repeat</text>
+  </g>
+
+  <text x="260" y="312" font-size="12" fill="#374151" text-anchor="middle" font-style="italic">Repeat 8 to 10 minutes: rough and sticky becomes smooth and springy</text>
+
+  <!-- Divider -->
+  <line x1="500" y1="95" x2="500" y2="330" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- Right block: windowpane test -->
+  <text x="530" y="108" font-size="15" font-weight="bold" fill="#1E2A8E">The windowpane test</text>
+
+  <!-- Not ready: torn -->
+  <g>
+    <path d="M545 150 q45 -22 90 0 q10 40 0 60 q-45 18 -90 0 q-8 -34 0 -60 z" fill="#D4AF37" opacity="0.4" stroke="#C4683A" stroke-width="2.5"/>
+    <path d="M588 165 l6 12 l-8 8 l7 12" fill="none" stroke="#141B5C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="590" y="248" font-size="13" font-weight="bold" fill="#C4683A" text-anchor="middle">Tears fast</text>
+    <text x="590" y="267" font-size="11" fill="#374151" text-anchor="middle">not ready, keep kneading</text>
+  </g>
+
+  <!-- Ready: translucent -->
+  <g>
+    <path d="M690 150 q60 -26 120 0 q12 40 0 60 q-60 22 -120 0 q-10 -32 0 -60 z" fill="#3E9B6B" opacity="0.18" stroke="#3E9B6B" stroke-width="2.5"/>
+    <circle cx="750" cy="180" r="30" fill="#ffffff" opacity="0.9"/>
+    <circle cx="750" cy="180" r="30" fill="none" stroke="#3E9B6B" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <path d="M750 162 v36 M732 180 h36" stroke="#D4AF37" stroke-width="2"/>
+    <text x="750" y="248" font-size="13" font-weight="bold" fill="#3E9B6B" text-anchor="middle">See-through film</text>
+    <text x="750" y="267" font-size="11" fill="#374151" text-anchor="middle">fully developed, done</text>
+  </g>
+</svg>

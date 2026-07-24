@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Arial, sans-serif">
+  <rect width="720" height="360" fill="#ffffff"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Enrichment Spectrum</text>
+  <text x="360" y="60" text-anchor="middle" font-size="13" fill="#374151">From lean to rich: more butter, sugar, eggs, and milk as you move right</text>
+
+  <!-- gradient bar -->
+  <defs>
+    <linearGradient id="rich" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E5E7EB"/>
+      <stop offset="0.5" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#C4683A"/>
+    </linearGradient>
+  </defs>
+  <rect x="60" y="120" width="600" height="26" rx="13" fill="url(#rich)"/>
+  <polygon points="660,133 690,133 675,150" fill="#C4683A"/>
+  <text x="60" y="110" font-size="14" font-weight="bold" fill="#374151">LEAN</text>
+  <text x="640" y="110" font-size="14" font-weight="bold" fill="#C4683A">RICH</text>
+
+  <!-- rising fat/sugar arrow -->
+  <line x1="60" y1="300" x2="660" y2="220" stroke="#3E9B6B" stroke-width="3"/>
+  <text x="70" y="318" font-size="12" fill="#3E9B6B">fat + sugar rising</text>
+
+  <!-- markers -->
+  <g font-size="13" fill="#141B5C" text-anchor="middle">
+    <circle cx="120" cy="133" r="8" fill="#1E2A8E"/>
+    <text x="120" y="180" font-weight="bold">Baguette</text>
+    <text x="120" y="197" font-size="11" fill="#374151">flour, water,</text>
+    <text x="120" y="211" font-size="11" fill="#374151">yeast, salt</text>
+
+    <circle cx="255" cy="133" r="8" fill="#1E2A8E"/>
+    <text x="255" y="180" font-weight="bold">Sandwich loaf</text>
+    <text x="255" y="197" font-size="11" fill="#374151">a little fat</text>
+    <text x="255" y="211" font-size="11" fill="#374151">and sugar</text>
+
+    <circle cx="390" cy="133" r="8" fill="#D4AF37"/>
+    <text x="390" y="180" font-weight="bold">Dinner rolls</text>
+    <text x="390" y="197" font-size="11" fill="#374151">butter + milk,</text>
+    <text x="390" y="211" font-size="11" fill="#374151">still easy</text>
+
+    <circle cx="510" cy="133" r="8" fill="#D4AF37"/>
+    <text x="510" y="180" font-weight="bold">Milk bread</text>
+    <text x="510" y="197" font-size="11" fill="#374151">soft, pillowy</text>
+    <text x="510" y="211" font-size="11" fill="#374151">crumb</text>
+
+    <circle cx="630" cy="133" r="8" fill="#C4683A"/>
+    <text x="630" y="180" font-weight="bold" fill="#C4683A">Brioche</text>
+    <text x="630" y="197" font-size="11" fill="#374151">butter near half</text>
+    <text x="630" y="211" font-size="11" fill="#374151">the flour weight</text>
+  </g>
+
+  <text x="360" y="345" text-anchor="middle" font-size="12" fill="#374151" font-style="italic">Beginners start in the middle: dinner rolls and milk bread are the friendly on-ramp.</text>
+</svg>

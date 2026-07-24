@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Arial, sans-serif">
+  <rect width="720" height="360" fill="#ffffff"/>
+  <text x="360" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">The Recipe Seesaw</text>
+  <text x="360" y="62" text-anchor="middle" font-size="14" fill="#374151">Texture lands wherever the balance tips</text>
+
+  <!-- pivot -->
+  <polygon points="360,250 330,320 390,320" fill="#374151"/>
+  <rect x="300" y="318" width="120" height="10" rx="4" fill="#141B5C"/>
+
+  <!-- tilted plank: builders side down (left) -->
+  <g transform="rotate(-8 360 245)">
+    <rect x="80" y="236" width="560" height="18" rx="9" fill="#1E2A8E"/>
+
+    <!-- builder pans (left) -->
+    <rect x="110" y="150" width="150" height="80" rx="8" fill="#3E9B6B" opacity="0.18" stroke="#3E9B6B" stroke-width="2"/>
+    <text x="185" y="176" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E9B6B">Builders</text>
+    <text x="185" y="197" text-anchor="middle" font-size="12" fill="#111827">Flour</text>
+    <text x="185" y="214" text-anchor="middle" font-size="12" fill="#111827">Eggs, worked water</text>
+
+    <!-- tenderizer pan (right) -->
+    <rect x="460" y="150" width="150" height="80" rx="8" fill="#C4683A" opacity="0.18" stroke="#C4683A" stroke-width="2"/>
+    <text x="535" y="176" text-anchor="middle" font-size="15" font-weight="bold" fill="#C4683A">Tenderizers</text>
+    <text x="535" y="197" text-anchor="middle" font-size="12" fill="#111827">Fat, sugar</text>
+    <text x="535" y="214" text-anchor="middle" font-size="12" fill="#111827">Acids</text>
+  </g>
+
+  <!-- outcome labels -->
+  <text x="150" y="345" text-anchor="middle" font-size="14" font-weight="bold" fill="#3E9B6B">Chew and structure</text>
+  <text x="360" y="345" text-anchor="middle" font-size="13" fill="#374151">balanced crumb</text>
+  <text x="570" y="345" text-anchor="middle" font-size="14" font-weight="bold" fill="#C4683A">Soft and tender</text>
+
+  <!-- side arrows -->
+  <text x="150" y="120" text-anchor="middle" font-size="13" fill="#374151">more weight = bread</text>
+  <text x="570" y="120" text-anchor="middle" font-size="13" fill="#374151">more weight = cake</text>
+</svg>

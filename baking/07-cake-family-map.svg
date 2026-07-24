@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="860" height="470" fill="#FFFFFF"/>
+  <text x="430" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#141B5C">The Cake Family Map: Grouped by What Builds the Structure</text>
+
+  <!-- root -->
+  <rect x="330" y="52" width="200" height="40" rx="8" fill="#141B5C"/>
+  <text x="430" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">What lifts the crumb?</text>
+
+  <!-- three branch lines -->
+  <line x1="430" y1="92" x2="150" y2="130" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="430" y1="92" x2="430" y2="130" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="430" y1="92" x2="710" y2="130" stroke="#E5E7EB" stroke-width="3"/>
+
+  <!-- Branch 1: creamed butter -->
+  <rect x="30" y="130" width="240" height="300" rx="10" fill="#FBF6E4" stroke="#D4AF37" stroke-width="2"/>
+  <rect x="30" y="130" width="240" height="42" rx="10" fill="#D4AF37"/>
+  <text x="150" y="158" text-anchor="middle" font-size="15" font-weight="bold" fill="#141B5C">Creamed-butter cakes</text>
+  <text x="150" y="192" text-anchor="middle" font-size="12" fill="#374151">Structure: air beaten into</text>
+  <text x="150" y="208" text-anchor="middle" font-size="12" fill="#374151">butter + baking powder</text>
+  <text x="150" y="238" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">Members</text>
+  <text x="150" y="260" text-anchor="middle" font-size="12" fill="#111827">Pound cake, yellow</text>
+  <text x="150" y="278" text-anchor="middle" font-size="12" fill="#111827">birthday layers, vanilla</text>
+  <text x="150" y="308" text-anchor="middle" font-size="13" font-weight="bold" fill="#3E9B6B">Texture</text>
+  <text x="150" y="330" text-anchor="middle" font-size="12" fill="#111827">Firm, tight, buttery</text>
+  <text x="150" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">Best for</text>
+  <text x="150" y="382" text-anchor="middle" font-size="12" fill="#111827">Sturdy stacked cakes</text>
+  <text x="150" y="400" text-anchor="middle" font-size="12" fill="#111827">that hold frosting</text>
+  <text x="150" y="420" text-anchor="middle" font-size="12" fill="#374151">Serve near room temp</text>
+
+  <!-- Branch 2: oil + chemical -->
+  <rect x="310" y="130" width="240" height="300" rx="10" fill="#F0F6F2" stroke="#3E9B6B" stroke-width="2"/>
+  <rect x="310" y="130" width="240" height="42" rx="10" fill="#3E9B6B"/>
+  <text x="430" y="158" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Oil cakes</text>
+  <text x="430" y="192" text-anchor="middle" font-size="12" fill="#374151">Structure: baking soda /</text>
+  <text x="430" y="208" text-anchor="middle" font-size="12" fill="#374151">powder; oil stays liquid</text>
+  <text x="430" y="238" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">Members</text>
+  <text x="430" y="260" text-anchor="middle" font-size="12" fill="#111827">Carrot, most chocolate,</text>
+  <text x="430" y="278" text-anchor="middle" font-size="12" fill="#111827">banana, red velvet</text>
+  <text x="430" y="308" text-anchor="middle" font-size="13" font-weight="bold" fill="#3E9B6B">Texture</text>
+  <text x="430" y="330" text-anchor="middle" font-size="12" fill="#111827">Moist, tender, even cold</text>
+  <text x="430" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">Best for</text>
+  <text x="430" y="382" text-anchor="middle" font-size="12" fill="#111827">One-bowl ease; cakes</text>
+  <text x="430" y="400" text-anchor="middle" font-size="12" fill="#111827">that keep for days</text>
+  <text x="430" y="420" text-anchor="middle" font-size="12" fill="#374151">No creaming needed</text>
+
+  <!-- Branch 3: whipped-egg foam -->
+  <rect x="590" y="130" width="240" height="300" rx="10" fill="#EEF0FA" stroke="#1E2A8E" stroke-width="2"/>
+  <rect x="590" y="130" width="240" height="42" rx="10" fill="#1E2A8E"/>
+  <text x="710" y="158" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Foam / sponge cakes</text>
+  <text x="710" y="192" text-anchor="middle" font-size="12" fill="#374151">Structure: whipped egg</text>
+  <text x="710" y="208" text-anchor="middle" font-size="12" fill="#374151">foam, little or no fat</text>
+  <text x="710" y="238" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">Members</text>
+  <text x="710" y="260" text-anchor="middle" font-size="12" fill="#111827">Genoise, chiffon,</text>
+  <text x="710" y="278" text-anchor="middle" font-size="12" fill="#111827">angel food</text>
+  <text x="710" y="308" text-anchor="middle" font-size="13" font-weight="bold" fill="#3E9B6B">Texture</text>
+  <text x="710" y="330" text-anchor="middle" font-size="12" fill="#111827">Light, springy, airy</text>
+  <text x="710" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">Best for</text>
+  <text x="710" y="382" text-anchor="middle" font-size="12" fill="#111827">Rolls, soaked layers,</text>
+  <text x="710" y="400" text-anchor="middle" font-size="12" fill="#111827">delicate desserts</text>
+  <text x="710" y="420" text-anchor="middle" font-size="12" fill="#374151">Fold, don't stir</text>
+
+  <text x="430" y="456" text-anchor="middle" font-size="12" fill="#374151">Name the lift first and the recipe's whole method, texture, and best use follow from it.</text>
+</svg>
