@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="560" fill="#FFFFFF"/>
+
+  <text x="450" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#141B5C">The 24-Volt Control Loop</text>
+  <text x="450" y="54" text-anchor="middle" font-size="13" fill="#374151">Line voltage in, 24 volts out on R, through the thermostat's switches, into the loads, home on C</text>
+
+  <!-- line voltage source -->
+  <rect x="40" y="110" width="150" height="70" rx="6" fill="#C4683A"/>
+  <text x="115" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">LINE VOLTAGE</text>
+  <text x="115" y="162" text-anchor="middle" font-size="12" fill="#FFFFFF">120V or 240V</text>
+  <text x="115" y="196" text-anchor="middle" font-size="11" fill="#C4683A">dangerous side</text>
+
+  <line x1="190" y1="145" x2="250" y2="145" stroke="#C4683A" stroke-width="4"/>
+  <polygon points="250,138 266,145 250,152" fill="#C4683A"/>
+
+  <!-- transformer -->
+  <rect x="268" y="100" width="150" height="90" rx="6" fill="#141B5C"/>
+  <text x="343" y="128" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">STEP-DOWN</text>
+  <text x="343" y="147" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">TRANSFORMER</text>
+  <text x="343" y="171" text-anchor="middle" font-size="12" fill="#D4AF37">typically 40 VA</text>
+
+  <!-- fuse -->
+  <line x1="418" y1="122" x2="470" y2="122" stroke="#1E2A8E" stroke-width="4"/>
+  <rect x="470" y="112" width="46" height="20" rx="4" fill="#D4AF37"/>
+  <text x="493" y="127" text-anchor="middle" font-size="10" font-weight="bold" fill="#141B5C">FUSE</text>
+  <text x="493" y="103" text-anchor="middle" font-size="10" fill="#374151">3 to 5 amp</text>
+
+  <!-- R rail out -->
+  <line x1="516" y1="122" x2="640" y2="122" stroke="#1E2A8E" stroke-width="4"/>
+  <text x="578" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="#1E2A8E">R = 24V hot</text>
+
+  <!-- thermostat box -->
+  <rect x="640" y="90" width="215" height="230" rx="8" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="3"/>
+  <rect x="640" y="90" width="215" height="34" rx="8" fill="#1E2A8E"/>
+  <text x="747" y="113" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">THERMOSTAT</text>
+  <text x="747" y="145" text-anchor="middle" font-size="11" fill="#374151">a set of switches, nothing more</text>
+
+  <!-- terminals inside thermostat -->
+  <circle cx="672" cy="180" r="9" fill="#1E2A8E"/><text x="672" y="184" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">R</text>
+  <circle cx="672" cy="215" r="9" fill="#C4683A"/><text x="672" y="219" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">W</text>
+  <circle cx="672" cy="250" r="9" fill="#3E9B6B"/><text x="672" y="254" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">Y</text>
+  <circle cx="672" cy="285" r="9" fill="#D4AF37"/><text x="672" y="289" text-anchor="middle" font-size="10" font-weight="bold" fill="#141B5C">G</text>
+
+  <text x="694" y="184" font-size="11" fill="#374151">power in from transformer</text>
+  <text x="694" y="219" font-size="11" fill="#374151">call for HEAT</text>
+  <text x="694" y="254" font-size="11" fill="#374151">call for COOLING</text>
+  <text x="694" y="289" font-size="11" fill="#374151">run the indoor FAN</text>
+
+  <!-- internal switch marks -->
+  <line x1="681" y1="180" x2="681" y2="285" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- loads column -->
+  <text x="230" y="270" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">THE LOADS IT COMMANDS</text>
+
+  <rect x="90" y="290" width="280" height="52" rx="6" fill="#C4683A"/>
+  <text x="230" y="313" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">W to GAS VALVE / heat relay</text>
+  <text x="230" y="332" text-anchor="middle" font-size="11" fill="#FFFFFF">furnace fires</text>
+
+  <rect x="90" y="356" width="280" height="52" rx="6" fill="#3E9B6B"/>
+  <text x="230" y="379" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Y to CONTACTOR COIL</text>
+  <text x="230" y="398" text-anchor="middle" font-size="11" fill="#FFFFFF">outdoor unit pulls in</text>
+
+  <rect x="90" y="422" width="280" height="52" rx="6" fill="#D4AF37"/>
+  <text x="230" y="445" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">G to BLOWER RELAY</text>
+  <text x="230" y="464" text-anchor="middle" font-size="11" fill="#141B5C">indoor fan starts</text>
+
+  <!-- wires from thermostat terminals down and left to loads -->
+  <path d="M663 215 L 560 215 L 560 316 L 370 316" fill="none" stroke="#C4683A" stroke-width="3"/>
+  <polygon points="370,309 354,316 370,323" fill="#C4683A"/>
+  <path d="M663 250 L 530 250 L 530 382 L 370 382" fill="none" stroke="#3E9B6B" stroke-width="3"/>
+  <polygon points="370,375 354,382 370,389" fill="#3E9B6B"/>
+  <path d="M663 285 L 500 285 L 500 448 L 370 448" fill="none" stroke="#D4AF37" stroke-width="3"/>
+  <polygon points="370,441 354,448 370,455" fill="#D4AF37"/>
+
+  <!-- common return -->
+  <path d="M90 448 L 60 448 L 60 505 L 800 505 L 800 320" fill="none" stroke="#141B5C" stroke-width="4"/>
+  <path d="M90 382 L 60 382" fill="none" stroke="#141B5C" stroke-width="4"/>
+  <path d="M90 316 L 60 316" fill="none" stroke="#141B5C" stroke-width="4"/>
+  <circle cx="800" cy="285" r="9" fill="#141B5C"/>
+  <text x="800" y="289" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">C</text>
+  <text x="430" y="497" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">C = COMMON: the return path that completes every loop (and powers smart thermostats)</text>
+
+  <path d="M343 190 L 343 250 L 60 250 L 60 316" fill="none" stroke="#141B5C" stroke-width="4"/>
+
+  <text x="450" y="540" text-anchor="middle" font-size="11" fill="#374151">The thermostat has no power to give. It only decides which paths are allowed to complete.</text>
+</svg>

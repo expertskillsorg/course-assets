@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 430" width="780" height="430" role="img" aria-label="Three modes of heat transfer shown on a house: radiation on the roof, conduction through a wall, convection from a vent">
+  <rect x="0" y="0" width="780" height="430" fill="#FFFFFF"/>
+  <text x="390" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#141B5C">Three Ways Heat Moves Through a House</text>
+  <line x1="60" y1="48" x2="720" y2="48" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- Panel 1: Radiation -->
+  <rect x="30" y="66" width="230" height="300" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="145" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#D4AF37">RADIATION</text>
+  <text x="145" y="114" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Across open space</text>
+  <circle cx="72" cy="152" r="18" fill="#D4AF37"/>
+  <g stroke="#D4AF37" stroke-width="3" stroke-linecap="round">
+    <line x1="72" y1="124" x2="72" y2="114"/>
+    <line x1="94" y1="130" x2="102" y2="122"/>
+    <line x1="100" y1="152" x2="110" y2="152"/>
+  </g>
+  <g stroke="#D4AF37" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M92 168 L138 206"/><path d="M104 160 L152 198"/><path d="M116 154 L166 192"/>
+  </g>
+  <polygon points="132,214 144,204 138,200" fill="#D4AF37"/>
+  <polygon points="146,206 158,196 152,192" fill="#D4AF37"/>
+  <polygon points="160,200 172,190 166,186" fill="#D4AF37"/>
+  <!-- roof + house -->
+  <polygon points="145,208 235,262 55,262" fill="#C4683A"/>
+  <rect x="78" y="262" width="134" height="76" fill="#1E2A8E"/>
+  <rect x="104" y="288" width="30" height="30" fill="#FFFFFF"/>
+  <rect x="158" y="288" width="30" height="50" fill="#141B5C"/>
+  <text x="145" y="358" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#111827">Sun heats the roof from</text>
+  <text x="145" y="374" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#111827">93 million miles away</text>
+
+  <!-- Panel 2: Conduction -->
+  <rect x="275" y="66" width="230" height="300" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="390" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#C4683A">CONDUCTION</text>
+  <text x="390" y="114" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Through solid material</text>
+  <!-- wall cross-section -->
+  <rect x="352" y="140" width="26" height="180" fill="#374151"/>
+  <rect x="378" y="140" width="44" height="180" fill="#E5E7EB"/>
+  <rect x="422" y="140" width="26" height="180" fill="#1E2A8E"/>
+  <text x="365" y="134" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">siding</text>
+  <text x="400" y="134" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">insulation</text>
+  <text x="435" y="134" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">drywall</text>
+  <g stroke="#C4683A" stroke-width="4" stroke-linecap="round">
+    <line x1="440" y1="180" x2="366" y2="180"/>
+    <line x1="440" y1="230" x2="366" y2="230"/>
+    <line x1="440" y1="280" x2="366" y2="280"/>
+  </g>
+  <polygon points="358,180 372,173 372,187" fill="#C4683A"/>
+  <polygon points="358,230 372,223 372,237" fill="#C4683A"/>
+  <polygon points="358,280 372,273 372,287" fill="#C4683A"/>
+  <text x="470" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1E2A8E">WARM</text>
+  <text x="470" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1E2A8E">INSIDE</text>
+  <text x="312" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">COLD</text>
+  <text x="312" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">OUTSIDE</text>
+  <text x="390" y="358" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#111827">Insulation slows the leak,</text>
+  <text x="390" y="374" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#111827">it never stops it</text>
+
+  <!-- Panel 3: Convection -->
+  <rect x="520" y="66" width="230" height="300" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="635" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#3E9B6B">CONVECTION</text>
+  <text x="635" y="114" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Carried by moving air</text>
+  <rect x="548" y="140" width="176" height="180" fill="#FFFFFF" stroke="#374151" stroke-width="2"/>
+  <!-- supply register -->
+  <rect x="556" y="290" width="46" height="22" fill="#1E2A8E"/>
+  <g stroke="#FFFFFF" stroke-width="2">
+    <line x1="564" y1="292" x2="564" y2="310"/>
+    <line x1="574" y1="292" x2="574" y2="310"/>
+    <line x1="584" y1="292" x2="584" y2="310"/>
+    <line x1="594" y1="292" x2="594" y2="310"/>
+  </g>
+  <text x="579" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">supply</text>
+  <!-- return grille -->
+  <rect x="674" y="290" width="42" height="22" fill="#141B5C"/>
+  <text x="695" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">return</text>
+  <!-- circulating air loop -->
+  <path d="M579 288 C 579 210, 600 168, 640 168 C 686 168, 700 220, 697 286" fill="none" stroke="#3E9B6B" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="697,292 690,276 704,276" fill="#3E9B6B"/>
+  <polygon points="612,182 626,176 620,192" fill="#3E9B6B"/>
+  <text x="635" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#3E9B6B">blower pushes the loop</text>
+  <text x="635" y="358" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#111827">Forced-air heating is just</text>
+  <text x="635" y="374" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#111827">convection on a schedule</text>
+
+  <text x="390" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-style="italic" fill="#374151">In all three, heat moves one direction only: warm to cool.</text>
+</svg>

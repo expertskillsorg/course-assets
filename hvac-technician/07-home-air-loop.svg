@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="500" fill="#FFFFFF"/>
+
+  <text x="450" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#141B5C">The Air Loop in a Home</text>
+  <text x="450" y="52" text-anchor="middle" font-size="13" fill="#374151">Return grille to filter to equipment to supply trunk to branches to registers, then back again</text>
+
+  <!-- house shell -->
+  <polygon points="40,110 450,58 860,110" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="2"/>
+  <rect x="40" y="110" width="820" height="345" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="40" y1="330" x2="860" y2="330" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="430" y1="130" x2="430" y2="330" stroke="#E5E7EB" stroke-width="2" stroke-dasharray="6 6"/>
+  <line x1="620" y1="130" x2="620" y2="330" stroke="#E5E7EB" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="235" y="148" text-anchor="middle" font-size="12" fill="#374151">Hallway</text>
+  <text x="525" y="148" text-anchor="middle" font-size="12" fill="#374151">Bedroom</text>
+  <text x="740" y="148" text-anchor="middle" font-size="12" fill="#374151">Back bedroom</text>
+  <text x="80" y="352" font-size="12" fill="#374151">Mechanical space (basement, closet, or attic)</text>
+
+  <!-- supply trunk -->
+  <rect x="250" y="395" width="530" height="26" rx="4" fill="#1E2A8E"/>
+  <text x="515" y="413" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">SUPPLY TRUNK</text>
+
+  <!-- branches -->
+  <rect x="336" y="262" width="18" height="133" fill="#1E2A8E"/>
+  <rect x="516" y="262" width="18" height="133" fill="#1E2A8E"/>
+  <rect x="716" y="262" width="18" height="133" fill="#1E2A8E"/>
+  <text x="380" y="300" font-size="12" fill="#374151">branch</text>
+  <text x="560" y="300" font-size="12" fill="#374151">branch</text>
+  <text x="760" y="300" font-size="12" fill="#374151">branch</text>
+
+  <!-- registers -->
+  <rect x="318" y="246" width="54" height="16" rx="3" fill="#141B5C"/>
+  <rect x="498" y="246" width="54" height="16" rx="3" fill="#141B5C"/>
+  <rect x="698" y="246" width="54" height="16" rx="3" fill="#141B5C"/>
+  <text x="345" y="238" text-anchor="middle" font-size="12" fill="#141B5C">Register</text>
+  <text x="525" y="238" text-anchor="middle" font-size="12" fill="#141B5C">Register</text>
+  <text x="725" y="238" text-anchor="middle" font-size="12" fill="#141B5C">Register</text>
+
+  <!-- supply air arrows out of registers -->
+  <path d="M345 232 L345 206" stroke="#1E2A8E" stroke-width="3" fill="none"/>
+  <polygon points="345,196 340,208 350,208" fill="#1E2A8E"/>
+  <path d="M525 232 L525 206" stroke="#1E2A8E" stroke-width="3" fill="none"/>
+  <polygon points="525,196 520,208 530,208" fill="#1E2A8E"/>
+  <path d="M725 232 L725 206" stroke="#1E2A8E" stroke-width="3" fill="none"/>
+  <polygon points="725,196 720,208 730,208" fill="#1E2A8E"/>
+  <text x="600" y="192" font-size="12" fill="#1E2A8E">conditioned air enters the rooms</text>
+
+  <!-- return path in the living space -->
+  <path d="M690 178 L300 178" stroke="#C4683A" stroke-width="3" fill="none" stroke-dasharray="9 6"/>
+  <polygon points="288,178 300,173 300,183" fill="#C4683A"/>
+  <text x="410" y="170" font-size="12" fill="#C4683A">room air drifts back toward the return</text>
+
+  <!-- return grille and drop -->
+  <rect x="196" y="182" width="88" height="16" rx="3" fill="#C4683A"/>
+  <text x="240" y="216" text-anchor="middle" font-size="12" fill="#C4683A">Return grille</text>
+  <rect x="216" y="198" width="48" height="146" fill="#C4683A" opacity="0.85"/>
+  <text x="150" y="270" font-size="12" fill="#C4683A">return duct</text>
+  <path d="M240 250 L240 296" stroke="#FFFFFF" stroke-width="3" fill="none"/>
+  <polygon points="240,306 234,294 246,294" fill="#FFFFFF"/>
+
+  <!-- filter -->
+  <rect x="176" y="344" width="128" height="24" rx="3" fill="#D4AF37"/>
+  <text x="240" y="361" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">FILTER</text>
+
+  <!-- equipment -->
+  <rect x="176" y="368" width="128" height="84" rx="5" fill="#141B5C"/>
+  <text x="240" y="396" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">EQUIPMENT</text>
+  <text x="240" y="415" text-anchor="middle" font-size="11" fill="#FFFFFF">blower + coil</text>
+  <circle cx="240" cy="434" r="12" fill="none" stroke="#3E9B6B" stroke-width="3"/>
+  <path d="M240 422 L240 446 M228 434 L252 434" stroke="#3E9B6B" stroke-width="3"/>
+
+  <!-- flow from equipment into trunk -->
+  <path d="M304 408 L336 408" stroke="#1E2A8E" stroke-width="4" fill="none"/>
+  <polygon points="348,408 334,401 334,415" fill="#1E2A8E"/>
+
+  <!-- legend -->
+  <rect x="40" y="466" width="26" height="10" fill="#1E2A8E"/>
+  <text x="76" y="476" font-size="12" fill="#374151">Supply side (air leaving the equipment)</text>
+  <rect x="380" y="466" width="26" height="10" fill="#C4683A"/>
+  <text x="416" y="476" font-size="12" fill="#374151">Return side (air heading back)</text>
+  <rect x="700" y="466" width="26" height="10" fill="#D4AF37"/>
+  <text x="736" y="476" font-size="12" fill="#374151">Filter</text>
+</svg>

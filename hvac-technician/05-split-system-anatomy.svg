@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 600" width="860" height="600" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="860" height="600" fill="#FFFFFF"/>
+
+  <text x="430" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Split System Anatomy: Two Boxes, One Sealed Loop</text>
+
+  <!-- house wall -->
+  <rect x="418" y="70" width="24" height="470" fill="#E5E7EB"/>
+  <text x="430" y="562" text-anchor="middle" font-size="12" fill="#374151">house wall</text>
+
+  <text x="215" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">INDOORS  ·  air handler</text>
+  <text x="650" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#C4683A">OUTDOORS  ·  condensing unit</text>
+
+  <!-- indoor cabinet -->
+  <rect x="70" y="80" width="290" height="430" rx="12" fill="#EEF0FA" stroke="#1E2A8E" stroke-width="2"/>
+
+  <!-- supply duct -->
+  <rect x="150" y="86" width="130" height="34" fill="#FFFFFF" stroke="#374151" stroke-width="2"/>
+  <text x="215" y="109" text-anchor="middle" font-size="13" fill="#111827">supply duct</text>
+
+  <!-- A coil -->
+  <polygon points="215,140 300,270 130,270" fill="#1E2A8E"/>
+  <text x="215" y="215" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">EVAPORATOR</text>
+  <text x="215" y="236" text-anchor="middle" font-size="13" fill="#FFFFFF">A-coil</text>
+  <text x="215" y="256" text-anchor="middle" font-size="12" fill="#FFFFFF">refrigerant boils, air cools</text>
+
+  <!-- condensate pan -->
+  <rect x="126" y="272" width="178" height="18" rx="4" fill="#3E9B6B"/>
+  <text x="215" y="286" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF">CONDENSATE PAN</text>
+  <path d="M126 284 L96 284 L96 470" fill="none" stroke="#3E9B6B" stroke-width="5"/>
+  <text x="86" y="486" font-size="12" fill="#3E9B6B" font-weight="bold">drain line</text>
+
+  <!-- metering device -->
+  <circle cx="316" cy="252" r="16" fill="#D4AF37"/>
+  <text x="316" y="257" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">M</text>
+  <text x="330" y="300" font-size="12" font-weight="bold" fill="#111827">metering device</text>
+  <text x="330" y="316" font-size="11" fill="#374151">at the coil inlet</text>
+
+  <!-- blower -->
+  <circle cx="215" cy="352" r="42" fill="#374151"/>
+  <circle cx="215" cy="352" r="16" fill="#FFFFFF"/>
+  <text x="215" y="414" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">BLOWER</text>
+  <text x="215" y="430" text-anchor="middle" font-size="11" fill="#374151">moves house air across the coil</text>
+
+  <!-- filter -->
+  <rect x="140" y="450" width="150" height="26" fill="#FFFFFF" stroke="#374151" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="215" y="468" text-anchor="middle" font-size="12" fill="#111827">FILTER + return air</text>
+
+  <!-- outdoor cabinet -->
+  <rect x="500" y="150" width="300" height="330" rx="12" fill="#FAEFE9" stroke="#C4683A" stroke-width="2"/>
+
+  <!-- fan -->
+  <circle cx="650" cy="205" r="36" fill="none" stroke="#C4683A" stroke-width="4"/>
+  <path d="M650 175 L676 220 L624 220 Z" fill="#C4683A"/>
+  <text x="650" y="262" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">CONDENSER FAN</text>
+  <text x="650" y="278" text-anchor="middle" font-size="11" fill="#374151">throws hot air up and out</text>
+  <path d="M650 168 L650 132" fill="none" stroke="#C4683A" stroke-width="3"/>
+  <path d="M650 126 L644 140 L656 140 Z" fill="#C4683A"/>
+
+  <!-- condenser coil as fence -->
+  <rect x="512" y="300" width="20" height="166" fill="#C4683A"/>
+  <rect x="768" y="300" width="20" height="166" fill="#C4683A"/>
+  <text x="500" y="292" font-size="12" font-weight="bold" fill="#C4683A">CONDENSER COIL (wraps the cabinet)</text>
+
+  <!-- compressor -->
+  <rect x="576" y="326" width="148" height="110" rx="46" fill="#141B5C"/>
+  <text x="650" y="378" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">COMPRESSOR</text>
+  <text x="650" y="398" text-anchor="middle" font-size="11" fill="#FFFFFF">raises pressure</text>
+  <text x="650" y="414" text-anchor="middle" font-size="11" fill="#FFFFFF">and temperature</text>
+
+  <!-- electrical box -->
+  <rect x="512" y="160" width="96" height="56" rx="6" fill="#FFFFFF" stroke="#374151" stroke-width="2"/>
+  <text x="560" y="182" text-anchor="middle" font-size="11" font-weight="bold" fill="#111827">ELECTRICAL</text>
+  <text x="560" y="197" text-anchor="middle" font-size="10" fill="#374151">contactor +</text>
+  <text x="560" y="210" text-anchor="middle" font-size="10" fill="#374151">capacitor</text>
+
+  <!-- data plate -->
+  <rect x="700" y="160" width="90" height="46" rx="4" fill="#D4AF37"/>
+  <text x="745" y="180" text-anchor="middle" font-size="11" font-weight="bold" fill="#111827">DATA PLATE</text>
+  <text x="745" y="196" text-anchor="middle" font-size="10" fill="#111827">model · charge · volts</text>
+
+  <!-- pad -->
+  <rect x="490" y="482" width="320" height="16" rx="3" fill="#374151"/>
+  <text x="650" y="514" text-anchor="middle" font-size="11" fill="#374151">level pad, clearance on all sides</text>
+
+  <!-- line set -->
+  <path d="M340 340 L470 340 L470 380 L576 380" fill="none" stroke="#1E2A8E" stroke-width="10" stroke-linecap="round"/>
+  <path d="M332 252 L470 252 L470 300 L522 300" fill="none" stroke="#C4683A" stroke-width="5" stroke-linecap="round"/>
+
+  <text x="404" y="330" font-size="12" font-weight="bold" fill="#1E2A8E">SUCTION LINE</text>
+  <text x="368" y="362" font-size="11" fill="#374151">fat + insulated · cold vapor to compressor</text>
+
+  <text x="404" y="242" font-size="12" font-weight="bold" fill="#C4683A">LIQUID LINE</text>
+  <text x="352" y="228" font-size="11" fill="#374151">skinny + bare · warm liquid to metering device</text>
+
+  <text x="430" y="586" text-anchor="middle" font-size="12" fill="#374151">The two copper lines are the only connection between the boxes. Together they make one sealed loop.</text>
+</svg>

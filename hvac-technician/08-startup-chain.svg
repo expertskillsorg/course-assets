@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="470" fill="#FFFFFF"/>
+
+  <text x="450" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#141B5C">The Start-Up Chain</text>
+  <text x="450" y="54" text-anchor="middle" font-size="13" fill="#374151">Five links, in order. Every no-cool call is a question about which one did not happen.</text>
+
+  <!-- low voltage band -->
+  <rect x="30" y="82" width="330" height="26" rx="6" fill="#1E2A8E"/>
+  <text x="195" y="100" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">24-VOLT CONTROL SIDE</text>
+  <rect x="376" y="82" width="494" height="26" rx="6" fill="#C4683A"/>
+  <text x="623" y="100" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">240-VOLT LINE SIDE (dangerous)</text>
+
+  <!-- STEP 1 thermostat -->
+  <rect x="30" y="130" width="150" height="150" rx="8" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="3"/>
+  <circle cx="105" cy="150" r="15" fill="#1E2A8E"/>
+  <text x="105" y="156" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">1</text>
+  <rect x="62" y="176" width="86" height="52" rx="5" fill="#1E2A8E"/>
+  <text x="105" y="199" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF">R &#8594; Y</text>
+  <text x="105" y="217" text-anchor="middle" font-size="11" fill="#D4AF37">closed</text>
+  <text x="105" y="250" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">THERMOSTAT</text>
+  <text x="105" y="268" text-anchor="middle" font-size="11" fill="#374151">closes the switch</text>
+
+  <polygon points="182,205 210,190 210,220" fill="#374151"/>
+
+  <!-- STEP 2 safeties -->
+  <rect x="215" y="130" width="150" height="150" rx="8" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="3"/>
+  <circle cx="290" cy="150" r="15" fill="#1E2A8E"/>
+  <text x="290" y="156" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">2</text>
+  <line x1="238" y1="200" x2="262" y2="200" stroke="#3E9B6B" stroke-width="4"/>
+  <line x1="262" y1="200" x2="284" y2="188" stroke="#3E9B6B" stroke-width="4"/>
+  <line x1="284" y1="200" x2="308" y2="200" stroke="#3E9B6B" stroke-width="4"/>
+  <line x1="308" y1="200" x2="330" y2="188" stroke="#3E9B6B" stroke-width="4"/>
+  <line x1="330" y1="200" x2="345" y2="200" stroke="#3E9B6B" stroke-width="4"/>
+  <text x="290" y="228" text-anchor="middle" font-size="11" fill="#374151">wired in series</text>
+  <text x="290" y="250" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">SAFETIES</text>
+  <text x="290" y="268" text-anchor="middle" font-size="11" fill="#374151">all must agree</text>
+
+  <polygon points="367,205 395,190 395,220" fill="#374151"/>
+
+  <!-- STEP 3 contactor -->
+  <rect x="400" y="130" width="150" height="150" rx="8" fill="#FFFFFF" stroke="#C4683A" stroke-width="3"/>
+  <circle cx="475" cy="150" r="15" fill="#C4683A"/>
+  <text x="475" y="156" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">3</text>
+  <rect x="440" y="176" width="70" height="24" rx="4" fill="#1E2A8E"/>
+  <text x="475" y="193" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">24V COIL</text>
+  <rect x="440" y="206" width="70" height="22" rx="4" fill="#C4683A"/>
+  <text x="475" y="222" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">CONTACTS</text>
+  <text x="475" y="250" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">CONTACTOR</text>
+  <text x="475" y="268" text-anchor="middle" font-size="11" fill="#374151">the audible clack</text>
+
+  <polygon points="552,205 580,190 580,220" fill="#374151"/>
+
+  <!-- STEP 4 capacitor -->
+  <rect x="585" y="130" width="150" height="150" rx="8" fill="#FFFFFF" stroke="#C4683A" stroke-width="3"/>
+  <circle cx="660" cy="150" r="15" fill="#C4683A"/>
+  <text x="660" y="156" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">4</text>
+  <rect x="636" y="174" width="48" height="56" rx="10" fill="#D4AF37"/>
+  <text x="660" y="200" text-anchor="middle" font-size="10" font-weight="bold" fill="#141B5C">MFD</text>
+  <text x="660" y="216" text-anchor="middle" font-size="9" fill="#141B5C">HERM FAN C</text>
+  <text x="660" y="250" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">CAPACITOR</text>
+  <text x="660" y="268" text-anchor="middle" font-size="11" fill="#374151">gives the push</text>
+
+  <polygon points="737,205 765,190 765,220" fill="#374151"/>
+
+  <!-- STEP 5 running -->
+  <rect x="770" y="130" width="100" height="150" rx="8" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="3"/>
+  <circle cx="820" cy="150" r="15" fill="#3E9B6B"/>
+  <text x="820" y="156" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">5</text>
+  <circle cx="820" cy="202" r="26" fill="#3E9B6B"/>
+  <line x1="820" y1="180" x2="820" y2="224" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="798" y1="202" x2="842" y2="202" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="804" y1="186" x2="836" y2="218" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="836" y1="186" x2="804" y2="218" stroke="#FFFFFF" stroke-width="3"/>
+  <text x="820" y="250" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">RUNNING</text>
+  <text x="820" y="268" text-anchor="middle" font-size="11" fill="#374151">steady amps</text>
+
+  <!-- failure readout -->
+  <rect x="30" y="312" width="840" height="120" rx="8" fill="#141B5C"/>
+  <text x="450" y="340" text-anchor="middle" font-size="15" font-weight="bold" fill="#D4AF37">Where the chain breaks, and what you hear</text>
+  <text x="52" y="370" font-size="12.5" fill="#FFFFFF">Silence, no click at all</text>
+  <text x="430" y="370" font-size="12.5" fill="#FFFFFF">the call never made it past link 1 or 2</text>
+  <text x="52" y="394" font-size="12.5" fill="#FFFFFF">A clack, then a hard hum, then quiet</text>
+  <text x="430" y="394" font-size="12.5" fill="#FFFFFF">reached link 3, stalled at link 4</text>
+  <text x="52" y="418" font-size="12.5" fill="#FFFFFF">Compressor hums, fan blade still</text>
+  <text x="430" y="418" font-size="12.5" fill="#FFFFFF">the fan's own branch failed, so link 5 is only half done</text>
+  <line x1="415" y1="352" x2="415" y2="426" stroke="#3E9B6B" stroke-width="2"/>
+
+  <text x="450" y="456" text-anchor="middle" font-size="11" fill="#374151">Diagnosis is a beginner's listening skill. Opening the panel is not: that waits for supervised training.</text>
+</svg>

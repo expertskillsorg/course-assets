@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="520" fill="#FFFFFF"/>
+
+  <text x="450" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#141B5C">The Water Analogy, Mapped to a Circuit</text>
+  <text x="450" y="54" text-anchor="middle" font-size="13" fill="#374151">Pressure pushes, flow moves, restriction fights back, and work gets done at the end</text>
+
+  <line x1="450" y1="75" x2="450" y2="395" stroke="#E5E7EB" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <!-- LEFT: water loop -->
+  <text x="215" y="98" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">WATER LOOP</text>
+
+  <rect x="70" y="120" width="290" height="230" rx="10" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="3"/>
+
+  <!-- pump -->
+  <circle cx="70" cy="235" r="34" fill="#1E2A8E"/>
+  <text x="70" y="232" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">PUMP</text>
+  <text x="70" y="246" text-anchor="middle" font-size="10" fill="#FFFFFF">pressure</text>
+  <text x="70" y="300" text-anchor="middle" font-size="12" fill="#141B5C" font-weight="bold">VOLTAGE</text>
+
+  <!-- restriction / valve -->
+  <polygon points="215,108 200,132 230,132" fill="#C4683A"/>
+  <polygon points="215,132 200,108 230,108" fill="#C4683A"/>
+  <text x="215" y="160" text-anchor="middle" font-size="12" fill="#374151">narrow valve</text>
+  <text x="215" y="176" text-anchor="middle" font-size="12" font-weight="bold" fill="#C4683A">RESISTANCE</text>
+
+  <!-- paddle wheel -->
+  <circle cx="360" cy="235" r="34" fill="#3E9B6B"/>
+  <line x1="360" y1="205" x2="360" y2="265" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="330" y1="235" x2="390" y2="235" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="339" y1="214" x2="381" y2="256" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="381" y1="214" x2="339" y2="256" stroke="#FFFFFF" stroke-width="3"/>
+  <text x="360" y="300" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">WATTS</text>
+  <text x="360" y="316" text-anchor="middle" font-size="11" fill="#374151">work done</text>
+
+  <!-- flow arrows -->
+  <polygon points="115,113 133,120 115,127" fill="#1E2A8E"/>
+  <polygon points="300,113 318,120 300,127" fill="#1E2A8E"/>
+  <polygon points="318,357 300,350 318,343" fill="#1E2A8E"/>
+  <polygon points="133,357 115,350 133,343" fill="#1E2A8E"/>
+  <text x="215" y="378" text-anchor="middle" font-size="12" font-weight="bold" fill="#1E2A8E">CURRENT = gallons per minute</text>
+
+  <!-- RIGHT: circuit -->
+  <text x="690" y="98" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E2A8E">ELECTRICAL CIRCUIT</text>
+
+  <rect x="545" y="120" width="290" height="230" rx="10" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="3"/>
+
+  <!-- source -->
+  <rect x="521" y="200" width="48" height="70" rx="5" fill="#1E2A8E"/>
+  <line x1="533" y1="222" x2="557" y2="222" stroke="#FFFFFF" stroke-width="4"/>
+  <line x1="539" y1="248" x2="551" y2="248" stroke="#FFFFFF" stroke-width="4"/>
+  <text x="545" y="300" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">VOLTS (V)</text>
+  <text x="545" y="316" text-anchor="middle" font-size="11" fill="#374151">the push</text>
+
+  <!-- resistor -->
+  <rect x="655" y="106" width="70" height="28" rx="4" fill="#C4683A"/>
+  <text x="690" y="125" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">RESISTOR</text>
+  <text x="690" y="160" text-anchor="middle" font-size="12" font-weight="bold" fill="#C4683A">OHMS &#937;</text>
+  <text x="690" y="176" text-anchor="middle" font-size="11" fill="#374151">fights the flow</text>
+
+  <!-- lamp / load -->
+  <circle cx="835" cy="235" r="34" fill="#3E9B6B"/>
+  <path d="M835 214 a16 16 0 0 1 9 30 v6 h-18 v-6 a16 16 0 0 1 9 -30 z" fill="#D4AF37"/>
+  <rect x="828" y="252" width="14" height="7" fill="#FFFFFF"/>
+  <text x="835" y="300" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">WATTS (W)</text>
+  <text x="835" y="316" text-anchor="middle" font-size="11" fill="#374151">work done</text>
+
+  <polygon points="590,113 608,120 590,127" fill="#1E2A8E"/>
+  <polygon points="775,113 793,120 775,127" fill="#1E2A8E"/>
+  <polygon points="793,357 775,350 793,343" fill="#1E2A8E"/>
+  <polygon points="608,357 590,350 608,343" fill="#1E2A8E"/>
+  <text x="690" y="378" text-anchor="middle" font-size="12" font-weight="bold" fill="#1E2A8E">AMPS (A) = rate of flow</text>
+
+  <!-- ohm's law strip -->
+  <rect x="70" y="410" width="765" height="72" rx="8" fill="#141B5C"/>
+  <text x="452" y="440" text-anchor="middle" font-size="15" font-weight="bold" fill="#D4AF37">Ohm's law, in plain words</text>
+  <text x="452" y="464" text-anchor="middle" font-size="13" fill="#FFFFFF">Same restriction, more pressure means more flow. Same pressure, more restriction means less flow.</text>
+
+  <text x="452" y="502" text-anchor="middle" font-size="11" fill="#374151">Where the analogy breaks: water spills out of a broken pipe. Electricity needs a complete loop back to its source, or nothing happens at all.</text>
+</svg>

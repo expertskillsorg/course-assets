@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" width="880" height="560" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="hpArrowT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#C4683A"/>
+    </marker>
+    <marker id="hpArrowN" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1E2A8E"/>
+    </marker>
+    <marker id="hpArrowG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#3E9B6B"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="880" height="560" fill="#FFFFFF"/>
+  <text x="440" y="32" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">One Machine, Two Seasons: the Reversing Valve at Work</text>
+
+  <!-- LEFT PANEL: COOLING -->
+  <rect x="24" y="56" width="400" height="440" rx="14" fill="#FAEFE9"/>
+  <text x="224" y="84" text-anchor="middle" font-size="17" font-weight="bold" fill="#C4683A">COOLING MODE  ·  July</text>
+  <text x="224" y="104" text-anchor="middle" font-size="12" fill="#374151">hot gas sent to the OUTDOOR coil</text>
+
+  <rect x="56" y="126" width="150" height="96" rx="10" fill="#1E2A8E"/>
+  <text x="131" y="160" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">INDOOR COIL</text>
+  <text x="131" y="182" text-anchor="middle" font-size="12" fill="#FFFFFF">= EVAPORATOR</text>
+  <text x="131" y="202" text-anchor="middle" font-size="11" fill="#FFFFFF">takes heat from house</text>
+
+  <rect x="242" y="126" width="150" height="96" rx="10" fill="#C4683A"/>
+  <text x="317" y="160" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">OUTDOOR COIL</text>
+  <text x="317" y="182" text-anchor="middle" font-size="12" fill="#FFFFFF">= CONDENSER</text>
+  <text x="317" y="202" text-anchor="middle" font-size="11" fill="#FFFFFF">dumps heat to yard</text>
+
+  <rect x="150" y="266" width="148" height="64" rx="8" fill="#D4AF37"/>
+  <text x="224" y="294" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">REVERSING</text>
+  <text x="224" y="312" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">VALVE</text>
+
+  <rect x="150" y="382" width="148" height="62" rx="24" fill="#141B5C"/>
+  <text x="224" y="412" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">COMPRESSOR</text>
+  <text x="224" y="431" text-anchor="middle" font-size="11" fill="#FFFFFF">always one direction</text>
+
+  <polyline points="224,382 224,346" fill="none" stroke="#C4683A" stroke-width="4" marker-end="url(#hpArrowT)"/>
+  <polyline points="284,266 350,266 350,230" fill="none" stroke="#C4683A" stroke-width="4" marker-end="url(#hpArrowT)"/>
+  <polyline points="164,230 98,230 98,266" fill="none" stroke="#1E2A8E" stroke-width="4" marker-end="url(#hpArrowN)"/>
+  <polyline points="206,146 242,146" fill="none" stroke="#3E9B6B" stroke-width="4" marker-end="url(#hpArrowG)"/>
+  <text x="224" y="136" text-anchor="middle" font-size="10" fill="#3E9B6B">metering device between coils</text>
+
+  <text x="366" y="252" text-anchor="middle" font-size="10" font-weight="bold" fill="#C4683A">hot gas</text>
+  <text x="84" y="252" text-anchor="middle" font-size="10" font-weight="bold" fill="#1E2A8E">suction</text>
+
+  <text x="224" y="470" text-anchor="middle" font-size="12" fill="#374151">Heat leaves the house.</text>
+
+  <!-- RIGHT PANEL: HEATING -->
+  <rect x="456" y="56" width="400" height="440" rx="14" fill="#EEF0FA"/>
+  <text x="656" y="84" text-anchor="middle" font-size="17" font-weight="bold" fill="#1E2A8E">HEATING MODE  ·  February</text>
+  <text x="656" y="104" text-anchor="middle" font-size="12" fill="#374151">hot gas sent to the INDOOR coil</text>
+
+  <rect x="488" y="126" width="150" height="96" rx="10" fill="#C4683A"/>
+  <text x="563" y="160" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">INDOOR COIL</text>
+  <text x="563" y="182" text-anchor="middle" font-size="12" fill="#FFFFFF">= CONDENSER</text>
+  <text x="563" y="202" text-anchor="middle" font-size="11" fill="#FFFFFF">gives heat to house</text>
+
+  <rect x="674" y="126" width="150" height="96" rx="10" fill="#1E2A8E"/>
+  <text x="749" y="160" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">OUTDOOR COIL</text>
+  <text x="749" y="182" text-anchor="middle" font-size="12" fill="#FFFFFF">= EVAPORATOR</text>
+  <text x="749" y="202" text-anchor="middle" font-size="11" fill="#FFFFFF">takes heat from cold air</text>
+
+  <rect x="582" y="266" width="148" height="64" rx="8" fill="#D4AF37"/>
+  <text x="656" y="294" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">REVERSING</text>
+  <text x="656" y="312" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">VALVE (shifted)</text>
+
+  <rect x="582" y="382" width="148" height="62" rx="24" fill="#141B5C"/>
+  <text x="656" y="412" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">COMPRESSOR</text>
+  <text x="656" y="431" text-anchor="middle" font-size="11" fill="#FFFFFF">unchanged</text>
+
+  <polyline points="656,382 656,346" fill="none" stroke="#C4683A" stroke-width="4" marker-end="url(#hpArrowT)"/>
+  <polyline points="596,266 530,266 530,230" fill="none" stroke="#C4683A" stroke-width="4" marker-end="url(#hpArrowT)"/>
+  <polyline points="716,230 782,230 782,266" fill="none" stroke="#1E2A8E" stroke-width="4" marker-end="url(#hpArrowN)"/>
+  <polyline points="674,146 638,146" fill="none" stroke="#3E9B6B" stroke-width="4" marker-end="url(#hpArrowG)"/>
+  <text x="656" y="136" text-anchor="middle" font-size="10" fill="#3E9B6B">metering device between coils</text>
+
+  <text x="514" y="252" text-anchor="middle" font-size="10" font-weight="bold" fill="#C4683A">hot gas</text>
+  <text x="796" y="252" text-anchor="middle" font-size="10" font-weight="bold" fill="#1E2A8E">suction</text>
+
+  <text x="656" y="470" text-anchor="middle" font-size="12" fill="#374151">Heat enters the house.</text>
+
+  <text x="440" y="524" text-anchor="middle" font-size="13" fill="#374151">The compressor never reverses. Only the destination of its hot discharge gas changes,</text>
+  <text x="440" y="544" text-anchor="middle" font-size="13" fill="#374151">and that swaps which coil condenses and which coil evaporates.</text>
+</svg>

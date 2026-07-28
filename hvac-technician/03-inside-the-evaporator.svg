@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="evTerra" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#C4683A"/>
+    </marker>
+    <marker id="evNavy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1E2A8E"/>
+    </marker>
+    <marker id="evGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#3E9B6B"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="560" fill="#FFFFFF"/>
+  <text x="400" y="32" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Inside the Evaporator</text>
+
+  <text x="400" y="62" text-anchor="middle" font-size="14" font-weight="bold" fill="#C4683A">warm humid room air in  ·  about 75&#176;F</text>
+  <line x1="200" y1="72" x2="200" y2="142" stroke="#C4683A" stroke-width="4" marker-end="url(#evTerra)"/>
+  <line x1="330" y1="72" x2="330" y2="142" stroke="#C4683A" stroke-width="4" marker-end="url(#evTerra)"/>
+  <line x1="460" y1="72" x2="460" y2="142" stroke="#C4683A" stroke-width="4" marker-end="url(#evTerra)"/>
+  <line x1="590" y1="72" x2="590" y2="142" stroke="#C4683A" stroke-width="4" marker-end="url(#evTerra)"/>
+
+  <rect x="110" y="150" width="590" height="200" rx="10" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="150" y1="152" x2="150" y2="348" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="190" y1="152" x2="190" y2="348" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="230" y1="152" x2="230" y2="348" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="270" y1="152" x2="270" y2="348" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="310" y1="152" x2="310" y2="348" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="350" y1="152" x2="350" y2="348" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="390" y1="152" x2="390" y2="348" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="430" y1="152" x2="430" y2="348" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="470" y1="152" x2="470" y2="348" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="510" y1="152" x2="510" y2="348" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="550" y1="152" x2="550" y2="348" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="590" y1="152" x2="590" y2="348" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="630" y1="152" x2="630" y2="348" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="670" y1="152" x2="670" y2="348" stroke="#E5E7EB" stroke-width="3"/>
+  <text x="672" y="170" text-anchor="end" font-size="12" fill="#374151">aluminum fins</text>
+
+  <path d="M60 190 H 400" fill="none" stroke="#1E2A8E" stroke-width="12" stroke-linecap="round"/>
+  <path d="M400 190 H 555 A 30 30 0 0 1 555 250 H 255 A 30 30 0 0 0 255 310 H 430" fill="none" stroke="#3E9B6B" stroke-width="12" stroke-linecap="round"/>
+  <path d="M430 310 H 740" fill="none" stroke="#C4683A" stroke-width="12" stroke-linecap="round" marker-end="url(#evTerra)"/>
+
+  <circle cx="440" cy="190" r="5" fill="#FFFFFF"/>
+  <circle cx="480" cy="190" r="4" fill="#FFFFFF"/>
+  <circle cx="520" cy="190" r="6" fill="#FFFFFF"/>
+  <circle cx="500" cy="250" r="5" fill="#FFFFFF"/>
+  <circle cx="440" cy="250" r="6" fill="#FFFFFF"/>
+  <circle cx="380" cy="250" r="5" fill="#FFFFFF"/>
+  <circle cx="310" cy="250" r="6" fill="#FFFFFF"/>
+  <circle cx="300" cy="310" r="5" fill="#FFFFFF"/>
+  <circle cx="360" cy="310" r="6" fill="#FFFFFF"/>
+  <circle cx="405" cy="310" r="5" fill="#FFFFFF"/>
+
+  <text x="60" y="172" font-size="13" font-weight="bold" fill="#1E2A8E">IN: cold low-pressure liquid</text>
+  <text x="60" y="222" font-size="13" fill="#374151">about 40&#176;F</text>
+
+  <text x="740" y="290" text-anchor="end" font-size="13" font-weight="bold" fill="#C4683A">OUT: low-pressure vapor</text>
+  <text x="740" y="340" text-anchor="end" font-size="13" fill="#374151">about 50&#176;F  ·  10&#176; of superheat</text>
+
+  <circle cx="250" cy="366" r="6" fill="#1E2A8E"/>
+  <circle cx="330" cy="372" r="6" fill="#1E2A8E"/>
+  <circle cx="430" cy="366" r="6" fill="#1E2A8E"/>
+  <circle cx="520" cy="372" r="6" fill="#1E2A8E"/>
+  <rect x="150" y="384" width="500" height="14" rx="6" fill="#1E2A8E"/>
+  <text x="662" y="396" font-size="12" fill="#374151">condensate to drain</text>
+
+  <line x1="200" y1="412" x2="200" y2="470" stroke="#1E2A8E" stroke-width="4" marker-end="url(#evNavy)"/>
+  <line x1="330" y1="412" x2="330" y2="470" stroke="#1E2A8E" stroke-width="4" marker-end="url(#evNavy)"/>
+  <line x1="460" y1="412" x2="460" y2="470" stroke="#1E2A8E" stroke-width="4" marker-end="url(#evNavy)"/>
+  <line x1="590" y1="412" x2="590" y2="470" stroke="#1E2A8E" stroke-width="4" marker-end="url(#evNavy)"/>
+  <text x="400" y="494" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2A8E">cool dry air out  ·  about 55&#176;F</text>
+
+  <rect x="60" y="510" width="200" height="34" rx="8" fill="#1E2A8E"/>
+  <text x="160" y="532" text-anchor="middle" font-size="13" fill="#FFFFFF">liquid arrives</text>
+  <rect x="280" y="510" width="240" height="34" rx="8" fill="#3E9B6B"/>
+  <text x="400" y="532" text-anchor="middle" font-size="13" fill="#FFFFFF">boiling: liquid + vapor, 40&#176;F held</text>
+  <rect x="540" y="510" width="200" height="34" rx="8" fill="#C4683A"/>
+  <text x="640" y="532" text-anchor="middle" font-size="13" fill="#FFFFFF">all vapor, then superheat</text>
+</svg>

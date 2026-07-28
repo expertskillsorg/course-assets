@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="900" height="620" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="620" fill="#FFFFFF"/>
+
+  <text x="450" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Starter Tool Bag, By Priority Tier</text>
+  <text x="450" y="56" text-anchor="middle" font-size="13" fill="#374151">Buy left to right. The third tier does not belong in a beginner's bag at all.</text>
+
+  <!-- ================= TIER 1 ================= -->
+  <rect x="26" y="78" width="410" height="250" rx="10" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="3"/>
+  <rect x="26" y="78" width="410" height="34" rx="10" fill="#1E2A8E"/>
+  <rect x="26" y="100" width="410" height="12" fill="#1E2A8E"/>
+  <text x="44" y="101" font-size="14" font-weight="bold" fill="#FFFFFF">TIER 1 &#183; HAND TOOLS &#183; BUY FIRST</text>
+
+  <!-- nut drivers -->
+  <rect x="52" y="132" width="18" height="58" rx="5" fill="#D4AF37"/>
+  <rect x="57" y="190" width="8" height="34" fill="#374151"/>
+  <text x="61" y="240" text-anchor="middle" font-size="10" font-weight="bold" fill="#141B5C">5/16</text>
+  <rect x="88" y="140" width="16" height="50" rx="5" fill="#D4AF37"/>
+  <rect x="92" y="190" width="8" height="34" fill="#374151"/>
+  <text x="96" y="240" text-anchor="middle" font-size="10" font-weight="bold" fill="#141B5C">1/4</text>
+  <text x="79" y="258" text-anchor="middle" font-size="10" fill="#374151">nut drivers</text>
+
+  <!-- screwdriver -->
+  <rect x="132" y="136" width="16" height="52" rx="5" fill="#1E2A8E"/>
+  <rect x="136" y="188" width="8" height="40" fill="#374151"/>
+  <rect x="133" y="228" width="14" height="5" fill="#374151"/>
+  <text x="140" y="258" text-anchor="middle" font-size="10" fill="#374151">drivers</text>
+
+  <!-- pliers -->
+  <path d="M182 232 L196 168 L204 168 L192 232 Z" fill="#1E2A8E"/>
+  <path d="M214 232 L200 168 L192 168 L204 232 Z" fill="#141B5C"/>
+  <circle cx="198" cy="180" r="5" fill="#D4AF37"/>
+  <text x="198" y="258" text-anchor="middle" font-size="10" fill="#374151">pliers &#183; cutters</text>
+
+  <!-- wrench -->
+  <rect x="250" y="150" width="12" height="76" rx="4" fill="#374151"/>
+  <path d="M244 150 h24 v-16 h-8 v8 h-8 v-8 h-8 z" fill="#374151"/>
+  <rect x="244" y="196" width="24" height="10" rx="3" fill="#D4AF37"/>
+  <text x="256" y="258" text-anchor="middle" font-size="10" fill="#374151">wrench</text>
+
+  <!-- snips -->
+  <path d="M296 228 L312 164 L320 166 L306 230 Z" fill="#3E9B6B"/>
+  <path d="M330 228 L314 164 L306 166 L320 230 Z" fill="#3E9B6B"/>
+  <circle cx="313" cy="182" r="5" fill="#141B5C"/>
+  <text x="313" y="258" text-anchor="middle" font-size="10" fill="#374151">tin snips</text>
+
+  <!-- drill -->
+  <rect x="356" y="150" width="56" height="30" rx="8" fill="#C4683A"/>
+  <rect x="412" y="158" width="14" height="14" rx="3" fill="#374151"/>
+  <path d="M366 180 L392 180 L386 226 L364 226 Z" fill="#C4683A"/>
+  <rect x="360" y="222" width="34" height="14" rx="4" fill="#141B5C"/>
+  <text x="392" y="258" text-anchor="middle" font-size="10" fill="#374151">cordless drill</text>
+
+  <text x="231" y="292" text-anchor="middle" font-size="12" fill="#141B5C">Plus tape measure, utility knife, torpedo level, wire strippers</text>
+  <text x="231" y="314" text-anchor="middle" font-size="12" font-weight="bold" fill="#3E9B6B">Rough cost: about $150 to $250</text>
+
+  <!-- ================= TIER 2 ================= -->
+  <rect x="464" y="78" width="410" height="250" rx="10" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="3"/>
+  <rect x="464" y="78" width="410" height="34" rx="10" fill="#3E9B6B"/>
+  <rect x="464" y="100" width="410" height="12" fill="#3E9B6B"/>
+  <text x="482" y="101" font-size="14" font-weight="bold" fill="#FFFFFF">TIER 2 &#183; FIRST INSTRUMENTS</text>
+
+  <!-- clamp meter -->
+  <path d="M516 138 a30 30 0 1 1 30 0" fill="none" stroke="#141B5C" stroke-width="9"/>
+  <rect x="512" y="152" width="42" height="72" rx="7" fill="#141B5C"/>
+  <rect x="519" y="162" width="28" height="20" rx="3" fill="#D4AF37"/>
+  <circle cx="533" cy="200" r="10" fill="#FFFFFF"/>
+  <text x="533" y="248" text-anchor="middle" font-size="11" font-weight="bold" fill="#141B5C">clamp meter</text>
+  <text x="533" y="264" text-anchor="middle" font-size="10" fill="#374151">buy this one first</text>
+
+  <!-- thermometer -->
+  <rect x="606" y="140" width="16" height="66" rx="6" fill="#FFFFFF" stroke="#C4683A" stroke-width="3"/>
+  <rect x="610" y="168" width="8" height="38" fill="#C4683A"/>
+  <circle cx="614" cy="214" r="12" fill="#C4683A"/>
+  <text x="614" y="248" text-anchor="middle" font-size="11" font-weight="bold" fill="#141B5C">thermometer</text>
+  <text x="614" y="264" text-anchor="middle" font-size="10" fill="#374151">probe or pocket</text>
+
+  <!-- headlamp -->
+  <path d="M676 176 a28 22 0 0 1 56 0" fill="none" stroke="#374151" stroke-width="7"/>
+  <rect x="692" y="168" width="26" height="20" rx="4" fill="#D4AF37"/>
+  <path d="M718 172 L752 160 L752 196 L718 184 Z" fill="#D4AF37" opacity="0.5"/>
+  <text x="706" y="248" text-anchor="middle" font-size="11" font-weight="bold" fill="#141B5C">headlamp</text>
+  <text x="706" y="264" text-anchor="middle" font-size="10" fill="#374151">both hands free</text>
+
+  <!-- mirror + magnet -->
+  <rect x="796" y="196" width="6" height="34" fill="#374151"/>
+  <ellipse cx="799" cy="184" rx="20" ry="14" fill="#E5E7EB" stroke="#374151" stroke-width="3"/>
+  <text x="799" y="248" text-anchor="middle" font-size="11" font-weight="bold" fill="#141B5C">mirror &#183; magnet</text>
+  <text x="799" y="264" text-anchor="middle" font-size="10" fill="#374151">for dropped screws</text>
+
+  <text x="669" y="314" text-anchor="middle" font-size="12" font-weight="bold" fill="#3E9B6B">Rough cost: about $100 to $200</text>
+
+  <!-- ================= TIER 3 ================= -->
+  <rect x="26" y="352" width="848" height="192" rx="10" fill="#FFFFFF" stroke="#C4683A" stroke-width="3" stroke-dasharray="10 7"/>
+  <rect x="26" y="352" width="848" height="34" rx="10" fill="#C4683A"/>
+  <rect x="26" y="374" width="848" height="12" fill="#C4683A"/>
+  <text x="44" y="375" font-size="14" font-weight="bold" fill="#FFFFFF">TIER 3 &#183; NOT YET &#183; WAITS FOR EPA 608 CERTIFICATION AND A JOB</text>
+
+  <!-- gauges -->
+  <circle cx="130" cy="452" r="30" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="4"/>
+  <circle cx="130" cy="452" r="4" fill="#1E2A8E"/>
+  <line x1="130" y1="452" x2="148" y2="434" stroke="#C4683A" stroke-width="4"/>
+  <circle cx="206" cy="452" r="30" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="4"/>
+  <circle cx="206" cy="452" r="4" fill="#1E2A8E"/>
+  <line x1="206" y1="452" x2="188" y2="432" stroke="#3E9B6B" stroke-width="4"/>
+  <rect x="150" y="446" width="36" height="16" fill="#141B5C"/>
+  <text x="168" y="506" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">manifold gauges</text>
+
+  <!-- vacuum pump -->
+  <rect x="322" y="436" width="76" height="46" rx="6" fill="#141B5C"/>
+  <circle cx="342" cy="459" r="11" fill="#D4AF37"/>
+  <rect x="358" y="448" width="30" height="10" rx="3" fill="#FFFFFF"/>
+  <rect x="330" y="482" width="60" height="8" rx="3" fill="#374151"/>
+  <text x="360" y="506" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">vacuum pump</text>
+
+  <!-- recovery machine -->
+  <rect x="512" y="428" width="86" height="58" rx="6" fill="#1E2A8E"/>
+  <rect x="524" y="440" width="30" height="20" rx="3" fill="#D4AF37"/>
+  <circle cx="578" cy="450" r="9" fill="#FFFFFF"/>
+  <rect x="524" y="468" width="62" height="8" rx="3" fill="#FFFFFF"/>
+  <text x="555" y="506" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">recovery machine</text>
+
+  <!-- combustion analyzer -->
+  <rect x="726" y="424" width="52" height="66" rx="7" fill="#141B5C"/>
+  <rect x="734" y="434" width="36" height="26" rx="3" fill="#3E9B6B"/>
+  <circle cx="742" cy="474" r="5" fill="#FFFFFF"/>
+  <circle cx="758" cy="474" r="5" fill="#FFFFFF"/>
+  <path d="M778 440 q34 6 34 46" fill="none" stroke="#374151" stroke-width="4"/>
+  <text x="756" y="506" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">combustion analyzer</text>
+
+  <text x="450" y="532" text-anchor="middle" font-size="12" fill="#C4683A">Employers usually own this tier. It is calibrated, insured, and used under supervision.</text>
+
+  <rect x="26" y="562" width="848" height="40" rx="8" fill="#E5E7EB"/>
+  <text x="450" y="588" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Rule of thumb: a tool you have borrowed twice is a tool worth owning.</text>
+</svg>

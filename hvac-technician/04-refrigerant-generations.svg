@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 470" width="880" height="470" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="880" height="470" fill="#FFFFFF"/>
+
+  <text x="40" y="40" font-size="21" font-weight="bold" fill="#141B5C">Four Generations of Refrigerant</text>
+  <text x="40" y="64" font-size="14" fill="#374151">Each one was replaced by law, not by preference. The driver changed from ozone to climate.</text>
+
+  <!-- timeline axis -->
+  <line x1="60" y1="150" x2="830" y2="150" stroke="#141B5C" stroke-width="3"/>
+  <polygon points="830,150 818,144 818,156" fill="#141B5C"/>
+
+  <!-- era ticks -->
+  <line x1="150" y1="140" x2="150" y2="160" stroke="#141B5C" stroke-width="2"/>
+  <line x1="340" y1="140" x2="340" y2="160" stroke="#141B5C" stroke-width="2"/>
+  <line x1="530" y1="140" x2="530" y2="160" stroke="#141B5C" stroke-width="2"/>
+  <line x1="720" y1="140" x2="720" y2="160" stroke="#141B5C" stroke-width="2"/>
+
+  <text x="150" y="132" font-size="13" font-weight="bold" fill="#111827" text-anchor="middle">1930s</text>
+  <text x="340" y="132" font-size="13" font-weight="bold" fill="#111827" text-anchor="middle">1970s</text>
+  <text x="530" y="132" font-size="13" font-weight="bold" fill="#111827" text-anchor="middle">1990s</text>
+  <text x="720" y="132" font-size="13" font-weight="bold" fill="#111827" text-anchor="middle">2020s</text>
+
+  <!-- generation cards -->
+  <g>
+    <rect x="72" y="176" width="156" height="96" rx="8" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+    <rect x="72" y="176" width="156" height="26" rx="8" fill="#1E2A8E"/>
+    <rect x="72" y="192" width="156" height="10" fill="#1E2A8E"/>
+    <text x="150" y="194" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1. CFCs</text>
+    <text x="150" y="224" font-size="14" font-weight="bold" fill="#111827" text-anchor="middle">R-12, R-11</text>
+    <text x="150" y="244" font-size="12" fill="#374151" text-anchor="middle">Cars, fridges,</text>
+    <text x="150" y="260" font-size="12" fill="#374151" text-anchor="middle">big chillers</text>
+  </g>
+
+  <g>
+    <rect x="262" y="176" width="156" height="96" rx="8" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+    <rect x="262" y="176" width="156" height="26" rx="8" fill="#1E2A8E"/>
+    <rect x="262" y="192" width="156" height="10" fill="#1E2A8E"/>
+    <text x="340" y="194" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2. HCFCs</text>
+    <text x="340" y="224" font-size="14" font-weight="bold" fill="#111827" text-anchor="middle">R-22</text>
+    <text x="340" y="244" font-size="12" fill="#374151" text-anchor="middle">US home AC</text>
+    <text x="340" y="260" font-size="12" fill="#374151" text-anchor="middle">for 40 years</text>
+  </g>
+
+  <g>
+    <rect x="452" y="176" width="156" height="96" rx="8" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+    <rect x="452" y="176" width="156" height="26" rx="8" fill="#1E2A8E"/>
+    <rect x="452" y="192" width="156" height="10" fill="#1E2A8E"/>
+    <text x="530" y="194" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3. HFCs</text>
+    <text x="530" y="224" font-size="14" font-weight="bold" fill="#111827" text-anchor="middle">R-410A, R-134a</text>
+    <text x="530" y="244" font-size="12" fill="#374151" text-anchor="middle">No ozone harm,</text>
+    <text x="530" y="260" font-size="12" fill="#374151" text-anchor="middle">high GWP</text>
+  </g>
+
+  <g>
+    <rect x="642" y="176" width="156" height="96" rx="8" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2"/>
+    <rect x="642" y="176" width="156" height="26" rx="8" fill="#3E9B6B"/>
+    <rect x="642" y="192" width="156" height="10" fill="#3E9B6B"/>
+    <text x="720" y="194" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4. HFOs / A2Ls</text>
+    <text x="720" y="224" font-size="14" font-weight="bold" fill="#111827" text-anchor="middle">R-454B, R-32</text>
+    <text x="720" y="244" font-size="12" fill="#374151" text-anchor="middle">Low GWP,</text>
+    <text x="720" y="260" font-size="12" fill="#374151" text-anchor="middle">mildly flammable</text>
+  </g>
+
+  <!-- transition arrows -->
+  <path d="M232 224 L256 224" stroke="#C4683A" stroke-width="3"/>
+  <polygon points="262,224 250,218 250,230" fill="#C4683A"/>
+  <path d="M422 224 L446 224" stroke="#C4683A" stroke-width="3"/>
+  <polygon points="452,224 440,218 440,230" fill="#C4683A"/>
+  <path d="M612 224 L636 224" stroke="#C4683A" stroke-width="3"/>
+  <polygon points="642,224 630,218 630,230" fill="#C4683A"/>
+
+  <!-- driver band -->
+  <text x="40" y="316" font-size="14" font-weight="bold" fill="#141B5C">What ended it</text>
+
+  <rect x="72" y="330" width="346" height="58" rx="8" fill="#1E2A8E" opacity="0.10" stroke="#1E2A8E" stroke-width="1"/>
+  <text x="245" y="354" font-size="14" font-weight="bold" fill="#1E2A8E" text-anchor="middle">Chlorine destroys ozone</text>
+  <text x="245" y="374" font-size="12" fill="#374151" text-anchor="middle">Montreal Protocol 1987 | CFCs out 1996 | R-22 out 2020</text>
+
+  <rect x="452" y="330" width="346" height="58" rx="8" fill="#D4AF37" opacity="0.18" stroke="#D4AF37" stroke-width="1"/>
+  <text x="625" y="354" font-size="14" font-weight="bold" fill="#141B5C" text-anchor="middle">Global warming potential</text>
+  <text x="625" y="374" font-size="12" fill="#374151" text-anchor="middle">AIM Act 2020 | new home systems under 700 GWP from 2025</text>
+
+  <line x1="40" y1="412" x2="840" y2="412" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="438" font-size="13" fill="#374151">In one workweek a tech can touch generations 2, 3, and 4. The data plate tells you which one you are standing in front of.</text>
+</svg>
